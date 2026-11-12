@@ -1,4 +1,4 @@
--- Forja · esquema inicial en Supabase (PostgreSQL)
+-- Legacy · esquema inicial en Supabase (PostgreSQL)
 --
 -- Refleja las tablas locales de la app (src/domain/types.ts). Cada fila es de
 -- un usuario y solo él puede leerla o modificarla (RLS). Los pesos van en kg.

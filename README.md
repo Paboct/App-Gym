@@ -1,11 +1,11 @@
-# Forja
+# Legacy
 
 App de registro de entrenamientos de gimnasio organizada por mesociclos y microciclos.
 Funciona en Android (APK) y en cualquier navegador de escritorio con el mismo código.
 
-> «Forja» es un nombre provisional. Para cambiarlo: `src/config.ts`, `index.html`,
-> `public/manifest.webmanifest` y `capacitor.config.ts` (el `appId` es definitivo
-> una vez publicada la app en Play Store).
+> *Build your legacy.* El nombre vive en `src/config.ts`, `index.html`,
+> `public/manifest.webmanifest` y `capacitor.config.ts`. El `appId`
+> (`com.paboct.legacy`) es definitivo una vez publicada la app en Play Store.
 
 ## Qué hace (v0.1)
 
@@ -38,7 +38,7 @@ npm run build      # comprueba tipos y genera dist/
 ## Android
 
 El APK se compila solo en GitHub Actions con cada push a `main` (pestaña
-**Actions** → última ejecución → artefacto `forja-debug-apk`).
+**Actions** → última ejecución → artefacto `legacy-debug-apk`).
 
 Para compilarlo en local hace falta Android Studio (JDK 21):
 

@@ -14,9 +14,7 @@ export function Brand() {
   return (
     <div className="brand">
       <img src="./icon.svg" alt="" />
-      <span className="eyebrow" style={{ fontSize: '1.1rem' }}>
-        {APP_NAME}
-      </span>
+      <span className="wordmark">{APP_NAME}</span>
     </div>
   );
 }

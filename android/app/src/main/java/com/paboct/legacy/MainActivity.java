@@ -1,4 +1,4 @@
-package com.paboct.forja;
+package com.paboct.legacy;
 
 import com.getcapacitor.BridgeActivity;
 

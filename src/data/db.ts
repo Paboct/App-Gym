@@ -23,7 +23,7 @@ export interface SettingRow {
  * Base de datos local (IndexedDB). La app funciona siempre contra ella, con o
  * sin conexión; la sincronización con la nube se monta encima.
  */
-export class ForjaDB extends Dexie {
+export class LegacyDB extends Dexie {
   exercises!: Table<Exercise, string>;
   favorites!: Table<Favorite, string>;
   mesocycles!: Table<Mesocycle, string>;
@@ -37,7 +37,7 @@ export class ForjaDB extends Dexie {
   settings!: Table<SettingRow, string>;
   deletions!: Table<Deletion, string>;
 
-  constructor(name = 'forja') {
+  constructor(name = 'legacy') {
     super(name);
     this.version(1).stores({
       exercises: 'id, group, custom',
@@ -56,10 +56,10 @@ export class ForjaDB extends Dexie {
   }
 }
 
-export let db = new ForjaDB();
+export let db = new LegacyDB();
 
 /** Solo para tests: sustituye la base de datos por una limpia. */
-export function useDatabase(instance: ForjaDB): void {
+export function useDatabase(instance: LegacyDB): void {
   db = instance;
 }
 

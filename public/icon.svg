@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="112" fill="#17110f"/>
-  <!-- Casco corintio: cimera, cúpula, protector nasal y carrilleras -->
-  <path d="M256 70c-96 0-170 62-170 150 0 12 2 24 6 36h36c-3-11-5-23-5-36 0-66 58-112 133-112s133 46 133 112c0 13-2 25-5 36h36c4-12 6-24 6-36 0-88-74-150-170-150z" fill="#d63c2f"/>
-  <path d="M256 126c-72 0-126 42-126 104v108c0 58 34 92 68 104l24-112-52-22c-14-6-22-18-22-34v-18h76v126h64V256h76v18c0 16-8 28-22 34l-52 22 24 112c34-12 68-46 68-104V230c0-62-54-104-126-104z" fill="#d9ad4e"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" rx="112" fill="#0b0b0c"/><defs><linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.55" stop-color="#cfd2d6"/><stop offset="1" stop-color="#8d9197"/></linearGradient><linearGradient id="red" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff4336"/><stop offset="1" stop-color="#c8170f"/></linearGradient></defs><g transform="translate(59 106) scale(3)"><g transform="skewX(-16)"><path d="M36 4h22v70h44V50h22v46H36z" fill="url(#silver)"/><path d="M70 18h54v18H92v26H70z" fill="url(#red)"/><path d="M70 50h22v12H70z" fill="#8f1410"/></g></g></svg>

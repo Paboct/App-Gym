@@ -1,5 +1,5 @@
 {
-  "name": "forja",
+  "name": "legacy",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -10,7 +10,8 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "android:sync": "npm run build && cap sync android",
-    "android:open": "cap open android"
+    "android:open": "cap open android",
+    "android:assets": "node scripts/android-assets.mjs"
   },
   "dependencies": {
     "@capacitor/android": "^8.6.0",

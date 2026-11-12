@@ -1130,3 +1130,109 @@ textarea.input {
   height: 36px;
   border-radius: 10px;
 }
+
+/* ───────── Marca y pantalla de bienvenida ───────── */
+.wordmark {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  line-height: 1;
+}
+
+.brand .wordmark {
+  font-size: 1.35rem;
+}
+
+.splash {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  /* Aspecto único, siempre oscuro, igual que el logo. */
+  background: radial-gradient(120% 70% at 50% 0%, #1d1e21 0%, #0b0b0c 60%);
+  color: #f2f2f3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: calc(env(safe-area-inset-top, 0px) + 12vh) 24px 0;
+  overflow: hidden;
+  cursor: pointer;
+  transition: opacity 0.45s ease;
+}
+
+.splash.leaving {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.splash-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  animation: splash-in 0.6s ease-out both;
+}
+
+.splash-logo {
+  width: min(46vw, 190px);
+  height: auto;
+  filter: drop-shadow(0 12px 28px rgba(0, 0, 0, 0.6));
+}
+
+.splash-wordmark {
+  font-size: clamp(2.6rem, 13vw, 4rem);
+  padding-left: 0.16em;
+}
+
+.splash-tagline {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: #9a9da3;
+  white-space: pre;
+}
+
+.splash-slogan {
+  position: relative;
+  z-index: 1;
+  margin-top: 7vh;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-style: italic;
+  font-size: clamp(1.25rem, 6vw, 1.7rem);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+  animation: splash-in 0.6s 0.25s ease-out both;
+}
+
+.splash-slogan b {
+  color: #f0372b;
+  font-weight: 700;
+}
+
+.splash-peak {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 46%;
+}
+
+@keyframes splash-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .splash-top,
+  .splash-slogan {
+    animation: none;
+  }
+}

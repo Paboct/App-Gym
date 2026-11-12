@@ -1,5 +1,7 @@
 import { BarChart3, CalendarDays, Dumbbell, History, User } from 'lucide-react';
+import { useCallback, useState } from 'react';
 import { HashRouter, NavLink, Route, Routes, useLocation } from 'react-router-dom';
+import { Splash } from './components/Splash';
 import { SettingsProvider, useT } from './lib/settings';
 import { DayScreen } from './screens/DayScreen';
 import { HistoryScreen } from './screens/HistoryScreen';
@@ -63,11 +65,14 @@ function Shell() {
 }
 
 export function App() {
+  const [splash, setSplash] = useState(true);
+  const hideSplash = useCallback(() => setSplash(false), []);
   return (
     <SettingsProvider>
       <HashRouter>
         <Shell />
       </HashRouter>
+      {splash && <Splash onDone={hideSplash} />}
     </SettingsProvider>
   );
 }

@@ -1,6 +1,6 @@
 import 'fake-indexeddb/auto';
 import { beforeEach, describe, expect, it } from 'vitest';
-import { ForjaDB, db, ensureCatalog, useDatabase } from '../src/data/db';
+import { LegacyDB, db, ensureCatalog, useDatabase } from '../src/data/db';
 import {
   addPlanned,
   addSet,
@@ -20,7 +20,7 @@ import { MUSCLES, GROUPS, EQUIPMENT } from '../src/domain/muscles';
 
 let n = 0;
 beforeEach(async () => {
-  useDatabase(new ForjaDB(`test-${n++}`));
+  useDatabase(new LegacyDB(`test-${n++}`));
   await ensureCatalog();
 });
 

@@ -1,7 +1,7 @@
 {
-  "name": "Forja",
-  "short_name": "Forja",
-  "description": "Registro de entrenamientos de gimnasio por mesociclos.",
+  "name": "Legacy",
+  "short_name": "Legacy",
+  "description": "Build your legacy. Registro de entrenamientos de gimnasio por mesociclos.",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#0f0d0c",

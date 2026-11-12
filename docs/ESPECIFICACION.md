@@ -1,7 +1,7 @@
-# Forja · Especificación
+# Legacy · Especificación
 
 Decisiones tomadas en el cuestionario del 12 de noviembre de 2026 y estado de cada parte.
-«Forja» es el nombre provisional de la app.
+La app se llama **Legacy** y su lema es *Build your legacy*.
 
 ## 1. Alcance y tecnología
 
@@ -91,7 +91,8 @@ reloj del backlog necesitarán un módulo nativo aparte.
 | Sincronización con Supabase e inicio de sesión con Google | Crear el proyecto de Supabase y las credenciales de Google |
 | Exportar a Excel | — |
 | Aviso de fin de descanso con la pantalla apagada (notificación local) | Probar en un móvil real |
-| Icono y logo definitivos (dioses griegos) | Elegir entre propuestas |
+| Logo en alta resolución (ahora es un redibujo vectorial del boceto) | Archivo original del logo |
+| Título de la ficha de Play Store (ya existen «Legacy Athletics» y «Legacy Gym») | Decidir al publicar |
 | Primera compilación del APK en GitHub Actions | Acceso de escritura al repositorio |
 | Imágenes de la ejecución de cada ejercicio | Decidir fuente: generadas o `free-exercise-db` (dominio público) |
 

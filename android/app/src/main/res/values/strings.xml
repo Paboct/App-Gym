@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Forja</string>
-    <string name="title_activity_main">Forja</string>
-    <string name="package_name">com.paboct.forja</string>
-    <string name="custom_url_scheme">com.paboct.forja</string>
+    <string name="app_name">Legacy</string>
+    <string name="title_activity_main">Legacy</string>
+    <string name="package_name">com.paboct.legacy</string>
+    <string name="custom_url_scheme">com.paboct.legacy</string>
 </resources>
