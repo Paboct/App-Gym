@@ -21,6 +21,7 @@ import {
   substituteWorkoutExercise,
   type SubstituteScope,
 } from '../data/repo';
+import { syncNow } from '../data/sync';
 import { e1rm, formatDuration, formatE1rm, formatWeight, isNewPr, kgToUnit, roundForDisplay, setE1rm, suggestNext, unitToKg } from '../domain/calc';
 import type { DropSet, Exercise, Rir, SetLog, Unit, Workout, WorkoutExercise } from '../domain/types';
 import { clearRest, startRest, useNow } from '../lib/restTimer';
@@ -98,6 +99,7 @@ export function WorkoutScreen() {
   const finish = async () => {
     clearRest();
     await finishWorkout(workout.id);
+    void syncNow(); // guarda el entreno en la nube si hay sesión (no bloquea)
     navigate(`/summary/${workout.id}?fresh=1`, { replace: true });
   };
 
