@@ -1,0 +1,7 @@
+name: Diagnóstico
+on: push
+jobs:
+  hola:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Actions funciona"
