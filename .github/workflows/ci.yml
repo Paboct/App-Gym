@@ -40,6 +40,7 @@ jobs:
         with:
           distribution: temurin
           java-version: 21
+          cache: gradle
       - run: npm ci
       - uses: actions/download-artifact@v4
         with:
@@ -47,7 +48,6 @@ jobs:
           path: dist
       - name: Copiar la web al proyecto Android
         run: npx cap sync android
-      - uses: gradle/actions/setup-gradle@v4
       - name: Compilar el APK
         working-directory: android
         run: ./gradlew assembleDebug --no-daemon

@@ -72,7 +72,7 @@ reloj del backlog necesitarán un módulo nativo aparte.
 
 - Rutina: crear y editar mesociclos, días, ejercicios, variaciones por semana,
   descarga, sustituciones.
-- Catálogo propio de 125 ejercicios en español e inglés con músculos principales y
+- Catálogo propio de 131 ejercicios en español e inglés con músculos principales y
   secundarios (22 músculos, 12 grupos), favoritos y ejercicios propios.
 - Mapa corporal de frente y espalda, figura masculina o femenina, con músculos
   principales y secundarios en dos colores y la lista debajo en letra pequeña.
