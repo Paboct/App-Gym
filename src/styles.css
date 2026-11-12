@@ -1189,13 +1189,17 @@ textarea.input {
 }
 
 .splash-tagline {
+  position: relative;
+  z-index: 1;
+  margin-top: 14px;
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: 0.85rem;
-  letter-spacing: 0.32em;
+  font-size: 0.72rem;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: #9a9da3;
+  color: #8c8f95;
   white-space: pre;
+  animation: splash-in 0.6s 0.35s ease-out both;
 }
 
 .splash-slogan {

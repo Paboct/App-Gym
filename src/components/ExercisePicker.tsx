@@ -48,10 +48,15 @@ export function ExercisePicker({ title, onPick, onClose }: PickerProps) {
   const favSet = useMemo(() => new Set((favorites ?? []).map((f) => f.exerciseId)), [favorites]);
 
   const results = useMemo(() => {
-    const q = normalize(query.trim());
+    // Busca por palabras sueltas: «press banca» encuentra «Press de banca».
+    const tokens = normalize(query).split(/\s+/).filter(Boolean);
+    const matches = (e: Exercise) => {
+      const haystack = `${normalize(e.nameEs)} ${normalize(e.nameEn)}`;
+      return tokens.every((token) => haystack.includes(token));
+    };
     return (exercises ?? [])
       .filter((e) => (filter === 'all' ? true : filter === 'fav' ? favSet.has(e.id) : e.group === filter))
-      .filter((e) => !q || normalize(e.nameEs).includes(q) || normalize(e.nameEn).includes(q))
+      .filter((e) => tokens.length === 0 || matches(e))
       .sort((a, b) => {
         const fav = Number(favSet.has(b.id)) - Number(favSet.has(a.id));
         return fav !== 0 ? fav : exerciseName(a, lang).localeCompare(exerciseName(b, lang), lang);

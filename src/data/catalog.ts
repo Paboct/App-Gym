@@ -140,6 +140,31 @@ seated_calf_raise|Elevación de gemelos sentado|Seated calf raise|calves|machine
 leg_press_calf_raise|Gemelos en prensa|Leg press calf raise|calves|machine|calves|
 smith_calf_raise|Elevación de gemelos en multipower|Smith machine calf raise|calves|smith|calves|
 single_leg_calf_raise|Elevación de gemelo a una pierna|Single-leg calf raise|calves|dumbbell|calves||u
+decline_db_press|Press declinado con mancuernas|Decline dumbbell press|chest|dumbbell|chest_lower|chest_mid,delt_front,triceps
+landmine_press|Press landmine|Landmine press|chest|barbell|chest_upper|delt_front,triceps
+svend_press|Press Svend|Svend press|chest|other|chest_mid|chest_upper,delt_front
+pendlay_row|Remo Pendlay|Pendlay row|back|barbell|upper_back,lats|traps_mid,delt_rear,biceps,lower_back
+inverted_row|Remo invertido|Inverted row|back|bodyweight|upper_back,lats|biceps,delt_rear,forearm
+trap_bar_deadlift|Peso muerto con barra hexagonal|Trap bar deadlift|back|barbell|lower_back,glute_max|quads,hamstrings,traps_upper,forearm
+machine_shrug|Encogimientos en máquina|Machine shrug|back|machine|traps_upper|traps_mid,forearm
+meadows_row|Remo Meadows|Meadows row|back|barbell|lats,upper_back|delt_rear,biceps,forearm|u
+push_press|Push press|Push press|shoulders|barbell|delt_front|delt_side,triceps,quads,glute_max
+lean_lateral_raise|Elevación lateral inclinado en polea|Leaning cable lateral raise|shoulders|cable|delt_side|delt_front,traps_upper|u
+cable_y_raise|Elevación en Y en polea|Cable Y-raise|shoulders|cable|delt_rear|delt_side,traps_mid
+zottman_curl|Curl Zottman|Zottman curl|biceps|dumbbell|biceps,forearm|
+high_cable_curl|Curl en polea alta|High cable curl|biceps|cable|biceps|forearm|u
+lying_db_extension|Press francés con mancuernas|Lying dumbbell triceps extension|triceps|dumbbell|triceps|forearm
+captains_chair_raise|Elevación de rodillas en silla romana|Captain's chair leg raise|core|bodyweight|abs|obliques,forearm
+decline_crunch|Crunch declinado|Decline crunch|core|bodyweight|abs|obliques
+pallof_press|Press Pallof|Pallof press|core|cable|obliques|abs
+reverse_lunge|Zancada inversa|Reverse lunge|quads|dumbbell|quads,glute_max|hamstrings,adductors,glute_med|u
+pistol_squat|Sentadilla pistol|Pistol squat|quads|bodyweight|quads,glute_max|hamstrings,adductors|u
+belt_squat|Sentadilla con cinturón|Belt squat|quads|machine|quads,glute_max|adductors,hamstrings
+single_leg_rdl|Peso muerto rumano a una pierna|Single-leg Romanian deadlift|hamstrings|dumbbell|hamstrings,glute_max|lower_back,glute_med|u
+single_leg_hip_thrust|Hip thrust a una pierna|Single-leg hip thrust|glutes|bodyweight|glute_max|hamstrings,glute_med|u
+frog_pump|Frog pump|Frog pump|glutes|bodyweight|glute_max|hamstrings
+donkey_calf_raise|Gemelo burro|Donkey calf raise|calves|machine|calves|
+plate_pinch|Pinza con disco|Plate pinch|forearms|other|forearm|
 `;
 
 function parseList(value: string | undefined): MuscleId[] {

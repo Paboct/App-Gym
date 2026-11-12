@@ -37,6 +37,7 @@ export function Splash({ onDone }: { onDone: () => void }) {
         <br />
         <b>{last}.</b>
       </p>
+      <div className="splash-tagline">Train · Track · Improve</div>
       {/* Cumbre con una figura en lo alto, como en el boceto. */}
       <svg className="splash-peak" viewBox="0 0 400 260" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
         <defs>
