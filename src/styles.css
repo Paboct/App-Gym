@@ -1141,8 +1141,10 @@ textarea.input {
   line-height: 1;
 }
 
-.brand .wordmark {
-  font-size: 1.35rem;
+.brand-wordmark {
+  height: 17px;
+  width: auto;
+  display: block;
 }
 
 .splash {
@@ -1155,7 +1157,7 @@ textarea.input {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: calc(env(safe-area-inset-top, 0px) + 12vh) 24px 0;
+  padding: calc(env(safe-area-inset-top, 0px) + 9vh) 24px 0;
   overflow: hidden;
   cursor: pointer;
   transition: opacity 0.45s ease;
@@ -1175,14 +1177,15 @@ textarea.input {
 }
 
 .splash-logo {
-  width: min(46vw, 190px);
+  width: min(40vw, 170px);
   height: auto;
   filter: drop-shadow(0 12px 28px rgba(0, 0, 0, 0.6));
 }
 
 .splash-wordmark {
-  font-size: clamp(2.6rem, 13vw, 4rem);
-  padding-left: 0.16em;
+  width: min(64vw, 270px);
+  height: auto;
+  margin-top: 6px;
 }
 
 .splash-tagline {
@@ -1198,7 +1201,8 @@ textarea.input {
 .splash-slogan {
   position: relative;
   z-index: 1;
-  margin-top: 7vh;
+  margin-top: 6vh;
+  line-height: 1.5;
   font-family: var(--font-display);
   font-weight: 700;
   font-style: italic;

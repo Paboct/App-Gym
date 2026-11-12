@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { APP_NAME, APP_SLOGAN, APP_TAGLINE } from '../config';
+import { APP_NAME, APP_SLOGAN } from '../config';
+import { Wordmark } from './Wordmark';
 
 const VISIBLE_MS = 1900;
 const FADE_MS = 450;
@@ -29,11 +30,12 @@ export function Splash({ onDone }: { onDone: () => void }) {
     <div className={`splash${leaving ? ' leaving' : ''}`} onClick={() => setLeaving(true)} role="img" aria-label={`${APP_NAME}. ${APP_SLOGAN}`}>
       <div className="splash-top">
         <img className="splash-logo" src="./logo.svg" alt="" />
-        <div className="wordmark splash-wordmark">{APP_NAME}</div>
-        <div className="splash-tagline">{APP_TAGLINE.join('  ·  ')}</div>
+        <Wordmark className="splash-wordmark" />
       </div>
       <p className="splash-slogan">
-        {words.join(' ')} <b>{last}.</b>
+        {words.join(' ')}
+        <br />
+        <b>{last}.</b>
       </p>
       {/* Cumbre con una figura en lo alto, como en el boceto. */}
       <svg className="splash-peak" viewBox="0 0 400 260" preserveAspectRatio="xMidYMax slice" aria-hidden="true">

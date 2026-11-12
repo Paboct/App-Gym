@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Sheet } from '../components/Sheet';
 import { Stepper } from '../components/Stepper';
-import { APP_NAME } from '../config';
+import { Wordmark } from '../components/Wordmark';
 import { addDay, finishMesocycle, updateMesocycle } from '../data/repo';
 import { effectivePlan } from '../domain/calc';
 import type { Mesocycle } from '../domain/types';
@@ -14,7 +14,7 @@ export function Brand() {
   return (
     <div className="brand">
       <img src="./icon.svg" alt="" />
-      <span className="wordmark">{APP_NAME}</span>
+      <Wordmark className="brand-wordmark" />
     </div>
   );
 }
