@@ -30,6 +30,8 @@ jobs:
     name: APK de Android (debug)
     needs: web
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -55,3 +57,13 @@ jobs:
         with:
           name: legacy-debug-apk
           path: android/app/build/outputs/apk/debug/app-debug.apk
+      - name: Publicar el APK en una dirección fija
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/v0.1-base'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp android/app/build/outputs/apk/debug/app-debug.apk legacy.apk
+          gh release delete ultima --yes --cleanup-tag || true
+          gh release create ultima legacy.apk --prerelease --target "$GITHUB_SHA" \
+            --title "Legacy · última compilación de prueba" \
+            --notes "APK de prueba generado automáticamente desde $GITHUB_REF_NAME ($GITHUB_SHA)."
