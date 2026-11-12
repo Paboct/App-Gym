@@ -14,7 +14,10 @@ export function Brand() {
   return (
     <div className="brand">
       <img src="./icon.svg" alt="" />
-      <Wordmark className="brand-wordmark" />
+      <div className="brand-text">
+        <Wordmark className="brand-wordmark" />
+        <span className="brand-tagline">Train · Track · Improve</span>
+      </div>
     </div>
   );
 }

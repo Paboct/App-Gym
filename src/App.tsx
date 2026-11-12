@@ -41,13 +41,13 @@ function Shell() {
               <CalendarDays />
               {t('tabRoutine')}
             </NavLink>
-            <NavLink to="/train">
-              <Dumbbell />
-              {t('tabTrain')}
-            </NavLink>
             <NavLink to="/history">
               <History />
               {t('tabHistory')}
+            </NavLink>
+            <NavLink to="/train">
+              <Dumbbell />
+              {t('tabTrain')}
             </NavLink>
             <NavLink to="/kpis">
               <BarChart3 />
