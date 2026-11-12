@@ -37,9 +37,10 @@ describe('peso de un ejercicio sobre un grupo', () => {
 describe('rangos', () => {
   it('asigna el rango según la puntuación', () => {
     expect(tierForScore(0)?.id).toBe('iron');
-    expect(tierForScore(45)?.id).toBe('silver');
-    expect(tierForScore(65)?.id).toBe('gold');
-    expect(tierForScore(90)?.id).toBe('diamond');
+    expect(tierForScore(45)?.id).toBe('gold');
+    expect(tierForScore(65)?.id).toBe('emerald');
+    expect(tierForScore(90)?.id).toBe('amethyst');
+    expect(tierForScore(95)?.id).toBe('legacy');
     expect(tierForScore(null)).toBeNull();
   });
   it('los umbrales van de menor a mayor', () => {

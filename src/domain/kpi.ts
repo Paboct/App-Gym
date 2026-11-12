@@ -37,14 +37,22 @@ export interface Tier {
   min: number;
 }
 
-/** Rangos provisionales al estilo Symmetry (de menor a mayor). */
+/**
+ * Rangos (de menor a mayor). Misma jerarquía de color que Symmetry —gris,
+ * bronce, plata, oro, rojo, verde, cian, violeta, azul— pero con tonos y
+ * nombres propios, y el máximo es «Legacy». Siguen siendo provisionales en
+ * cuanto a qué puntuación hace falta para cada uno.
+ */
 export const TIERS: Tier[] = [
-  { id: 'iron', es: 'Hierro', en: 'Iron', color: '#8a8f98', min: 0 },
-  { id: 'bronze', es: 'Bronce', en: 'Bronze', color: '#b87333', min: 20 },
-  { id: 'silver', es: 'Plata', en: 'Plata', color: '#c6ccd4', min: 40 },
-  { id: 'gold', es: 'Oro', en: 'Gold', color: '#e3b23c', min: 60 },
-  { id: 'platinum', es: 'Platino', en: 'Platinum', color: '#3fb8af', min: 75 },
-  { id: 'diamond', es: 'Diamante', en: 'Diamond', color: '#4aa3ff', min: 88 },
+  { id: 'iron', es: 'Hierro', en: 'Iron', color: '#7f858d', min: 0 },
+  { id: 'bronze', es: 'Bronce', en: 'Bronze', color: '#bd7a3a', min: 12 },
+  { id: 'silver', es: 'Plata', en: 'Silver', color: '#aeb7c2', min: 25 },
+  { id: 'gold', es: 'Oro', en: 'Gold', color: '#e7b73e', min: 38 },
+  { id: 'ruby', es: 'Rubí', en: 'Ruby', color: '#e5484d', min: 50 },
+  { id: 'emerald', es: 'Esmeralda', en: 'Emerald', color: '#23c483', min: 62 },
+  { id: 'diamond', es: 'Diamante', en: 'Diamond', color: '#32cfe0', min: 73 },
+  { id: 'amethyst', es: 'Amatista', en: 'Amethyst', color: '#9d6bf2', min: 84 },
+  { id: 'legacy', es: 'Legacy', en: 'Legacy', color: '#4f74ff', min: 93 },
 ];
 
 export const NO_DATA_COLOR = 'var(--muscle-idle)';
