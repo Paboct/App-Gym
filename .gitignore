@@ -17,3 +17,6 @@ android/app/src/main/assets/capacitor.plugins.json
 *.keystore
 !android/debug.keystore
 *.jks
+
+# Android Studio IDE
+android/.idea
