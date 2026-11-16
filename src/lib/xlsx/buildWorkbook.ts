@@ -7,6 +7,7 @@ import {
   type ExportInput,
   type ProgressRow,
 } from '../../domain/exportRows';
+import { addCharts, sheetRef } from './addCharts';
 import { labels, type ExportLabels } from './labels';
 
 const HEADER_FILL: ExcelJS.Fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFE8EAED' } };
@@ -151,6 +152,19 @@ export async function buildWorkbook(input: ExportInput): Promise<Uint8Array> {
   const names = dataSheet(wb, input, l, rows);
   progressSheet(wb, input, l, rows, names);
 
-  const buffer = await wb.xlsx.writeBuffer();
-  return new Uint8Array(buffer as ArrayBuffer);
+  const bytes = new Uint8Array((await wb.xlsx.writeBuffer()) as ArrayBuffer);
+  if (names.length === 0) return bytes;
+
+  const first = PROGRESS_LAYOUT.firstRow;
+  const last = first + input.meso.microcycles - 1;
+  const range = (col: string) => sheetRef(l.sheetProgress, `$${col}$${first}:$${col}$${last}`);
+  try {
+    return await addCharts(bytes, [
+      { title: l.chartMaxWeight, sheetName: l.sheetProgress, categories: range('A'), values: range('B'), anchorCol: 6, anchorRow: 3 },
+      { title: l.chartVolume, sheetName: l.sheetProgress, categories: range('A'), values: range('D'), anchorCol: 6, anchorRow: 18 },
+    ]);
+  } catch {
+    // Sin gráficas el archivo sigue siendo útil: se entrega igualmente.
+    return bytes;
+  }
 }
