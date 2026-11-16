@@ -59,3 +59,8 @@ npm run android:open   # abre el proyecto en Android Studio
 | `supabase/migrations` | Esquema de la base de datos en la nube (con seguridad por filas) |
 | `android` | Proyecto nativo generado por Capacitor |
 | `tests` | Tests unitarios (Vitest) |
+
+## Créditos y licencias
+
+- **Mapa corporal anatómico:** trazados de [react-native-body-highlighter](https://github.com/HichamELBSI/react-native-body-highlighter), © 2022 Hicham ELABBASSI, licencia MIT.
+- **Fotos de ejercicios:** [free-exercise-db](https://github.com/yuhonas/free-exercise-db), dominio público (Unlicense). Se redimensionan y se tiñen con `npm run images:build -- --src <clon>`; la tabla ejercicio → foto está en `scripts/exercise-image-map.json`.
