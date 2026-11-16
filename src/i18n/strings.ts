@@ -193,6 +193,10 @@ const es = {
   duplicateAsBase: 'Duplicar como base',
   duplicateHint: 'Crea un mesociclo nuevo con los mismos días y ejercicios, sin los entrenos.',
   duplicateArchivesActive: 'El mesociclo activo actual pasará al historial.',
+  exportExcel: 'Exportar a Excel',
+  exporting: 'Exportando…',
+  exportDone: 'Archivo listo',
+  exportFailed: 'No se pudo exportar',
   deleteMesocycle: 'Borrar mesociclo',
   deleteMesocycleConfirm: 'Se borrará «{name}» con sus {n} entrenos y sus récords. No se puede deshacer.',
 
@@ -441,6 +445,10 @@ const en: Record<StringKey, string> = {
   duplicateAsBase: 'Duplicate as base',
   duplicateHint: 'Creates a new mesocycle with the same days and exercises, without the workouts.',
   duplicateArchivesActive: 'The current active mesocycle will move to your history.',
+  exportExcel: 'Export to Excel',
+  exporting: 'Exporting…',
+  exportDone: 'File ready',
+  exportFailed: 'Could not export',
   deleteMesocycle: 'Delete mesocycle',
   deleteMesocycleConfirm: '“{name}” will be deleted with its {n} workouts and records. This cannot be undone.',
 

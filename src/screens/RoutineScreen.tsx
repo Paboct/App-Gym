@@ -1,6 +1,7 @@
 import { Check, ChevronRight, Pencil, Plus } from 'lucide-react';
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { ExportButton } from '../components/ExportButton';
 import { Sheet } from '../components/Sheet';
 import { Stepper } from '../components/Stepper';
 import { Wordmark } from '../components/Wordmark';
@@ -59,6 +60,7 @@ export function RoutineScreen() {
           <p className="eyebrow">{t('activeMesocycle')}</p>
           <h1 className="truncate">{meso.name}</h1>
         </div>
+        <ExportButton mesocycleId={meso.id} variant="icon" />
         <button className="icon-btn" onClick={() => setEditing(true)} aria-label={t('edit')}>
           <Pencil />
         </button>

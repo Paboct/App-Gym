@@ -2,6 +2,7 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { ArrowLeft, Copy, Trash2 } from 'lucide-react';
 import { useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
+import { ExportButton } from '../components/ExportButton';
 import { Sheet } from '../components/Sheet';
 import { db } from '../data/db';
 import { deleteMesocycle, duplicateMesocycle, finishMesocycle } from '../data/repo';
@@ -137,6 +138,7 @@ export function MesocycleHistoryScreen() {
       )}
 
       <div className="col">
+        <ExportButton mesocycleId={meso.id} />
         <button
           className="btn gold block"
           onClick={() => {

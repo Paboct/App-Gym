@@ -64,3 +64,4 @@ npm run android:open   # abre el proyecto en Android Studio
 
 - **Mapa corporal anatómico:** trazados de [react-native-body-highlighter](https://github.com/HichamELBSI/react-native-body-highlighter), © 2022 Hicham ELABBASSI, licencia MIT.
 - **Fotos de ejercicios:** [free-exercise-db](https://github.com/yuhonas/free-exercise-db), dominio público (Unlicense). Se redimensionan y se tiñen con `npm run images:build -- --src <clon>`; la tabla ejercicio → foto está en `scripts/exercise-image-map.json`.
+- **Exportación a Excel:** [ExcelJS](https://github.com/exceljs/exceljs) (MIT) para generar el `.xlsx` y [JSZip](https://github.com/Stuk/jszip) (MIT o GPL-3.0, se usa bajo MIT) para añadir las gráficas.
