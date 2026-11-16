@@ -41,8 +41,8 @@ wide_cable_row|Remo en polea con agarre ancho|Wide-grip cable row|back|cable|upp
 machine_row|Remo en máquina|Machine row|back|machine|upper_back,lats|traps_mid,delt_rear,biceps
 chest_supported_row|Remo con apoyo en el pecho|Chest-supported row|back|machine|upper_back,lats|traps_mid,delt_rear,biceps
 single_arm_cable_row|Remo unilateral en polea|Single-arm cable row|back|cable|lats|upper_back,delt_rear,biceps|u
-db_pullover|Pullover con mancuerna|Dumbbell pullover|back|dumbbell|lats|chest_lower,triceps
-machine_pullover|Pullover en máquina|Machine pullover|back|machine|lats|chest_lower,triceps,abs
+db_pullover|Pullover con mancuerna|Dumbbell pullover|back|dumbbell|lats|chest_mid,chest_lower,triceps
+machine_pullover|Pullover en máquina|Machine pullover|back|machine|lats|chest_mid,chest_lower,triceps,abs
 deadlift|Peso muerto|Deadlift|back|barbell|lower_back,glute_max,hamstrings|quads,traps_upper,lats,forearm
 rack_pull|Rack pull|Rack pull|back|barbell|lower_back,traps_upper|glute_max,hamstrings,forearm
 back_extension|Hiperextensiones|Back extension|back|bodyweight|lower_back|glute_max,hamstrings
@@ -141,11 +141,11 @@ leg_press_calf_raise|Gemelos en prensa|Leg press calf raise|calves|machine|calve
 smith_calf_raise|Elevación de gemelos en multipower|Smith machine calf raise|calves|smith|calves|
 single_leg_calf_raise|Elevación de gemelo a una pierna|Single-leg calf raise|calves|dumbbell|calves||u
 decline_db_press|Press declinado con mancuernas|Decline dumbbell press|chest|dumbbell|chest_lower|chest_mid,delt_front,triceps
-landmine_press|Press landmine|Landmine press|chest|barbell|chest_upper|delt_front,triceps
+landmine_press|Press landmine|Landmine press|shoulders|barbell|delt_front,chest_upper|triceps,delt_side
 svend_press|Press Svend|Svend press|chest|other|chest_mid|chest_upper,delt_front
 pendlay_row|Remo Pendlay|Pendlay row|back|barbell|upper_back,lats|traps_mid,delt_rear,biceps,lower_back
 inverted_row|Remo invertido|Inverted row|back|bodyweight|upper_back,lats|biceps,delt_rear,forearm
-trap_bar_deadlift|Peso muerto con barra hexagonal|Trap bar deadlift|back|barbell|lower_back,glute_max|quads,hamstrings,traps_upper,forearm
+trap_bar_deadlift|Peso muerto con barra hexagonal|Trap bar deadlift|back|barbell|quads,glute_max|hamstrings,lower_back,traps_upper,forearm
 machine_shrug|Encogimientos en máquina|Machine shrug|back|machine|traps_upper|traps_mid,forearm
 meadows_row|Remo Meadows|Meadows row|back|barbell|lats,upper_back|delt_rear,biceps,forearm|u
 push_press|Push press|Push press|shoulders|barbell|delt_front|delt_side,triceps,quads,glute_max
