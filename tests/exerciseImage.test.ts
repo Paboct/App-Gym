@@ -3,7 +3,7 @@ import { exerciseImageUrl } from '../src/lib/exerciseImage';
 
 describe('exerciseImageUrl', () => {
   it('devuelve la ruta bajo exercises/ para un id con foto', () => {
-    expect(exerciseImageUrl('bench_press')).toMatch(/exercises/bench_press.webp$/);
+    expect(exerciseImageUrl('bench_press')?.endsWith('exercises/bench_press.webp')).toBe(true);
   });
 
   it('devuelve null para un id sin foto', () => {
