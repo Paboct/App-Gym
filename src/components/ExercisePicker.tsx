@@ -18,6 +18,7 @@ import {
 import type { Exercise } from '../domain/types';
 import { muscleLevels } from '../lib/muscles';
 import { exerciseName, muscleNames, useSettings, useT } from '../lib/settings';
+import { ExerciseImage } from './ExerciseImage';
 import { MuscleSummary } from './MuscleSummary';
 import { Sheet } from './Sheet';
 
@@ -111,7 +112,9 @@ export function ExercisePicker({ title, onPick, onClose }: PickerProps) {
       <div className="list" style={{ gap: 6 }}>
         {results.map((e) => (
           <div key={e.id} className="row" style={{ gap: 4 }}>
-            <button className="card tap grow" style={{ padding: '10px 12px' }} onClick={() => onPick(e.id)}>
+            <button className="card tap grow row" style={{ padding: '10px 12px', gap: 10 }} onClick={() => onPick(e.id)}>
+              <ExerciseImage exercise={e} size="sm" />
+              <div className="grow" style={{ minWidth: 0, textAlign: 'left' }}>
               <div className="row between">
                 <strong className="truncate">{exerciseName(e, lang)}</strong>
                 {e.custom && <span className="badge gold">{t('custom')}</span>}
@@ -119,6 +122,7 @@ export function ExercisePicker({ title, onPick, onClose }: PickerProps) {
               <div className="tiny faint truncate">
                 {GROUP_NAMES[e.group][lang]} · {muscleNames(e.primary, lang)}
                 {e.unilateral ? ` · ${t('unilateral')}` : ''}
+              </div>
               </div>
             </button>
             <button
@@ -160,6 +164,7 @@ export function ExerciseDetail({ exercise, onClose, action }: DetailProps) {
         {exercise.unilateral && <span className="badge gold">{t('unilateral')}</span>}
         {exercise.custom && <span className="badge gold">{t('custom')}</span>}
       </div>
+      <ExerciseImage exercise={exercise} />
       <MuscleSummary levels={muscleLevels([exercise])} />
       {action && (
         <button className="btn primary block" onClick={action.run}>

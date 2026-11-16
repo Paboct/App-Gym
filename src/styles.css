@@ -1259,3 +1259,24 @@ textarea.input {
     animation: none;
   }
 }
+
+/* ───────── Foto del ejercicio ───────── */
+.ex-photo {
+  display: block;
+  object-fit: cover;
+  background: #14110f;
+  border: 1px solid var(--line);
+}
+
+.ex-photo.md {
+  width: 100%;
+  max-height: 240px;
+  border-radius: var(--radius);
+}
+
+.ex-photo.sm {
+  flex: none;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-sm);
+}
