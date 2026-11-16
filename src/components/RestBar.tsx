@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { formatDuration } from '../domain/calc';
 import { vibrate } from '../lib/haptics';
-import { clearRest, extendRest, markRestNotified, useNow, useRest } from '../lib/restTimer';
+import { clearRest, extendRest, markRestNotified, setRestNotificationText, useNow, useRest } from '../lib/restTimer';
 import { useT } from '../lib/settings';
 
 /** Cuenta atrás del descanso entre series; vibra al terminar. */
@@ -11,6 +11,10 @@ export function RestBar() {
   const now = useNow(250);
   const remaining = rest ? Math.ceil((rest.endsAt - now) / 1000) : 0;
   const over = !!rest && remaining <= 0;
+
+  useEffect(() => {
+    setRestNotificationText(t('restOver'), t('goNextSet'));
+  }, [t]);
 
   useEffect(() => {
     if (rest && over && !rest.notified) {
@@ -33,9 +37,17 @@ export function RestBar() {
         </div>
         <div className="row">
           {!over && (
-            <button className="btn sm" onClick={() => extendRest(30)}>
-              +30 s
-            </button>
+            <>
+              <button className="btn sm" onClick={() => extendRest(-15)} aria-label="-15 s">
+                −15
+              </button>
+              <button className="btn sm" onClick={() => extendRest(15)} aria-label="+15 s">
+                +15
+              </button>
+              <button className="btn sm" onClick={() => extendRest(30)} aria-label="+30 s">
+                +30
+              </button>
+            </>
           )}
           <button className="btn sm gold" onClick={clearRest}>
             {over ? t('close') : t('skip')}

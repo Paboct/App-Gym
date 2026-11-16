@@ -233,7 +233,7 @@ export const DEFAULT_PLANNED: PlannedInput = {
   repMin: 8,
   repMax: 12,
   targetRir: 9,
-  restSec: 120,
+  restSec: 150,
   notes: '',
 };
 
