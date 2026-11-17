@@ -8,7 +8,7 @@ import { addBodyWeight, removeBodyWeight, saveSetting } from '../data/repo';
 import { getSyncStatus, subscribeSync, syncNow } from '../data/sync';
 import { formatWeight, unitToKg } from '../domain/calc';
 import type { Figure, Lang, ThemeMode, Unit } from '../domain/types';
-import { useAuth } from '../lib/auth';
+import { googleAvailable, useAuth } from '../lib/auth';
 import { useSettings, useT } from '../lib/settings';
 
 interface SegmentProps<T extends string> {
@@ -145,7 +145,7 @@ function relativeTime(ts: number | null, lang: Lang): string | null {
 function AccountCard() {
   const t = useT();
   const { lang } = useSettings();
-  const { user, ready, signIn, signUp, signOut } = useAuth();
+  const { user, ready, signIn, signUp, signInWithGoogle, signOut } = useAuth();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [busy, setBusy] = useState(false);
@@ -205,6 +205,15 @@ function AccountCard() {
     else if ('needsConfirmation' in res && res.needsConfirmation) setInfo(t('authConfirmEmail'));
   };
 
+  const google = async () => {
+    setError(null);
+    setInfo(null);
+    setBusy(true);
+    const res = await signInWithGoogle();
+    setBusy(false);
+    if (res.error) setError(res.error);
+  };
+
   return (
     <div className="card col">
       <h3>
@@ -212,6 +221,14 @@ function AccountCard() {
         {t('cloud')}
       </h3>
       <p className="small muted">{t('cloudIntro')}</p>
+      {googleAvailable && (
+        <>
+          <button className="btn primary" disabled={busy} onClick={google}>
+            {t('signInGoogle')}
+          </button>
+          <p className="tiny faint" style={{ textAlign: 'center' }}>{t('orWithEmail')}</p>
+        </>
+      )}
       <label className="field">
         <span>{t('email')}</span>
         <input
