@@ -11,11 +11,13 @@ import {
   MUSCLES,
   MUSCLE_GROUP,
   MUSCLE_NAMES,
+  MUSCLE_SHORT_NAMES,
   type EquipmentId,
   type GroupId,
   type MuscleId,
 } from '../domain/muscles';
 import type { Exercise, MuscleActivation } from '../domain/types';
+import { activationBand, muscleRows } from '../domain/exerciseMuscles';
 import { muscleActivations } from '../lib/muscles';
 import { exerciseName, muscleNames, useSettings, useT } from '../lib/settings';
 import { ExerciseImage } from './ExerciseImage';
@@ -156,20 +158,55 @@ interface DetailProps {
   action?: { label: string; run: () => void };
 }
 
-/** Ficha del ejercicio: zonas que trabaja resaltadas y lista de músculos. */
+const MECH_KEY = { Compuesto: 'mechCompound', Aislamiento: 'mechIsolation', Isométrico: 'mechIsometric' } as const;
+const ROLE_KEY = { principal: 'roleMain', secundario: 'roleSecondary', estabilizador: 'roleStabilizer' } as const;
+const CONF_KEY = { alta: 'confidenceHigh', media: 'confidenceMid', baja: 'confidenceLow' } as const;
+
+/** Ficha del ejercicio: descripción, patrón, mapa con tramos y lista de músculos con su % de activación. */
 export function ExerciseDetail({ exercise, onClose, action }: DetailProps) {
   const t = useT();
   const { lang } = useSettings();
+  const description = lang === 'es' ? exercise.descriptionEs : exercise.descriptionEn;
+  const pattern = lang === 'es' ? exercise.patternEs : exercise.patternEn;
   return (
     <Sheet title={exerciseName(exercise, lang)} onClose={onClose}>
       <div className="row wrap">
         <span className="badge">{GROUP_NAMES[exercise.group][lang]}</span>
         <span className="badge">{EQUIPMENT_NAMES[exercise.equipment][lang]}</span>
+        {pattern && <span className="badge">{pattern}</span>}
+        {exercise.mechanics && <span className="badge">{t(MECH_KEY[exercise.mechanics])}</span>}
         {exercise.unilateral && <span className="badge gold">{t('unilateral')}</span>}
         {exercise.custom && <span className="badge gold">{t('custom')}</span>}
       </div>
+      {description && <p className="small">{description}</p>}
       <ExerciseImage exercise={exercise} />
-      <MuscleSummary activations={muscleActivations([exercise])} />
+      <MuscleSummary activations={muscleActivations([exercise])} showList={false} />
+      <ul className="list" style={{ gap: 4, margin: 0, padding: 0, listStyle: 'none' }}>
+        {muscleRows(exercise).map((r) => (
+          <li key={r.id} className="row between small">
+            <span className="row" style={{ gap: 8 }}>
+              <i
+                style={{
+                  width: 10,
+                  height: 10,
+                  borderRadius: 5,
+                  background: `var(--act-${activationBand(r.percent / 100)})`,
+                }}
+              />
+              {MUSCLE_NAMES[r.id][lang]}
+            </span>
+            <span className="faint">
+              {r.percent} % · {t(ROLE_KEY[r.role])}
+            </span>
+          </li>
+        ))}
+      </ul>
+      {!exercise.custom && (
+        <p className="tiny faint">
+          {t('estimatedCoefs')}
+          {exercise.confidence ? ` · ${t(CONF_KEY[exercise.confidence])}` : ''}
+        </p>
+      )}
       {action && (
         <button className="btn primary block" onClick={action.run}>
           {action.label}
@@ -262,7 +299,7 @@ function CustomExerciseForm({ initialName, onClose, onCreated }: FormProps) {
               className={`chip${roles[m] === 'principal' ? ' active' : ''}${roles[m] === 'secundario' ? ' gold active' : ''}`}
               onClick={() => cycle(m)}
             >
-              {MUSCLE_NAMES[m][lang]}
+              {MUSCLE_SHORT_NAMES[m][lang]}
             </button>
           ))}
         </div>

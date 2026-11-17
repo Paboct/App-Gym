@@ -4,6 +4,7 @@ import {
   countedMuscles,
   groupActivation,
   muscleActivations,
+  muscleRows,
 } from '../src/domain/exerciseMuscles';
 import type { Exercise, MuscleActivation } from '../src/domain/types';
 
@@ -69,5 +70,25 @@ describe('activationBand', () => {
     expect(activationBand(0.4)).toBe('mid');
     expect(activationBand(0.39)).toBe('low');
     expect(activationBand(0.1)).toBe('low');
+  });
+});
+
+describe('muscleRows', () => {
+  it('ordena por activación descendente y redondea el porcentaje', () => {
+    const rows = muscleRows(
+      ex([
+        { id: 'triceps_lateral', role: 'secundario', activation: 0.65 },
+        { id: 'pectoral_esternal', role: 'principal', activation: 1 },
+        { id: 'triceps_larga', role: 'secundario', activation: 0.349 },
+      ]),
+    );
+    expect(rows.map((r) => r.id)).toEqual(['pectoral_esternal', 'triceps_lateral', 'triceps_larga']);
+    expect(rows.map((r) => r.percent)).toEqual([100, 65, 35]);
+  });
+
+  it('incluye los estabilizadores con su rol', () => {
+    const rows = muscleRows(press);
+    expect(rows.at(-1)).toEqual({ id: 'recto_abdominal', role: 'estabilizador', percent: 30 });
+    expect(rows[0]).toEqual({ id: 'pectoral_esternal', role: 'principal', percent: 100 });
   });
 });

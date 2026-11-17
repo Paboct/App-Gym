@@ -1,5 +1,5 @@
 import { MUSCLE_GROUP, type GroupId, type MuscleId } from './muscles';
-import type { Exercise, MuscleActivation } from './types';
+import type { Exercise, MuscleActivation, MuscleRole } from './types';
 
 /** Músculos que cuentan para series y volumen: todos menos los estabilizadores. */
 export function countedMuscles(e: Exercise): MuscleActivation[] {
@@ -30,4 +30,17 @@ export function activationBand(a: number): ActivationBand {
   if (a >= 0.8) return 'high';
   if (a >= 0.4) return 'mid';
   return 'low';
+}
+
+export interface MuscleRow {
+  id: MuscleId;
+  role: MuscleRole;
+  percent: number;
+}
+
+/** Músculos de un ejercicio (estabilizadores incluidos) de mayor a menor activación, con el porcentaje redondeado. */
+export function muscleRows(e: Exercise): MuscleRow[] {
+  return [...e.muscles]
+    .sort((a, b) => b.activation - a.activation)
+    .map((m) => ({ id: m.id, role: m.role, percent: Math.round(m.activation * 100) }));
 }
