@@ -30,3 +30,7 @@ Fuentes abiertas en esta sesión: Rodríguez-Ridao 2020 (PMC7579505), Saeterbakk
 - Deltoides anterior en plano (~26 % vs ~27 % pectoral en Rodríguez-Ridao): comparación entre músculos con normalizaciones distintas, no se cambió.
 - Svend press, press de suelo, fondos, cruces de poleas por porciones: sin EMG utilizable encontrado.
 - Los coeficientes de plano (clavicular/abdominal) de flexiones, press en polea de pie y press de suelo no se tocaron (sin fuente directa), por lo que quedan menos coherentes con el press de banca.
+
+
+## Ajuste de coherencia (controlador)
+push_up, standing_cable_press, db_floor_press, one_arm_db_press: pectoral_clavicular -> 0,75 y pectoral_abdominal -> 0,6, igual que el press de banca verificado (el resto del lote no cambia).

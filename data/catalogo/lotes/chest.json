@@ -753,12 +753,12 @@
         {
           "musculo_id": "pectoral_clavicular",
           "rol": "secundario",
-          "activacion": 0.6
+          "activacion": 0.75
         },
         {
           "musculo_id": "pectoral_abdominal",
           "rol": "secundario",
-          "activacion": 0.45
+          "activacion": 0.6
         },
         {
           "musculo_id": "deltoides_anterior",
@@ -792,7 +792,8 @@
       "fuentes": [
         "free-exercise-db: Pushups",
         "Marcolin et al. 2015 — J Athl Train — https://pmc.ncbi.nlm.nih.gov/articles/PMC4732391 — 5 variantes de flexión: pectoral esternal y clavicular, deltoides anterior, tríceps larga/lateral, serrato, recto abdominal, oblicuo externo; base estrecha da más pectoral y tríceps",
-        "Calatayud et al. 2014 — J Sports Sci Med — https://jssm.org/jssm-13-502.xml-abst — flexión estable en suelo: pectoral clavicular, deltoides anterior, tríceps y recto abdominal normalizados a MVIC"
+        "Calatayud et al. 2014 — J Sports Sci Med — https://jssm.org/jssm-13-502.xml-abst — flexión estable en suelo: pectoral clavicular, deltoides anterior, tríceps y recto abdominal normalizados a MVIC",
+        "Ajuste de coherencia con press de banca verificado (Rodríguez-Ridao 2020): porciones clavicular/abdominal 0,75/0,6"
       ]
     },
     {
@@ -1095,12 +1096,12 @@
         {
           "musculo_id": "pectoral_clavicular",
           "rol": "secundario",
-          "activacion": 0.6
+          "activacion": 0.75
         },
         {
           "musculo_id": "pectoral_abdominal",
           "rol": "secundario",
-          "activacion": 0.45
+          "activacion": 0.6
         },
         {
           "musculo_id": "deltoides_anterior",
@@ -1133,7 +1134,8 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Standing_Cable_Chest_Press",
-        "analogía con press de pecho en máquina"
+        "analogía con press de pecho en máquina",
+        "Ajuste de coherencia con press de banca verificado (Rodríguez-Ridao 2020): porciones clavicular/abdominal 0,75/0,6"
       ]
     },
     {
@@ -1155,12 +1157,12 @@
         {
           "musculo_id": "pectoral_clavicular",
           "rol": "secundario",
-          "activacion": 0.5
+          "activacion": 0.75
         },
         {
           "musculo_id": "pectoral_abdominal",
           "rol": "secundario",
-          "activacion": 0.4
+          "activacion": 0.6
         },
         {
           "musculo_id": "deltoides_anterior",
@@ -1188,7 +1190,8 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Floor_Press",
-        "analogía con press de banca con mancuernas (recorrido parcial: más tríceps)"
+        "analogía con press de banca con mancuernas (recorrido parcial: más tríceps)",
+        "Ajuste de coherencia con press de banca verificado (Rodríguez-Ridao 2020): porciones clavicular/abdominal 0,75/0,6"
       ]
     },
     {
@@ -1372,12 +1375,12 @@
         {
           "musculo_id": "pectoral_clavicular",
           "rol": "secundario",
-          "activacion": 0.6
+          "activacion": 0.75
         },
         {
           "musculo_id": "pectoral_abdominal",
           "rol": "secundario",
-          "activacion": 0.5
+          "activacion": 0.6
         },
         {
           "musculo_id": "deltoides_anterior",
@@ -1411,7 +1414,8 @@
       "fuentes": [
         "free-exercise-db: One_Arm_Dumbbell_Bench_Press",
         "Saeterbakken et al. 2011 — J Sports Sci — https://read.qxmd.com/read/21225489/a-comparison-of-muscle-activity-and-1-rm-strength-of-three-chest-press-exercises-with-different-stability-requirements — Smith vs barra vs mancuernas: pectoral y deltoides anterior sin diferencias, tríceps menor con mancuernas, bíceps mayor con mancuernas (analogía bilateral)",
-        "Rodríguez-Ridao et al. 2020 — Int J Environ Res Public Health — https://pmc.ncbi.nlm.nih.gov/articles/PMC7579505 — press de banca con barra a 0–60°: %MVIC de pectoral clavicular/esternal/costal (~27 % cada una a 0°; clavicular máximo a 30°, esternal y costal bajan al inclinar), deltoides anterior (sube con la inclinación) y tríceps medial (sin diferencias por ángulo) (analogía con barra)"
+        "Rodríguez-Ridao et al. 2020 — Int J Environ Res Public Health — https://pmc.ncbi.nlm.nih.gov/articles/PMC7579505 — press de banca con barra a 0–60°: %MVIC de pectoral clavicular/esternal/costal (~27 % cada una a 0°; clavicular máximo a 30°, esternal y costal bajan al inclinar), deltoides anterior (sube con la inclinación) y tríceps medial (sin diferencias por ángulo) (analogía con barra)",
+        "Ajuste de coherencia con press de banca verificado (Rodríguez-Ridao 2020): porciones clavicular/abdominal 0,75/0,6"
       ]
     },
     {
