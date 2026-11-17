@@ -1216,11 +1216,6 @@
           "activacion": 0.4
         },
         {
-          "musculo_id": "pectoral_abdominal",
-          "rol": "secundario",
-          "activacion": 0.3
-        },
-        {
           "musculo_id": "recto_abdominal",
           "rol": "estabilizador",
           "activacion": 0.25
@@ -1231,7 +1226,8 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Straight-Arm_Pulldown",
-        "analogía: Gemini espalda_007"
+        "analogía: Gemini espalda_007",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
@@ -1660,16 +1656,6 @@
           "activacion": 0.7
         },
         {
-          "musculo_id": "pectoral_esternal",
-          "rol": "secundario",
-          "activacion": 0.55
-        },
-        {
-          "musculo_id": "pectoral_abdominal",
-          "rol": "secundario",
-          "activacion": 0.45
-        },
-        {
           "musculo_id": "triceps_larga",
           "rol": "secundario",
           "activacion": 0.4
@@ -1686,7 +1672,8 @@
       "fuentes": [
         "Di Fonza et al. 2026 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk11030315 (revisión narrativa de EMG del dorsal en jalón, remo, pull-up, pullover) — el pullover parece favorecer al pectoral mayor sobre el dorsal; no cuantificado, coeficientes sin cambios",
         "free-exercise-db: Bent-Arm_Dumbbell_Pullover",
-        "analogía: Gemini espalda_007"
+        "analogía: Gemini espalda_007",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
@@ -1716,16 +1703,6 @@
           "activacion": 0.4
         },
         {
-          "musculo_id": "pectoral_abdominal",
-          "rol": "secundario",
-          "activacion": 0.4
-        },
-        {
-          "musculo_id": "pectoral_esternal",
-          "rol": "secundario",
-          "activacion": 0.4
-        },
-        {
           "musculo_id": "recto_abdominal",
           "rol": "estabilizador",
           "activacion": 0.2
@@ -1735,7 +1712,8 @@
       "descripcion_en": "Adjust the seat and place the elbows on the pads with the arms overhead. Drive the elbows down and forward in an arc until the bar reaches the abdomen. Return while controlling the stretch. Common mistake: pushing with the hands instead of the elbows.",
       "confianza": "baja",
       "fuentes": [
-        "Di Fonza et al. 2026 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk11030315 (revisión narrativa de EMG del dorsal en jalón, remo, pull-up, pullover) — el pullover parece favorecer al pectoral mayor sobre el dorsal; no cuantificado, coeficientes sin cambios"
+        "Di Fonza et al. 2026 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk11030315 (revisión narrativa de EMG del dorsal en jalón, remo, pull-up, pullover) — el pullover parece favorecer al pectoral mayor sobre el dorsal; no cuantificado, coeficientes sin cambios",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
@@ -1761,8 +1739,8 @@
         },
         {
           "musculo_id": "erectores_espinales",
-          "rol": "principal",
-          "activacion": 0.85
+          "rol": "secundario",
+          "activacion": 0.65
         },
         {
           "musculo_id": "cuadriceps_vastos",
@@ -1801,7 +1779,8 @@
       "fuentes": [
         "Martín-Fuentes et al. 2020 — PLoS One — https://pubmed.ncbi.nlm.nih.gov/32107499/ (revisión sistemática: erectores y cuádriceps con más activación que glúteo y bíceps femoral; no cuantificado, coeficientes sin cambios)",
         "free-exercise-db: Barbell_Deadlift",
-        "analogía: Gemini pierna_006"
+        "analogía: Gemini pierna_006",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
@@ -4621,8 +4600,8 @@
         },
         {
           "musculo_id": "gluteo_medio",
-          "rol": "estabilizador",
-          "activacion": 0.4
+          "rol": "secundario",
+          "activacion": 0.65
         },
         {
           "musculo_id": "isquiotibiales",
@@ -4636,7 +4615,8 @@
       "fuentes": [
         "free-exercise-db: Single_Leg_Squat",
         "McCurdy et al. 2021 — J Strength Cond Res 35(5):1201-1207 — PMID 33900255 (https://europepmc.org/article/MED/33900255) — sentadilla búlgara (pie trasero elevado) al 80% 1RM: glúteo mayor, vasto lateral, isquiotibiales mediales y laterales; vasto lateral mayor que en hip thrust",
-        "Aygun-Polat et al. 2025 — BMC Sports Sci Med Rehabil 17:251 — https://link.springer.com/article/10.1186/s13102-025-01306-z — sentadilla búlgara: glúteo medio/mayor, vasto lateral/medial, recto femoral, semitendinoso, bíceps femoral y erectores; la flexión de tronco aumenta glúteo mayor, bíceps femoral y recto femoral"
+        "Aygun-Polat et al. 2025 — BMC Sports Sci Med Rehabil 17:251 — https://link.springer.com/article/10.1186/s13102-025-01306-z — sentadilla búlgara: glúteo medio/mayor, vasto lateral/medial, recto femoral, semitendinoso, bíceps femoral y erectores; la flexión de tronco aumenta glúteo mayor, bíceps femoral y recto femoral",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
@@ -4672,8 +4652,8 @@
         },
         {
           "musculo_id": "gluteo_medio",
-          "rol": "estabilizador",
-          "activacion": 0.35
+          "rol": "secundario",
+          "activacion": 0.65
         },
         {
           "musculo_id": "isquiotibiales",
@@ -4686,7 +4666,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Dumbbell_Lunges",
-        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados"
+        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
@@ -4722,8 +4703,8 @@
         },
         {
           "musculo_id": "gluteo_medio",
-          "rol": "estabilizador",
-          "activacion": 0.4
+          "rol": "secundario",
+          "activacion": 0.65
         },
         {
           "musculo_id": "isquiotibiales",
@@ -4737,7 +4718,8 @@
       "fuentes": [
         "free-exercise-db: Dumbbell_Lunges",
         "free-exercise-db: Bodyweight_Walking_Lunge",
-        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados (zancada hacia delante con zancada; extrapolado a zancadas caminando)"
+        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados (zancada hacia delante con zancada; extrapolado a zancadas caminando)",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
@@ -6702,8 +6684,8 @@
         },
         {
           "musculo_id": "gluteo_medio",
-          "rol": "estabilizador",
-          "activacion": 0.35
+          "rol": "secundario",
+          "activacion": 0.65
         },
         {
           "musculo_id": "recto_femoral",
@@ -6716,7 +6698,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Dumbbell_Rear_Lunge",
-        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados (zancada hacia delante; extrapolado a la inversa)"
+        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados (zancada hacia delante; extrapolado a la inversa)",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
@@ -8058,8 +8041,8 @@
         },
         {
           "musculo_id": "erectores_espinales",
-          "rol": "principal",
-          "activacion": 0.85
+          "rol": "secundario",
+          "activacion": 0.65
         },
         {
           "musculo_id": "cuadriceps_vastos",
@@ -8092,7 +8075,8 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Deficit_Deadlift",
-        "analogía: Gemini pierna_006 (más cuádriceps por el rango extra)"
+        "analogía: Gemini pierna_006 (más cuádriceps por el rango extra)",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
@@ -10293,8 +10277,8 @@
         },
         {
           "musculo_id": "gluteo_medio",
-          "rol": "estabilizador",
-          "activacion": 0.3
+          "rol": "secundario",
+          "activacion": 0.65
         },
         {
           "musculo_id": "isquiotibiales",
@@ -10306,7 +10290,8 @@
       "descripcion_en": "Place one foot forward under the guided bar and the other behind, then lower vertically until the front thigh is parallel. Rise by pushing through the front foot. Common mistake: setting the foot too close to the bar, which pushes the knee forward and loads the joint.",
       "confianza": "baja",
       "fuentes": [
-        "analogía con sentadilla búlgara"
+        "analogía con sentadilla búlgara",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
@@ -10342,8 +10327,8 @@
         },
         {
           "musculo_id": "gluteo_medio",
-          "rol": "estabilizador",
-          "activacion": 0.4
+          "rol": "secundario",
+          "activacion": 0.65
         },
         {
           "musculo_id": "isquiotibiales",
@@ -10356,7 +10341,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Barbell_Lunge",
-        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados (con mancuernas/peso corporal; extrapolado a barra)"
+        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados (con mancuernas/peso corporal; extrapolado a barra)",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
@@ -10392,8 +10378,8 @@
         },
         {
           "musculo_id": "gluteo_medio",
-          "rol": "estabilizador",
-          "activacion": 0.35
+          "rol": "secundario",
+          "activacion": 0.65
         },
         {
           "musculo_id": "isquiotibiales",
@@ -10406,7 +10392,8 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Single_Leg_Squat",
-        "analogía con zancada y sentadilla búlgara"
+        "analogía con zancada y sentadilla búlgara",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
@@ -10522,8 +10509,8 @@
         },
         {
           "musculo_id": "erectores_espinales",
-          "rol": "principal",
-          "activacion": 0.8
+          "rol": "secundario",
+          "activacion": 0.65
         },
         {
           "musculo_id": "cuadriceps_vastos",
@@ -10545,7 +10532,8 @@
       "descripcion_en": "Position in the machine with feet hip-width and grip the handles with a neutral spine. Push with the legs and extend the hips to stand tall. Lower under control. Common mistake: rounding the back at the bottom.",
       "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Leverage_Deadlift"
+        "free-exercise-db: Leverage_Deadlift",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {

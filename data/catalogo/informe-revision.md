@@ -37,15 +37,15 @@ Ninguna cita de EMG está verificada: todas son de memoria del generador.
 | cable_shrug | Encogimientos en polea | trapecio_superior 1 | free-exercise-db: Cable_Shrugs |
 | chest_supported_row | Remo con apoyo en el pecho | romboides 0.9, trapecio_medio 0.9, dorsal_ancho 0.8 | free-exercise-db: Lying_T-Bar_Row; analogía: Gemini espalda_004 y espalda_005 |
 | db_bent_over_row | Remo inclinado con dos mancuernas | dorsal_ancho 0.9, trapecio_medio 0.85, romboides 0.85 | free-exercise-db: Bent_Over_Two-Dumbbell_Row; analogía: Gemini espalda_004 |
-| db_pullover | Pullover con mancuerna | dorsal_ancho 1 | Di Fonza et al. 2026 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk11030315 (revisión narrativa de EMG del dorsal en jalón, remo, pull-up, pullover) — el pullover parece favorecer al pectoral mayor sobre el dorsal; no cuantificado, coeficientes sin cambios; free-exercise-db: Bent-Arm_Dumbbell_Pullover; analogía: Gemini espalda_007 |
+| db_pullover | Pullover con mancuerna | dorsal_ancho 1 | Di Fonza et al. 2026 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk11030315 (revisión narrativa de EMG del dorsal en jalón, remo, pull-up, pullover) — el pullover parece favorecer al pectoral mayor sobre el dorsal; no cuantificado, coeficientes sin cambios; free-exercise-db: Bent-Arm_Dumbbell_Pullover; analogía: Gemini espalda_007; Ajuste por criterio del usuario (2026-11-18) |
 | db_row | Remo con mancuerna | dorsal_ancho 1 | free-exercise-db: One-Arm_Dumbbell_Row; analogía: Gemini espalda_006 |
 | db_shrug | Encogimientos con mancuernas | trapecio_superior 1 | free-exercise-db: Dumbbell_Shrug |
-| deadlift | Peso muerto | gluteo_mayor 1, isquiotibiales 0.9, erectores_espinales 0.85 | Martín-Fuentes et al. 2020 — PLoS One — https://pubmed.ncbi.nlm.nih.gov/32107499/ (revisión sistemática: erectores y cuádriceps con más activación que glúteo y bíceps femoral; no cuantificado, coeficientes sin cambios); free-exercise-db: Barbell_Deadlift; analogía: Gemini pierna_006 |
-| deficit_deadlift | Peso muerto con déficit | gluteo_mayor 1, isquiotibiales 0.9, erectores_espinales 0.85 | free-exercise-db: Deficit_Deadlift; analogía: Gemini pierna_006 (más cuádriceps por el rango extra) |
+| deadlift | Peso muerto | gluteo_mayor 1, isquiotibiales 0.9 | Martín-Fuentes et al. 2020 — PLoS One — https://pubmed.ncbi.nlm.nih.gov/32107499/ (revisión sistemática: erectores y cuádriceps con más activación que glúteo y bíceps femoral; no cuantificado, coeficientes sin cambios); free-exercise-db: Barbell_Deadlift; analogía: Gemini pierna_006; Ajuste por criterio del usuario (2026-11-18) |
+| deficit_deadlift | Peso muerto con déficit | gluteo_mayor 1, isquiotibiales 0.9 | free-exercise-db: Deficit_Deadlift; analogía: Gemini pierna_006 (más cuádriceps por el rango extra); Ajuste por criterio del usuario (2026-11-18) |
 | kneeling_cable_row | Remo unilateral de rodillas en polea | dorsal_ancho 0.9 | free-exercise-db: Kneeling_Single-Arm_High_Pulley_Row; analogía: Gemini espalda_006 |
-| leverage_deadlift | Peso muerto en máquina | gluteo_mayor 0.95, isquiotibiales 0.85, erectores_espinales 0.8 | free-exercise-db: Leverage_Deadlift |
+| leverage_deadlift | Peso muerto en máquina | gluteo_mayor 0.95, isquiotibiales 0.85 | free-exercise-db: Leverage_Deadlift; Ajuste por criterio del usuario (2026-11-18) |
 | leverage_high_row | Remo alto en máquina | romboides 0.9, trapecio_medio 0.9, dorsal_ancho 0.85 | free-exercise-db: Leverage_High_Row; analogía: Gemini espalda_003 y espalda_005 |
-| machine_pullover | Pullover en máquina | dorsal_ancho 1 | Di Fonza et al. 2026 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk11030315 (revisión narrativa de EMG del dorsal en jalón, remo, pull-up, pullover) — el pullover parece favorecer al pectoral mayor sobre el dorsal; no cuantificado, coeficientes sin cambios |
+| machine_pullover | Pullover en máquina | dorsal_ancho 1 | Di Fonza et al. 2026 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk11030315 (revisión narrativa de EMG del dorsal en jalón, remo, pull-up, pullover) — el pullover parece favorecer al pectoral mayor sobre el dorsal; no cuantificado, coeficientes sin cambios; Ajuste por criterio del usuario (2026-11-18) |
 | machine_row | Remo en máquina | trapecio_medio 0.9, romboides 0.85, dorsal_ancho 0.85 | free-exercise-db: Leverage_Iso_Row; analogía: Gemini espalda_005 |
 | machine_shrug | Encogimientos en máquina | trapecio_superior 1 |  |
 | meadows_row | Remo Meadows | dorsal_ancho 1 | free-exercise-db: One-Arm_Long_Bar_Row; analogía: Gemini espalda_006 (unilateral) |
@@ -54,7 +54,7 @@ Ninguna cita de EMG está verificada: todas son de memoria del generador.
 | reverse_grip_row | Remo con barra agarre supino | dorsal_ancho 0.95, trapecio_medio 0.8, romboides 0.8 | free-exercise-db: Reverse_Grip_Bent-Over_Rows; analogía: Gemini espalda_004 (más bíceps por el agarre supino) |
 | single_arm_cable_row | Remo unilateral en polea | dorsal_ancho 1 | free-exercise-db: Seated_One-arm_Cable_Pulley_Rows; analogía: Gemini espalda_006 |
 | single_arm_pulldown | Jalón unilateral en polea | dorsal_ancho 1 | free-exercise-db: One_Arm_Lat_Pulldown; analogía: Gemini espalda_002 (analogía unilateral) |
-| straight_arm_pulldown | Pullover en polea alta | dorsal_ancho 1 | free-exercise-db: Straight-Arm_Pulldown; analogía: Gemini espalda_007 |
+| straight_arm_pulldown | Pullover en polea alta | dorsal_ancho 1 | free-exercise-db: Straight-Arm_Pulldown; analogía: Gemini espalda_007; Ajuste por criterio del usuario (2026-11-18) |
 | superman | Superman | erectores_espinales 1 | free-exercise-db: Superman |
 | tbar_row | Remo en barra T | trapecio_medio 0.9, romboides 0.85, dorsal_ancho 0.85 | free-exercise-db: T-Bar_Row_with_Handle; analogía: Gemini espalda_004 |
 | trap_bar_deadlift | Peso muerto con barra hexagonal | cuadriceps_vastos 0.9, gluteo_mayor 0.9 | free-exercise-db: Trap_Bar_Deadlift; analogía: Gemini pierna_006 (más cuádriceps por la posición) |
@@ -122,8 +122,8 @@ Ninguna cita de EMG está verificada: todas son de memoria del generador.
 | pistol_squat | Sentadilla pistol | cuadriceps_vastos 1 | free-exercise-db: Single_Leg_Squat; analogía con sentadilla búlgara |
 | plie_squat | Sentadilla sumo con mancuerna | cuadriceps_vastos 0.9, aductores 0.8 | free-exercise-db: Plie_Dumbbell_Squat; analogía con sentadilla goblet |
 | sissy_squat | Sentadilla sissy | cuadriceps_vastos 1, recto_femoral 0.9 |  |
-| smith_split_squat | Sentadilla dividida en multipower | cuadriceps_vastos 1 | analogía con sentadilla búlgara |
-| split_squat | Sentadilla dividida | cuadriceps_vastos 1 | free-exercise-db: Single_Leg_Squat; analogía con zancada y sentadilla búlgara |
+| smith_split_squat | Sentadilla dividida en multipower | cuadriceps_vastos 1 | analogía con sentadilla búlgara; Ajuste por criterio del usuario (2026-11-18) |
+| split_squat | Sentadilla dividida | cuadriceps_vastos 1 | free-exercise-db: Single_Leg_Squat; analogía con zancada y sentadilla búlgara; Ajuste por criterio del usuario (2026-11-18) |
 | step_up | Subida al cajón | cuadriceps_vastos 1 | free-exercise-db: Dumbbell_Step_Ups; analogía con zancadas |
 | zercher_squat | Sentadilla Zercher | cuadriceps_vastos 1 | analogía con sentadilla frontal y trasera |
 | arnold_press | Press Arnold | deltoides_anterior 1 | free-exercise-db: Arnold_Dumbbell_Press |
@@ -155,7 +155,7 @@ Ninguna cita de EMG está verificada: todas son de memoria del generador.
 | tate_press | Tate press | triceps_medial 1, triceps_lateral 0.9 | free-exercise-db: Tate_Press |
 | triceps_pushdown | Extensión de tríceps en polea con barra | triceps_lateral 1, triceps_medial 0.85 | free-exercise-db: Triceps_Pushdown |
 
-## 3. Discrepancias con Gemini (68)
+## 3. Discrepancias con Gemini (70)
 
 | appId | nombre | músculo | nuestra (rol/activación) | Gemini (rol/activación) |
 |---|---|---|---|---|
@@ -181,6 +181,7 @@ Ninguna cita de EMG está verificada: todas son de memoria del generador.
 | db_shrug | Encogimientos con mancuernas | romboides | secundario 0.35 | ausente (0) |
 | deadlift | Peso muerto | aductores | secundario 0.4 | ausente (0) |
 | deadlift | Peso muerto | dorsal_ancho | secundario 0.45 | estabilizador 0.45 |
+| deadlift | Peso muerto | erectores_espinales | secundario 0.65 | principal 0.85 |
 | deadlift | Peso muerto | flexores_antebrazo | estabilizador 0.4 | ausente (0) |
 | deadlift | Peso muerto | trapecio_medio | secundario 0.55 | estabilizador 0.55 |
 | deadlift | Peso muerto | trapecio_superior | secundario 0.5 | ausente (0) |
@@ -221,10 +222,11 @@ Ninguna cita de EMG está verificada: todas son de memoria del generador.
 | squat | Sentadilla con barra | erectores_espinales | secundario 0.45 | estabilizador 0.55 |
 | squat | Sentadilla con barra | gluteo_mayor | secundario 0.8 | principal 0.85 |
 | standing_calf_raise | Elevación de gemelos de pie | tibial_anterior | estabilizador 0.15 | ausente (0) |
+| straight_arm_pulldown | Pullover en polea alta | pectoral_abdominal | ausente (0) | secundario 0.3 |
 | straight_arm_pulldown | Pullover en polea alta | recto_abdominal | estabilizador 0.25 | ausente (0) |
 | straight_arm_pulldown | Pullover en polea alta | triceps_larga | secundario 0.4 | estabilizador 0.45 |
 | walking_lunge | Zancadas caminando | gluteo_mayor | secundario 0.75 | principal 0.9 |
-| walking_lunge | Zancadas caminando | gluteo_medio | estabilizador 0.4 | estabilizador 0.65 |
+| walking_lunge | Zancadas caminando | gluteo_medio | secundario 0.65 | estabilizador 0.65 |
 | walking_lunge | Zancadas caminando | isquiotibiales | estabilizador 0.3 | secundario 0.4 |
 | walking_lunge | Zancadas caminando | recto_femoral | secundario 0.4 | ausente (0) |
 

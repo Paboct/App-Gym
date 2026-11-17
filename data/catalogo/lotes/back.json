@@ -370,11 +370,6 @@
           "activacion": 0.4
         },
         {
-          "musculo_id": "pectoral_abdominal",
-          "rol": "secundario",
-          "activacion": 0.3
-        },
-        {
           "musculo_id": "recto_abdominal",
           "rol": "estabilizador",
           "activacion": 0.25
@@ -385,7 +380,8 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Straight-Arm_Pulldown",
-        "analogía: Gemini espalda_007"
+        "analogía: Gemini espalda_007",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
@@ -814,16 +810,6 @@
           "activacion": 0.7
         },
         {
-          "musculo_id": "pectoral_esternal",
-          "rol": "secundario",
-          "activacion": 0.55
-        },
-        {
-          "musculo_id": "pectoral_abdominal",
-          "rol": "secundario",
-          "activacion": 0.45
-        },
-        {
           "musculo_id": "triceps_larga",
           "rol": "secundario",
           "activacion": 0.4
@@ -840,7 +826,8 @@
       "fuentes": [
         "Di Fonza et al. 2026 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk11030315 (revisión narrativa de EMG del dorsal en jalón, remo, pull-up, pullover) — el pullover parece favorecer al pectoral mayor sobre el dorsal; no cuantificado, coeficientes sin cambios",
         "free-exercise-db: Bent-Arm_Dumbbell_Pullover",
-        "analogía: Gemini espalda_007"
+        "analogía: Gemini espalda_007",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
@@ -870,16 +857,6 @@
           "activacion": 0.4
         },
         {
-          "musculo_id": "pectoral_abdominal",
-          "rol": "secundario",
-          "activacion": 0.4
-        },
-        {
-          "musculo_id": "pectoral_esternal",
-          "rol": "secundario",
-          "activacion": 0.4
-        },
-        {
           "musculo_id": "recto_abdominal",
           "rol": "estabilizador",
           "activacion": 0.2
@@ -889,7 +866,8 @@
       "descripcion_en": "Adjust the seat and place the elbows on the pads with the arms overhead. Drive the elbows down and forward in an arc until the bar reaches the abdomen. Return while controlling the stretch. Common mistake: pushing with the hands instead of the elbows.",
       "confianza": "baja",
       "fuentes": [
-        "Di Fonza et al. 2026 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk11030315 (revisión narrativa de EMG del dorsal en jalón, remo, pull-up, pullover) — el pullover parece favorecer al pectoral mayor sobre el dorsal; no cuantificado, coeficientes sin cambios"
+        "Di Fonza et al. 2026 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk11030315 (revisión narrativa de EMG del dorsal en jalón, remo, pull-up, pullover) — el pullover parece favorecer al pectoral mayor sobre el dorsal; no cuantificado, coeficientes sin cambios",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
@@ -915,8 +893,8 @@
         },
         {
           "musculo_id": "erectores_espinales",
-          "rol": "principal",
-          "activacion": 0.85
+          "rol": "secundario",
+          "activacion": 0.65
         },
         {
           "musculo_id": "cuadriceps_vastos",
@@ -955,7 +933,8 @@
       "fuentes": [
         "Martín-Fuentes et al. 2020 — PLoS One — https://pubmed.ncbi.nlm.nih.gov/32107499/ (revisión sistemática: erectores y cuádriceps con más activación que glúteo y bíceps femoral; no cuantificado, coeficientes sin cambios)",
         "free-exercise-db: Barbell_Deadlift",
-        "analogía: Gemini pierna_006"
+        "analogía: Gemini pierna_006",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
@@ -1758,8 +1737,8 @@
         },
         {
           "musculo_id": "erectores_espinales",
-          "rol": "principal",
-          "activacion": 0.85
+          "rol": "secundario",
+          "activacion": 0.65
         },
         {
           "musculo_id": "cuadriceps_vastos",
@@ -1792,7 +1771,8 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Deficit_Deadlift",
-        "analogía: Gemini pierna_006 (más cuádriceps por el rango extra)"
+        "analogía: Gemini pierna_006 (más cuádriceps por el rango extra)",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
@@ -1964,8 +1944,8 @@
         },
         {
           "musculo_id": "erectores_espinales",
-          "rol": "principal",
-          "activacion": 0.8
+          "rol": "secundario",
+          "activacion": 0.65
         },
         {
           "musculo_id": "cuadriceps_vastos",
@@ -1987,7 +1967,8 @@
       "descripcion_en": "Position in the machine with feet hip-width and grip the handles with a neutral spine. Push with the legs and extend the hips to stand tall. Lower under control. Common mistake: rounding the back at the bottom.",
       "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Leverage_Deadlift"
+        "free-exercise-db: Leverage_Deadlift",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     }
   ]

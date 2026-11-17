@@ -310,8 +310,8 @@
         },
         {
           "musculo_id": "gluteo_medio",
-          "rol": "estabilizador",
-          "activacion": 0.4
+          "rol": "secundario",
+          "activacion": 0.65
         },
         {
           "musculo_id": "isquiotibiales",
@@ -325,7 +325,8 @@
       "fuentes": [
         "free-exercise-db: Single_Leg_Squat",
         "McCurdy et al. 2021 — J Strength Cond Res 35(5):1201-1207 — PMID 33900255 (https://europepmc.org/article/MED/33900255) — sentadilla búlgara (pie trasero elevado) al 80% 1RM: glúteo mayor, vasto lateral, isquiotibiales mediales y laterales; vasto lateral mayor que en hip thrust",
-        "Aygun-Polat et al. 2025 — BMC Sports Sci Med Rehabil 17:251 — https://link.springer.com/article/10.1186/s13102-025-01306-z — sentadilla búlgara: glúteo medio/mayor, vasto lateral/medial, recto femoral, semitendinoso, bíceps femoral y erectores; la flexión de tronco aumenta glúteo mayor, bíceps femoral y recto femoral"
+        "Aygun-Polat et al. 2025 — BMC Sports Sci Med Rehabil 17:251 — https://link.springer.com/article/10.1186/s13102-025-01306-z — sentadilla búlgara: glúteo medio/mayor, vasto lateral/medial, recto femoral, semitendinoso, bíceps femoral y erectores; la flexión de tronco aumenta glúteo mayor, bíceps femoral y recto femoral",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
@@ -361,8 +362,8 @@
         },
         {
           "musculo_id": "gluteo_medio",
-          "rol": "estabilizador",
-          "activacion": 0.35
+          "rol": "secundario",
+          "activacion": 0.65
         },
         {
           "musculo_id": "isquiotibiales",
@@ -375,7 +376,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Dumbbell_Lunges",
-        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados"
+        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
@@ -411,8 +413,8 @@
         },
         {
           "musculo_id": "gluteo_medio",
-          "rol": "estabilizador",
-          "activacion": 0.4
+          "rol": "secundario",
+          "activacion": 0.65
         },
         {
           "musculo_id": "isquiotibiales",
@@ -426,7 +428,8 @@
       "fuentes": [
         "free-exercise-db: Dumbbell_Lunges",
         "free-exercise-db: Bodyweight_Walking_Lunge",
-        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados (zancada hacia delante con zancada; extrapolado a zancadas caminando)"
+        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados (zancada hacia delante con zancada; extrapolado a zancadas caminando)",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
@@ -606,8 +609,8 @@
         },
         {
           "musculo_id": "gluteo_medio",
-          "rol": "estabilizador",
-          "activacion": 0.35
+          "rol": "secundario",
+          "activacion": 0.65
         },
         {
           "musculo_id": "recto_femoral",
@@ -620,7 +623,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Dumbbell_Rear_Lunge",
-        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados (zancada hacia delante; extrapolado a la inversa)"
+        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados (zancada hacia delante; extrapolado a la inversa)",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
@@ -966,8 +970,8 @@
         },
         {
           "musculo_id": "gluteo_medio",
-          "rol": "estabilizador",
-          "activacion": 0.3
+          "rol": "secundario",
+          "activacion": 0.65
         },
         {
           "musculo_id": "isquiotibiales",
@@ -979,7 +983,8 @@
       "descripcion_en": "Place one foot forward under the guided bar and the other behind, then lower vertically until the front thigh is parallel. Rise by pushing through the front foot. Common mistake: setting the foot too close to the bar, which pushes the knee forward and loads the joint.",
       "confianza": "baja",
       "fuentes": [
-        "analogía con sentadilla búlgara"
+        "analogía con sentadilla búlgara",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
@@ -1015,8 +1020,8 @@
         },
         {
           "musculo_id": "gluteo_medio",
-          "rol": "estabilizador",
-          "activacion": 0.4
+          "rol": "secundario",
+          "activacion": 0.65
         },
         {
           "musculo_id": "isquiotibiales",
@@ -1029,7 +1034,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Barbell_Lunge",
-        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados (con mancuernas/peso corporal; extrapolado a barra)"
+        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados (con mancuernas/peso corporal; extrapolado a barra)",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
@@ -1065,8 +1071,8 @@
         },
         {
           "musculo_id": "gluteo_medio",
-          "rol": "estabilizador",
-          "activacion": 0.35
+          "rol": "secundario",
+          "activacion": 0.65
         },
         {
           "musculo_id": "isquiotibiales",
@@ -1079,7 +1085,8 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Single_Leg_Squat",
-        "analogía con zancada y sentadilla búlgara"
+        "analogía con zancada y sentadilla búlgara",
+        "Ajuste por criterio del usuario (2026-11-18)"
       ]
     },
     {
