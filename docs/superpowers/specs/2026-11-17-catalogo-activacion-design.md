@@ -148,6 +148,21 @@ trabajo y de commits. Sin claves secretas en el código. Tests con `npm test`,
   Glúteos; vastos, recto femoral → Cuádriceps; isquiotibiales → Isquios; aductores →
   Aductores; gastrocnemio, sóleo, tibial anterior → Gemelos.
 
+## Decisiones posteriores (2026-11-17, tras aprobar el diseño)
+
+- **Figura hombre/mujer:** se mantienen las dos figuras. El usuario aporta un SVG propio para
+  mujer (`Downloads/gemini-women`); hay que etiquetarlo igual que el de hombre
+  (`data-musculo`) y validarlo con el mismo test de 35 ids.
+- **Estabilizadores:** se muestran en la ficha y en el mapa con su coeficiente, pero **no
+  cuentan** en las series efectivas.
+- **Roles:** el formato admite `principal`, `secundario` y `estabilizador` (Gemini usa los tres).
+  La app conserva los 12 grupos propios.
+- **Regla de validación:** ningún músculo no principal supera la activación del principal más
+  bajo (igualdad permitida); principal ≥ 0,8 y al menos una activación ≥ 0,85. No se exige 1,0.
+- **Confianza (estado tras la parte 1):** 0 alta, 96 media, 144 baja. `media` exige una cita de
+  literatura concreta (autor + año); ninguna cita está verificada (todas de memoria del
+  generador). Pasada de verificación con literatura: pendiente de decidir.
+
 ## Lo que queda al implementador
 
 Estructura de carpetas, nombres de scripts, cómo repartir el trabajo de generación de
