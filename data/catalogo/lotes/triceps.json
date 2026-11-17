@@ -1,0 +1,936 @@
+{
+  "version": "1.0.0",
+  "ejercicios": [
+    {
+      "id": "triceps_pushdown",
+      "nombre": "Extensión de tríceps en polea con barra",
+      "nombre_en": "Triceps pushdown",
+      "grupo": "triceps",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de codo",
+      "patron_movimiento_en": "Elbow extension",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        }
+      ],
+      "descripcion": "Con los codos pegados a las costillas, empuja la barra hacia abajo hasta extender el codo por completo. Mantén el torso firme y los hombros hacia atrás. Sube de forma controlada hasta que los antebrazos pasen un poco de la horizontal. Error típico: despegar los codos y balancear el torso para mover más peso.",
+      "descripcion_en": "With your elbows tucked against your ribs, press the bar down until your elbows are fully extended. Keep your torso steady and shoulders back. Return under control until your forearms pass slightly above horizontal. Common mistake: letting the elbows drift forward and swinging the torso to move more weight.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Triceps_Pushdown",
+        "EMG (recordado, sin verificar): Contreras y cols. (cabeza lateral y medial dominantes en extensiones con el brazo a lo largo del cuerpo)"
+      ]
+    },
+    {
+      "id": "rope_pushdown",
+      "nombre": "Extensión de tríceps con cuerda",
+      "nombre_en": "Rope pushdown",
+      "grupo": "triceps",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de codo",
+      "patron_movimiento_en": "Elbow extension",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        }
+      ],
+      "descripcion": "Agarra la cuerda con las palmas enfrentadas y los codos fijos junto al cuerpo. Extiende los codos y separa las puntas de la cuerda al final para exprimir el tríceps. Vuelve arriba despacio sin mover los brazos. Error típico: dejar que los codos se adelanten y convertir el gesto en un press.",
+      "descripcion_en": "Grip the rope with palms facing each other and elbows fixed beside your body. Extend your elbows and spread the rope ends apart at the bottom to squeeze the triceps. Return slowly without moving your upper arms. Common mistake: letting the elbows drift forward so the movement turns into a press.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Triceps_Pushdown_-_Rope_Attachment",
+        "EMG (recordado, sin verificar): Contreras y cols. (cabeza lateral y medial dominantes en la extensión en polea)"
+      ]
+    },
+    {
+      "id": "overhead_cable_ext",
+      "nombre": "Extensión de tríceps sobre la cabeza en polea",
+      "nombre_en": "Overhead cable triceps extension",
+      "grupo": "triceps",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de codo (flexión máxima de hombro)",
+      "patron_movimiento_en": "Elbow extension (maximal shoulder flexion)",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        }
+      ],
+      "descripcion": "De espaldas a la polea, sujeta la cuerda detrás de la cabeza con los codos apuntando al frente. Extiende los codos hacia delante y arriba sin mover los brazos. Estira de nuevo hasta notar el tríceps alargado tras la nuca. Error típico: abrir los codos hacia los lados y arquear la zona lumbar.",
+      "descripcion_en": "Facing away from the cable, hold the rope behind your head with the elbows pointing forward. Extend your elbows forward and up without moving your upper arms. Lower back until you feel the triceps stretched behind the head. Common mistake: flaring the elbows out and arching the lower back.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Cable_Rope_Overhead_Triceps_Extension",
+        "EMG (recordado, sin verificar): Maeo y cols. 2022 (la cabeza larga se activa más con el brazo por encima de la cabeza)"
+      ]
+    },
+    {
+      "id": "single_arm_pushdown",
+      "nombre": "Extensión de tríceps unilateral en polea",
+      "nombre_en": "Single-arm pushdown",
+      "grupo": "triceps",
+      "equipamiento": "cable",
+      "unilateral": true,
+      "patron_movimiento": "Extensión de codo",
+      "patron_movimiento_en": "Elbow extension",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        }
+      ],
+      "descripcion": "Con una sola mano en el agarre de la polea alta, mantén el codo pegado al costado. Extiende el codo hasta bloquearlo abajo sin girar el tronco. Regresa controlando el recorrido. Error típico: rotar el torso y empujar con el hombro para ayudarte.",
+      "descripcion_en": "Holding a single handle on the high pulley, keep the elbow tucked at your side. Extend the elbow until it is locked out without twisting the trunk. Return while controlling the full range. Common mistake: rotating the torso and pushing with the shoulder to help the lift.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Cable_One_Arm_Tricep_Extension",
+        "EMG (recordado, sin verificar): Contreras y cols. (patrón análogo a la extensión bilateral en polea)"
+      ]
+    },
+    {
+      "id": "skullcrusher",
+      "nombre": "Press francés",
+      "nombre_en": "Skull crusher",
+      "grupo": "triceps",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de codo (hombro flexionado)",
+      "patron_movimiento_en": "Elbow extension (shoulder flexed)",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        }
+      ],
+      "descripcion": "Túmbate en un banco con la barra sobre el pecho y los brazos ligeramente inclinados hacia atrás. Flexiona solo los codos hasta bajar la barra cerca de la frente o detrás de la cabeza. Extiende de nuevo sin mover los codos. Error típico: abrir los codos y convertir el movimiento en un press.",
+      "descripcion_en": "Lie on a bench with the bar over your chest and the arms slightly angled back. Bend only at the elbows to lower the bar toward the forehead or just behind the head. Extend again without moving the elbows. Common mistake: flaring the elbows and turning the lift into a press.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: EZ-Bar_Skullcrusher",
+        "EMG (recordado, sin verificar): Maeo y cols. 2022 (la cabeza larga trabaja más con el hombro flexionado)"
+      ]
+    },
+    {
+      "id": "db_overhead_ext",
+      "nombre": "Extensión de tríceps con mancuerna sobre la cabeza",
+      "nombre_en": "Dumbbell overhead triceps extension",
+      "grupo": "triceps",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de codo (flexión máxima de hombro)",
+      "patron_movimiento_en": "Elbow extension (maximal shoulder flexion)",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.7
+        }
+      ],
+      "descripcion": "Sostén una mancuerna con ambas manos por encima de la cabeza. Baja la mancuerna detrás de la nuca flexionando los codos, manteniéndolos apuntando al techo. Extiende hasta arriba sin mover los hombros. Error típico: separar los codos y arquear la espalda.",
+      "descripcion_en": "Hold one dumbbell with both hands overhead. Lower it behind your head by bending the elbows while keeping them pointing at the ceiling. Extend back up without moving the shoulders. Common mistake: letting the elbows flare and arching the back.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Standing_Dumbbell_Triceps_Extension",
+        "EMG (recordado, sin verificar): Maeo y cols. 2022 (extensión por encima de la cabeza y cabeza larga)"
+      ]
+    },
+    {
+      "id": "close_grip_bench",
+      "nombre": "Press de banca con agarre cerrado",
+      "nombre_en": "Close-grip bench press",
+      "grupo": "triceps",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Empuje horizontal",
+      "patron_movimiento_en": "Horizontal push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.45
+        }
+      ],
+      "descripcion": "Túmbate en el banco y agarra la barra con las manos a la anchura de los hombros. Baja la barra hasta la parte baja del pecho con los codos cerca del torso. Empuja hasta extender los codos por completo. Error típico: cerrar tanto el agarre que se castigan las muñecas.",
+      "descripcion_en": "Lie on the bench and grip the bar about shoulder-width. Lower it to the lower chest with the elbows close to the torso. Press up until the elbows are fully extended. Common mistake: using such a narrow grip that the wrists are overloaded.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Close-Grip_Barbell_Bench_Press",
+        "EMG (recordado, sin verificar): Lauver y cols. 2016 (el agarre cerrado aumenta la activación del tríceps)"
+      ]
+    },
+    {
+      "id": "triceps_dip",
+      "nombre": "Fondos en paralelas (tríceps)",
+      "nombre_en": "Triceps dip",
+      "grupo": "triceps",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Empuje descendente",
+      "patron_movimiento_en": "Downward push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "principal",
+          "activacion": 0.8
+        },
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "secundario",
+          "activacion": 0.45
+        }
+      ],
+      "descripcion": "Sujétate en las paralelas con el torso vertical y los codos pegados al cuerpo. Baja hasta que los hombros queden un poco por debajo de los codos. Empuja hasta extender los codos del todo. Error típico: inclinar el torso hacia delante, que desplaza el trabajo al pecho.",
+      "descripcion_en": "Support yourself on the parallel bars with an upright torso and elbows close to the body. Lower until the shoulders sit slightly below the elbows. Press up until the elbows are fully extended. Common mistake: leaning the torso forward, which shifts the work to the chest.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Dips_-_Triceps_Version",
+        "EMG (recordado, sin verificar): analogía con fondos en paralelas del catálogo de Gemini (pecho) con torso vertical"
+      ]
+    },
+    {
+      "id": "machine_dip",
+      "nombre": "Fondos en máquina",
+      "nombre_en": "Machine dip",
+      "grupo": "triceps",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Empuje descendente",
+      "patron_movimiento_en": "Downward push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "principal",
+          "activacion": 0.8
+        },
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.5
+        }
+      ],
+      "descripcion": "Ajusta el asiento para que las asas queden a la altura del pecho y mantén la espalda apoyada. Empuja las asas hacia abajo hasta extender los codos. Vuelve despacio sin dejar que el peso descanse. Error típico: encoger los hombros hacia las orejas durante el empuje.",
+      "descripcion_en": "Adjust the seat so the handles sit at chest height and keep your back against the pad. Push the handles down until your elbows are fully extended. Return slowly without letting the stack rest. Common mistake: shrugging the shoulders toward the ears during the push.",
+      "confianza": "baja",
+      "fuentes": [
+        "free-exercise-db: Dip_Machine"
+      ]
+    },
+    {
+      "id": "bench_dip",
+      "nombre": "Fondos entre bancos",
+      "nombre_en": "Bench dip",
+      "grupo": "triceps",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Empuje descendente",
+      "patron_movimiento_en": "Downward push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "principal",
+          "activacion": 0.95
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "principal",
+          "activacion": 0.8
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "secundario",
+          "activacion": 0.4
+        }
+      ],
+      "descripcion": "Apoya las manos en el borde de un banco detrás de ti y estira las piernas. Baja flexionando los codos hacia atrás, sin pasar de unos 90 grados. Empuja hasta extender los codos. Error típico: bajar demasiado y dejar que los hombros se adelanten, lo que los sobrecarga.",
+      "descripcion_en": "Place your hands on the edge of a bench behind you and extend your legs. Lower by bending the elbows back, not going much past 90 degrees. Press up until the elbows are extended. Common mistake: dropping too low and letting the shoulders roll forward, which overloads them.",
+      "confianza": "baja",
+      "fuentes": [
+        "free-exercise-db: Bench_Dips"
+      ]
+    },
+    {
+      "id": "db_kickback",
+      "nombre": "Patada de tríceps con mancuerna",
+      "nombre_en": "Dumbbell kickback",
+      "grupo": "triceps",
+      "equipamiento": "dumbbell",
+      "unilateral": true,
+      "patron_movimiento": "Extensión de codo",
+      "patron_movimiento_en": "Elbow extension",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "Inclina el torso con la espalda recta y lleva el codo hasta la altura del tronco. Extiende el antebrazo hacia atrás hasta bloquear el codo. Vuelve despacio manteniendo el brazo fijo. Error típico: balancear el brazo y usar impulso en lugar de extender el codo.",
+      "descripcion_en": "Hinge forward with a flat back and bring the elbow up to torso height. Extend the forearm back until the elbow is locked. Return slowly keeping the upper arm fixed. Common mistake: swinging the arm and using momentum instead of extending the elbow.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Tricep_Dumbbell_Kickback",
+        "EMG (recordado, sin verificar): Contreras y cols. (el kickback activa fuerte el tríceps con baja carga)"
+      ]
+    },
+    {
+      "id": "machine_triceps_ext",
+      "nombre": "Extensión de tríceps en máquina",
+      "nombre_en": "Machine triceps extension",
+      "grupo": "triceps",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de codo",
+      "patron_movimiento_en": "Elbow extension",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.7
+        }
+      ],
+      "descripcion": "Siéntate con los codos apoyados en el cojín y la espalda pegada al respaldo. Empuja las asas o el brazo de la máquina hasta extender los codos. Regresa controlando el recorrido sin soltar el peso. Error típico: levantar los codos del apoyo y ayudarte con los hombros.",
+      "descripcion_en": "Sit with your elbows on the pad and your back against the backrest. Push the handles or lever until your elbows are fully extended. Return under control without dropping the weight. Common mistake: lifting the elbows off the pad and helping with the shoulders.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Machine_Triceps_Extension"
+      ]
+    },
+    {
+      "id": "lying_db_extension",
+      "nombre": "Press francés con mancuernas",
+      "nombre_en": "Lying dumbbell triceps extension",
+      "grupo": "triceps",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de codo (hombro flexionado)",
+      "patron_movimiento_en": "Elbow extension (shoulder flexed)",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        }
+      ],
+      "descripcion": "Túmbate con una mancuerna en cada mano, brazos extendidos sobre el pecho y palmas enfrentadas. Flexiona los codos para bajar las mancuernas junto a la cabeza. Extiende sin mover los brazos. Error típico: dejar que los codos se abran o se desplacen hacia atrás.",
+      "descripcion_en": "Lie back holding a dumbbell in each hand, arms extended over the chest with palms facing each other. Bend the elbows to lower the dumbbells beside your head. Extend without moving the upper arms. Common mistake: letting the elbows flare or drift backward.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Lying_Dumbbell_Tricep_Extension",
+        "EMG (recordado, sin verificar): Maeo y cols. 2022 (cabeza larga con el hombro flexionado)"
+      ]
+    },
+    {
+      "id": "diamond_push_up",
+      "nombre": "Flexiones diamante",
+      "nombre_en": "Diamond push-up",
+      "grupo": "triceps",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Empuje horizontal",
+      "patron_movimiento_en": "Horizontal push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Coloca las manos juntas bajo el pecho formando un rombo con pulgares e índices. Baja el cuerpo en bloque con los codos cerca de las costillas. Empuja hasta extender los codos. Error típico: dejar caer la cadera o abrir los codos.",
+      "descripcion_en": "Place your hands together under the chest forming a diamond with thumbs and index fingers. Lower the body as one unit with the elbows close to the ribs. Push up until the elbows are extended. Common mistake: letting the hips sag or the elbows flare.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Close-Grip_Push-Up_off_of_a_Dumbbell",
+        "EMG (recordado, sin verificar): analogía con press de banca de agarre cerrado"
+      ]
+    },
+    {
+      "id": "reverse_grip_pushdown",
+      "nombre": "Extensión de tríceps agarre supino en polea",
+      "nombre_en": "Reverse-grip triceps pushdown",
+      "grupo": "triceps",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de codo",
+      "patron_movimiento_en": "Elbow extension",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "Agarra la barra con las palmas hacia arriba y los codos pegados al cuerpo. Extiende los codos hacia abajo sin mover los hombros. Sube controlando hasta que los antebrazos queden casi horizontales. Error típico: usar demasiado peso y doblar las muñecas.",
+      "descripcion_en": "Grip the bar with palms facing up and elbows tucked at your sides. Extend the elbows down without moving the shoulders. Return under control until the forearms are nearly horizontal. Common mistake: using too much weight and bending the wrists.",
+      "confianza": "baja",
+      "fuentes": [
+        "free-exercise-db: Reverse_Grip_Triceps_Pushdown"
+      ]
+    },
+    {
+      "id": "low_cable_triceps_ext",
+      "nombre": "Extensión de tríceps en polea baja",
+      "nombre_en": "Low cable triceps extension",
+      "grupo": "triceps",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de codo (hombro flexionado)",
+      "patron_movimiento_en": "Elbow extension (shoulder flexed)",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        }
+      ],
+      "descripcion": "Túmbate en un banco con la polea baja detrás de la cabeza y los brazos verticales. Flexiona los codos llevando la cuerda hacia la frente. Extiende hasta arriba manteniendo los brazos quietos. Error típico: dejar que los codos se muevan hacia atrás y adelante.",
+      "descripcion_en": "Lie on a bench with the low pulley behind your head and arms vertical. Bend the elbows to bring the rope toward the forehead. Extend back up while keeping the upper arms still. Common mistake: letting the elbows travel back and forth.",
+      "confianza": "baja",
+      "fuentes": [
+        "free-exercise-db: Low_Cable_Triceps_Extension"
+      ]
+    },
+    {
+      "id": "kneeling_cable_triceps",
+      "nombre": "Extensión de tríceps de rodillas en polea",
+      "nombre_en": "Kneeling cable triceps extension",
+      "grupo": "triceps",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de codo (flexión máxima de hombro)",
+      "patron_movimiento_en": "Elbow extension (maximal shoulder flexion)",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        }
+      ],
+      "descripcion": "De rodillas de espaldas a la polea alta, sujeta la barra o cuerda sobre la cabeza con los codos hacia delante. Extiende los codos hacia delante sin mover los brazos. Vuelve controlando el estiramiento. Error típico: inclinarse hacia delante y empujar con el tronco.",
+      "descripcion_en": "Kneel facing away from the high pulley, holding the bar or rope overhead with the elbows pointing forward. Extend the elbows forward without moving the upper arms. Return while controlling the stretch. Common mistake: leaning forward and pushing with the torso.",
+      "confianza": "baja",
+      "fuentes": [
+        "free-exercise-db: Kneeling_Cable_Triceps_Extension"
+      ]
+    },
+    {
+      "id": "decline_ez_triceps",
+      "nombre": "Press francés declinado con barra Z",
+      "nombre_en": "Decline EZ-bar triceps extension",
+      "grupo": "triceps",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de codo (hombro flexionado)",
+      "patron_movimiento_en": "Elbow extension (shoulder flexed)",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        }
+      ],
+      "descripcion": "Túmbate en un banco declinado con la barra Z sobre la frente y los codos fijos. Baja flexionando solo los codos hasta cerca de la cabeza. Extiende de nuevo sin mover los brazos. Error típico: dejar que los codos se abran y pierdan tensión en el tríceps.",
+      "descripcion_en": "Lie on a decline bench with the EZ-bar over your forehead and the elbows fixed. Bend only the elbows to lower the bar close to the head. Extend again without moving the upper arms. Common mistake: letting the elbows flare and losing tension on the triceps.",
+      "confianza": "baja",
+      "fuentes": [
+        "free-exercise-db: Decline_EZ_Bar_Triceps_Extension"
+      ]
+    },
+    {
+      "id": "incline_triceps_ext",
+      "nombre": "Press francés inclinado con barra",
+      "nombre_en": "Incline barbell triceps extension",
+      "grupo": "triceps",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de codo (hombro flexionado)",
+      "patron_movimiento_en": "Elbow extension (shoulder flexed)",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        }
+      ],
+      "descripcion": "Túmbate en un banco inclinado con la barra sobre el pecho y los codos apuntando al techo. Flexiona los codos para llevar la barra por detrás de la cabeza. Extiende sin mover los brazos. Error típico: dejar caer los codos hacia atrás y perder el control del estiramiento.",
+      "descripcion_en": "Lie on an incline bench with the bar over your chest and elbows pointing at the ceiling. Bend the elbows to take the bar behind your head. Extend without moving the upper arms. Common mistake: letting the elbows drop back and losing control of the stretch.",
+      "confianza": "baja",
+      "fuentes": [
+        "free-exercise-db: Cable_Incline_Triceps_Extension (patrón análogo, sin ejercicio equivalente exacto)"
+      ]
+    },
+    {
+      "id": "seated_triceps_press",
+      "nombre": "Press de tríceps sentado con mancuerna",
+      "nombre_en": "Seated triceps press",
+      "grupo": "triceps",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de codo (flexión máxima de hombro)",
+      "patron_movimiento_en": "Elbow extension (maximal shoulder flexion)",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.7
+        }
+      ],
+      "descripcion": "Sentado con la espalda recta, sujeta una mancuerna con ambas manos sobre la cabeza. Baja la mancuerna detrás de la nuca flexionando los codos. Extiende hasta arriba con los codos apuntando adelante. Error típico: arquear la espalda y abrir los codos.",
+      "descripcion_en": "Sit upright and hold a dumbbell with both hands overhead. Lower it behind your head by bending the elbows. Extend back up with the elbows pointing forward. Common mistake: arching the back and letting the elbows flare.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Seated_Triceps_Press",
+        "EMG (recordado, sin verificar): Maeo y cols. 2022 (extensión por encima de la cabeza y cabeza larga)"
+      ]
+    },
+    {
+      "id": "jm_press",
+      "nombre": "JM press",
+      "nombre_en": "JM press",
+      "grupo": "triceps",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Empuje horizontal",
+      "patron_movimiento_en": "Horizontal push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Túmbate con agarre algo más estrecho que los hombros y baja la barra hacia la frente o el cuello con los codos adelantados. Flexiona los codos y empuja hasta extenderlos. Combina un press cerrado con una extensión. Error típico: abrir los codos y convertirlo en un press de banca normal.",
+      "descripcion_en": "Lie down with a grip slightly narrower than the shoulders and lower the bar toward the forehead or neck with the elbows forward. Bend the elbows then press until they are extended. It blends a close-grip press with a triceps extension. Common mistake: flaring the elbows and turning it into a regular bench press.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: JM_Press",
+        "EMG (recordado, sin verificar): analogía con press de banca de agarre cerrado"
+      ]
+    },
+    {
+      "id": "tate_press",
+      "nombre": "Tate press",
+      "nombre_en": "Tate press",
+      "grupo": "triceps",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de codo",
+      "patron_movimiento_en": "Elbow extension",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Túmbate con una mancuerna en cada mano y los codos abiertos hacia los lados. Baja las mancuernas hacia el pecho flexionando solo los codos. Extiende de nuevo hasta que los brazos queden rectos. Error típico: dejar que las mancuernas choquen contra el pecho sin control.",
+      "descripcion_en": "Lie down holding a dumbbell in each hand with the elbows pointing out to the sides. Lower the dumbbells toward the chest by bending only the elbows. Extend until the arms are straight. Common mistake: letting the dumbbells crash into the chest without control.",
+      "confianza": "baja",
+      "fuentes": [
+        "free-exercise-db: Tate_Press"
+      ]
+    }
+  ]
+}

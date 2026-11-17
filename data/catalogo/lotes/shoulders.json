@@ -1,0 +1,1469 @@
+{
+  "version": "1.0.0",
+  "ejercicios": [
+    {
+      "id": "ohp",
+      "nombre": "Press militar con barra",
+      "nombre_en": "Overhead press",
+      "grupo": "shoulders",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Empuje vertical",
+      "patron_movimiento_en": "Vertical push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "De pie, agarra la barra algo más ancha que los hombros y apóyala sobre la clavícula con los codos ligeramente adelantados. Aprieta glúteos y abdomen y empuja la barra en línea recta, echando la cabeza un poco atrás para que pase y adelantándola al final. Bloquea arriba con la barra sobre la mitad del pie. Error típico: arquear en exceso la zona lumbar para ayudarte.",
+      "descripcion_en": "Standing, grip the bar slightly wider than shoulder width and rest it on your collarbone with the elbows just ahead of it. Brace glutes and abs and drive the bar straight up, moving the head back to let it pass and forward again at the top. Lock out with the bar over mid-foot. A common mistake is over-arching the lower back to cheat the rep.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Standing_Military_Press",
+        "EMG (recordado, sin verificar): Saeterbakken 2011; Paoli 2017"
+      ]
+    },
+    {
+      "id": "db_shoulder_press",
+      "nombre": "Press de hombros con mancuernas",
+      "nombre_en": "Dumbbell shoulder press",
+      "grupo": "shoulders",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Empuje vertical",
+      "patron_movimiento_en": "Vertical push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.35
+        }
+      ],
+      "descripcion": "Sentado con respaldo, sostén una mancuerna en cada mano a la altura de las orejas con los antebrazos verticales. Empuja hacia arriba acercando ligeramente las mancuernas sin chocarlas. Baja de forma controlada hasta que los codos queden por debajo de los hombros. Error típico: dejar que las muñecas se doblen hacia atrás y los codos se abran demasiado.",
+      "descripcion_en": "Seated with back support, hold a dumbbell in each hand at ear level with the forearms vertical. Press upward, bringing the dumbbells slightly together without clanging them. Lower under control until the elbows sit just below shoulder height. A common mistake is letting the wrists bend back and the elbows flare too wide.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Dumbbell_Shoulder_Press",
+        "EMG (recordado, sin verificar): Saeterbakken 2011"
+      ]
+    },
+    {
+      "id": "machine_shoulder_press",
+      "nombre": "Press de hombros en máquina",
+      "nombre_en": "Machine shoulder press",
+      "grupo": "shoulders",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Empuje vertical",
+      "patron_movimiento_en": "Vertical push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Ajusta el asiento para que las empuñaduras queden a la altura de los hombros y apoya bien la espalda. Empuja hacia arriba sin bloquear los codos de golpe. Baja despacio hasta sentir el estiramiento del hombro sin que los codos pasen mucho por detrás del torso. Error típico: despegar la espalda del respaldo y encogerse hacia las orejas.",
+      "descripcion_en": "Set the seat so the handles start at shoulder height and keep your back firmly against the pad. Press upward without snapping the elbows into lockout. Lower slowly until you feel a stretch in the shoulder, without letting the elbows travel far behind the torso. A common mistake is peeling the back off the pad and shrugging toward the ears.",
+      "confianza": "baja",
+      "fuentes": [
+        "free-exercise-db: Machine_Shoulder_(Military)_Press"
+      ]
+    },
+    {
+      "id": "smith_shoulder_press",
+      "nombre": "Press de hombros en multipower",
+      "nombre_en": "Smith machine shoulder press",
+      "grupo": "shoulders",
+      "equipamiento": "smith",
+      "unilateral": false,
+      "patron_movimiento": "Empuje vertical",
+      "patron_movimiento_en": "Vertical push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.35
+        }
+      ],
+      "descripcion": "Coloca un banco con respaldo bajo la barra guiada y agárrala algo más ancha que los hombros. Desbloquea y baja la barra hasta la altura de la barbilla o la clavícula con los antebrazos verticales. Empuja hasta extender los codos sin despegar la espalda. Error típico: colocar el banco demasiado adelantado y empujar la barra hacia delante del cuerpo.",
+      "descripcion_en": "Place a backed bench under the guided bar and grip it slightly wider than the shoulders. Unrack and lower the bar to chin or collarbone height with the forearms vertical. Press until the elbows are extended without lifting your back off the bench. A common mistake is setting the bench too far forward so the bar travels in front of the body.",
+      "confianza": "baja",
+      "fuentes": [
+        "free-exercise-db: Smith_Machine_Overhead_Shoulder_Press"
+      ]
+    },
+    {
+      "id": "arnold_press",
+      "nombre": "Press Arnold",
+      "nombre_en": "Arnold press",
+      "grupo": "shoulders",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Empuje vertical",
+      "patron_movimiento_en": "Vertical push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Empieza sentado con las mancuernas frente al pecho y las palmas hacia ti. Al subir, gira las muñecas hasta que las palmas miren al frente y termina con los brazos extendidos arriba. Invierte el giro al bajar de forma controlada. Error típico: hacer el giro con impulso del torso en lugar de con los hombros.",
+      "descripcion_en": "Start seated with the dumbbells in front of the chest and palms facing you. As you press, rotate the wrists until the palms face forward and finish with the arms extended overhead. Reverse the rotation as you lower under control. A common mistake is using torso momentum for the rotation instead of the shoulders.",
+      "confianza": "baja",
+      "fuentes": [
+        "free-exercise-db: Arnold_Dumbbell_Press"
+      ]
+    },
+    {
+      "id": "db_lateral_raise",
+      "nombre": "Elevaciones laterales con mancuernas",
+      "nombre_en": "Dumbbell lateral raise",
+      "grupo": "shoulders",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Abducción de hombro",
+      "patron_movimiento_en": "Shoulder abduction",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "De pie con una mancuerna en cada mano y los codos ligeramente flexionados, eleva los brazos hacia los lados hasta la altura de los hombros. Lidera con los codos, no con las manos, y mantén el torso quieto. Baja despacio en unos tres segundos. Error típico: balancear el cuerpo y encoger los trapecios para subir más peso.",
+      "descripcion_en": "Standing with a dumbbell in each hand and elbows slightly bent, raise the arms out to the sides up to shoulder height. Lead with the elbows rather than the hands and keep the torso still. Lower slowly over about three seconds. A common mistake is swinging the body and shrugging the traps to lift heavier.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Side_Lateral_Raise",
+        "EMG (recordado, sin verificar): Coratella 2020"
+      ]
+    },
+    {
+      "id": "cable_lateral_raise",
+      "nombre": "Elevaciones laterales en polea",
+      "nombre_en": "Cable lateral raise",
+      "grupo": "shoulders",
+      "equipamiento": "cable",
+      "unilateral": true,
+      "patron_movimiento": "Abducción de hombro",
+      "patron_movimiento_en": "Shoulder abduction",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Colócate de lado a la polea baja y agarra el asa con la mano más alejada, pasándola por delante del cuerpo. Eleva el brazo hacia el lado hasta la altura del hombro con el codo ligeramente flexionado. Baja controlando la tensión del cable. Error típico: girar el torso o tirar con el trapecio.",
+      "descripcion_en": "Stand side-on to a low pulley and take the handle with the far hand, crossing in front of the body. Raise the arm out to the side to shoulder height with a slightly bent elbow. Lower while controlling the cable tension. A common mistake is twisting the torso or pulling with the traps.",
+      "confianza": "baja",
+      "fuentes": [
+        "analogía con db_lateral_raise"
+      ]
+    },
+    {
+      "id": "machine_lateral_raise",
+      "nombre": "Elevaciones laterales en máquina",
+      "nombre_en": "Machine lateral raise",
+      "grupo": "shoulders",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Abducción de hombro",
+      "patron_movimiento_en": "Shoulder abduction",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Ajusta el asiento para que el eje de la máquina coincida con tus hombros y apoya los antebrazos en los cojines. Eleva los brazos hacia los lados hasta la altura del hombro empujando con los codos. Baja despacio sin dejar caer la carga. Error típico: encoger los hombros y apoyarse hacia atrás.",
+      "descripcion_en": "Adjust the seat so the machine pivot lines up with your shoulders and rest the forearms on the pads. Raise the arms out to the sides to shoulder height, driving through the elbows. Lower slowly without dropping the weight. A common mistake is shrugging and leaning back.",
+      "confianza": "baja",
+      "fuentes": [
+        "analogía con db_lateral_raise"
+      ]
+    },
+    {
+      "id": "db_front_raise",
+      "nombre": "Elevaciones frontales con mancuernas",
+      "nombre_en": "Dumbbell front raise",
+      "grupo": "shoulders",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Flexión de hombro",
+      "patron_movimiento_en": "Shoulder flexion",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "De pie con las mancuernas delante de los muslos, eleva un brazo o ambos hacia delante hasta la altura de los ojos con los codos ligeramente flexionados. Mantén el torso firme y sin balanceo. Baja despacio sin dejar caer las mancuernas. Error típico: impulsarte con la espalda y subir por encima de la horizontal.",
+      "descripcion_en": "Standing with the dumbbells in front of your thighs, raise one or both arms forward to about eye level with slightly bent elbows. Keep the torso firm and still. Lower slowly without dropping the dumbbells. A common mistake is swinging with the back and lifting well above horizontal.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Front_Dumbbell_Raise",
+        "EMG (recordado, sin verificar): analogía con press militar"
+      ]
+    },
+    {
+      "id": "cable_front_raise",
+      "nombre": "Elevaciones frontales en polea",
+      "nombre_en": "Cable front raise",
+      "grupo": "shoulders",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Flexión de hombro",
+      "patron_movimiento_en": "Shoulder flexion",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "De espaldas a la polea baja, agarra el asa entre las piernas o a un lado. Eleva el brazo hacia delante hasta la altura de los ojos manteniendo el codo ligeramente flexionado. Baja controlando la tensión continua del cable. Error típico: arquear la espalda para ayudar a subir.",
+      "descripcion_en": "Facing away from a low pulley, grip the handle between or beside the legs. Raise the arm forward to eye level keeping the elbow slightly bent. Lower while controlling the constant cable tension. A common mistake is arching the back to help the lift.",
+      "confianza": "baja",
+      "fuentes": [
+        "analogía con db_front_raise"
+      ]
+    },
+    {
+      "id": "reverse_pec_deck",
+      "nombre": "Pájaros en máquina",
+      "nombre_en": "Reverse pec deck",
+      "grupo": "shoulders",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Abducción horizontal",
+      "patron_movimiento_en": "Horizontal abduction",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "manguito_rotador",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Siéntate de frente al respaldo con el pecho apoyado y los brazos extendidos a la altura de los hombros. Abre los brazos hacia atrás en arco sin flexionar más los codos. Pausa un instante atrás y vuelve controlando. Error típico: tirar con los codos muy atrás usando los dorsales y los trapecios en lugar del deltoides posterior.",
+      "descripcion_en": "Sit facing the pad with the chest supported and arms extended at shoulder height. Sweep the arms back in an arc without bending the elbows further. Pause briefly at the back and return under control. A common mistake is driving the elbows far behind and using lats and traps instead of the rear deltoid.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Reverse_Machine_Flyes",
+        "EMG (recordado, sin verificar): Ogasawara 2018"
+      ]
+    },
+    {
+      "id": "db_rear_fly",
+      "nombre": "Pájaros con mancuernas",
+      "nombre_en": "Dumbbell reverse fly",
+      "grupo": "shoulders",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Abducción horizontal",
+      "patron_movimiento_en": "Horizontal abduction",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "manguito_rotador",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Inclínate hacia delante con la espalda neutra y una mancuerna en cada mano colgando bajo los hombros. Abre los brazos hacia los lados con los codos ligeramente flexionados hasta la altura del torso. Baja despacio sin balancear. Error típico: usar impulso del tronco y juntar las escápulas en exceso.",
+      "descripcion_en": "Hinge forward with a neutral back and a dumbbell in each hand hanging below the shoulders. Raise the arms out to the sides with slightly bent elbows up to torso height. Lower slowly without swinging. A common mistake is using trunk momentum and over-squeezing the shoulder blades.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench",
+        "EMG (recordado, sin verificar): Ogasawara 2018"
+      ]
+    },
+    {
+      "id": "cable_rear_fly",
+      "nombre": "Pájaros en polea",
+      "nombre_en": "Cable reverse fly",
+      "grupo": "shoulders",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Abducción horizontal",
+      "patron_movimiento_en": "Horizontal abduction",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "manguito_rotador",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Frente a la polea alta, agarra con cada mano el cable contrario y cruza los brazos. Abre los brazos en arco hacia los lados hasta la altura del torso con los codos ligeramente flexionados. Vuelve controlando la tensión. Error típico: tirar con los codos hacia atrás convirtiendo el gesto en un remo.",
+      "descripcion_en": "Facing a high pulley, grab the opposite cable in each hand and cross the arms. Sweep the arms out to the sides in an arc to torso level with slightly bent elbows. Return while controlling the tension. A common mistake is pulling the elbows back so the movement becomes a row.",
+      "confianza": "baja",
+      "fuentes": [
+        "analogía con db_rear_fly"
+      ]
+    },
+    {
+      "id": "face_pull",
+      "nombre": "Face pull",
+      "nombre_en": "Face pull",
+      "grupo": "shoulders",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Abducción horizontal + Rotación externa",
+      "patron_movimiento_en": "Horizontal abduction + external rotation",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "manguito_rotador",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "trapecio_inferior",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Ajusta la polea a la altura de la cara y agarra la cuerda con las palmas enfrentadas. Tira hacia la frente separando las manos y rotando los hombros hacia fuera al final. Aprieta atrás un instante y vuelve controlando. Error típico: usar demasiado peso e inclinarte hacia atrás.",
+      "descripcion_en": "Set the pulley at face height and hold the rope with palms facing each other. Pull toward the forehead, splitting the hands apart and externally rotating the shoulders at the end. Squeeze briefly and return under control. A common mistake is using too much weight and leaning back.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Face_Pull",
+        "EMG (recordado, sin verificar): analogía con pájaros"
+      ]
+    },
+    {
+      "id": "upright_row",
+      "nombre": "Remo al mentón",
+      "nombre_en": "Upright row",
+      "grupo": "shoulders",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Tracción vertical al mentón",
+      "patron_movimiento_en": "Vertical pull to the chin",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Agarra la carga con las manos algo más cerca que el ancho de los hombros. Sube tirando de los codos hacia arriba y hacia los lados hasta la altura del pecho, manteniendo el peso cerca del cuerpo. Baja con control. Error típico: subir los codos por encima de los hombros con agarre muy estrecho, lo que carga el hombro.",
+      "descripcion_en": "Grip the load slightly narrower than shoulder width. Pull by driving the elbows up and out to chest height, keeping the weight close to the body. Lower under control. A common mistake is raising the elbows above the shoulders with a very narrow grip, which stresses the shoulder.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Upright_Barbell_Row",
+        "EMG (recordado, sin verificar): analogía con remo al mentón"
+      ]
+    },
+    {
+      "id": "landmine_press",
+      "nombre": "Press landmine",
+      "nombre_en": "Landmine press",
+      "grupo": "shoulders",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Empuje inclinado",
+      "patron_movimiento_en": "Incline push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "Con el extremo de la barra anclado, sujétalo a la altura del hombro con una o dos manos y adopta una postura firme. Empuja la barra hacia arriba y adelante siguiendo su arco hasta extender el brazo. Baja con control sin perder la tensión del abdomen. Error típico: inclinar el tronco hacia atrás en vez de proyectar el hombro hacia delante.",
+      "descripcion_en": "With the bar end anchored, hold it at shoulder height with one or both hands and take a stable stance. Press the bar up and forward along its arc until the arm is extended. Lower under control keeping the abs braced. A common mistake is leaning the torso back instead of reaching the shoulder forward.",
+      "confianza": "baja",
+      "fuentes": [
+        "free-exercise-db: Landmine_Press"
+      ]
+    },
+    {
+      "id": "push_press",
+      "nombre": "Push press",
+      "nombre_en": "Push press",
+      "grupo": "shoulders",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Empuje vertical explosivo",
+      "patron_movimiento_en": "Explosive vertical push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "Con la barra apoyada en la clavícula, flexiona rodillas y caderas un poco manteniendo el torso erguido. Extiende las piernas con fuerza y usa ese impulso para lanzar la barra arriba, terminando con los brazos. Recibe la barra bloqueada sobre la cabeza y bájala con control a la clavícula. Error típico: hacer una sentadilla profunda o empujar la barra hacia delante.",
+      "descripcion_en": "With the bar resting on the collarbone, dip a short distance through knees and hips while keeping the torso upright. Drive the legs hard and use that momentum to launch the bar, finishing with the arms. Receive the bar locked out overhead and lower it under control to the collarbone. A common mistake is dipping too deep or pushing the bar out in front.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Push_Press",
+        "analogía con ohp del lote"
+      ]
+    },
+    {
+      "id": "lean_lateral_raise",
+      "nombre": "Elevación lateral inclinado en polea",
+      "nombre_en": "Leaning cable lateral raise",
+      "grupo": "shoulders",
+      "equipamiento": "cable",
+      "unilateral": true,
+      "patron_movimiento": "Abducción de hombro",
+      "patron_movimiento_en": "Shoulder abduction",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Agárrate a un soporte con una mano y inclínate hacia fuera, sujetando con la otra el asa de la polea baja. Eleva el brazo hacia el lado hasta la altura del hombro. La inclinación alarga el deltoides lateral en la parte baja del recorrido. Error típico: inclinarte tanto que el movimiento se convierta en una elevación frontal.",
+      "descripcion_en": "Hold a support with one hand and lean away, gripping the low-pulley handle with the other. Raise the arm out to the side up to shoulder height. The lean lengthens the lateral deltoid at the bottom of the range. A common mistake is leaning so far that the movement turns into a front raise.",
+      "confianza": "baja",
+      "fuentes": [
+        "analogía con cable_lateral_raise"
+      ]
+    },
+    {
+      "id": "cable_y_raise",
+      "nombre": "Elevación en Y en polea",
+      "nombre_en": "Cable Y-raise",
+      "grupo": "shoulders",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Abducción de hombro",
+      "patron_movimiento_en": "Shoulder abduction",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "trapecio_inferior",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "manguito_rotador",
+          "rol": "secundario",
+          "activacion": 0.35
+        }
+      ],
+      "descripcion": "Frente a una polea baja, agarra las asas con los brazos cruzados delante. Eleva los brazos formando una Y por encima de la cabeza con los pulgares hacia arriba. Controla el descenso. Error típico: arquear la zona lumbar para alcanzar más altura.",
+      "descripcion_en": "Facing a low pulley, hold the handles with the arms crossed in front. Raise the arms into a Y shape overhead with the thumbs up. Control the descent. A common mistake is arching the lower back to reach higher.",
+      "confianza": "baja",
+      "fuentes": [
+        "analogía con db_rear_fly y face_pull"
+      ]
+    },
+    {
+      "id": "band_pull_apart",
+      "nombre": "Apertura con banda",
+      "nombre_en": "Band pull-apart",
+      "grupo": "shoulders",
+      "equipamiento": "other",
+      "unilateral": false,
+      "patron_movimiento": "Abducción horizontal",
+      "patron_movimiento_en": "Horizontal abduction",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "manguito_rotador",
+          "rol": "secundario",
+          "activacion": 0.35
+        }
+      ],
+      "descripcion": "Sujeta una banda con las manos separadas al ancho de los hombros y los brazos extendidos delante a la altura del pecho. Separa las manos llevando los brazos hacia los lados hasta que la banda toque el pecho. Vuelve despacio. Error típico: encoger los hombros y arquear la espalda.",
+      "descripcion_en": "Hold a band with hands shoulder-width apart and arms extended in front at chest height. Pull the hands apart, taking the arms out to the sides until the band touches the chest. Return slowly. A common mistake is shrugging and arching the back.",
+      "confianza": "baja",
+      "fuentes": [
+        "analogía con db_rear_fly"
+      ]
+    },
+    {
+      "id": "seated_barbell_press",
+      "nombre": "Press militar sentado con barra",
+      "nombre_en": "Seated barbell shoulder press",
+      "grupo": "shoulders",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Empuje vertical",
+      "patron_movimiento_en": "Vertical push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.4
+        }
+      ],
+      "descripcion": "Siéntate con la espalda apoyada y agarra la barra algo más ancha que los hombros. Baja la barra hasta la clavícula o la barbilla con los codos ligeramente adelantados. Empuja hasta extender los codos sin arquear la zona lumbar. Error típico: despegar los glúteos del asiento o lanzar la cabeza hacia delante al subir.",
+      "descripcion_en": "Sit with your back supported and grip the bar slightly wider than the shoulders. Lower the bar to the collarbone or chin with the elbows slightly forward. Press until the elbows are extended without arching the lower back. A common mistake is lifting the hips off the seat or thrusting the head forward on the way up.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Seated_Barbell_Military_Press",
+        "EMG (recordado, sin verificar): Saeterbakken 2011"
+      ]
+    },
+    {
+      "id": "cable_shoulder_press",
+      "nombre": "Press de hombros en polea",
+      "nombre_en": "Cable shoulder press",
+      "grupo": "shoulders",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Empuje vertical",
+      "patron_movimiento_en": "Vertical push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.35
+        }
+      ],
+      "descripcion": "Sentado entre las poleas bajas, sujeta un agarre en cada mano a la altura de los hombros. Empuja hacia arriba y ligeramente hacia dentro hasta extender los brazos. Baja de forma controlada manteniendo la tensión del cable. Error típico: dejar que los cables tiren de los hombros hacia delante al bajar.",
+      "descripcion_en": "Seated between the low pulleys, hold a handle in each hand at shoulder height. Press up and slightly inward until the arms are extended. Lower under control, keeping tension on the cables. A common mistake is letting the cables pull the shoulders forward at the bottom.",
+      "confianza": "baja",
+      "fuentes": [
+        "analogía con db_shoulder_press"
+      ]
+    },
+    {
+      "id": "standing_db_press",
+      "nombre": "Press de hombros de pie con mancuernas",
+      "nombre_en": "Standing dumbbell shoulder press",
+      "grupo": "shoulders",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Empuje vertical",
+      "patron_movimiento_en": "Vertical push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "De pie con los pies al ancho de caderas, sostén las mancuernas a la altura de los hombros. Aprieta glúteos y abdomen y empuja hacia arriba hasta extender los codos. Baja con control sin inclinar el torso hacia atrás. Error típico: usar las piernas y la espalda para ayudarte a subir.",
+      "descripcion_en": "Standing with feet hip-width apart, hold the dumbbells at shoulder height. Brace glutes and abs and press up until the elbows are extended. Lower under control without leaning back. A common mistake is using the legs and lower back to help the lift.",
+      "confianza": "baja",
+      "fuentes": [
+        "analogía con db_shoulder_press"
+      ]
+    },
+    {
+      "id": "one_arm_shoulder_press",
+      "nombre": "Press de hombros con una mancuerna",
+      "nombre_en": "One-arm dumbbell shoulder press",
+      "grupo": "shoulders",
+      "equipamiento": "dumbbell",
+      "unilateral": true,
+      "patron_movimiento": "Empuje vertical",
+      "patron_movimiento_en": "Vertical push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "estabilizador",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "Sostén una mancuerna a la altura del hombro con el antebrazo vertical y la otra mano libre. Empuja hasta extender el codo sin inclinar el tronco hacia el lado contrario. Baja controlando el peso hasta el hombro. Error típico: flexionar lateralmente la columna para ganar recorrido.",
+      "descripcion_en": "Hold one dumbbell at shoulder height with the forearm vertical, free hand relaxed. Press until the elbow is extended without leaning the trunk to the opposite side. Lower the weight under control back to the shoulder. A common mistake is bending the spine sideways to gain range.",
+      "confianza": "baja",
+      "fuentes": [
+        "analogía con db_shoulder_press",
+        "core: analogía"
+      ]
+    },
+    {
+      "id": "plate_front_raise",
+      "nombre": "Elevaciones frontales con disco",
+      "nombre_en": "Plate front raise",
+      "grupo": "shoulders",
+      "equipamiento": "other",
+      "unilateral": false,
+      "patron_movimiento": "Flexión de hombro",
+      "patron_movimiento_en": "Shoulder flexion",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Sujeta un disco con ambas manos a las posiciones de las tres y las nueve, con los brazos extendidos delante de los muslos. Eleva el disco hasta la altura de los ojos con los codos casi rectos. Baja de forma controlada. Error típico: balancear el tronco hacia atrás para subir el disco.",
+      "descripcion_en": "Hold a plate with both hands at the three and nine oclock positions with the arms extended in front of the thighs. Raise the plate to eye level with nearly straight elbows. Lower under control. A common mistake is rocking the trunk backward to swing the plate up.",
+      "confianza": "baja",
+      "fuentes": [
+        "analogía con db_front_raise"
+      ]
+    },
+    {
+      "id": "one_arm_lateral_raise",
+      "nombre": "Elevación lateral a una mano",
+      "nombre_en": "One-arm lateral raise",
+      "grupo": "shoulders",
+      "equipamiento": "dumbbell",
+      "unilateral": true,
+      "patron_movimiento": "Abducción de hombro",
+      "patron_movimiento_en": "Shoulder abduction",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Sujeta una mancuerna con una mano y, si quieres, apóyate con la otra en un soporte. Eleva el brazo hacia el lado hasta la altura del hombro con el codo ligeramente flexionado. Baja con control sin balancear el cuerpo. Error típico: subir con el trapecio y el impulso del tronco en lugar de con el deltoides.",
+      "descripcion_en": "Hold a dumbbell in one hand and, if you like, steady yourself on a support with the other. Raise the arm out to the side to shoulder height with a slightly bent elbow. Lower under control without rocking the body. A common mistake is lifting with the traps and trunk momentum instead of the deltoid.",
+      "confianza": "baja",
+      "fuentes": [
+        "analogía con db_lateral_raise"
+      ]
+    },
+    {
+      "id": "seated_lateral_raise",
+      "nombre": "Elevaciones laterales sentado",
+      "nombre_en": "Seated lateral raise",
+      "grupo": "shoulders",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Abducción de hombro",
+      "patron_movimiento_en": "Shoulder abduction",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Siéntate en un banco con el torso recto y una mancuerna en cada mano. Eleva los brazos hacia los lados hasta la altura de los hombros con los codos ligeramente flexionados. Al estar sentado no puedes ayudarte con las piernas. Error típico: inclinarte hacia atrás para lanzar las mancuernas.",
+      "descripcion_en": "Sit on a bench with an upright torso and a dumbbell in each hand. Raise the arms out to the sides to shoulder height with slightly bent elbows. Sitting removes any help from the legs. A common mistake is leaning back to throw the dumbbells up.",
+      "confianza": "baja",
+      "fuentes": [
+        "analogía con db_lateral_raise"
+      ]
+    },
+    {
+      "id": "seated_rear_delt_raise",
+      "nombre": "Pájaros sentado inclinado",
+      "nombre_en": "Seated bent-over rear delt raise",
+      "grupo": "shoulders",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Abducción horizontal",
+      "patron_movimiento_en": "Horizontal abduction",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "manguito_rotador",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Siéntate al borde de un banco e inclínate hasta apoyar el pecho cerca de los muslos con las mancuernas colgando. Eleva los brazos hacia los lados hasta la altura del torso con los codos ligeramente flexionados. Baja sin rebotar. Error típico: levantar el torso para ayudarte con el impulso.",
+      "descripcion_en": "Sit at the edge of a bench and lean forward until the chest is near the thighs with the dumbbells hanging. Raise the arms out to the sides to torso height with slightly bent elbows. Lower without bouncing. A common mistake is lifting the torso to add momentum.",
+      "confianza": "baja",
+      "fuentes": [
+        "analogía con db_rear_fly"
+      ]
+    },
+    {
+      "id": "cable_rope_rear_row",
+      "nombre": "Remo a la cara con cuerda en polea",
+      "nombre_en": "Cable rope rear-delt row",
+      "grupo": "shoulders",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Abducción horizontal + Rotación externa",
+      "patron_movimiento_en": "Horizontal abduction + external rotation",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "manguito_rotador",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.25
+        },
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Con la polea a la altura del pecho, agarra la cuerda y retrocede con los brazos extendidos. Tira de la cuerda hacia la cara con los codos altos y separados, abriendo las manos al final. Vuelve de forma lenta. Error típico: bajar los codos y convertir el movimiento en un remo para dorsales.",
+      "descripcion_en": "With the pulley at chest height, hold the rope and step back with the arms extended. Pull the rope toward the face with high, wide elbows, splitting the hands at the end. Return slowly. A common mistake is dropping the elbows and turning it into a lat-focused row.",
+      "confianza": "baja",
+      "fuentes": [
+        "analogía con face_pull"
+      ]
+    },
+    {
+      "id": "db_scaption",
+      "nombre": "Elevación en escaución con mancuernas",
+      "nombre_en": "Dumbbell scaption",
+      "grupo": "shoulders",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Flexión de hombro",
+      "patron_movimiento_en": "Shoulder flexion",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "manguito_rotador",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "trapecio_inferior",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "De pie con una mancuerna en cada mano, eleva los brazos en el plano de la escápula, unos 30 grados por delante del plano lateral. Sube hasta la altura de los hombros con los pulgares algo hacia arriba. Baja despacio. Error típico: encoger los hombros y subir por encima de la horizontal.",
+      "descripcion_en": "Standing with a dumbbell in each hand, raise the arms in the scapular plane, about 30 degrees in front of the side plane. Lift to shoulder height with the thumbs slightly up. Lower slowly. A common mistake is shrugging and lifting above horizontal.",
+      "confianza": "baja",
+      "fuentes": [
+        "analogía con db_front_raise y db_lateral_raise"
+      ]
+    },
+    {
+      "id": "upright_cable_row",
+      "nombre": "Remo al mentón en polea",
+      "nombre_en": "Upright cable row",
+      "grupo": "shoulders",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Tracción vertical al mentón",
+      "patron_movimiento_en": "Vertical pull to the chin",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Agarra la carga con las manos algo más cerca que el ancho de los hombros. Sube tirando de los codos hacia arriba y hacia los lados hasta la altura del pecho, manteniendo el peso cerca del cuerpo. Baja con control. Error típico: subir los codos por encima de los hombros con agarre muy estrecho, lo que carga el hombro.",
+      "descripcion_en": "Grip the load slightly narrower than shoulder width. Pull by driving the elbows up and out to chest height, keeping the weight close to the body. Lower under control. A common mistake is raising the elbows above the shoulders with a very narrow grip, which stresses the shoulder.",
+      "confianza": "baja",
+      "fuentes": [
+        "analogía con upright_row"
+      ]
+    },
+    {
+      "id": "db_upright_row",
+      "nombre": "Remo al mentón con mancuernas",
+      "nombre_en": "Dumbbell upright row",
+      "grupo": "shoulders",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Tracción vertical al mentón",
+      "patron_movimiento_en": "Vertical pull to the chin",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "deltoides_lateral",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Agarra la carga con las manos algo más cerca que el ancho de los hombros. Sube tirando de los codos hacia arriba y hacia los lados hasta la altura del pecho, manteniendo el peso cerca del cuerpo. Baja con control. Error típico: subir los codos por encima de los hombros con agarre muy estrecho, lo que carga el hombro.",
+      "descripcion_en": "Grip the load slightly narrower than shoulder width. Pull by driving the elbows up and out to chest height, keeping the weight close to the body. Lower under control. A common mistake is raising the elbows above the shoulders with a very narrow grip, which stresses the shoulder.",
+      "confianza": "baja",
+      "fuentes": [
+        "analogía con upright_row"
+      ]
+    }
+  ]
+}

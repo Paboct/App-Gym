@@ -1,0 +1,823 @@
+{
+  "version": "1.0.0",
+  "ejercicios": [
+    {
+      "id": "crunch",
+      "nombre": "Crunch abdominal",
+      "nombre_en": "Crunch",
+      "grupo": "core",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Flexión de columna",
+      "patron_movimiento_en": "Spinal flexion",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "secundario",
+          "activacion": 0.5
+        }
+      ],
+      "descripcion": "Túmbate boca arriba con rodillas flexionadas y las manos junto a las sienes. Enrolla el tronco elevando solo los omóplatos y las costillas hacia la pelvis, y baja con control sin relajar el abdomen. Error típico: tirar del cuello con las manos o incorporarte demasiado, lo que pasa el trabajo a los flexores de cadera.",
+      "descripcion_en": "Lie on your back with knees bent and hands beside your temples. Curl your torso up by lifting only the shoulder blades and ribs toward the pelvis, then lower under control without letting the abs relax. A typical mistake is pulling on the neck or sitting up too far, which shifts the work to the hip flexors.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Crunch - Hands Overhead",
+        "EMG (recordado, sin verificar): Escamilla 2006 (crunch, recto abdominal)"
+      ]
+    },
+    {
+      "id": "cable_crunch",
+      "nombre": "Crunch en polea",
+      "nombre_en": "Cable crunch",
+      "grupo": "core",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Flexión de columna",
+      "patron_movimiento_en": "Spinal flexion",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "secundario",
+          "activacion": 0.55
+        }
+      ],
+      "descripcion": "Arrodíllate frente a la polea alta y sujeta la cuerda junto a la cabeza. Con la cadera fija, enrolla la columna llevando los codos hacia los muslos y vuelve estirando el abdomen. Error típico: bajar solo inclinando la cadera y tirando con los brazos, en lugar de flexionar la columna.",
+      "descripcion_en": "Kneel facing the high cable and hold the rope beside your head. With the hips fixed, round your spine bringing the elbows toward the thighs, then return by lengthening the abs. A typical mistake is hinging at the hips and pulling with the arms instead of flexing the spine.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Cable Crunch",
+        "analogía con core_002 de Gemini"
+      ]
+    },
+    {
+      "id": "machine_crunch",
+      "nombre": "Crunch en máquina",
+      "nombre_en": "Machine crunch",
+      "grupo": "core",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Flexión de columna",
+      "patron_movimiento_en": "Spinal flexion",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "secundario",
+          "activacion": 0.5
+        }
+      ],
+      "descripcion": "Ajusta el asiento y las almohadillas para que el eje de giro quede a la altura del abdomen. Agarra las asas y flexiona el tronco hacia delante acercando costillas y pelvis, y regresa de forma controlada sin dejar caer la pila. Error típico: empujar con las piernas o los brazos en vez de contraer el abdomen.",
+      "descripcion_en": "Adjust the seat and pads so the pivot lines up with your abdomen. Grip the handles and flex the trunk forward bringing ribs and pelvis together, then return under control without dropping the stack. A typical mistake is pushing with the legs or arms instead of contracting the abs.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Ab Crunch Machine",
+        "analogía con crunch en polea"
+      ]
+    },
+    {
+      "id": "hanging_leg_raise",
+      "nombre": "Elevación de piernas colgado",
+      "nombre_en": "Hanging leg raise",
+      "grupo": "core",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Flexión de columna / Retroversión pélvica",
+      "patron_movimiento_en": "Spinal flexion / Posterior pelvic tilt",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.35
+        }
+      ],
+      "descripcion": "Cuélgate de la barra con agarre firme y el cuerpo quieto. Eleva las piernas y enrolla la pelvis hacia arriba al final del recorrido para implicar el abdomen, y baja despacio. Error típico: balancearte con impulso y mover solo las piernas sin retroversión pélvica.",
+      "descripcion_en": "Hang from the bar with a firm grip and a still body. Raise the legs and curl the pelvis upward at the top to involve the abs, then lower slowly. A typical mistake is swinging with momentum and moving only the legs without a posterior pelvic tilt.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Hanging Leg Raise",
+        "analogía con core_003 de Gemini"
+      ]
+    },
+    {
+      "id": "lying_leg_raise",
+      "nombre": "Elevación de piernas tumbado",
+      "nombre_en": "Lying leg raise",
+      "grupo": "core",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Flexión de columna / Retroversión pélvica",
+      "patron_movimiento_en": "Spinal flexion / Posterior pelvic tilt",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "transverso_abdomen",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Túmbate boca arriba con la zona lumbar pegada al suelo y las piernas juntas. Eleva las piernas hasta la vertical y baja sin llegar a tocar el suelo, manteniendo la pelvis ligeramente enrollada. Error típico: dejar que la espalda baja se arquee al descender, lo que sobrecarga la lumbar.",
+      "descripcion_en": "Lie on your back with the lower back pressed into the floor and legs together. Raise the legs to vertical and lower them without touching the floor, keeping the pelvis slightly tucked. A typical mistake is letting the lower back arch as the legs descend, which overloads the lumbar spine.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Flat Bench Lying Leg Raise",
+        "analogía con elevación de piernas colgado"
+      ]
+    },
+    {
+      "id": "plank",
+      "nombre": "Plancha",
+      "nombre_en": "Plank",
+      "grupo": "core",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Anti-extensión",
+      "patron_movimiento_en": "Anti-extension",
+      "mecanica": "Isométrico",
+      "musculos": [
+        {
+          "musculo_id": "transverso_abdomen",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "estabilizador",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "estabilizador",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Apoya antebrazos y puntas de los pies formando una línea recta de cabeza a talones. Contrae abdomen y glúteos para mantener la pelvis neutra y respira de forma controlada. Error típico: dejar caer la cadera o elevarla demasiado, perdiendo la tensión abdominal.",
+      "descripcion_en": "Rest on your forearms and toes in a straight line from head to heels. Brace the abs and glutes to keep the pelvis neutral and breathe steadily. A typical mistake is letting the hips sag or pike up, losing abdominal tension.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Plank",
+        "analogía con core_001 de Gemini"
+      ]
+    },
+    {
+      "id": "side_plank",
+      "nombre": "Plancha lateral",
+      "nombre_en": "Side plank",
+      "grupo": "core",
+      "equipamiento": "bodyweight",
+      "unilateral": true,
+      "patron_movimiento": "Anti-flexión lateral",
+      "patron_movimiento_en": "Anti-lateral flexion",
+      "mecanica": "Isométrico",
+      "musculos": [
+        {
+          "musculo_id": "oblicuos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "transverso_abdomen",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Apóyate sobre un antebrazo con el codo bajo el hombro y los pies apilados. Eleva la cadera hasta alinear cabeza, tronco y piernas, y mantén la posición sin rotar. Error típico: dejar que la cadera caiga o que el tronco gire hacia delante.",
+      "descripcion_en": "Rest on one forearm with the elbow under the shoulder and feet stacked. Lift the hips until head, trunk and legs form a line, and hold without rotating. A typical mistake is letting the hips drop or the torso roll forward.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Side Bridge",
+        "EMG (recordado, sin verificar): McGill 2006 (plancha lateral, oblicuos)"
+      ]
+    },
+    {
+      "id": "ab_wheel",
+      "nombre": "Rueda abdominal",
+      "nombre_en": "Ab wheel rollout",
+      "grupo": "core",
+      "equipamiento": "other",
+      "unilateral": false,
+      "patron_movimiento": "Anti-extensión",
+      "patron_movimiento_en": "Anti-extension",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "transverso_abdomen",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        }
+      ],
+      "descripcion": "Arrodíllate con las manos en la rueda y la pelvis ligeramente enrollada. Rueda hacia delante extendiendo el cuerpo hasta donde controles la lumbar y vuelve contrayendo el abdomen. Error típico: dejar que la zona lumbar se hunda al estirarte, sobrecargándola.",
+      "descripcion_en": "Kneel with your hands on the wheel and the pelvis slightly tucked. Roll forward extending the body as far as you can control the lower back, then return by contracting the abs. A typical mistake is letting the lower back sag as you extend, overloading it.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Ab Roller",
+        "EMG (recordado, sin verificar): Escamilla 2006 (rueda abdominal, recto abdominal)"
+      ]
+    },
+    {
+      "id": "russian_twist",
+      "nombre": "Giro ruso",
+      "nombre_en": "Russian twist",
+      "grupo": "core",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Rotación de tronco",
+      "patron_movimiento_en": "Trunk rotation",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "oblicuos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "transverso_abdomen",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Siéntate con el tronco inclinado hacia atrás y los pies apoyados o elevados. Gira el torso de lado a lado llevando las manos junto a cada cadera, manteniendo la columna alargada. Error típico: mover solo los brazos sin rotar las costillas.",
+      "descripcion_en": "Sit leaning back with your feet on the floor or raised. Rotate the torso from side to side bringing the hands beside each hip while keeping the spine long. A typical mistake is swinging only the arms without rotating the ribcage.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Russian Twist",
+        "analogía con giro ruso en polea"
+      ]
+    },
+    {
+      "id": "cable_woodchop",
+      "nombre": "Leñador en polea",
+      "nombre_en": "Cable woodchop",
+      "grupo": "core",
+      "equipamiento": "cable",
+      "unilateral": true,
+      "patron_movimiento": "Rotación de tronco",
+      "patron_movimiento_en": "Trunk rotation",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "oblicuos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "transverso_abdomen",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Colócate de lado a la polea y agarra el asa con ambas manos. Tira en diagonal rotando el torso y pivotando sobre el pie, con los brazos casi extendidos, y regresa con control. Error típico: tirar solo con los brazos sin girar el tronco.",
+      "descripcion_en": "Stand sideways to the cable and grip the handle with both hands. Pull diagonally rotating the torso and pivoting on the foot with the arms nearly straight, then return under control. A typical mistake is pulling with the arms alone without turning the trunk.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Standing Cable Wood Chop",
+        "analogía con press Pallof"
+      ]
+    },
+    {
+      "id": "captains_chair_raise",
+      "nombre": "Elevación de rodillas en silla romana",
+      "nombre_en": "Captain's chair leg raise",
+      "grupo": "core",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Flexión de columna / Retroversión pélvica",
+      "patron_movimiento_en": "Spinal flexion / Posterior pelvic tilt",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "principal",
+          "activacion": 0.95
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "Apoya los antebrazos en las almohadillas y la espalda contra el respaldo. Eleva las rodillas hacia el pecho enrollando la pelvis y baja sin balancearte. Error típico: usar impulso y no llegar a la retroversión pélvica.",
+      "descripcion_en": "Rest your forearms on the pads and your back against the backrest. Raise the knees toward the chest curling the pelvis, then lower without swinging. A typical mistake is using momentum and not reaching the posterior pelvic tilt.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Knee/Hip Raise On Parallel Bars",
+        "EMG (recordado, sin verificar): Escamilla 2006 (silla romana, recto abdominal)"
+      ]
+    },
+    {
+      "id": "decline_crunch",
+      "nombre": "Crunch declinado",
+      "nombre_en": "Decline crunch",
+      "grupo": "core",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Flexión de columna",
+      "patron_movimiento_en": "Spinal flexion",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Fija los pies en un banco declinado con las manos cruzadas sobre el pecho. Enrolla el tronco hasta separar los omóplatos del banco y baja con control. Error típico: incorporarte del todo y tirar con los flexores de cadera.",
+      "descripcion_en": "Secure your feet on a decline bench with hands crossed over the chest. Curl the torso until the shoulder blades leave the bench, then lower under control. A typical mistake is sitting all the way up and pulling with the hip flexors.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Decline Crunch"
+      ]
+    },
+    {
+      "id": "pallof_press",
+      "nombre": "Press Pallof",
+      "nombre_en": "Pallof press",
+      "grupo": "core",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Anti-rotación",
+      "patron_movimiento_en": "Anti-rotation",
+      "mecanica": "Isométrico",
+      "musculos": [
+        {
+          "musculo_id": "oblicuos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "transverso_abdomen",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "estabilizador",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Colócate de lado a la polea a la altura del esternón con el asa pegada al pecho. Empuja las manos al frente hasta extender los brazos resistiendo que el cable gire el torso, y vuelve despacio. Error típico: rotar el tronco hacia la polea al estirar los brazos.",
+      "descripcion_en": "Stand sideways to the cable at sternum height with the handle at your chest. Press the hands forward until the arms are straight while resisting the cable rotating your torso, then return slowly. A typical mistake is rotating the trunk toward the cable as the arms extend.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Pallof Press",
+        "analogía con core_004 de Gemini"
+      ]
+    },
+    {
+      "id": "sit_up",
+      "nombre": "Abdominales (sit-up)",
+      "nombre_en": "Sit-up",
+      "grupo": "core",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Flexión de columna",
+      "patron_movimiento_en": "Spinal flexion",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "principal",
+          "activacion": 0.95
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "secundario",
+          "activacion": 0.5
+        }
+      ],
+      "descripcion": "Túmbate con rodillas flexionadas y pies apoyados, brazos cruzados sobre el pecho. Incorpórate enrollando el tronco hasta quedar sentado y baja controlando el descenso. Error típico: tirar del cuello o usar impulso en lugar de contraer el abdomen.",
+      "descripcion_en": "Lie with knees bent and feet planted, arms crossed over the chest. Sit up by curling the torso until upright, then lower with control. A typical mistake is pulling on the neck or using momentum instead of contracting the abs.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Sit-Up",
+        "EMG (recordado, sin verificar): Escamilla 2006 (sit-up y crunch)"
+      ]
+    },
+    {
+      "id": "reverse_crunch",
+      "nombre": "Crunch inverso",
+      "nombre_en": "Reverse crunch",
+      "grupo": "core",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Flexión de columna / Retroversión pélvica",
+      "patron_movimiento_en": "Spinal flexion / Posterior pelvic tilt",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "transverso_abdomen",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Túmbate boca arriba con caderas y rodillas flexionadas a 90 grados. Eleva la pelvis del suelo llevando las rodillas hacia el pecho y baja despacio. Error típico: balancear las piernas con impulso sin elevar la pelvis.",
+      "descripcion_en": "Lie on your back with hips and knees bent at 90 degrees. Lift the pelvis off the floor bringing the knees toward the chest, then lower slowly. A typical mistake is swinging the legs with momentum without lifting the pelvis.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Reverse Crunch"
+      ]
+    },
+    {
+      "id": "dead_bug",
+      "nombre": "Bicho muerto",
+      "nombre_en": "Dead bug",
+      "grupo": "core",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Anti-extensión",
+      "patron_movimiento_en": "Anti-extension",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "transverso_abdomen",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "principal",
+          "activacion": 0.8
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Túmbate con brazos extendidos hacia el techo y caderas y rodillas a 90 grados, lumbar pegada al suelo. Baja a la vez un brazo y la pierna contraria sin perder el contacto lumbar y alterna. Error típico: arquear la zona lumbar al extender las extremidades.",
+      "descripcion_en": "Lie with arms extended toward the ceiling and hips and knees at 90 degrees, lower back on the floor. Lower one arm and the opposite leg together without losing lumbar contact, then alternate. A typical mistake is arching the lower back as the limbs extend.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Dead Bug",
+        "analogía con plancha"
+      ]
+    },
+    {
+      "id": "hanging_pike",
+      "nombre": "Elevación de piernas en pica colgado",
+      "nombre_en": "Hanging pike",
+      "grupo": "core",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Flexión de columna / Retroversión pélvica",
+      "patron_movimiento_en": "Spinal flexion / Posterior pelvic tilt",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.35
+        }
+      ],
+      "descripcion": "Cuélgate de la barra y eleva las piernas rectas hasta tocarla o acercarte lo máximo posible, doblando la cadera en pica. Baja controlando sin balanceo. Error típico: perder la tensión abdominal y dejar caer las piernas de golpe.",
+      "descripcion_en": "Hang from the bar and raise straight legs toward it, folding at the hips into a pike as far as possible. Lower under control without swinging. A typical mistake is losing abdominal tension and dropping the legs suddenly.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Hanging Pike",
+        "analogía con elevación de piernas colgado"
+      ]
+    },
+    {
+      "id": "oblique_crunch",
+      "nombre": "Crunch oblicuo",
+      "nombre_en": "Oblique crunch",
+      "grupo": "core",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Flexión lateral / Rotación",
+      "patron_movimiento_en": "Lateral flexion / Rotation",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "oblicuos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "transverso_abdomen",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Túmbate con rodillas flexionadas y una mano tras la cabeza. Eleva el hombro hacia la cadera contraria rotando el tronco y baja con control. Error típico: tirar de la cabeza con la mano en lugar de rotar con el abdomen.",
+      "descripcion_en": "Lie with knees bent and one hand behind the head. Lift the shoulder toward the opposite hip rotating the trunk, then lower under control. A typical mistake is pulling the head with the hand instead of rotating with the abs.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Oblique Crunches",
+        "EMG (recordado, sin verificar): Escamilla 2006 (crunch oblicuo)"
+      ]
+    },
+    {
+      "id": "db_side_bend",
+      "nombre": "Inclinación lateral con mancuerna",
+      "nombre_en": "Dumbbell side bend",
+      "grupo": "core",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Flexión lateral",
+      "patron_movimiento_en": "Lateral flexion",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "oblicuos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "De pie con una mancuerna en una mano, inclina el tronco hacia ese lado y vuelve a la vertical contrayendo el oblicuo contrario. Mantén las caderas quietas y el movimiento en el plano frontal. Error típico: usar demasiado peso y balancear el cuerpo.",
+      "descripcion_en": "Stand holding a dumbbell in one hand, lean the trunk toward that side and return to upright by contracting the opposite oblique. Keep the hips still and the movement in the frontal plane. A typical mistake is using too much weight and swaying the body.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Dumbbell Side Bend",
+        "EMG (recordado, sin verificar): McGill 2006 (flexión lateral, oblicuos)"
+      ]
+    },
+    {
+      "id": "cable_russian_twist",
+      "nombre": "Giro ruso en polea",
+      "nombre_en": "Cable Russian twist",
+      "grupo": "core",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Rotación de tronco",
+      "patron_movimiento_en": "Trunk rotation",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "oblicuos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "transverso_abdomen",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Siéntate de lado a la polea con el asa a la altura del pecho y los pies firmes. Gira el torso alejándote de la polea manteniendo los brazos casi rectos y vuelve controlando el retorno. Error típico: mover solo los brazos o dejar que la polea tire de ti.",
+      "descripcion_en": "Sit sideways to the cable with the handle at chest height and feet planted. Rotate the torso away from the cable keeping the arms nearly straight, then control the return. A typical mistake is moving only the arms or letting the cable pull you around.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Cable Russian Twists",
+        "analogía con giro ruso"
+      ]
+    },
+    {
+      "id": "rope_crunch",
+      "nombre": "Crunch con cuerda en polea de pie",
+      "nombre_en": "Standing rope crunch",
+      "grupo": "core",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Flexión de columna",
+      "patron_movimiento_en": "Spinal flexion",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "transverso_abdomen",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "De pie frente a la polea alta, sujeta la cuerda junto a la cabeza e inclina ligeramente el tronco. Enrolla la columna llevando los codos hacia las rodillas y vuelve estirando el abdomen. Error típico: tirar con los brazos o doblar solo la cadera.",
+      "descripcion_en": "Stand facing the high cable, hold the rope beside your head and lean the trunk slightly forward. Round the spine bringing the elbows toward the knees, then return by lengthening the abs. A typical mistake is pulling with the arms or bending only at the hips.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Rope Crunch",
+        "analogía con crunch en polea"
+      ]
+    }
+  ]
+}

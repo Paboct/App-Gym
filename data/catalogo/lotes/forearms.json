@@ -1,0 +1,310 @@
+{
+  "version": "1.0.0",
+  "ejercicios": [
+    {
+      "id": "wrist_curl",
+      "nombre": "Curl de muñeca",
+      "nombre_en": "Wrist curl",
+      "grupo": "forearms",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Flexión de muñeca",
+      "patron_movimiento_en": "Wrist flexion",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "principal",
+          "activacion": 0.95
+        },
+        {
+          "musculo_id": "extensores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        },
+        {
+          "musculo_id": "braquiorradial",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        }
+      ],
+      "descripcion": "Siéntate con los antebrazos apoyados en un banco o en los muslos y la barra en supino con las muñecas fuera del apoyo. Deja rodar la barra hasta los dedos y vuelve a subirla flexionando las muñecas. Controla el recorrido completo. Error típico: levantar los antebrazos del apoyo.",
+      "descripcion_en": "Sit with your forearms resting on a bench or thighs, holding the bar underhand with the wrists past the edge. Let the bar roll to your fingers and curl it back up by flexing the wrists. Control the full range. Common mistake: lifting the forearms off the support.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Seated_Palm-Up_Barbell_Wrist_Curl",
+        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+      ]
+    },
+    {
+      "id": "reverse_wrist_curl",
+      "nombre": "Curl de muñeca inverso",
+      "nombre_en": "Reverse wrist curl",
+      "grupo": "forearms",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de muñeca",
+      "patron_movimiento_en": "Wrist extension",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "extensores_antebrazo",
+          "rol": "principal",
+          "activacion": 0.95
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        },
+        {
+          "musculo_id": "braquiorradial",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "Apoya los antebrazos con las palmas hacia abajo y la barra en pronación, con las muñecas fuera del borde. Baja la barra flexionando las muñecas y súbela extendiéndolas. Usa poco peso porque los extensores son pequeños. Error típico: balancear los antebrazos.",
+      "descripcion_en": "Rest your forearms palms down holding the bar overhand, wrists past the edge. Lower the bar by flexing the wrists and raise it by extending them. Use light weight since the extensors are small. Common mistake: swinging the forearms.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Seated_Palms-Down_Barbell_Wrist_Curl",
+        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+      ]
+    },
+    {
+      "id": "reverse_curl",
+      "nombre": "Curl inverso",
+      "nombre_en": "Reverse curl",
+      "grupo": "forearms",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Flexión de codo",
+      "patron_movimiento_en": "Elbow flexion",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "braquiorradial",
+          "rol": "principal",
+          "activacion": 0.95
+        },
+        {
+          "musculo_id": "braquial_anterior",
+          "rol": "principal",
+          "activacion": 0.8
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "extensores_antebrazo",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "Agarra la barra en pronación, con las palmas hacia abajo, y los codos pegados. Flexiona los codos subiendo la barra sin doblar las muñecas. Baja despacio hasta extender. Error típico: dejar caer las muñecas y usar impulso del cuerpo.",
+      "descripcion_en": "Hold the bar with an overhand grip, palms down, elbows close to your sides. Bend the elbows to raise the bar without bending the wrists. Lower slowly to full extension. Common mistake: letting the wrists drop and using body momentum.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Reverse_Barbell_Curl",
+        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+      ]
+    },
+    {
+      "id": "farmer_walk",
+      "nombre": "Paseo del granjero",
+      "nombre_en": "Farmer's walk",
+      "grupo": "forearms",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Acarreo con carga",
+      "patron_movimiento_en": "Loaded carry",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "extensores_antebrazo",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "estabilizador",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "estabilizador",
+          "activacion": 0.35
+        }
+      ],
+      "descripcion": "Coge una mancuerna pesada en cada mano y camina erguido con los hombros atrás y abajo. Da pasos cortos y firmes sin inclinar el tronco. El agarre y el core soportan la carga. Error típico: encorvarse o encoger los hombros hacia las orejas.",
+      "descripcion_en": "Pick up a heavy dumbbell in each hand and walk upright with the shoulders back and down. Take short, firm steps without leaning the trunk. The grip and core hold the load. Common mistake: slouching or shrugging the shoulders toward the ears.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Farmers_Walk",
+        "analogía: acarreos de carga; sin verificar con literatura"
+      ]
+    },
+    {
+      "id": "plate_pinch",
+      "nombre": "Pinza con disco",
+      "nombre_en": "Plate pinch",
+      "grupo": "forearms",
+      "equipamiento": "other",
+      "unilateral": false,
+      "patron_movimiento": "Agarre isométrico",
+      "patron_movimiento_en": "Isometric grip",
+      "mecanica": "Isométrico",
+      "musculos": [
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "extensores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "braquiorradial",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        }
+      ],
+      "descripcion": "Coge dos discos lisos juntos con los dedos y el pulgar, con las caras lisas hacia fuera. Mantén el agarre sin soltar durante el tiempo marcado, con el brazo relajado a un lado. Aprieta como si quisieras juntar los discos. Error típico: usar discos demasiado pesados y soltar antes de tiempo.",
+      "descripcion_en": "Pinch two smooth plates together with your fingers and thumb, smooth sides facing out. Hold the grip without dropping for the target time with the arm relaxed at your side. Squeeze as if trying to press the plates together. Common mistake: using plates too heavy and letting go early.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Plate_Pinch",
+        "analogía: ejercicios de agarre isométrico"
+      ]
+    },
+    {
+      "id": "seated_wrist_curl",
+      "nombre": "Curl de muñeca sentado con mancuernas",
+      "nombre_en": "Seated dumbbell wrist curl",
+      "grupo": "forearms",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Flexión de muñeca",
+      "patron_movimiento_en": "Wrist flexion",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "principal",
+          "activacion": 0.95
+        },
+        {
+          "musculo_id": "extensores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        },
+        {
+          "musculo_id": "braquiorradial",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        }
+      ],
+      "descripcion": "Sentado, apoya el antebrazo sobre el muslo o el banco con la palma hacia arriba y una mancuerna en la mano. Deja caer la mancuerna hacia los dedos y súbela flexionando la muñeca. Haz el recorrido completo y lento. Error típico: mover el antebrazo en lugar de la muñeca.",
+      "descripcion_en": "Sit with your forearm resting on your thigh or a bench, palm up, holding a dumbbell. Let the dumbbell roll toward your fingers and curl it up by flexing the wrist. Use the full range slowly. Common mistake: moving the forearm instead of the wrist.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Seated_Dumbbell_Palms-Up_Wrist_Curl",
+        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+      ]
+    },
+    {
+      "id": "cable_wrist_curl",
+      "nombre": "Curl de muñeca en polea",
+      "nombre_en": "Cable wrist curl",
+      "grupo": "forearms",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Flexión de muñeca",
+      "patron_movimiento_en": "Wrist flexion",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "principal",
+          "activacion": 0.95
+        },
+        {
+          "musculo_id": "extensores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        },
+        {
+          "musculo_id": "braquiorradial",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        }
+      ],
+      "descripcion": "Sentado frente a una polea baja, apoya los antebrazos con las palmas hacia arriba y agarra la barra corta. Flexiona las muñecas llevando la barra hacia ti. La polea mantiene la tensión durante todo el recorrido. Error típico: despegar los antebrazos del apoyo.",
+      "descripcion_en": "Sit facing a low pulley with your forearms supported, palms up, holding the short bar. Flex the wrists to bring the bar toward you. The cable keeps tension throughout the range. Common mistake: lifting the forearms off the support.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Seated_Two-Arm_Palms-Up_Low-Pulley_Wrist_Curl",
+        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+      ]
+    },
+    {
+      "id": "wrist_roller",
+      "nombre": "Rodillo de muñeca",
+      "nombre_en": "Wrist roller",
+      "grupo": "forearms",
+      "equipamiento": "other",
+      "unilateral": false,
+      "patron_movimiento": "Flexión y extensión de muñeca",
+      "patron_movimiento_en": "Wrist flexion and extension",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "extensores_antebrazo",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "braquiorradial",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Sujeta el rodillo con los brazos extendidos al frente a la altura de los hombros. Gira las muñecas alternando para enrollar la cuerda y subir el peso. Cuando llegues arriba, desenrolla con control. Error típico: bajar los brazos o soltar la cuerda de golpe.",
+      "descripcion_en": "Hold the roller with your arms extended in front at shoulder height. Alternate wrist rotations to wind the rope and raise the weight. When it reaches the top, unwind under control. Common mistake: letting the arms drop or releasing the rope suddenly.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Wrist_Roller",
+        "analogía: ejercicios de muñeca"
+      ]
+    }
+  ]
+}

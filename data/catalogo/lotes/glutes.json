@@ -1,0 +1,534 @@
+{
+  "version": "1.0.0",
+  "ejercicios": [
+    {
+      "id": "hip_thrust",
+      "nombre": "Hip thrust con barra",
+      "nombre_en": "Barbell hip thrust",
+      "grupo": "glutes",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de cadera",
+      "patron_movimiento_en": "Hip extension",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Apoya la parte alta de la espalda en un banco con la barra sobre la cadera y los pies firmes en el suelo. Sube la pelvis hasta alinear tronco y muslos, apretando los glúteos arriba con la barbilla algo recogida. Baja con control sin perder la tensión. Error típico: hiperextender la zona lumbar al final en lugar de bloquear con el glúteo.",
+      "descripcion_en": "Rest your upper back on a bench with the bar over your hips and your feet planted. Drive the pelvis up until torso and thighs are aligned, squeezing the glutes at the top with the chin slightly tucked. Lower under control without losing tension. Common mistake: over-arching the lower back at lockout instead of finishing with the glutes.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Barbell_Hip_Thrust",
+        "EMG (recordado, sin verificar): Contreras et al. 2015, hip thrust vs. sentadilla"
+      ]
+    },
+    {
+      "id": "machine_hip_thrust",
+      "nombre": "Hip thrust en máquina",
+      "nombre_en": "Machine hip thrust",
+      "grupo": "glutes",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de cadera",
+      "patron_movimiento_en": "Hip extension",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Ajusta el respaldo y el cinturón para que la almohadilla quede sobre la pelvis. Empuja con los talones hasta extender la cadera por completo y aprieta el glúteo un instante. Desciende de forma controlada hasta sentir estiramiento. Error típico: empujar con la espalda baja y levantar los talones en vez de dirigir el movimiento desde la cadera.",
+      "descripcion_en": "Adjust the backrest and belt so the pad sits across your pelvis. Push through your heels until the hips are fully extended and squeeze the glutes briefly. Lower under control until you feel a stretch. Common mistake: pushing with the lower back and lifting the heels instead of driving the movement from the hips.",
+      "confianza": "media",
+      "fuentes": [
+        "Analogía con hip thrust con barra (mismo patrón, resistencia guiada)",
+        "free-exercise-db: Barbell_Hip_Thrust"
+      ]
+    },
+    {
+      "id": "glute_bridge",
+      "nombre": "Puente de glúteos",
+      "nombre_en": "Glute bridge",
+      "grupo": "glutes",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de cadera",
+      "patron_movimiento_en": "Hip extension",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "principal",
+          "activacion": 0.95
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Túmbate boca arriba con la barra sobre la cadera, rodillas flexionadas y pies cerca de los glúteos. Empuja con los talones y eleva la pelvis hasta alinear rodillas, cadera y hombros. Mantén un segundo arriba y baja sin descansar la barra en el suelo. Error típico: colocar los pies demasiado lejos y convertir el ejercicio en un trabajo de isquiotibiales.",
+      "descripcion_en": "Lie on your back with the bar over your hips, knees bent and feet close to your glutes. Drive through your heels and lift the pelvis until knees, hips and shoulders line up. Hold a second at the top and lower without resting the bar on the floor. Common mistake: placing the feet too far away, which shifts the work to the hamstrings.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Barbell_Glute_Bridge",
+        "EMG (recordado, sin verificar): Contreras et al. 2015"
+      ]
+    },
+    {
+      "id": "cable_kickback",
+      "nombre": "Patada de glúteo en polea",
+      "nombre_en": "Cable glute kickback",
+      "grupo": "glutes",
+      "equipamiento": "cable",
+      "unilateral": true,
+      "patron_movimiento": "Extensión de cadera",
+      "patron_movimiento_en": "Hip extension",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "Engancha la tobillera a la polea baja y apóyate en la máquina con el tronco ligeramente inclinado. Lleva la pierna hacia atrás extendiendo la cadera y aprieta el glúteo sin mover la pelvis. Vuelve lentamente sin dejar caer la pesa. Error típico: arquear la zona lumbar para ganar recorrido en vez de extender solo la cadera.",
+      "descripcion_en": "Attach the ankle strap to the low cable and brace against the machine with a slight forward torso lean. Drive the leg back by extending the hip and squeeze the glute without moving the pelvis. Return slowly without letting the stack drop. Common mistake: arching the lower back to gain range instead of extending only at the hip.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: One-Legged_Cable_Kickback",
+        "Analogía con hip thrust (extensión de cadera)"
+      ]
+    },
+    {
+      "id": "machine_kickback",
+      "nombre": "Patada de glúteo en máquina",
+      "nombre_en": "Machine glute kickback",
+      "grupo": "glutes",
+      "equipamiento": "machine",
+      "unilateral": true,
+      "patron_movimiento": "Extensión de cadera",
+      "patron_movimiento_en": "Hip extension",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Apoya el pecho y sujeta las asas, colocando el pie en la plataforma de la máquina. Empuja hacia atrás y arriba hasta extender la cadera y aprieta el glúteo. Regresa de forma controlada sin que la pelvis rote. Error típico: usar impulso y rotar la cadera, lo que quita tensión al glúteo.",
+      "descripcion_en": "Brace your chest and hold the handles, placing your foot on the machine platform. Push back and up until the hip is extended and squeeze the glute. Return under control without rotating the pelvis. Common mistake: using momentum and rotating the hips, which removes tension from the glute.",
+      "confianza": "baja",
+      "fuentes": []
+    },
+    {
+      "id": "hip_abduction",
+      "nombre": "Abducción de cadera en máquina",
+      "nombre_en": "Hip abduction machine",
+      "grupo": "glutes",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Abducción de cadera",
+      "patron_movimiento_en": "Hip abduction",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "transverso_abdomen",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        }
+      ],
+      "descripcion": "Siéntate con la espalda apoyada y las almohadillas por fuera de las rodillas. Separa las piernas de forma controlada hasta el rango cómodo y detente un instante. Vuelve despacio sin dejar que las pesas choquen. Error típico: balancear el tronco para ayudarse en lugar de mover solo las caderas.",
+      "descripcion_en": "Sit with your back supported and the pads outside your knees. Open the legs under control to a comfortable range and pause briefly. Return slowly without letting the weights clank. Common mistake: rocking the torso for momentum instead of moving only at the hips.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Thigh_Abductor",
+        "EMG (recordado, sin verificar): Distefano et al. 2009, activación de glúteo medio en ejercicios de abducción"
+      ]
+    },
+    {
+      "id": "cable_hip_abduction",
+      "nombre": "Abducción de cadera en polea",
+      "nombre_en": "Cable hip abduction",
+      "grupo": "glutes",
+      "equipamiento": "cable",
+      "unilateral": true,
+      "patron_movimiento": "Abducción de cadera",
+      "patron_movimiento_en": "Hip abduction",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "transverso_abdomen",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "Con la tobillera en la pierna de trabajo, colócate de lado a la polea y agárrate para mantener el equilibrio. Eleva la pierna hacia fuera sin inclinar el tronco y pausa arriba. Vuelve con control cruzando ligeramente la línea media. Error típico: inclinar el cuerpo hacia el lado contrario para subir más la pierna.",
+      "descripcion_en": "With the ankle strap on the working leg, stand sideways to the cable and hold on for balance. Raise the leg outward without leaning the torso and pause at the top. Return under control, crossing slightly past the midline. Common mistake: leaning away to lift the leg higher.",
+      "confianza": "media",
+      "fuentes": [
+        "Analogía con abducción en máquina",
+        "free-exercise-db: Thigh_Abductor"
+      ]
+    },
+    {
+      "id": "sumo_deadlift",
+      "nombre": "Peso muerto sumo",
+      "nombre_en": "Sumo deadlift",
+      "grupo": "glutes",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Bisagra de cadera",
+      "patron_movimiento_en": "Hip hinge",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Colócate con los pies muy abiertos y las puntas hacia fuera, agarrando la barra entre las piernas con la espalda neutra. Empuja el suelo con los pies abriendo las rodillas y extiende cadera y rodillas a la vez. Bloquea arriba con los glúteos y baja con la barra pegada al cuerpo. Error típico: dejar que las rodillas colapsen hacia dentro o que las caderas suban antes que el pecho.",
+      "descripcion_en": "Stand with a wide stance and toes pointing out, gripping the bar between your legs with a neutral back. Push the floor away while spreading the knees and extend hips and knees together. Lock out with the glutes and lower with the bar close to the body. Common mistake: letting the knees cave in or the hips rise before the chest.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Sumo_Deadlift",
+        "EMG (recordado, sin verificar): Escamilla et al. 2000, peso muerto sumo vs. convencional",
+        "discrepa con free-exercise-db: principal en la app es glúteo, con aductores y cuádriceps como sinergistas"
+      ]
+    },
+    {
+      "id": "cable_pull_through",
+      "nombre": "Pull through en polea",
+      "nombre_en": "Cable pull-through",
+      "grupo": "glutes",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Bisagra de cadera",
+      "patron_movimiento_en": "Hip hinge",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "De espaldas a la polea baja, toma la cuerda entre las piernas y da un paso adelante con las rodillas semiflexionadas. Lleva la cadera hacia atrás con la espalda recta hasta notar estiramiento en los isquiotibiales. Extiende la cadera con fuerza y aprieta los glúteos arriba. Error típico: flexionar demasiado las rodillas y convertirlo en una sentadilla.",
+      "descripcion_en": "Facing away from the low cable, hold the rope between your legs and step forward with soft knees. Push the hips back with a flat back until you feel a hamstring stretch. Drive the hips forward and squeeze the glutes at the top. Common mistake: bending the knees too much so it becomes a squat.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Pull_Through",
+        "Analogía con peso muerto rumano"
+      ]
+    },
+    {
+      "id": "single_leg_hip_thrust",
+      "nombre": "Hip thrust a una pierna",
+      "nombre_en": "Single-leg hip thrust",
+      "grupo": "glutes",
+      "equipamiento": "bodyweight",
+      "unilateral": true,
+      "patron_movimiento": "Extensión de cadera",
+      "patron_movimiento_en": "Hip extension",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "transverso_abdomen",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "Apoya la espalda alta en un banco con un pie en el suelo y la otra pierna extendida o flexionada en el aire. Empuja con el talón de apoyo hasta alinear tronco y muslo y aprieta el glúteo. Baja controlando sin que la pelvis rote. Error típico: dejar caer la cadera hacia el lado libre en lugar de mantenerla nivelada.",
+      "descripcion_en": "Rest your upper back on a bench with one foot on the floor and the other leg extended or bent in the air. Drive through the supporting heel until torso and thigh align and squeeze the glute. Lower under control without letting the pelvis rotate. Common mistake: letting the hip drop toward the free side instead of keeping it level.",
+      "confianza": "media",
+      "fuentes": [
+        "Analogía con hip thrust con barra; mayor demanda de glúteo medio por estabilidad unilateral",
+        "free-exercise-db: Single_Leg_Glute_Bridge"
+      ]
+    },
+    {
+      "id": "frog_pump",
+      "nombre": "Frog pump",
+      "nombre_en": "Frog pump",
+      "grupo": "glutes",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de cadera",
+      "patron_movimiento_en": "Hip extension",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Túmbate boca arriba con las plantas de los pies juntas y las rodillas abiertas. Eleva la pelvis empujando con los pies y aprieta los glúteos arriba. Baja sin apoyar del todo para mantener la tensión y repite en series largas. Error típico: levantar la zona lumbar en vez de la cadera.",
+      "descripcion_en": "Lie on your back with the soles of your feet together and knees open. Lift the pelvis by pressing through your feet and squeeze the glutes at the top. Lower without fully resting to keep tension and perform long sets. Common mistake: lifting the lower back instead of the hips.",
+      "confianza": "baja",
+      "fuentes": []
+    },
+    {
+      "id": "reverse_hyperextension",
+      "nombre": "Hiperextensión inversa",
+      "nombre_en": "Reverse hyperextension",
+      "grupo": "glutes",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de cadera",
+      "patron_movimiento_en": "Hip extension",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "secundario",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Apoya el torso en la almohadilla de la máquina con las piernas colgando y sujétate de las asas. Eleva las piernas hacia atrás hasta alinearlas con el cuerpo apretando los glúteos. Baja con control sin balancear. Error típico: lanzar las piernas con impulso y pasarse de la línea del cuerpo, cargando la zona lumbar.",
+      "descripcion_en": "Rest your torso on the machine pad with the legs hanging and hold the handles. Raise the legs backward until aligned with the body, squeezing the glutes. Lower under control without swinging. Common mistake: swinging the legs with momentum and going past the body line, overloading the lower back.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Reverse_Hyperextension"
+      ]
+    },
+    {
+      "id": "barbell_glute_bridge",
+      "nombre": "Puente de glúteo con barra",
+      "nombre_en": "Barbell glute bridge",
+      "grupo": "glutes",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de cadera",
+      "patron_movimiento_en": "Hip extension",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "principal",
+          "activacion": 0.95
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.25
+        },
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "Con la espalda en el suelo y la barra sobre la cadera, flexiona las rodillas y coloca los pies a la anchura de la cadera. Empuja con los talones hasta extender la cadera y aprieta los glúteos. Baja de forma controlada sin perder la posición de la pelvis. Error típico: empujar con las puntas de los pies y sobreextender la espalda baja.",
+      "descripcion_en": "With your back on the floor and the bar over your hips, bend the knees and set the feet hip-width apart. Drive through the heels to extend the hips and squeeze the glutes. Lower under control without losing pelvic position. Common mistake: pushing through the toes and over-extending the lower back.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Barbell_Glute_Bridge",
+        "EMG (recordado, sin verificar): Contreras et al. 2015"
+      ]
+    }
+  ]
+}

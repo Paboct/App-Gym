@@ -1,0 +1,418 @@
+{
+  "version": "1.0.0",
+  "ejercicios": [
+    {
+      "id": "rdl",
+      "nombre": "Peso muerto rumano",
+      "nombre_en": "Romanian deadlift",
+      "grupo": "hamstrings",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Bisagra de cadera",
+      "patron_movimiento_en": "Hip hinge",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "De pie con la barra a la altura de los muslos, rodillas ligeramente flexionadas. Lleva la cadera hacia atrás con la espalda neutra y la barra pegada a las piernas hasta notar estiramiento en los isquiotibiales. Extiende la cadera para volver arriba apretando los glúteos. Error típico: redondear la espalda o flexionar las rodillas más de la cuenta.",
+      "descripcion_en": "Stand holding the bar at thigh level with soft knees. Push the hips back with a neutral spine and the bar close to your legs until you feel a hamstring stretch. Extend the hips to return, squeezing the glutes. Common mistake: rounding the back or bending the knees too much.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Romanian_Deadlift",
+        "EMG (recordado, sin verificar): Schoenfeld 2011, peso muerto rumano y flexión de rodilla en isquiotibiales"
+      ]
+    },
+    {
+      "id": "db_rdl",
+      "nombre": "Peso muerto rumano con mancuernas",
+      "nombre_en": "Dumbbell Romanian deadlift",
+      "grupo": "hamstrings",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Bisagra de cadera",
+      "patron_movimiento_en": "Hip hinge",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "Sujeta una mancuerna en cada mano frente a los muslos con las rodillas semiflexionadas. Empuja la cadera hacia atrás deslizando las mancuernas cerca de las piernas hasta sentir tensión en la parte posterior del muslo. Vuelve arriba extendiendo la cadera. Error típico: separar las mancuernas del cuerpo y perder la neutralidad de la espalda.",
+      "descripcion_en": "Hold a dumbbell in each hand in front of your thighs with soft knees. Push the hips back, sliding the dumbbells close to your legs until you feel tension in the back of the thigh. Return by extending the hips. Common mistake: letting the dumbbells drift away from the body and losing a neutral spine.",
+      "confianza": "media",
+      "fuentes": [
+        "Analogía con peso muerto rumano con barra",
+        "free-exercise-db: Stiff-Legged_Dumbbell_Deadlift"
+      ]
+    },
+    {
+      "id": "stiff_leg_deadlift",
+      "nombre": "Peso muerto con piernas rígidas",
+      "nombre_en": "Stiff-leg deadlift",
+      "grupo": "hamstrings",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Bisagra de cadera",
+      "patron_movimiento_en": "Hip hinge",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "Con la barra en las manos y las rodillas casi extendidas, inclina el tronco desde la cadera manteniendo la espalda recta. Baja hasta notar un estiramiento fuerte en los isquiotibiales y sube empujando la cadera hacia delante. Error típico: redondear la zona lumbar al bajar más allá de la movilidad propia.",
+      "descripcion_en": "With the bar in your hands and knees nearly straight, hinge forward from the hips keeping a flat back. Lower until you feel a strong hamstring stretch and rise by driving the hips forward. Common mistake: rounding the lower back by lowering beyond your available mobility.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Stiff-Legged_Barbell_Deadlift",
+        "Analogía con peso muerto rumano"
+      ]
+    },
+    {
+      "id": "lying_leg_curl",
+      "nombre": "Curl femoral tumbado",
+      "nombre_en": "Lying leg curl",
+      "grupo": "hamstrings",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Flexión de rodilla",
+      "patron_movimiento_en": "Knee flexion",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gastrocnemio",
+          "rol": "secundario",
+          "activacion": 0.4
+        }
+      ],
+      "descripcion": "Túmbate boca abajo en la máquina con las almohadillas justo encima de los talones. Flexiona las rodillas llevando los talones hacia los glúteos sin levantar la cadera. Baja despacio hasta casi extender las piernas. Error típico: elevar la pelvis del banco para ayudarse con impulso.",
+      "descripcion_en": "Lie face down on the machine with the pads just above your heels. Curl your heels toward your glutes without lifting the hips. Lower slowly until the legs are almost straight. Common mistake: raising the pelvis off the bench to gain momentum.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Lying_Leg_Curls",
+        "EMG (recordado, sin verificar): Schoenfeld et al. 2021, flexión de rodilla en posición tumbada vs. sentada"
+      ]
+    },
+    {
+      "id": "seated_leg_curl",
+      "nombre": "Curl femoral sentado",
+      "nombre_en": "Seated leg curl",
+      "grupo": "hamstrings",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Flexión de rodilla",
+      "patron_movimiento_en": "Knee flexion",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gastrocnemio",
+          "rol": "secundario",
+          "activacion": 0.4
+        }
+      ],
+      "descripcion": "Siéntate con la espalda bien apoyada y la almohadilla sobre la parte baja de las pantorrillas. Flexiona las rodillas llevando los talones bajo el asiento y aprieta un instante. Regresa con control sin soltar la carga. Error típico: levantarse del asiento o inclinar el tronco hacia delante.",
+      "descripcion_en": "Sit with your back well supported and the pad on the lower calves. Curl the heels under the seat and squeeze briefly. Return under control without dropping the load. Common mistake: lifting out of the seat or leaning the torso forward.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Seated_Leg_Curl",
+        "EMG (recordado, sin verificar): Maeo et al. 2021, mayor hipertrofia de isquiotibiales con curl sentado"
+      ]
+    },
+    {
+      "id": "single_leg_curl",
+      "nombre": "Curl femoral unilateral",
+      "nombre_en": "Single-leg curl",
+      "grupo": "hamstrings",
+      "equipamiento": "machine",
+      "unilateral": true,
+      "patron_movimiento": "Flexión de rodilla",
+      "patron_movimiento_en": "Knee flexion",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gastrocnemio",
+          "rol": "secundario",
+          "activacion": 0.4
+        }
+      ],
+      "descripcion": "Coloca una pierna bajo la almohadilla de la máquina y mantén la otra relajada. Flexiona la rodilla llevando el talón hacia el glúteo sin levantar la cadera. Baja lento hasta casi extender. Error típico: compensar con la pierna libre o con la pelvis.",
+      "descripcion_en": "Place one leg under the machine pad and keep the other relaxed. Curl the knee bringing the heel toward the glute without lifting the hip. Lower slowly until nearly straight. Common mistake: compensating with the free leg or the pelvis.",
+      "confianza": "baja",
+      "fuentes": [
+        "Analogía con curl femoral tumbado"
+      ]
+    },
+    {
+      "id": "nordic_curl",
+      "nombre": "Curl nórdico",
+      "nombre_en": "Nordic curl",
+      "grupo": "hamstrings",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Flexión de rodilla",
+      "patron_movimiento_en": "Knee flexion",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "gastrocnemio",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Arrodíllate con los tobillos sujetos y el cuerpo recto desde las rodillas a la cabeza. Inclínate hacia delante frenando la caída con los isquiotibiales el mayor tiempo posible. Ayúdate con las manos al final y empuja para volver. Error típico: doblar la cadera en lugar de mantener el cuerpo alineado.",
+      "descripcion_en": "Kneel with your ankles secured and the body straight from knees to head. Lean forward resisting the fall with the hamstrings for as long as possible. Catch yourself with your hands at the end and push back up. Common mistake: folding at the hips instead of staying aligned.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Natural_Glute_Ham_Raise",
+        "EMG (recordado, sin verificar): Bourne et al. 2017, curl nórdico y activación de isquiotibiales"
+      ]
+    },
+    {
+      "id": "good_morning",
+      "nombre": "Buenos días",
+      "nombre_en": "Good morning",
+      "grupo": "hamstrings",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Bisagra de cadera",
+      "patron_movimiento_en": "Hip hinge",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "transverso_abdomen",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "Coloca la barra sobre los trapecios, rodillas ligeramente flexionadas y el core firme. Inclina el tronco llevando la cadera atrás con la espalda neutra hasta que quede casi paralelo al suelo. Vuelve arriba extendiendo la cadera. Error típico: redondear la espalda o usar demasiada carga y compensar con las rodillas.",
+      "descripcion_en": "Place the bar on your traps with soft knees and a braced core. Hinge forward pushing the hips back with a neutral spine until the torso is nearly parallel to the floor. Return by extending the hips. Common mistake: rounding the back or using too much load and compensating with the knees.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Good_Morning",
+        "Analogía con peso muerto rumano"
+      ]
+    },
+    {
+      "id": "single_leg_rdl",
+      "nombre": "Peso muerto rumano a una pierna",
+      "nombre_en": "Single-leg Romanian deadlift",
+      "grupo": "hamstrings",
+      "equipamiento": "dumbbell",
+      "unilateral": true,
+      "patron_movimiento": "Bisagra de cadera",
+      "patron_movimiento_en": "Hip hinge",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "Sostén una mancuerna y apóyate en una pierna con la rodilla ligeramente flexionada. Inclina el tronco llevando la otra pierna hacia atrás como una palanca hasta quedar casi horizontal. Vuelve arriba empujando con el pie de apoyo. Error típico: rotar la cadera hacia fuera y perder el equilibrio.",
+      "descripcion_en": "Hold a dumbbell and stand on one leg with a slightly bent knee. Hinge the torso while the other leg extends behind like a lever until nearly horizontal. Return by driving through the standing foot. Common mistake: rotating the hips open and losing balance.",
+      "confianza": "media",
+      "fuentes": [
+        "Analogía con peso muerto rumano; mayor demanda de glúteo medio por estabilidad",
+        "free-exercise-db: Romanian_Deadlift"
+      ]
+    },
+    {
+      "id": "glute_ham_raise",
+      "nombre": "Elevación glúteo-isquio",
+      "nombre_en": "Glute-ham raise",
+      "grupo": "hamstrings",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Flexión de rodilla",
+      "patron_movimiento_en": "Knee flexion",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "gastrocnemio",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "secundario",
+          "activacion": 0.35
+        }
+      ],
+      "descripcion": "Fija los pies en la máquina con los muslos apoyados en la almohadilla y el cuerpo extendido. Baja el tronco con control y sube flexionando las rodillas y extendiendo la cadera a la vez. Mantén el cuerpo alineado al subir. Error típico: tirar con la espalda baja en lugar de usar los isquiotibiales.",
+      "descripcion_en": "Lock your feet in the machine with the thighs on the pad and the body extended. Lower the torso under control and rise by flexing the knees and extending the hips together. Keep the body aligned on the way up. Common mistake: pulling with the lower back instead of the hamstrings.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Glute_Ham_Raise",
+        "EMG (recordado, sin verificar): McAllister et al. 2014, glute-ham raise vs. peso muerto rumano"
+      ]
+    },
+    {
+      "id": "standing_leg_curl",
+      "nombre": "Curl femoral de pie",
+      "nombre_en": "Standing leg curl",
+      "grupo": "hamstrings",
+      "equipamiento": "machine",
+      "unilateral": true,
+      "patron_movimiento": "Flexión de rodilla",
+      "patron_movimiento_en": "Knee flexion",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gastrocnemio",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "De pie frente a la máquina, coloca la almohadilla sobre el talón de la pierna de trabajo y apóyate con las manos. Flexiona la rodilla llevando el talón hacia el glúteo sin mover el muslo. Baja despacio. Error típico: balancear el cuerpo o adelantar la rodilla para ayudarse.",
+      "descripcion_en": "Stand facing the machine, place the pad above the heel of the working leg and brace with your hands. Curl the heel toward the glute without moving the thigh. Lower slowly. Common mistake: swinging the body or pushing the knee forward to cheat.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Standing_Leg_Curl"
+      ]
+    }
+  ]
+}

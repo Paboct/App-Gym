@@ -1,0 +1,1938 @@
+{
+  "version": "1.0.0",
+  "ejercicios": [
+    {
+      "id": "pull_up",
+      "nombre": "Dominadas",
+      "nombre_en": "Pull-up",
+      "grupo": "back",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Tracción vertical",
+      "patron_movimiento_en": "Vertical pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "redondo_mayor",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "trapecio_inferior",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "braquial_anterior",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Cuélgate de la barra con agarre prono algo más ancho que los hombros y baja las escápulas antes de tirar. Lleva el pecho hacia la barra llevando los codos hacia las costillas, hasta que la barbilla pase la barra. Baja controlando hasta la extensión casi completa. Error típico: balancearse y tirar con impulso o quedarse a medio recorrido.",
+      "descripcion_en": "Hang from the bar with a pronated grip slightly wider than the shoulders and depress the shoulder blades before pulling. Drive the chest toward the bar by bringing the elbows down to the ribs until the chin clears the bar. Lower under control to near full extension. Common mistake: swinging and kipping or stopping short of full range.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Pullups",
+        "analogía: Gemini espalda_001",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "chin_up",
+      "nombre": "Dominadas supinas",
+      "nombre_en": "Chin-up",
+      "grupo": "back",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Tracción vertical",
+      "patron_movimiento_en": "Vertical pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 0.95
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "redondo_mayor",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "braquial_anterior",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "trapecio_inferior",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "secundario",
+          "activacion": 0.45
+        }
+      ],
+      "descripcion": "Agarra la barra en supinación a la anchura de los hombros y empieza con los brazos casi extendidos. Tira llevando los codos hacia abajo y atrás hasta que la barbilla supere la barra, con el pecho alto. Desciende sin dejarte caer. Error típico: encoger los hombros hacia las orejas y dejar que los bíceps hagan todo el trabajo.",
+      "descripcion_en": "Grip the bar underhand at shoulder width and start with the arms nearly straight. Pull by driving the elbows down and back until the chin clears the bar, keeping the chest tall. Lower without dropping. Common mistake: shrugging toward the ears and letting the biceps do all the work.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Chin-Up",
+        "analogía: Gemini espalda_001 (ajustando bíceps al agarre supino)",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "neutral_pull_up",
+      "nombre": "Dominadas con agarre neutro",
+      "nombre_en": "Neutral-grip pull-up",
+      "grupo": "back",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Tracción vertical",
+      "patron_movimiento_en": "Vertical pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "redondo_mayor",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "braquial_anterior",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "trapecio_inferior",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "secundario",
+          "activacion": 0.5
+        }
+      ],
+      "descripcion": "Usa asas paralelas con las palmas enfrentadas y los brazos extendidos. Inicia el gesto bajando las escápulas y tira de los codos hacia los costados hasta subir el pecho a las asas. Baja despacio hasta el estiramiento completo. Error típico: arquear en exceso la zona lumbar para ganar altura.",
+      "descripcion_en": "Use parallel handles with palms facing each other and arms extended. Start by depressing the shoulder blades, then pull the elbows to your sides until the chest reaches the handles. Lower slowly to a full stretch. Common mistake: over-arching the lower back to gain height.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Pullups",
+        "analogía: Gemini espalda_001 y espalda_003",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "lat_pulldown",
+      "nombre": "Jalón al pecho",
+      "nombre_en": "Lat pulldown",
+      "grupo": "back",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Tracción vertical",
+      "patron_movimiento_en": "Vertical pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "redondo_mayor",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "trapecio_inferior",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "braquial_anterior",
+          "rol": "secundario",
+          "activacion": 0.45
+        }
+      ],
+      "descripcion": "Siéntate con los muslos fijos bajo el rodillo y agarra la barra algo más ancha que los hombros. Inclina ligeramente el torso y tira de la barra hacia la parte alta del pecho llevando los codos abajo y atrás. Sube controlando hasta estirar los dorsales. Error típico: tirar con el torso hacia atrás y llevar la barra detrás de la nuca.",
+      "descripcion_en": "Sit with the thighs locked under the pad and grip the bar slightly wider than the shoulders. Lean back slightly and pull the bar to the upper chest by driving the elbows down and back. Return under control until the lats are stretched. Common mistake: swinging the torso back or pulling the bar behind the neck.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Wide-Grip_Lat_Pulldown",
+        "analogía: Gemini espalda_002",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "close_grip_pulldown",
+      "nombre": "Jalón con agarre estrecho",
+      "nombre_en": "Close-grip pulldown",
+      "grupo": "back",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Tracción vertical",
+      "patron_movimiento_en": "Vertical pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "redondo_mayor",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "braquial_anterior",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "trapecio_inferior",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "secundario",
+          "activacion": 0.4
+        }
+      ],
+      "descripcion": "Agarra el asa estrecha con las palmas enfrentadas o prono cerrado y siéntate con el pecho alto. Tira del asa hacia la parte alta del pecho acercando los codos a los costados. Vuelve arriba controlando el estiramiento. Error típico: encogerse de hombros y perder la tensión del dorsal en la fase de subida.",
+      "descripcion_en": "Take the narrow handle with a neutral or close pronated grip and sit tall. Pull the handle to the upper chest by bringing the elbows close to your sides. Return upward while controlling the stretch. Common mistake: shrugging and losing lat tension on the way up.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Close-Grip_Front_Lat_Pulldown",
+        "analogía: Gemini espalda_003",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "single_arm_pulldown",
+      "nombre": "Jalón unilateral en polea",
+      "nombre_en": "Single-arm lat pulldown",
+      "grupo": "back",
+      "equipamiento": "cable",
+      "unilateral": true,
+      "patron_movimiento": "Tracción vertical",
+      "patron_movimiento_en": "Vertical pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "redondo_mayor",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "braquial_anterior",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "trapecio_inferior",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Siéntate de lado a la polea alta y agarra el asa con un brazo, con el hombro libre de tensión. Tira del codo hacia la cadera sin rotar el torso, notando cómo se acorta el dorsal. Estira de nuevo hasta arriba de forma controlada. Error típico: inclinarse hacia el lado contrario para compensar la carga.",
+      "descripcion_en": "Sit side-on to the high pulley and grasp the handle with one arm, shoulder relaxed. Pull the elbow toward the hip without rotating the torso, feeling the lat shorten. Stretch back up under control. Common mistake: leaning away from the load to compensate.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: One_Arm_Lat_Pulldown",
+        "analogía: Gemini espalda_002 (analogía unilateral)",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "straight_arm_pulldown",
+      "nombre": "Pullover en polea alta",
+      "nombre_en": "Straight-arm pulldown",
+      "grupo": "back",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de hombro",
+      "patron_movimiento_en": "Shoulder extension",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "redondo_mayor",
+          "rol": "principal",
+          "activacion": 0.8
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "De pie frente a la polea alta, inclina ligeramente el tronco con los brazos casi rectos y agarra la barra o cuerda. Lleva las manos hacia los muslos describiendo un arco, apretando los dorsales. Vuelve arriba hasta notar el estiramiento sin elevar los hombros. Error típico: doblar los codos y convertirlo en una extensión de tríceps.",
+      "descripcion_en": "Stand facing the high pulley, hinge slightly with arms nearly straight and hold the bar or rope. Sweep the hands toward the thighs in an arc, squeezing the lats. Return up until you feel the stretch without lifting the shoulders. Common mistake: bending the elbows and turning it into a triceps pushdown.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Straight-Arm_Pulldown",
+        "analogía: Gemini espalda_007",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "barbell_row",
+      "nombre": "Remo con barra",
+      "nombre_en": "Barbell row",
+      "grupo": "back",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Tracción horizontal",
+      "patron_movimiento_en": "Horizontal pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Con la barra en las manos, inclina el torso unos 45 grados con la espalda neutra y las rodillas flexionadas. Tira de la barra hacia el abdomen llevando los codos atrás y juntando las escápulas. Baja controlando sin redondear la espalda. Error típico: impulsarse con la cadera y subir el torso en cada repetición.",
+      "descripcion_en": "Holding the bar, hinge the torso to about 45 degrees with a neutral spine and bent knees. Pull the bar to the abdomen driving the elbows back and squeezing the shoulder blades together. Lower under control without rounding the back. Common mistake: heaving with the hips and standing up on each rep.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Bent_Over_Barbell_Row",
+        "analogía: Gemini espalda_004",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "tbar_row",
+      "nombre": "Remo en barra T",
+      "nombre_en": "T-bar row",
+      "grupo": "back",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Tracción horizontal",
+      "patron_movimiento_en": "Horizontal pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.45
+        }
+      ],
+      "descripcion": "Colócate sobre la barra con las rodillas flexionadas y el torso inclinado con la espalda recta. Tira de la barra hacia el pecho bajo con los codos pegados al cuerpo y aprieta las escápulas. Baja sin soltar la tensión. Error típico: redondear la zona lumbar y acortar el recorrido.",
+      "descripcion_en": "Straddle the bar with bent knees and a hinged torso, back flat. Pull the handle toward the lower chest with the elbows close to the body and squeeze the shoulder blades. Lower while keeping tension. Common mistake: rounding the lower back and shortening the range.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: T-Bar_Row_with_Handle",
+        "analogía: Gemini espalda_004",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "db_row",
+      "nombre": "Remo con mancuerna",
+      "nombre_en": "Dumbbell row",
+      "grupo": "back",
+      "equipamiento": "dumbbell",
+      "unilateral": true,
+      "patron_movimiento": "Tracción horizontal unilateral",
+      "patron_movimiento_en": "Unilateral horizontal pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Apoya una mano y la rodilla del mismo lado en un banco y deja el otro brazo colgando con la mancuerna. Tira del codo hacia la cadera, sin rotar el torso, hasta que la mancuerna llegue al costado. Baja estirando por completo el dorsal. Error típico: girar el tronco y tirar con el hombro en vez de con la espalda.",
+      "descripcion_en": "Place one hand and the same-side knee on a bench with the other arm hanging holding the dumbbell. Pull the elbow toward the hip, without rotating the torso, until the dumbbell reaches your side. Lower to a full lat stretch. Common mistake: twisting the trunk and pulling with the shoulder instead of the back.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: One-Arm_Dumbbell_Row",
+        "analogía: Gemini espalda_006",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "seated_cable_row",
+      "nombre": "Remo sentado en polea",
+      "nombre_en": "Seated cable row",
+      "grupo": "back",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Tracción horizontal",
+      "patron_movimiento_en": "Horizontal pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "principal",
+          "activacion": 0.95
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "estabilizador",
+          "activacion": 0.35
+        }
+      ],
+      "descripcion": "Siéntate con los pies apoyados y la espalda recta, agarrando el asa con los brazos extendidos. Tira hacia el abdomen llevando los codos atrás y juntando las escápulas. Vuelve estirando los brazos sin redondear la espalda. Error típico: balancear el torso hacia atrás para mover más peso.",
+      "descripcion_en": "Sit with feet braced and a straight back, holding the handle with arms extended. Pull to the abdomen driving the elbows back and squeezing the shoulder blades. Return by extending the arms without rounding the back. Common mistake: rocking the torso back to move more weight.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Seated_Cable_Rows",
+        "analogía: Gemini espalda_005",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "wide_cable_row",
+      "nombre": "Remo en polea con agarre ancho",
+      "nombre_en": "Wide-grip cable row",
+      "grupo": "back",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Tracción horizontal",
+      "patron_movimiento_en": "Horizontal pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "principal",
+          "activacion": 0.95
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.4
+        }
+      ],
+      "descripcion": "Sentado en la polea baja con una barra ancha, mantén el pecho alto y los brazos extendidos. Tira de la barra hacia la parte alta del abdomen con los codos abiertos, apretando las escápulas. Vuelve controlando. Error típico: encoger los hombros y perder la retracción escapular.",
+      "descripcion_en": "Seated at the low cable with a wide bar, keep the chest tall and arms extended. Pull the bar toward the upper abdomen with the elbows flared, squeezing the shoulder blades. Return under control. Common mistake: shrugging and losing scapular retraction.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Seated_Cable_Rows",
+        "analogía: Gemini espalda_005 (más deltoides posterior por el agarre ancho)",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "machine_row",
+      "nombre": "Remo en máquina",
+      "nombre_en": "Machine row",
+      "grupo": "back",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Tracción horizontal",
+      "patron_movimiento_en": "Horizontal pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.45
+        }
+      ],
+      "descripcion": "Ajusta el asiento para que las asas queden a la altura del pecho y apoya el torso en el respaldo. Tira de las asas hacia atrás juntando las escápulas y llevando los codos al costado. Vuelve despacio hasta estirar. Error típico: despegar el pecho del apoyo y tirar con los hombros.",
+      "descripcion_en": "Adjust the seat so the handles are at chest level and rest the torso on the pad. Pull the handles back, squeezing the shoulder blades and bringing the elbows to your sides. Return slowly to a stretch. Common mistake: lifting the chest off the pad and pulling with the shoulders.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Leverage_Iso_Row",
+        "analogía: Gemini espalda_005",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "chest_supported_row",
+      "nombre": "Remo con apoyo en el pecho",
+      "nombre_en": "Chest-supported row",
+      "grupo": "back",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Tracción horizontal",
+      "patron_movimiento_en": "Horizontal pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "romboides",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 0.8
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.4
+        }
+      ],
+      "descripcion": "Apoya el pecho en el soporte inclinado y agarra las asas con los brazos extendidos. Tira de los codos hacia atrás y arriba juntando las escápulas. Vuelve controlando el estiramiento. Error típico: levantar el pecho del soporte y usar impulso.",
+      "descripcion_en": "Rest the chest on the angled pad and grip the handles with arms extended. Pull the elbows back and up, squeezing the shoulder blades. Return while controlling the stretch. Common mistake: lifting the chest off the pad and using momentum.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Lying_T-Bar_Row",
+        "analogía: Gemini espalda_004 y espalda_005",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "single_arm_cable_row",
+      "nombre": "Remo unilateral en polea",
+      "nombre_en": "Single-arm cable row",
+      "grupo": "back",
+      "equipamiento": "cable",
+      "unilateral": true,
+      "patron_movimiento": "Tracción horizontal unilateral",
+      "patron_movimiento_en": "Unilateral horizontal pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.45
+        }
+      ],
+      "descripcion": "Sentado frente a la polea baja, agarra el asa con un brazo con el torso estable. Tira del codo hacia atrás pegado al costado hasta que la mano llegue al abdomen. Estira de nuevo el brazo sin rotar el tronco. Error típico: girar el hombro hacia delante al estirar.",
+      "descripcion_en": "Seated facing the low cable, hold the handle with one arm and a stable torso. Pull the elbow back along your side until the hand reaches the abdomen. Extend the arm again without rotating the trunk. Common mistake: letting the shoulder roll forward on the return.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Seated_One-arm_Cable_Pulley_Rows",
+        "analogía: Gemini espalda_006",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "db_pullover",
+      "nombre": "Pullover con mancuerna",
+      "nombre_en": "Dumbbell pullover",
+      "grupo": "back",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de hombro",
+      "patron_movimiento_en": "Shoulder extension",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "redondo_mayor",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Tumbado en un banco, sujeta una mancuerna con ambas manos sobre el pecho. Baja los brazos por detrás de la cabeza con los codos ligeramente flexionados hasta notar el estiramiento. Vuelve a la posición inicial tirando desde los dorsales. Error típico: arquear la zona lumbar y bajar más allá de lo que permite el hombro.",
+      "descripcion_en": "Lying on a bench, hold a dumbbell with both hands over the chest. Lower the arms behind the head with slightly bent elbows until you feel a stretch. Return to the start pulling from the lats. Common mistake: arching the lower back and lowering beyond shoulder mobility.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Bent-Arm_Dumbbell_Pullover",
+        "analogía: Gemini espalda_007",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "machine_pullover",
+      "nombre": "Pullover en máquina",
+      "nombre_en": "Machine pullover",
+      "grupo": "back",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de hombro",
+      "patron_movimiento_en": "Shoulder extension",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "redondo_mayor",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "Ajusta el asiento y apoya los codos en las almohadillas con los brazos por encima de la cabeza. Lleva los codos hacia abajo y adelante en un arco hasta que la barra llegue al abdomen. Sube controlando el estiramiento. Error típico: empujar con las manos en lugar de con los codos.",
+      "descripcion_en": "Adjust the seat and place the elbows on the pads with the arms overhead. Drive the elbows down and forward in an arc until the bar reaches the abdomen. Return while controlling the stretch. Common mistake: pushing with the hands instead of the elbows.",
+      "confianza": "baja",
+      "fuentes": []
+    },
+    {
+      "id": "deadlift",
+      "nombre": "Peso muerto",
+      "nombre_en": "Deadlift",
+      "grupo": "back",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Bisagra de cadera",
+      "patron_movimiento_en": "Hip hinge",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.4
+        }
+      ],
+      "descripcion": "Colócate con la barra sobre el medio del pie y agarra con los brazos rectos. Empuja el suelo con las piernas manteniendo la espalda neutra y la barra pegada al cuerpo, y extiende la cadera para quedar erguido. Baja en sentido inverso con control. Error típico: redondear la espalda o tirar de la barra con los brazos antes de empujar con las piernas.",
+      "descripcion_en": "Stand with the bar over mid-foot and grip it with straight arms. Push the floor away with the legs keeping a neutral spine and the bar close, then extend the hips to lock out. Lower in reverse under control. Common mistake: rounding the back or yanking with the arms before driving with the legs.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Barbell_Deadlift",
+        "analogía: Gemini pierna_006",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "rack_pull",
+      "nombre": "Rack pull",
+      "nombre_en": "Rack pull",
+      "grupo": "back",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Bisagra de cadera",
+      "patron_movimiento_en": "Hip hinge",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.4
+        }
+      ],
+      "descripcion": "Coloca la barra en el rack a la altura de la rodilla o algo más alta y agarra con la espalda neutra. Empuja con las piernas y extiende la cadera, llevando los hombros atrás al final. Baja la barra con control hasta los soportes. Error típico: hiperextender la zona lumbar en el bloqueo.",
+      "descripcion_en": "Set the bar in the rack at knee height or slightly above and grip it with a neutral spine. Drive with the legs and extend the hips, pulling the shoulders back at the top. Lower the bar under control to the pins. Common mistake: hyperextending the lower back at lockout.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Rack_Pulls",
+        "analogía: Gemini pierna_006 (rango corto)",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "back_extension",
+      "nombre": "Hiperextensiones",
+      "nombre_en": "Back extension",
+      "grupo": "back",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de tronco",
+      "patron_movimiento_en": "Trunk extension",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "principal",
+          "activacion": 0.8
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "secundario",
+          "activacion": 0.7
+        }
+      ],
+      "descripcion": "Ajusta el banco para que el apoyo quede bajo la cadera y cruza los brazos sobre el pecho. Baja el torso con la espalda recta y sube contrayendo glúteos y lumbares hasta alinear el cuerpo. Evita pasar de la línea recta. Error típico: hiperextender la columna al subir.",
+      "descripcion_en": "Set the bench so the pad sits below the hips and cross the arms over the chest. Lower the torso with a straight back and rise by squeezing the glutes and lower back until the body is aligned. Do not go past a straight line. Common mistake: hyperextending the spine at the top.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Hyperextensions_Back_Extensions",
+        "analogía: Gemini pierna_007",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "barbell_shrug",
+      "nombre": "Encogimientos con barra",
+      "nombre_en": "Barbell shrug",
+      "grupo": "back",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Elevación de escápulas",
+      "patron_movimiento_en": "Scapular elevation",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.35
+        }
+      ],
+      "descripcion": "De pie con la barra por delante y los brazos extendidos, mantén el pecho alto. Eleva los hombros hacia las orejas en vertical y mantén un instante arriba. Baja despacio hasta el estiramiento. Error típico: rotar los hombros en círculo o flexionar los codos para ayudarte.",
+      "descripcion_en": "Stand holding the bar in front with arms extended and chest tall. Raise the shoulders straight up toward the ears and pause at the top. Lower slowly to a stretch. Common mistake: rolling the shoulders or bending the elbows to help.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Barbell_Shrug",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "db_shrug",
+      "nombre": "Encogimientos con mancuernas",
+      "nombre_en": "Dumbbell shrug",
+      "grupo": "back",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Elevación de escápulas",
+      "patron_movimiento_en": "Scapular elevation",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.35
+        }
+      ],
+      "descripcion": "Sujeta una mancuerna en cada mano a los lados del cuerpo con los brazos extendidos. Eleva los hombros en línea recta hacia las orejas y aprieta arriba. Baja controlando sin dejar caer los hombros de golpe. Error típico: usar demasiado peso y acortar el recorrido.",
+      "descripcion_en": "Hold a dumbbell in each hand at your sides with arms extended. Raise the shoulders straight toward the ears and squeeze at the top. Lower under control without dropping suddenly. Common mistake: using too much weight and shortening the range.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Dumbbell_Shrug",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "pendlay_row",
+      "nombre": "Remo Pendlay",
+      "nombre_en": "Pendlay row",
+      "grupo": "back",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Tracción horizontal",
+      "patron_movimiento_en": "Horizontal pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.45
+        }
+      ],
+      "descripcion": "Con el torso paralelo al suelo y la espalda recta, parte con la barra apoyada en el suelo en cada repetición. Tira de forma explosiva hacia la parte baja del pecho y devuélvela al suelo con control. Reinicia sin rebotar. Error típico: subir el torso para ayudarse con impulso.",
+      "descripcion_en": "With the torso parallel to the floor and a flat back, start each rep with the bar resting on the floor. Pull explosively to the lower chest and return it to the floor under control. Reset without bouncing. Common mistake: raising the torso to gain momentum.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Bent_Over_Barbell_Row",
+        "analogía: Gemini espalda_004 (inicio desde el suelo)",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "inverted_row",
+      "nombre": "Remo invertido",
+      "nombre_en": "Inverted row",
+      "grupo": "back",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Tracción horizontal",
+      "patron_movimiento_en": "Horizontal pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 0.8
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Túmbate bajo una barra baja y agarra con las manos algo más anchas que los hombros, con el cuerpo recto. Tira del pecho hacia la barra juntando las escápulas sin dejar caer la cadera. Baja controlando hasta extender los brazos. Error típico: dejar caer la cadera y encoger los hombros.",
+      "descripcion_en": "Lie under a low bar and grip slightly wider than the shoulders with the body straight. Pull the chest to the bar squeezing the shoulder blades without letting the hips sag. Lower under control to full arm extension. Common mistake: letting the hips drop and shrugging.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Inverted_Row",
+        "analogía: Gemini espalda_004",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "trap_bar_deadlift",
+      "nombre": "Peso muerto con barra hexagonal",
+      "nombre_en": "Trap bar deadlift",
+      "grupo": "back",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Bisagra de cadera",
+      "patron_movimiento_en": "Hip hinge",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.35
+        }
+      ],
+      "descripcion": "Entra en la barra hexagonal con los pies a la anchura de la cadera y agarra las asas con la espalda neutra. Empuja el suelo con las piernas y extiende la cadera hasta ponerte erguido. Baja controlando con las rodillas y la cadera a la vez. Error típico: empezar con la cadera demasiado alta y convertirlo en un peso muerto de espalda.",
+      "descripcion_en": "Step into the trap bar with feet hip-width and grip the handles with a neutral spine. Push the floor away and extend the hips to stand tall. Lower under control bending knees and hips together. Common mistake: starting with the hips too high and turning it into a back-dominant lift.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Trap_Bar_Deadlift",
+        "analogía: Gemini pierna_006 (más cuádriceps por la posición)",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "machine_shrug",
+      "nombre": "Encogimientos en máquina",
+      "nombre_en": "Machine shrug",
+      "grupo": "back",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Elevación de escápulas",
+      "patron_movimiento_en": "Scapular elevation",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Ajusta la máquina y agarra las asas con los brazos extendidos y el pecho alto. Eleva los hombros hacia las orejas en vertical y mantén un instante. Baja despacio hasta el estiramiento. Error típico: mover la cabeza hacia delante en lugar de subir los hombros.",
+      "descripcion_en": "Adjust the machine and grip the handles with arms extended and chest tall. Raise the shoulders straight toward the ears and hold briefly. Lower slowly to a stretch. Common mistake: pushing the head forward instead of lifting the shoulders.",
+      "confianza": "baja",
+      "fuentes": []
+    },
+    {
+      "id": "meadows_row",
+      "nombre": "Remo Meadows",
+      "nombre_en": "Meadows row",
+      "grupo": "back",
+      "equipamiento": "barbell",
+      "unilateral": true,
+      "patron_movimiento": "Tracción horizontal unilateral",
+      "patron_movimiento_en": "Unilateral horizontal pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Sitúate de lado a una barra anclada con un pie delante y agarra el extremo con el torso inclinado. Tira del codo hacia la cadera con el agarre prono y aprieta el dorsal arriba. Baja con control hasta estirar. Error típico: girar el torso para subir el peso.",
+      "descripcion_en": "Stand side-on to an anchored barbell with one foot forward and grip the end with the torso hinged. Pull the elbow toward the hip with a pronated grip and squeeze the lat at the top. Lower under control to a stretch. Common mistake: twisting the torso to lift the weight.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: One-Arm_Long_Bar_Row",
+        "analogía: Gemini espalda_006 (unilateral)",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "reverse_grip_row",
+      "nombre": "Remo con barra agarre supino",
+      "nombre_en": "Reverse-grip barbell row",
+      "grupo": "back",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Tracción horizontal",
+      "patron_movimiento_en": "Horizontal pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 0.95
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "principal",
+          "activacion": 0.8
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "principal",
+          "activacion": 0.8
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "braquial_anterior",
+          "rol": "secundario",
+          "activacion": 0.4
+        }
+      ],
+      "descripcion": "Con agarre supino a la anchura de los hombros, inclina el torso con la espalda recta y las rodillas flexionadas. Tira de la barra hacia la parte baja del abdomen manteniendo los codos pegados. Baja controlando. Error típico: abrir los codos y perder el trabajo del dorsal.",
+      "descripcion_en": "With an underhand grip at shoulder width, hinge the torso with a straight back and bent knees. Pull the bar toward the lower abdomen keeping the elbows tucked. Lower under control. Common mistake: flaring the elbows and losing lat engagement.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Reverse_Grip_Bent-Over_Rows",
+        "analogía: Gemini espalda_004 (más bíceps por el agarre supino)",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "vbar_pulldown",
+      "nombre": "Jalón con agarre en V",
+      "nombre_en": "V-bar pulldown",
+      "grupo": "back",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Tracción vertical",
+      "patron_movimiento_en": "Vertical pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "redondo_mayor",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "braquial_anterior",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "trapecio_inferior",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "secundario",
+          "activacion": 0.4
+        }
+      ],
+      "descripcion": "Siéntate con el asa en V y los muslos fijos, con el pecho alto. Tira del asa hacia el esternón llevando los codos hacia abajo y atrás. Vuelve arriba controlando el estiramiento. Error típico: inclinarte hacia atrás y tirar con impulso.",
+      "descripcion_en": "Sit with the V-handle and thighs secured, chest tall. Pull the handle toward the sternum driving the elbows down and back. Return up while controlling the stretch. Common mistake: leaning back and pulling with momentum.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: V-Bar_Pulldown",
+        "analogía: Gemini espalda_003",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "underhand_pulldown",
+      "nombre": "Jalón con agarre supino",
+      "nombre_en": "Underhand lat pulldown",
+      "grupo": "back",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Tracción vertical",
+      "patron_movimiento_en": "Vertical pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 0.95
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "redondo_mayor",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "braquial_anterior",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "trapecio_inferior",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "secundario",
+          "activacion": 0.4
+        }
+      ],
+      "descripcion": "Agarra la barra en supinación a la anchura de los hombros y siéntate con el pecho alto. Tira de la barra hacia la parte alta del pecho llevando los codos hacia abajo. Sube controlando el estiramiento. Error típico: tirar con los brazos y no con los codos.",
+      "descripcion_en": "Take the bar underhand at shoulder width and sit with the chest tall. Pull the bar to the upper chest driving the elbows down. Return while controlling the stretch. Common mistake: pulling with the arms instead of the elbows.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Underhand_Cable_Pulldowns",
+        "analogía: Gemini espalda_002 (ajuste por agarre supino)",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "kneeling_cable_row",
+      "nombre": "Remo unilateral de rodillas en polea",
+      "nombre_en": "Kneeling single-arm cable row",
+      "grupo": "back",
+      "equipamiento": "cable",
+      "unilateral": true,
+      "patron_movimiento": "Tracción horizontal unilateral",
+      "patron_movimiento_en": "Unilateral horizontal pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "De rodillas frente a la polea, agarra el asa con un brazo y mantén el torso estable. Tira del codo hacia atrás y hacia la cadera juntando la escápula. Vuelve estirando el brazo sin rotar. Error típico: girar el tronco para ayudarte con el peso.",
+      "descripcion_en": "Kneeling facing the cable, hold the handle with one arm and keep the torso steady. Pull the elbow back toward the hip while squeezing the shoulder blade. Return extending the arm without rotating. Common mistake: twisting the trunk to help move the weight.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Kneeling_Single-Arm_High_Pulley_Row",
+        "analogía: Gemini espalda_006",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "suspended_row",
+      "nombre": "Remo en suspensión",
+      "nombre_en": "Suspended row",
+      "grupo": "back",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Tracción horizontal",
+      "patron_movimiento_en": "Horizontal pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 0.8
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Agarra las asas de suspensión y recuéstate hacia atrás con el cuerpo recto y los brazos extendidos. Tira del pecho hacia las manos juntando las escápulas. Baja controlando sin dejar caer la cadera. Error típico: arquear la espalda o dejar caer la pelvis.",
+      "descripcion_en": "Hold the suspension handles and lean back with a straight body and arms extended. Pull the chest toward the hands squeezing the shoulder blades. Lower under control without letting the hips drop. Common mistake: arching the back or letting the pelvis sag.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Suspended_Row",
+        "analogía: Gemini espalda_004 (análogo con peso corporal)",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "db_bent_over_row",
+      "nombre": "Remo inclinado con dos mancuernas",
+      "nombre_en": "Bent-over two-dumbbell row",
+      "grupo": "back",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Tracción horizontal",
+      "patron_movimiento_en": "Horizontal pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.45
+        }
+      ],
+      "descripcion": "Con una mancuerna en cada mano, inclina el torso con la espalda recta y las rodillas flexionadas. Tira de los codos hacia atrás hasta que las mancuernas lleguen a las costillas. Baja con control. Error típico: elevar el torso para ayudarte y redondear la espalda.",
+      "descripcion_en": "With a dumbbell in each hand, hinge the torso with a flat back and bent knees. Pull the elbows back until the dumbbells reach the ribs. Lower under control. Common mistake: raising the torso for help and rounding the back.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Bent_Over_Two-Dumbbell_Row",
+        "analogía: Gemini espalda_004",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "superman",
+      "nombre": "Superman",
+      "nombre_en": "Superman",
+      "grupo": "back",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de tronco",
+      "patron_movimiento_en": "Trunk extension",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Túmbate boca abajo con los brazos extendidos por delante. Eleva a la vez brazos y piernas contrayendo lumbares y glúteos y mantén un segundo. Baja con control. Error típico: tirar del cuello hacia atrás en lugar de mantenerlo neutro.",
+      "descripcion_en": "Lie face down with the arms extended forward. Raise arms and legs together by contracting the lower back and glutes and hold for a second. Lower under control. Common mistake: cranking the neck back instead of keeping it neutral.",
+      "confianza": "baja",
+      "fuentes": [
+        "free-exercise-db: Superman"
+      ]
+    },
+    {
+      "id": "deficit_deadlift",
+      "nombre": "Peso muerto con déficit",
+      "nombre_en": "Deficit deadlift",
+      "grupo": "back",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Bisagra de cadera",
+      "patron_movimiento_en": "Hip hinge",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "secundario",
+          "activacion": 0.45
+        }
+      ],
+      "descripcion": "Súbete a una plataforma baja con la barra sobre el medio del pie y agarra con la espalda neutra. Empuja con las piernas y extiende la cadera con la barra pegada al cuerpo. Baja con control hasta el déficit. Error típico: perder la tensión lumbar en el punto más bajo.",
+      "descripcion_en": "Stand on a low platform with the bar over mid-foot and grip it with a neutral spine. Drive with the legs and extend the hips with the bar close to the body. Lower under control to the deficit. Common mistake: losing lumbar tension at the lowest point.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Deficit_Deadlift",
+        "analogía: Gemini pierna_006 (más cuádriceps por el rango extra)",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "leverage_high_row",
+      "nombre": "Remo alto en máquina",
+      "nombre_en": "Machine high row",
+      "grupo": "back",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Tracción horizontal",
+      "patron_movimiento_en": "Horizontal pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "romboides",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.45
+        }
+      ],
+      "descripcion": "Siéntate en la máquina con el pecho contra el apoyo y agarra las asas altas. Tira hacia abajo y atrás llevando los codos hacia las costillas. Vuelve controlando el estiramiento. Error típico: inclinarse hacia delante al soltar la carga.",
+      "descripcion_en": "Sit in the machine with the chest against the pad and grip the high handles. Pull down and back driving the elbows toward the ribs. Return while controlling the stretch. Common mistake: leaning forward on the release.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Leverage_High_Row",
+        "analogía: Gemini espalda_003 y espalda_005",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "cable_shrug",
+      "nombre": "Encogimientos en polea",
+      "nombre_en": "Cable shrug",
+      "grupo": "back",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Elevación de escápulas",
+      "patron_movimiento_en": "Scapular elevation",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "trapecio_medio",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "De pie en la polea baja con una barra o asas, agarra con los brazos extendidos. Eleva los hombros en vertical y aprieta arriba. Baja despacio hasta estirar. Error típico: balancear el cuerpo para mover más carga.",
+      "descripcion_en": "Stand at the low cable with a bar or handles, arms extended. Raise the shoulders vertically and squeeze at the top. Lower slowly to a stretch. Common mistake: rocking the body to move more load.",
+      "confianza": "baja",
+      "fuentes": [
+        "free-exercise-db: Cable_Shrugs"
+      ]
+    },
+    {
+      "id": "weighted_pull_up",
+      "nombre": "Dominadas lastradas",
+      "nombre_en": "Weighted pull-up",
+      "grupo": "back",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Tracción vertical",
+      "patron_movimiento_en": "Vertical pull",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "dorsal_ancho",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "redondo_mayor",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "trapecio_inferior",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "romboides",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "braquial_anterior",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Añade lastre con cinturón y cuélgate con agarre prono algo más ancho que los hombros. Baja las escápulas y tira de los codos hacia las costillas hasta pasar la barbilla. Baja con control hasta la extensión. Error típico: balancearse con el lastre y acortar el rango.",
+      "descripcion_en": "Add load with a belt and hang with a pronated grip slightly wider than the shoulders. Depress the shoulder blades and pull the elbows to the ribs until the chin passes the bar. Lower under control to full extension. Common mistake: swinging with the load and shortening the range.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Weighted_Pull_Ups",
+        "analogía: Gemini espalda_001",
+        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+      ]
+    },
+    {
+      "id": "leverage_deadlift",
+      "nombre": "Peso muerto en máquina",
+      "nombre_en": "Machine deadlift",
+      "grupo": "back",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Bisagra de cadera",
+      "patron_movimiento_en": "Hip hinge",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "principal",
+          "activacion": 0.95
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "principal",
+          "activacion": 0.8
+        },
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Colócate en la máquina con los pies a la anchura de la cadera y agarra las asas con la espalda neutra. Empuja con las piernas y extiende la cadera hasta ponerte erguido. Baja controlando. Error típico: redondear la espalda en el punto más bajo.",
+      "descripcion_en": "Position in the machine with feet hip-width and grip the handles with a neutral spine. Push with the legs and extend the hips to stand tall. Lower under control. Common mistake: rounding the back at the bottom.",
+      "confianza": "baja",
+      "fuentes": [
+        "free-exercise-db: Leverage_Deadlift"
+      ]
+    }
+  ]
+}

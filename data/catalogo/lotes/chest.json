@@ -1,0 +1,1500 @@
+{
+  "version": "1.0.0",
+  "ejercicios": [
+    {
+      "id": "bench_press",
+      "nombre": "Press de banca",
+      "nombre_en": "Bench press",
+      "grupo": "chest",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Empuje horizontal",
+      "patron_movimiento_en": "Horizontal push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.35
+        }
+      ],
+      "descripcion": "Túmbate con los ojos bajo la barra, escápulas retraídas y pies firmes en el suelo. Baja la barra con control hasta rozar la parte media del pecho y empuja en línea ligeramente curva hacia los hombros. Error típico: rebotar la barra en el pecho o levantar los glúteos del banco.",
+      "descripcion_en": "Lie with your eyes under the bar, shoulder blades pulled back and feet planted. Lower the bar under control until it touches the mid-chest, then press it up in a slight arc over the shoulders. Common mistake: bouncing the bar off the chest or lifting the hips off the bench.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Barbell_Bench_Press_-_Medium_Grip",
+        "EMG (recordado, sin verificar): Barnett 1995 y Glass 1997 (banca plana, inclinada y declinada)"
+      ]
+    },
+    {
+      "id": "incline_bench_press",
+      "nombre": "Press inclinado con barra",
+      "nombre_en": "Incline bench press",
+      "grupo": "chest",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Empuje inclinado",
+      "patron_movimiento_en": "Incline push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Ajusta el banco a unos 30 grados y mantén las escápulas retraídas sobre el respaldo. Baja la barra hasta la parte alta del pecho, cerca de la clavícula, y empuja hacia arriba sin perder la posición del tronco. Error típico: usar un banco demasiado vertical, que desplaza el trabajo a los hombros.",
+      "descripcion_en": "Set the bench to about 30 degrees and keep the shoulder blades pinned to the backrest. Lower the bar to the upper chest near the collarbone and press up without changing the torso position. Common mistake: using a bench that is too steep, which shifts the work to the shoulders.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Barbell_Incline_Bench_Press_-_Medium_Grip",
+        "EMG (recordado, sin verificar): Barnett 1995 y Glass 1997 (banca plana, inclinada y declinada)"
+      ]
+    },
+    {
+      "id": "decline_bench_press",
+      "nombre": "Press declinado con barra",
+      "nombre_en": "Decline bench press",
+      "grupo": "chest",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Empuje declinado",
+      "patron_movimiento_en": "Decline push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "principal",
+          "activacion": 0.95
+        },
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.35
+        }
+      ],
+      "descripcion": "Fija bien las piernas en el banco declinado y agarra la barra algo más ancha que los hombros. Baja la barra hasta la parte baja del pecho con control y empuja hasta extender los codos. Error típico: dejar caer la barra por la inclinación y perder el control del recorrido.",
+      "descripcion_en": "Secure your legs on the decline bench and grip the bar slightly wider than shoulder width. Lower the bar under control to the lower chest and press until the elbows are extended. Common mistake: letting the bar drop because of the incline and losing control of the path.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Decline_Barbell_Bench_Press",
+        "EMG (recordado, sin verificar): Barnett 1995 y Glass 1997 (banca plana, inclinada y declinada)"
+      ]
+    },
+    {
+      "id": "db_bench_press",
+      "nombre": "Press de banca con mancuernas",
+      "nombre_en": "Dumbbell bench press",
+      "grupo": "chest",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Empuje horizontal",
+      "patron_movimiento_en": "Horizontal push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Con las mancuernas sobre los muslos, túmbate y llévalas a los lados del pecho con los codos a unos 45 grados del torso. Empuja hasta casi juntarlas arriba y baja hasta notar estiramiento en el pecho. Error típico: abrir demasiado los codos o bajar tanto que el hombro queda comprometido.",
+      "descripcion_en": "With the dumbbells on your thighs, lie back and bring them to the sides of your chest with elbows about 45 degrees from the torso. Press until they almost meet at the top, then lower until you feel a chest stretch. Common mistake: flaring the elbows or lowering so far that the shoulder is stressed.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Dumbbell_Bench_Press",
+        "EMG (recordado, sin verificar): Barnett 1995 y Glass 1997 (banca plana, inclinada y declinada)"
+      ]
+    },
+    {
+      "id": "incline_db_press",
+      "nombre": "Press inclinado con mancuernas",
+      "nombre_en": "Incline dumbbell press",
+      "grupo": "chest",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Empuje inclinado",
+      "patron_movimiento_en": "Incline push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Con el banco a 30 grados, sube las mancuernas a la altura del pecho alto con las muñecas apiladas sobre los codos. Empuja hacia arriba y ligeramente hacia dentro hasta extender los brazos. Error típico: encoger los hombros hacia las orejas al empujar.",
+      "descripcion_en": "With the bench at 30 degrees, bring the dumbbells to upper-chest height with wrists stacked over the elbows. Press up and slightly inward until the arms are extended. Common mistake: shrugging the shoulders toward the ears while pressing.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Incline_Dumbbell_Press",
+        "EMG (recordado, sin verificar): Barnett 1995 y Glass 1997 (banca plana, inclinada y declinada)"
+      ]
+    },
+    {
+      "id": "smith_bench_press",
+      "nombre": "Press de banca en multipower",
+      "nombre_en": "Smith machine bench press",
+      "grupo": "chest",
+      "equipamiento": "smith",
+      "unilateral": false,
+      "patron_movimiento": "Empuje horizontal",
+      "patron_movimiento_en": "Horizontal push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.35
+        }
+      ],
+      "descripcion": "Coloca el banco de modo que la barra baje hacia la parte media del pecho. Retrae las escápulas, desbloquea la barra y baja con control hasta rozar el pecho. Error típico: colocar el banco demasiado adelantado o atrasado, lo que obliga a un recorrido incómodo para el hombro.",
+      "descripcion_en": "Position the bench so the bar lowers to the mid-chest. Pull the shoulder blades back, unrack the bar and lower under control until it touches the chest. Common mistake: placing the bench too far forward or back, forcing an awkward path for the shoulder.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Smith_Machine_Bench_Press",
+        "EMG (recordado, sin verificar): Barnett 1995 y Glass 1997 (banca plana, inclinada y declinada)"
+      ]
+    },
+    {
+      "id": "smith_incline_press",
+      "nombre": "Press inclinado en multipower",
+      "nombre_en": "Smith machine incline press",
+      "grupo": "chest",
+      "equipamiento": "smith",
+      "unilateral": false,
+      "patron_movimiento": "Empuje inclinado",
+      "patron_movimiento_en": "Incline push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Inclina el banco unos 30 grados y alinéalo para que la barra descienda hacia la parte alta del pecho. Baja con control y empuja sin despegar la espalda del respaldo. Error típico: bajar la barra hacia el cuello o el abdomen por una mala colocación del banco.",
+      "descripcion_en": "Set the bench to about 30 degrees and align it so the bar lowers to the upper chest. Lower under control and press without lifting your back off the pad. Common mistake: lowering the bar toward the neck or stomach because the bench is poorly positioned.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Smith_Machine_Incline_Bench_Press",
+        "EMG (recordado, sin verificar): Barnett 1995 y Glass 1997 (banca plana, inclinada y declinada)"
+      ]
+    },
+    {
+      "id": "machine_chest_press",
+      "nombre": "Press de pecho en máquina",
+      "nombre_en": "Machine chest press",
+      "grupo": "chest",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Empuje horizontal",
+      "patron_movimiento_en": "Horizontal push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Regula el asiento para que los agarres queden a la altura de la parte media del pecho y apoya la espalda. Empuja hasta casi extender los codos y vuelve despacio sin que las placas descansen. Error típico: sentarse demasiado alto, lo que sobrecarga el hombro.",
+      "descripcion_en": "Adjust the seat so the handles sit at mid-chest height and keep your back against the pad. Press until the elbows are almost extended and return slowly without letting the plates rest. Common mistake: sitting too high, which overloads the shoulder.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Machine_Bench_Press",
+        "analogía con Gemini pecho_003 (press de pecho en máquina convergente)"
+      ]
+    },
+    {
+      "id": "machine_incline_press",
+      "nombre": "Press inclinado en máquina",
+      "nombre_en": "Machine incline press",
+      "grupo": "chest",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Empuje inclinado",
+      "patron_movimiento_en": "Incline push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Ajusta el asiento para que los agarres queden a la altura del pecho alto y mantén la espalda apoyada. Empuja hacia arriba y adelante y vuelve controlando el recorrido. Error típico: despegar la espalda del respaldo para ayudarse con el tronco.",
+      "descripcion_en": "Adjust the seat so the handles sit at upper-chest height and keep your back supported. Press up and forward, then return under control. Common mistake: lifting the back off the pad to help with momentum.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Leverage_Incline_Chest_Press",
+        "analogía con Gemini pecho_003 (press de pecho en máquina convergente)"
+      ]
+    },
+    {
+      "id": "pec_deck",
+      "nombre": "Contractora (pec deck)",
+      "nombre_en": "Pec deck fly",
+      "grupo": "chest",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Aducción horizontal",
+      "patron_movimiento_en": "Horizontal adduction",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        }
+      ],
+      "descripcion": "Siéntate con la espalda apoyada y los codos o antebrazos a la altura del pecho. Junta los brazos delante del cuerpo apretando el pecho y vuelve despacio hasta notar estiramiento. Error típico: dejar que los hombros se adelanten y empujar con los brazos en lugar de con el pecho.",
+      "descripcion_en": "Sit with your back supported and elbows or forearms at chest height. Bring the arms together in front of you while squeezing the chest, then return slowly until you feel a stretch. Common mistake: letting the shoulders roll forward and pushing with the arms instead of the chest.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Butterfly",
+        "EMG (recordado, sin verificar): Welsch 2005 (press vs aperturas)"
+      ]
+    },
+    {
+      "id": "cable_fly_high",
+      "nombre": "Cruce de poleas de arriba abajo",
+      "nombre_en": "High-to-low cable fly",
+      "grupo": "chest",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Aducción horizontal",
+      "patron_movimiento_en": "Horizontal adduction",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Con las poleas altas, da un paso adelante e inclina ligeramente el torso con los codos algo flexionados. Lleva las manos hacia abajo y al centro, a la altura de la cadera, apretando la parte baja del pecho. Error típico: convertir el gesto en un press doblando y extendiendo los codos.",
+      "descripcion_en": "With the pulleys set high, step forward and lean the torso slightly with the elbows softly bent. Sweep the hands down and together to hip height, squeezing the lower chest. Common mistake: turning the movement into a press by bending and extending the elbows.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Cable_Crossover",
+        "EMG (recordado, sin verificar): Welsch 2005 (press vs aperturas)"
+      ]
+    },
+    {
+      "id": "cable_fly_low",
+      "nombre": "Cruce de poleas de abajo arriba",
+      "nombre_en": "Low-to-high cable fly",
+      "grupo": "chest",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Aducción horizontal",
+      "patron_movimiento_en": "Horizontal adduction",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "Con las poleas bajas, da un paso adelante y mantén los codos ligeramente flexionados. Eleva las manos en arco hacia delante y arriba, a la altura de la cara, apretando el pecho alto. Error típico: levantar con los hombros y encoger el cuello en lugar de aducir los brazos.",
+      "descripcion_en": "With the pulleys set low, step forward and keep the elbows slightly bent. Sweep the hands up and forward in an arc to face height, squeezing the upper chest. Common mistake: lifting with the shoulders and shrugging instead of adducting the arms.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Low_Cable_Crossover",
+        "EMG (recordado, sin verificar): Welsch 2005 (press vs aperturas)"
+      ]
+    },
+    {
+      "id": "cable_fly_mid",
+      "nombre": "Aperturas en polea a media altura",
+      "nombre_en": "Cable fly",
+      "grupo": "chest",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Aducción horizontal",
+      "patron_movimiento_en": "Horizontal adduction",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "Coloca las poleas a la altura de los hombros y da un paso adelante con el torso estable. Con los codos ligeramente flexionados, junta las manos delante del pecho y vuelve hasta notar estiramiento. Error típico: abrir demasiado los brazos y tirar de los hombros hacia atrás.",
+      "descripcion_en": "Set the pulleys at shoulder height and step forward with a stable torso. With the elbows slightly bent, bring the hands together in front of the chest and return until you feel a stretch. Common mistake: opening the arms too far and pulling the shoulders back.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Cable_Crossover",
+        "EMG (recordado, sin verificar): Welsch 2005 (press vs aperturas)"
+      ]
+    },
+    {
+      "id": "db_fly",
+      "nombre": "Aperturas con mancuernas",
+      "nombre_en": "Dumbbell fly",
+      "grupo": "chest",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Aducción horizontal",
+      "patron_movimiento_en": "Horizontal adduction",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Túmbate con las mancuernas sobre el pecho y los codos ligeramente flexionados. Abre los brazos en arco hasta notar estiramiento y vuelve juntando las mancuernas con el mismo arco. Error típico: bajar demasiado y flexionar los codos, convirtiendo la apertura en un press.",
+      "descripcion_en": "Lie with the dumbbells above your chest and elbows slightly bent. Open the arms in an arc until you feel a stretch, then bring the dumbbells back together along the same arc. Common mistake: lowering too far and bending the elbows, turning the fly into a press.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Dumbbell_Flyes",
+        "EMG (recordado, sin verificar): Welsch 2005 (press vs aperturas)"
+      ]
+    },
+    {
+      "id": "incline_db_fly",
+      "nombre": "Aperturas inclinadas con mancuernas",
+      "nombre_en": "Incline dumbbell fly",
+      "grupo": "chest",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Aducción horizontal",
+      "patron_movimiento_en": "Horizontal adduction",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Con el banco a unos 30 grados, sostén las mancuernas sobre el pecho con codos ligeramente flexionados. Abre en arco hasta el estiramiento del pecho alto y vuelve apretando. Error típico: usar demasiado peso y perder el arco del movimiento.",
+      "descripcion_en": "With the bench at about 30 degrees, hold the dumbbells above your chest with slightly bent elbows. Open in an arc until the upper chest stretches, then return while squeezing. Common mistake: using too much weight and losing the arc of the movement.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Incline_Dumbbell_Flyes",
+        "EMG (recordado, sin verificar): Welsch 2005 (press vs aperturas)"
+      ]
+    },
+    {
+      "id": "push_up",
+      "nombre": "Flexiones",
+      "nombre_en": "Push-up",
+      "grupo": "chest",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Empuje horizontal",
+      "patron_movimiento_en": "Horizontal push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Apoya las manos algo más anchas que los hombros y forma una línea recta de cabeza a talones. Baja el pecho hasta rozar el suelo con los codos a unos 45 grados y empuja hasta extender los brazos. Error típico: dejar caer la cadera o proyectar la cabeza hacia delante.",
+      "descripcion_en": "Place your hands slightly wider than the shoulders and form a straight line from head to heels. Lower the chest nearly to the floor with elbows at about 45 degrees and press until the arms are extended. Common mistake: letting the hips sag or pushing the head forward.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Pushups",
+        "EMG (recordado, sin verificar): Cogley 2005 (flexiones)"
+      ]
+    },
+    {
+      "id": "chest_dip",
+      "nombre": "Fondos en paralelas (pecho)",
+      "nombre_en": "Chest dip",
+      "grupo": "chest",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Empuje descendente",
+      "patron_movimiento_en": "Downward push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "principal",
+          "activacion": 0.8
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.45
+        }
+      ],
+      "descripcion": "Sujétate en las paralelas, inclina el torso hacia delante y abre un poco los codos. Baja hasta que los hombros queden algo por debajo de los codos y empuja manteniendo la inclinación. Error típico: bajar demasiado y cargar la articulación del hombro.",
+      "descripcion_en": "Hold the parallel bars, lean the torso forward and flare the elbows slightly. Lower until the shoulders sit a little below the elbows and press up keeping the lean. Common mistake: going too deep and loading the shoulder joint.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Dips_-_Chest_Version",
+        "analogía con Gemini pecho_004 (fondos con énfasis en pecho)"
+      ]
+    },
+    {
+      "id": "decline_db_press",
+      "nombre": "Press declinado con mancuernas",
+      "nombre_en": "Decline dumbbell press",
+      "grupo": "chest",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Empuje declinado",
+      "patron_movimiento_en": "Decline push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Asegura las piernas en el banco declinado y lleva las mancuernas a los lados de la parte baja del pecho. Empuja hacia arriba y ligeramente hacia dentro hasta extender los codos. Error típico: perder el control al colocarse con las mancuernas en esta posición.",
+      "descripcion_en": "Secure your legs on the decline bench and bring the dumbbells to the sides of the lower chest. Press up and slightly inward until the elbows are extended. Common mistake: losing control when getting into position with the dumbbells.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Decline_Dumbbell_Bench_Press",
+        "EMG (recordado, sin verificar): Barnett 1995 y Glass 1997 (banca plana, inclinada y declinada)"
+      ]
+    },
+    {
+      "id": "svend_press",
+      "nombre": "Press Svend",
+      "nombre_en": "Svend press",
+      "grupo": "chest",
+      "equipamiento": "other",
+      "unilateral": false,
+      "patron_movimiento": "Aducción horizontal",
+      "patron_movimiento_en": "Horizontal adduction",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "De pie, sujeta un disco entre las palmas a la altura del pecho y aprieta con fuerza. Empuja el disco hacia delante hasta extender los brazos manteniendo la presión y vuelve al pecho. Error típico: relajar la presión de las palmas durante el recorrido.",
+      "descripcion_en": "Standing, hold a plate between your palms at chest height and squeeze hard. Push the plate forward until the arms are extended while keeping the pressure, then return to the chest. Common mistake: relaxing the palm pressure during the movement.",
+      "confianza": "baja",
+      "fuentes": [
+        "free-exercise-db: Svend_Press",
+        "analogía con pec deck (contracción isométrica del pecho en aducción)"
+      ]
+    },
+    {
+      "id": "incline_cable_fly",
+      "nombre": "Aperturas inclinadas en polea",
+      "nombre_en": "Incline cable fly",
+      "grupo": "chest",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Aducción horizontal",
+      "patron_movimiento_en": "Horizontal adduction",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "Coloca un banco inclinado entre las poleas bajas y túmbate con codos ligeramente flexionados. Eleva las manos en arco hasta juntarlas sobre el pecho alto y vuelve despacio. Error típico: flexionar los codos y empujar en lugar de abrir y cerrar en arco.",
+      "descripcion_en": "Place an incline bench between low pulleys and lie back with slightly bent elbows. Raise the hands in an arc until they meet above the upper chest, then return slowly. Common mistake: bending the elbows and pressing instead of opening and closing in an arc.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Incline_Cable_Flye",
+        "EMG (recordado, sin verificar): Welsch 2005 (press vs aperturas)"
+      ]
+    },
+    {
+      "id": "decline_db_fly",
+      "nombre": "Aperturas declinadas con mancuernas",
+      "nombre_en": "Decline dumbbell fly",
+      "grupo": "chest",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Aducción horizontal",
+      "patron_movimiento_en": "Horizontal adduction",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "biceps_braquial",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "En un banco declinado, sostén las mancuernas sobre el pecho con codos ligeramente flexionados. Abre los brazos en arco hasta notar estiramiento y cierra apretando la parte baja del pecho. Error típico: bajar demasiado el peso, con el hombro en posición forzada.",
+      "descripcion_en": "On a decline bench, hold the dumbbells above your chest with slightly bent elbows. Open the arms in an arc until you feel a stretch and close while squeezing the lower chest. Common mistake: lowering the weight too far, forcing the shoulder into a strained position.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Decline_Dumbbell_Flyes",
+        "EMG (recordado, sin verificar): Welsch 2005 (press vs aperturas)"
+      ]
+    },
+    {
+      "id": "incline_cable_press",
+      "nombre": "Press inclinado en polea",
+      "nombre_en": "Incline cable chest press",
+      "grupo": "chest",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Empuje inclinado",
+      "patron_movimiento_en": "Incline push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Coloca un banco inclinado entre las poleas y agarra las asas a los lados del pecho alto. Empuja hacia arriba y adelante hasta extender los codos, manteniendo la tensión del cable. Error típico: dejar que los cables tiren de los hombros hacia atrás al volver.",
+      "descripcion_en": "Place an incline bench between the pulleys and hold the handles at the sides of the upper chest. Press up and forward until the elbows extend, keeping tension on the cables. Common mistake: letting the cables pull the shoulders back on the way down.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Incline_Cable_Chest_Press",
+        "analogía con press inclinado con mancuernas"
+      ]
+    },
+    {
+      "id": "standing_cable_press",
+      "nombre": "Press de pecho de pie en polea",
+      "nombre_en": "Standing cable chest press",
+      "grupo": "chest",
+      "equipamiento": "cable",
+      "unilateral": false,
+      "patron_movimiento": "Empuje horizontal",
+      "patron_movimiento_en": "Horizontal push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "De pie con una postura escalonada, agarra las asas a los lados del pecho con las poleas a esa altura. Empuja hacia delante hasta extender los codos sin rotar el tronco y vuelve con control. Error típico: inclinarse hacia delante o girar el torso para mover la carga.",
+      "descripcion_en": "Standing in a split stance, hold the handles at chest level with the pulleys at that height. Press forward until the elbows extend without rotating the torso, then return under control. Common mistake: leaning forward or twisting the torso to move the load.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Standing_Cable_Chest_Press",
+        "analogía con press de pecho en máquina"
+      ]
+    },
+    {
+      "id": "db_floor_press",
+      "nombre": "Press de suelo con mancuernas",
+      "nombre_en": "Dumbbell floor press",
+      "grupo": "chest",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Empuje horizontal",
+      "patron_movimiento_en": "Horizontal push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.4
+        }
+      ],
+      "descripcion": "Túmbate en el suelo con las rodillas flexionadas y las mancuernas a los lados del pecho. Baja hasta que la parte posterior de los brazos toque el suelo, haz una breve pausa y empuja hasta extender los codos. Error típico: dejar caer los codos de golpe sobre el suelo.",
+      "descripcion_en": "Lie on the floor with knees bent and the dumbbells at the sides of your chest. Lower until the backs of your upper arms touch the floor, pause briefly and press until the elbows extend. Common mistake: dropping the elbows onto the floor abruptly.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Floor_Press",
+        "analogía con press de banca con mancuernas (recorrido parcial: más tríceps)"
+      ]
+    },
+    {
+      "id": "decline_push_up",
+      "nombre": "Flexiones declinadas",
+      "nombre_en": "Decline push-up",
+      "grupo": "chest",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Empuje inclinado",
+      "patron_movimiento_en": "Incline push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Apoya los pies sobre un banco o caja y las manos en el suelo algo más anchas que los hombros. Mantén el cuerpo en línea recta, baja el pecho hacia el suelo y empuja hasta extender los codos. Error típico: dejar que la zona lumbar se hunda.",
+      "descripcion_en": "Place your feet on a bench or box and your hands on the floor slightly wider than the shoulders. Keep the body in a straight line, lower the chest toward the floor and press until the elbows extend. Common mistake: letting the lower back sag.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Decline_Push-Up",
+        "EMG (recordado, sin verificar): Cogley 2005 (flexiones)"
+      ]
+    },
+    {
+      "id": "incline_push_up",
+      "nombre": "Flexiones inclinadas",
+      "nombre_en": "Incline push-up",
+      "grupo": "chest",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Empuje declinado",
+      "patron_movimiento_en": "Decline push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        }
+      ],
+      "descripcion": "Apoya las manos en un banco o barra elevada algo más anchas que los hombros y el cuerpo en línea recta. Baja el pecho hacia el soporte y empuja hasta extender los codos. Error típico: dejar caer la cadera o no bajar el pecho lo suficiente.",
+      "descripcion_en": "Place your hands on an elevated bench or bar slightly wider than the shoulders with the body in a straight line. Lower the chest toward the support and press until the elbows extend. Common mistake: letting the hips drop or not lowering the chest far enough.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Incline_Push-Up",
+        "EMG (recordado, sin verificar): Cogley 2005 (flexiones)"
+      ]
+    },
+    {
+      "id": "wide_grip_bench",
+      "nombre": "Press de banca agarre ancho",
+      "nombre_en": "Wide-grip bench press",
+      "grupo": "chest",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Empuje horizontal",
+      "patron_movimiento_en": "Horizontal push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "Agarra la barra bastante más ancha que los hombros, con los antebrazos casi verticales al bajar. Baja hasta la parte media del pecho con las escápulas retraídas y empuja hacia arriba. Error típico: agarrar demasiado ancho, lo que reduce el recorrido y castiga el hombro.",
+      "descripcion_en": "Grip the bar well beyond shoulder width, with forearms near vertical as you lower. Lower to the mid-chest with the shoulder blades retracted and press up. Common mistake: gripping too wide, which shortens the range and stresses the shoulder.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Wide-Grip_Barbell_Bench_Press",
+        "EMG (recordado, sin verificar): Barnett 1995 y Glass 1997 (banca plana, inclinada y declinada)"
+      ]
+    },
+    {
+      "id": "one_arm_db_press",
+      "nombre": "Press de banca con una mancuerna",
+      "nombre_en": "One-arm dumbbell bench press",
+      "grupo": "chest",
+      "equipamiento": "dumbbell",
+      "unilateral": true,
+      "patron_movimiento": "Empuje horizontal",
+      "patron_movimiento_en": "Horizontal push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "oblicuos",
+          "rol": "estabilizador",
+          "activacion": 0.35
+        }
+      ],
+      "descripcion": "Túmbate en el banco con una mancuerna a un lado del pecho y el otro brazo libre. Empuja hasta extender el codo y baja con control, sin dejar que el tronco rote hacia el lado de la carga. Error típico: girar el torso o perder el apoyo de los pies.",
+      "descripcion_en": "Lie on the bench with one dumbbell at the side of the chest and the other arm free. Press until the elbow extends and lower under control without letting the torso rotate toward the load. Common mistake: twisting the torso or losing foot contact.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: One_Arm_Dumbbell_Bench_Press",
+        "EMG (recordado, sin verificar): Barnett 1995 y Glass 1997 (banca plana, inclinada y declinada)"
+      ]
+    },
+    {
+      "id": "smith_decline_press",
+      "nombre": "Press declinado en multipower",
+      "nombre_en": "Smith machine decline press",
+      "grupo": "chest",
+      "equipamiento": "smith",
+      "unilateral": false,
+      "patron_movimiento": "Empuje declinado",
+      "patron_movimiento_en": "Decline push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.35
+        }
+      ],
+      "descripcion": "Coloca el banco declinado de modo que la barra baje hacia la parte baja del pecho y asegura los pies. Desbloquea la barra, baja con control y empuja hasta extender los codos. Error típico: alinear mal el banco y forzar el hombro durante el recorrido.",
+      "descripcion_en": "Set the decline bench so the bar lowers to the lower chest and secure your feet. Unrack the bar, lower under control and press until the elbows extend. Common mistake: poor bench alignment that forces the shoulder through the path.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Smith_Machine_Decline_Press",
+        "EMG (recordado, sin verificar): Barnett 1995 y Glass 1997 (banca plana, inclinada y declinada)"
+      ]
+    },
+    {
+      "id": "machine_decline_press",
+      "nombre": "Press declinado en máquina",
+      "nombre_en": "Machine decline chest press",
+      "grupo": "chest",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Empuje declinado",
+      "patron_movimiento_en": "Decline push",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "pectoral_abdominal",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "pectoral_esternal",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "deltoides_anterior",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "triceps_lateral",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "triceps_medial",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Ajusta el asiento para que los agarres queden a la altura de la parte baja del pecho. Empuja hacia delante y ligeramente hacia abajo hasta extender los codos y vuelve despacio. Error típico: apoyar las placas entre repeticiones y perder tensión.",
+      "descripcion_en": "Adjust the seat so the handles are at lower-chest height. Press forward and slightly downward until the elbows extend and return slowly. Common mistake: resting the plates between reps and losing tension.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Leverage_Decline_Chest_Press",
+        "analogía con press de pecho en máquina"
+      ]
+    }
+  ]
+}

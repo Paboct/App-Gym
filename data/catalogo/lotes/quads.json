@@ -1,0 +1,1156 @@
+{
+  "version": "1.0.0",
+  "ejercicios": [
+    {
+      "id": "squat",
+      "nombre": "Sentadilla con barra",
+      "nombre_en": "Back squat",
+      "grupo": "quads",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Dominante de rodilla",
+      "patron_movimiento_en": "Knee-dominant",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "estabilizador",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Con la barra sobre los trapecios, baja con el torso firme hasta que los muslos pasen la paralela y empuja el suelo para subir. Las rodillas siguen la línea de los pies y el core se mantiene tenso. Error típico: dejar que las rodillas colapsen hacia dentro o redondear la zona lumbar en el fondo.",
+      "descripcion_en": "With the bar on your traps, descend with a braced torso until your thighs pass parallel, then drive through the floor to stand. Knees track over the toes and the core stays tight. Common mistake: letting the knees cave inward or rounding the lower back at the bottom.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Barbell_Full_Squat",
+        "EMG (recordado, sin verificar): Contreras 2015 (sentadilla, vastos y glúteo)"
+      ]
+    },
+    {
+      "id": "front_squat",
+      "nombre": "Sentadilla frontal",
+      "nombre_en": "Front squat",
+      "grupo": "quads",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Dominante de rodilla",
+      "patron_movimiento_en": "Knee-dominant",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "estabilizador",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Apoya la barra sobre los deltoides frontales con los codos altos y baja con el torso muy vertical. Mantén el tronco rígido y sube empujando con todo el pie. Error típico: dejar caer los codos, lo que hace que la barra ruede hacia delante y el torso se doble.",
+      "descripcion_en": "Rest the bar on your front delts with elbows high and descend keeping the torso very upright. Keep the trunk rigid and drive up through the whole foot. Common mistake: dropping the elbows, which lets the bar roll forward and the torso fold.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Front_Barbell_Squat",
+        "EMG (recordado, sin verificar): Gullett 2009 (sentadilla frontal vs. trasera)"
+      ]
+    },
+    {
+      "id": "smith_squat",
+      "nombre": "Sentadilla en multipower",
+      "nombre_en": "Smith machine squat",
+      "grupo": "quads",
+      "equipamiento": "smith",
+      "unilateral": false,
+      "patron_movimiento": "Dominante de rodilla",
+      "patron_movimiento_en": "Knee-dominant",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.4
+        }
+      ],
+      "descripcion": "Colócate bajo la barra guiada con los pies algo adelantados respecto a ella y baja controlando hasta la paralela. Empuja con el pie entero para subir sin bloquear de golpe las rodillas. Error típico: poner los pies demasiado retrasados, lo que carga en exceso las rodillas y la espalda baja.",
+      "descripcion_en": "Stand under the guided bar with your feet slightly forward of it and lower under control to parallel. Push through the whole foot to rise without snapping the knees straight. Common mistake: placing the feet too far back, which overloads the knees and lower back.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Smith_Machine_Squat",
+        "analogía con sentadilla con barra (squat)"
+      ]
+    },
+    {
+      "id": "hack_squat",
+      "nombre": "Sentadilla hack",
+      "nombre_en": "Hack squat",
+      "grupo": "quads",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Dominante de rodilla",
+      "patron_movimiento_en": "Knee-dominant",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.45
+        }
+      ],
+      "descripcion": "Apoya la espalda y los hombros en el respaldo con los pies a la anchura de los hombros. Baja de forma controlada hasta que las rodillas superen los 90 grados y empuja sin despegar la zona lumbar. Error típico: acortar el recorrido o despegar los glúteos del respaldo en el fondo.",
+      "descripcion_en": "Set your back and shoulders against the pad with feet shoulder-width apart. Lower under control until the knees pass 90 degrees and press back up without lifting the lower back. Common mistake: cutting the range short or peeling the hips off the pad at the bottom.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Barbell_Hack_Squat",
+        "analogía con Gemini (hack_squat)"
+      ]
+    },
+    {
+      "id": "leg_press",
+      "nombre": "Prensa de piernas",
+      "nombre_en": "Leg press",
+      "grupo": "quads",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Dominante de rodilla",
+      "patron_movimiento_en": "Knee-dominant",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "Siéntate con la espalda y la pelvis apoyadas y los pies a media altura de la plataforma. Baja hasta unos 90 grados de rodilla y empuja sin bloquear la articulación arriba. Error típico: dejar que la pelvis se despegue del asiento en el fondo, lo que curva la zona lumbar.",
+      "descripcion_en": "Sit with your back and pelvis flat against the pad and feet mid-height on the platform. Lower to about 90 degrees of knee flexion and press up without locking out the knees. Common mistake: letting the pelvis lift off the seat at the bottom, which rounds the lower back.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Leg_Press",
+        "analogía con Gemini (leg_press)"
+      ]
+    },
+    {
+      "id": "goblet_squat",
+      "nombre": "Sentadilla goblet",
+      "nombre_en": "Goblet squat",
+      "grupo": "quads",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Dominante de rodilla",
+      "patron_movimiento_en": "Knee-dominant",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Sujeta la mancuerna contra el pecho con los codos hacia abajo y baja entre las rodillas con el torso erguido. Sube empujando el suelo manteniendo el peso pegado al cuerpo. Error típico: inclinar el torso hacia delante y dejar que los talones se levanten.",
+      "descripcion_en": "Hold the dumbbell against your chest with elbows pointing down and sit between your knees with an upright torso. Stand by pushing the floor while keeping the weight close. Common mistake: leaning the torso forward and letting the heels rise.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Goblet_Squat",
+        "analogía con sentadilla frontal"
+      ]
+    },
+    {
+      "id": "bulgarian_split_squat",
+      "nombre": "Sentadilla búlgara",
+      "nombre_en": "Bulgarian split squat",
+      "grupo": "quads",
+      "equipamiento": "dumbbell",
+      "unilateral": true,
+      "patron_movimiento": "Dominante de rodilla unilateral",
+      "patron_movimiento_en": "Single-leg knee-dominant",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "estabilizador",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Apoya el empeine trasero en un banco y adelanta el pie delantero lo suficiente para bajar en vertical. Desciende hasta que el muslo delantero quede paralelo y sube empujando con el talón. Error típico: dar un paso demasiado corto, que adelanta la rodilla en exceso y sobrecarga la articulación.",
+      "descripcion_en": "Rest the rear foot on a bench and step the front foot far enough forward to descend vertically. Lower until the front thigh is parallel and drive up through the heel. Common mistake: using too short a stance, which pushes the knee too far forward and stresses the joint.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Single_Leg_Squat",
+        "EMG (recordado, sin verificar): Bishop 2018 (sentadilla búlgara)"
+      ]
+    },
+    {
+      "id": "lunge",
+      "nombre": "Zancadas",
+      "nombre_en": "Lunge",
+      "grupo": "quads",
+      "equipamiento": "dumbbell",
+      "unilateral": true,
+      "patron_movimiento": "Dominante de rodilla unilateral",
+      "patron_movimiento_en": "Single-leg knee-dominant",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "estabilizador",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Da un paso largo hacia delante y baja con el torso erguido hasta que ambas rodillas formen unos 90 grados. Empuja con el pie delantero para volver a la posición inicial. Error típico: dar un paso corto o dejar que la rodilla delantera se desplace hacia dentro.",
+      "descripcion_en": "Take a long step forward and lower with an upright torso until both knees reach about 90 degrees. Push off the front foot to return to the start. Common mistake: stepping too short or letting the front knee drift inward.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Dumbbell_Lunges",
+        "EMG (recordado, sin verificar): Escamilla 2008 (zancadas)"
+      ]
+    },
+    {
+      "id": "walking_lunge",
+      "nombre": "Zancadas caminando",
+      "nombre_en": "Walking lunge",
+      "grupo": "quads",
+      "equipamiento": "dumbbell",
+      "unilateral": true,
+      "patron_movimiento": "Dominante de rodilla unilateral",
+      "patron_movimiento_en": "Single-leg knee-dominant",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "estabilizador",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Avanza con un paso largo, baja controlando hasta que la rodilla trasera roce casi el suelo y empuja para llevar la otra pierna adelante. Mantén el torso erguido y el paso continuo. Error típico: pasos demasiado cortos o dejarse caer sin controlar el descenso.",
+      "descripcion_en": "Step forward with a long stride, lower under control until the back knee nearly touches the floor, then drive through to bring the other leg forward. Keep the torso upright and the rhythm steady. Common mistake: taking steps that are too short or dropping without controlling the descent.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Dumbbell_Lunges",
+        "free-exercise-db: Bodyweight_Walking_Lunge",
+        "analogía con zancada estática"
+      ]
+    },
+    {
+      "id": "leg_extension",
+      "nombre": "Extensión de cuádriceps",
+      "nombre_en": "Leg extension",
+      "grupo": "quads",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de rodilla",
+      "patron_movimiento_en": "Knee extension",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "principal",
+          "activacion": 0.9
+        }
+      ],
+      "descripcion": "Ajusta el respaldo para que las rodillas queden alineadas con el eje de la máquina y el rodillo sobre los tobillos. Extiende las piernas hasta casi bloquear y baja de forma lenta y controlada. Error típico: usar impulso y soltar el peso de golpe en la fase excéntrica.",
+      "descripcion_en": "Adjust the backrest so your knees line up with the machine pivot and the pad rests on your ankles. Extend the legs until nearly locked out and lower slowly under control. Common mistake: using momentum and dropping the weight in the lowering phase.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Leg_Extensions",
+        "EMG (recordado, sin verificar): Escamilla 1998 (extensión de rodilla en cadena abierta)"
+      ]
+    },
+    {
+      "id": "single_leg_extension",
+      "nombre": "Extensión de cuádriceps unilateral",
+      "nombre_en": "Single-leg extension",
+      "grupo": "quads",
+      "equipamiento": "machine",
+      "unilateral": true,
+      "patron_movimiento": "Extensión de rodilla",
+      "patron_movimiento_en": "Knee extension",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "principal",
+          "activacion": 0.9
+        }
+      ],
+      "descripcion": "Trabaja una pierna cada vez con la rodilla alineada con el eje de la máquina. Extiende hasta casi bloquear, haz una pausa breve y baja lentamente. Error típico: balancear el torso o la cadera para ayudarte a subir la carga.",
+      "descripcion_en": "Work one leg at a time with the knee aligned to the machine pivot. Extend until nearly locked out, pause briefly and lower slowly. Common mistake: swinging the torso or hips to help lift the load.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Leg_Extensions",
+        "analogía con extensión bilateral"
+      ]
+    },
+    {
+      "id": "step_up",
+      "nombre": "Subida al cajón",
+      "nombre_en": "Step-up",
+      "grupo": "quads",
+      "equipamiento": "dumbbell",
+      "unilateral": true,
+      "patron_movimiento": "Dominante de rodilla unilateral",
+      "patron_movimiento_en": "Single-leg knee-dominant",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "estabilizador",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Sitúa el pie entero sobre un cajón a la altura de la rodilla y sube empujando solo con esa pierna. Controla la bajada sin dejarte caer sobre el pie de abajo. Error típico: impulsarse con la pierna trasera, que resta trabajo al cuádriceps de la pierna que sube.",
+      "descripcion_en": "Place your whole foot on a knee-height box and rise by pushing only with that leg. Control the way down without dropping onto the lower foot. Common mistake: pushing off the trailing leg, which takes work away from the working quad.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Dumbbell_Step_Ups",
+        "analogía con zancadas"
+      ]
+    },
+    {
+      "id": "sissy_squat",
+      "nombre": "Sentadilla sissy",
+      "nombre_en": "Sissy squat",
+      "grupo": "quads",
+      "equipamiento": "bodyweight",
+      "unilateral": false,
+      "patron_movimiento": "Extensión de rodilla",
+      "patron_movimiento_en": "Knee extension",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Sube sobre las puntas de los pies y flexiona las rodillas hacia delante mientras inclinas el torso hacia atrás en una línea recta. Baja hasta donde controles y vuelve extendiendo las rodillas. Error típico: doblar la cadera en vez de mantener la línea de rodillas a hombros, lo que quita carga al cuádriceps.",
+      "descripcion_en": "Rise onto the balls of your feet and push the knees forward while leaning the torso back in one straight line. Lower as far as you can control and return by extending the knees. Common mistake: folding at the hips instead of keeping the knee-to-shoulder line, which unloads the quads.",
+      "confianza": "baja",
+      "fuentes": []
+    },
+    {
+      "id": "reverse_lunge",
+      "nombre": "Zancada inversa",
+      "nombre_en": "Reverse lunge",
+      "grupo": "quads",
+      "equipamiento": "dumbbell",
+      "unilateral": true,
+      "patron_movimiento": "Dominante de rodilla unilateral",
+      "patron_movimiento_en": "Single-leg knee-dominant",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "estabilizador",
+          "activacion": 0.35
+        }
+      ],
+      "descripcion": "Da un paso atrás y baja con el torso erguido hasta que ambas rodillas formen unos 90 grados. Empuja con el pie delantero para volver. Error típico: inclinarse hacia delante o apoyar demasiado peso en la pierna trasera.",
+      "descripcion_en": "Step backward and lower with an upright torso until both knees reach about 90 degrees. Push through the front foot to return. Common mistake: leaning forward or putting too much weight on the back leg.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Dumbbell_Rear_Lunge",
+        "EMG (recordado, sin verificar): Escamilla 2008 (zancadas)"
+      ]
+    },
+    {
+      "id": "pistol_squat",
+      "nombre": "Sentadilla pistol",
+      "nombre_en": "Pistol squat",
+      "grupo": "quads",
+      "equipamiento": "bodyweight",
+      "unilateral": true,
+      "patron_movimiento": "Dominante de rodilla unilateral",
+      "patron_movimiento_en": "Single-leg knee-dominant",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "estabilizador",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Apoya una pierna con la otra estirada al frente y baja con control hasta el fondo. Mantén el talón pegado al suelo y el torso inclinado como contrapeso. Error típico: dejarse caer en el fondo o levantar el talón por falta de movilidad de tobillo.",
+      "descripcion_en": "Stand on one leg with the other extended in front and lower under control to full depth. Keep the heel planted and the torso leaning forward as a counterweight. Common mistake: dropping into the bottom or lifting the heel due to limited ankle mobility.",
+      "confianza": "baja",
+      "fuentes": [
+        "free-exercise-db: Single_Leg_Squat",
+        "analogía con sentadilla búlgara"
+      ]
+    },
+    {
+      "id": "belt_squat",
+      "nombre": "Sentadilla con cinturón",
+      "nombre_en": "Belt squat",
+      "grupo": "quads",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Dominante de rodilla",
+      "patron_movimiento_en": "Knee-dominant",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.4
+        }
+      ],
+      "descripcion": "Con el cinturón anclado a la carga, baja entre las rodillas con el torso vertical sin cargar la columna. Empuja el suelo para subir hasta casi bloquear. Error típico: inclinar el torso hacia delante, que anula la ventaja de la descarga axial.",
+      "descripcion_en": "With the belt attached to the load, sit down between the knees with a vertical torso and no spinal loading. Push the floor to rise until nearly locked out. Common mistake: leaning forward, which cancels the benefit of axial unloading.",
+      "confianza": "baja",
+      "fuentes": []
+    },
+    {
+      "id": "zercher_squat",
+      "nombre": "Sentadilla Zercher",
+      "nombre_en": "Zercher squat",
+      "grupo": "quads",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Dominante de rodilla",
+      "patron_movimiento_en": "Knee-dominant",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "recto_abdominal",
+          "rol": "estabilizador",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.4
+        }
+      ],
+      "descripcion": "Sujeta la barra en el pliegue de los codos pegada al pecho y baja con el torso firme hasta la paralela. Sube empujando el suelo sin que la barra se aleje del cuerpo. Error típico: dejar que la barra se desplace hacia delante y redondear la espalda.",
+      "descripcion_en": "Hold the bar in the crook of your elbows against your chest and descend with a firm torso to parallel. Stand by pushing the floor without letting the bar drift away. Common mistake: letting the bar move forward and rounding the back.",
+      "confianza": "baja",
+      "fuentes": [
+        "analogía con sentadilla frontal y trasera"
+      ]
+    },
+    {
+      "id": "box_squat",
+      "nombre": "Sentadilla al cajón",
+      "nombre_en": "Box squat",
+      "grupo": "quads",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Dominante de rodilla",
+      "patron_movimiento_en": "Knee-dominant",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "estabilizador",
+          "activacion": 0.5
+        }
+      ],
+      "descripcion": "Siéntate hacia atrás sobre el cajón con las espinillas verticales y haz una pausa sin relajar la tensión. Impulsa las caderas y los pies para levantarte con el torso firme. Error típico: dejarse caer sobre el cajón y perder la tensión del torso.",
+      "descripcion_en": "Sit back onto the box with shins near vertical and pause without relaxing tension. Drive the hips and feet to stand with a firm torso. Common mistake: dropping onto the box and losing trunk tension.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Box_Squat",
+        "analogía con sentadilla con barra"
+      ]
+    },
+    {
+      "id": "db_squat",
+      "nombre": "Sentadilla con mancuernas",
+      "nombre_en": "Dumbbell squat",
+      "grupo": "quads",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Dominante de rodilla",
+      "patron_movimiento_en": "Knee-dominant",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Sujeta una mancuerna en cada mano a los lados y baja con el torso erguido hasta la paralela. Sube empujando el suelo con los pies. Error típico: dejar que las mancuernas arrastren los hombros hacia delante o redondear la espalda.",
+      "descripcion_en": "Hold a dumbbell in each hand at your sides and lower with an upright torso to parallel. Stand by pushing the floor with your feet. Common mistake: letting the dumbbells pull the shoulders forward or rounding the back.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Dumbbell_Squat",
+        "analogía con sentadilla con barra"
+      ]
+    },
+    {
+      "id": "plie_squat",
+      "nombre": "Sentadilla sumo con mancuerna",
+      "nombre_en": "Plié dumbbell squat",
+      "grupo": "quads",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Dominante de rodilla",
+      "patron_movimiento_en": "Knee-dominant",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "principal",
+          "activacion": 0.8
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.35
+        }
+      ],
+      "descripcion": "Separa los pies más que los hombros con las puntas abiertas y sujeta una mancuerna colgando entre las piernas. Baja con el torso erguido y las rodillas siguiendo los pies, y sube apretando los muslos. Error típico: dejar que las rodillas se cierren hacia dentro.",
+      "descripcion_en": "Set your feet wider than shoulder width with toes turned out and hold a dumbbell hanging between your legs. Lower with an upright torso and knees tracking the feet, then rise squeezing the inner thighs. Common mistake: letting the knees cave inward.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Plie_Dumbbell_Squat",
+        "analogía con sentadilla goblet"
+      ]
+    },
+    {
+      "id": "narrow_leg_press",
+      "nombre": "Prensa con pies juntos",
+      "nombre_en": "Narrow-stance leg press",
+      "grupo": "quads",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Dominante de rodilla",
+      "patron_movimiento_en": "Knee-dominant",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.5
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Coloca los pies juntos en la parte media o baja de la plataforma y baja hasta unos 90 grados de rodilla. Empuja sin bloquear las rodillas arriba. Error típico: despegar la pelvis del asiento o forzar el recorrido más allá de lo que permite la zona lumbar.",
+      "descripcion_en": "Place your feet together on the mid or lower platform and lower to about 90 degrees of knee flexion. Press without locking the knees. Common mistake: lifting the pelvis off the seat or forcing range beyond what the lower back allows.",
+      "confianza": "media",
+      "fuentes": [
+        "analogía con prensa de piernas (leg_press)"
+      ]
+    },
+    {
+      "id": "smith_split_squat",
+      "nombre": "Sentadilla dividida en multipower",
+      "nombre_en": "Smith machine split squat",
+      "grupo": "quads",
+      "equipamiento": "smith",
+      "unilateral": true,
+      "patron_movimiento": "Dominante de rodilla unilateral",
+      "patron_movimiento_en": "Single-leg knee-dominant",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Adelanta un pie bajo la barra guiada y retrasa el otro, y baja en vertical hasta que el muslo delantero esté paralelo. Sube empujando con el pie delantero. Error típico: colocar el pie demasiado cerca de la barra, que adelanta la rodilla y carga la articulación.",
+      "descripcion_en": "Place one foot forward under the guided bar and the other behind, then lower vertically until the front thigh is parallel. Rise by pushing through the front foot. Common mistake: setting the foot too close to the bar, which pushes the knee forward and loads the joint.",
+      "confianza": "baja",
+      "fuentes": [
+        "analogía con sentadilla búlgara"
+      ]
+    },
+    {
+      "id": "barbell_lunge",
+      "nombre": "Zancadas con barra",
+      "nombre_en": "Barbell lunge",
+      "grupo": "quads",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Dominante de rodilla unilateral",
+      "patron_movimiento_en": "Single-leg knee-dominant",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.75
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "estabilizador",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "estabilizador",
+          "activacion": 0.3
+        }
+      ],
+      "descripcion": "Con la barra sobre los trapecios, da un paso largo hacia delante y baja con el torso erguido hasta unos 90 grados. Empuja con la pierna delantera para volver. Error típico: dar un paso corto o inclinar el torso con la barra.",
+      "descripcion_en": "With the bar on your traps, take a long step forward and lower with an upright torso to about 90 degrees. Push off the front leg to return. Common mistake: stepping too short or tilting the torso under the bar.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Barbell_Lunge",
+        "EMG (recordado, sin verificar): Escamilla 2008 (zancadas)"
+      ]
+    },
+    {
+      "id": "split_squat",
+      "nombre": "Sentadilla dividida",
+      "nombre_en": "Split squat",
+      "grupo": "quads",
+      "equipamiento": "dumbbell",
+      "unilateral": true,
+      "patron_movimiento": "Dominante de rodilla unilateral",
+      "patron_movimiento_en": "Single-leg knee-dominant",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "estabilizador",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Con los pies en posición de paso fija, baja en vertical hasta que el muslo delantero quede paralelo. Sube empujando con el pie delantero sin mover los pies del sitio. Error típico: inclinar el torso hacia delante o acortar el recorrido.",
+      "descripcion_en": "From a fixed staggered stance, lower straight down until the front thigh is parallel. Rise by pushing through the front foot without moving the feet. Common mistake: leaning the torso forward or shortening the range.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Single_Leg_Squat",
+        "analogía con zancada y sentadilla búlgara"
+      ]
+    },
+    {
+      "id": "wide_stance_squat",
+      "nombre": "Sentadilla con postura ancha",
+      "nombre_en": "Wide-stance squat",
+      "grupo": "quads",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Dominante de rodilla",
+      "patron_movimiento_en": "Knee-dominant",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 0.9
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "principal",
+          "activacion": 0.85
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "estabilizador",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        }
+      ],
+      "descripcion": "Separa los pies bastante más que los hombros con las puntas abiertas y baja con el torso firme empujando las rodillas hacia fuera. Sube apretando glúteos y aductores. Error típico: dejar que las rodillas se cierren o que la pelvis se curve en el fondo.",
+      "descripcion_en": "Set your feet well wider than shoulder width with toes turned out and descend with a firm torso, pushing the knees out. Rise by squeezing glutes and adductors. Common mistake: letting the knees cave or the pelvis tuck under at the bottom.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Barbell_Full_Squat",
+        "EMG (recordado, sin verificar): Paoli 2009 (anchura de postura en sentadilla)"
+      ]
+    },
+    {
+      "id": "lying_machine_squat",
+      "nombre": "Sentadilla tumbada en máquina",
+      "nombre_en": "Lying machine squat",
+      "grupo": "quads",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Dominante de rodilla",
+      "patron_movimiento_en": "Knee-dominant",
+      "mecanica": "Compuesto",
+      "musculos": [
+        {
+          "musculo_id": "cuadriceps_vastos",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gluteo_mayor",
+          "rol": "secundario",
+          "activacion": 0.7
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.4
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "Túmbate con la espalda apoyada y los pies en la plataforma, y baja de forma controlada hasta unos 90 grados de rodilla. Empuja para volver sin bloquear las rodillas. Error típico: despegar la zona lumbar del respaldo o dejar caer la carga en la fase de bajada.",
+      "descripcion_en": "Lie back against the pad with your feet on the platform and lower under control to about 90 degrees of knee flexion. Push back up without locking the knees. Common mistake: lifting the lower back off the pad or dropping the load during the descent.",
+      "confianza": "baja",
+      "fuentes": [
+        "analogía con prensa de piernas y hack"
+      ]
+    }
+  ]
+}

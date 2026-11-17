@@ -1,0 +1,340 @@
+{
+  "version": "1.0.0",
+  "ejercicios": [
+    {
+      "id": "standing_calf_raise",
+      "nombre": "Elevación de gemelos de pie",
+      "nombre_en": "Standing calf raise",
+      "grupo": "calves",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Flexión plantar (rodilla extendida)",
+      "patron_movimiento_en": "Plantar flexion (knee extended)",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "gastrocnemio",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "soleo",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "tibial_anterior",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        }
+      ],
+      "descripcion": "Colócate bajo las almohadillas con las puntas de los pies sobre la plataforma y las rodillas extendidas. Baja los talones para estirar bien el gemelo. Sube sobre las puntas lo máximo posible y mantén un instante. Error típico: rebotar abajo y acortar el recorrido.",
+      "descripcion_en": "Stand under the pads with the balls of your feet on the platform and knees extended. Lower the heels to fully stretch the calf. Rise as high as possible onto your toes and pause briefly. Common mistake: bouncing at the bottom and shortening the range of motion.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Standing_Calf_Raises",
+        "EMG (recordado, sin verificar): Riemann y cols. 2011 (gastrocnemio más activo con la rodilla extendida)"
+      ]
+    },
+    {
+      "id": "seated_calf_raise",
+      "nombre": "Elevación de gemelos sentado",
+      "nombre_en": "Seated calf raise",
+      "grupo": "calves",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Flexión plantar (rodilla flexionada)",
+      "patron_movimiento_en": "Plantar flexion (knee flexed)",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "soleo",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gastrocnemio",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "tibial_anterior",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        }
+      ],
+      "descripcion": "Siéntate con los muslos bajo la almohadilla y las puntas sobre la plataforma. Baja los talones hasta notar el estiramiento. Eleva los talones al máximo y mantén un momento arriba. Error típico: usar impulso y no completar el recorrido.",
+      "descripcion_en": "Sit with your thighs under the pad and the balls of your feet on the platform. Lower the heels until you feel the stretch. Raise the heels as high as possible and pause at the top. Common mistake: using momentum and not completing the range.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Seated_Calf_Raise",
+        "EMG (recordado, sin verificar): Riemann y cols. 2011 (el sóleo domina con la rodilla flexionada)"
+      ]
+    },
+    {
+      "id": "leg_press_calf_raise",
+      "nombre": "Gemelos en prensa",
+      "nombre_en": "Leg press calf raise",
+      "grupo": "calves",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Flexión plantar (rodilla extendida)",
+      "patron_movimiento_en": "Plantar flexion (knee extended)",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "gastrocnemio",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "soleo",
+          "rol": "secundario",
+          "activacion": 0.65
+        },
+        {
+          "musculo_id": "tibial_anterior",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        }
+      ],
+      "descripcion": "En la prensa, apoya solo las puntas de los pies en el borde de la plataforma con las rodillas casi extendidas. Flexiona los tobillos para empujar la plataforma. Vuelve estirando el gemelo sin bloquear las rodillas de golpe. Error típico: flexionar las rodillas y empujar con los cuádriceps.",
+      "descripcion_en": "On the leg press, place only the balls of your feet on the edge of the platform with the knees almost extended. Flex the ankles to push the platform. Return by stretching the calf without snapping the knees into lockout. Common mistake: bending the knees and pushing with the quads.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Calf_Press_On_The_Leg_Press_Machine",
+        "EMG (recordado, sin verificar): Riemann y cols. 2011 (rodilla extendida, gastrocnemio dominante)"
+      ]
+    },
+    {
+      "id": "smith_calf_raise",
+      "nombre": "Elevación de gemelos en multipower",
+      "nombre_en": "Smith machine calf raise",
+      "grupo": "calves",
+      "equipamiento": "smith",
+      "unilateral": false,
+      "patron_movimiento": "Flexión plantar (rodilla extendida)",
+      "patron_movimiento_en": "Plantar flexion (knee extended)",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "gastrocnemio",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "soleo",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "tibial_anterior",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        }
+      ],
+      "descripcion": "Coloca la barra sobre los trapecios y las puntas de los pies sobre una plataforma baja. Baja los talones para estirar los gemelos. Sube hasta quedar de puntillas y mantén un instante. Error típico: flexionar las rodillas y usar el impulso.",
+      "descripcion_en": "Place the bar across your traps with the balls of your feet on a low platform. Lower the heels to stretch the calves. Rise onto your toes and pause briefly. Common mistake: bending the knees and using momentum.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Smith_Machine_Calf_Raise",
+        "EMG (recordado, sin verificar): Riemann y cols. 2011 (rodilla extendida)"
+      ]
+    },
+    {
+      "id": "single_leg_calf_raise",
+      "nombre": "Elevación de gemelo a una pierna",
+      "nombre_en": "Single-leg calf raise",
+      "grupo": "calves",
+      "equipamiento": "dumbbell",
+      "unilateral": true,
+      "patron_movimiento": "Flexión plantar (rodilla extendida)",
+      "patron_movimiento_en": "Plantar flexion (knee extended)",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "gastrocnemio",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "soleo",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "gluteo_medio",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        },
+        {
+          "musculo_id": "tibial_anterior",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        }
+      ],
+      "descripcion": "De pie sobre una pierna en el borde de un escalón, sujétate para mantener el equilibrio y sostén una mancuerna con la mano libre. Baja el talón por debajo del escalón. Sube hasta ponerte de puntillas y mantén. Error típico: acortar el recorrido o balancear el cuerpo.",
+      "descripcion_en": "Stand on one leg at the edge of a step, holding on for balance with a dumbbell in the free hand. Lower the heel below the step. Rise onto your toes and hold. Common mistake: shortening the range or rocking the body.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Dumbbell_Seated_One-Leg_Calf_Raise (variante de pie por analogía)",
+        "EMG (recordado, sin verificar): Riemann y cols. 2011"
+      ]
+    },
+    {
+      "id": "donkey_calf_raise",
+      "nombre": "Gemelo burro",
+      "nombre_en": "Donkey calf raise",
+      "grupo": "calves",
+      "equipamiento": "machine",
+      "unilateral": false,
+      "patron_movimiento": "Flexión plantar (rodilla extendida)",
+      "patron_movimiento_en": "Plantar flexion (knee extended)",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "gastrocnemio",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "soleo",
+          "rol": "secundario",
+          "activacion": 0.55
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "estabilizador",
+          "activacion": 0.2
+        },
+        {
+          "musculo_id": "tibial_anterior",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        }
+      ],
+      "descripcion": "Inclina el torso hacia delante con la cadera flexionada y el peso sobre la espalda baja o la pelvis. Con las rodillas extendidas, baja los talones para estirar bien. Sube de puntillas al máximo. Error típico: flexionar las rodillas y redondear la espalda.",
+      "descripcion_en": "Bend forward at the hips with the load resting on your lower back or pelvis. With the knees extended, lower the heels for a full stretch. Rise onto your toes as high as possible. Common mistake: bending the knees and rounding the back.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Donkey_Calf_Raises",
+        "EMG (recordado, sin verificar): Riemann y cols. 2011 (rodilla extendida con cadera flexionada)"
+      ]
+    },
+    {
+      "id": "standing_barbell_calf_raise",
+      "nombre": "Gemelos de pie con barra",
+      "nombre_en": "Standing barbell calf raise",
+      "grupo": "calves",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Flexión plantar (rodilla extendida)",
+      "patron_movimiento_en": "Plantar flexion (knee extended)",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "gastrocnemio",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "soleo",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "erectores_espinales",
+          "rol": "estabilizador",
+          "activacion": 0.25
+        },
+        {
+          "musculo_id": "tibial_anterior",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        }
+      ],
+      "descripcion": "Con la barra sobre los trapecios y las puntas de los pies sobre una plataforma, mantén el torso erguido. Baja los talones hasta estirar los gemelos. Sube de puntillas y mantén un instante. Error típico: inclinar el torso y arquear la espalda baja.",
+      "descripcion_en": "With the bar across your traps and the balls of your feet on a platform, keep the torso upright. Lower the heels to stretch the calves. Rise onto your toes and pause briefly. Common mistake: leaning forward and arching the lower back.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Standing_Barbell_Calf_Raise",
+        "EMG (recordado, sin verificar): Riemann y cols. 2011 (rodilla extendida)"
+      ]
+    },
+    {
+      "id": "standing_db_calf_raise",
+      "nombre": "Gemelos de pie con mancuernas",
+      "nombre_en": "Standing dumbbell calf raise",
+      "grupo": "calves",
+      "equipamiento": "dumbbell",
+      "unilateral": false,
+      "patron_movimiento": "Flexión plantar (rodilla extendida)",
+      "patron_movimiento_en": "Plantar flexion (knee extended)",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "gastrocnemio",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "soleo",
+          "rol": "secundario",
+          "activacion": 0.6
+        },
+        {
+          "musculo_id": "tibial_anterior",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        },
+        {
+          "musculo_id": "flexores_antebrazo",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        }
+      ],
+      "descripcion": "Sostén una mancuerna en cada mano a los lados con las puntas de los pies sobre una plataforma. Baja los talones para estirar el gemelo. Sube de puntillas y mantén. Error típico: balancear el cuerpo y rebotar abajo.",
+      "descripcion_en": "Hold a dumbbell in each hand at your sides with the balls of your feet on a platform. Lower the heels to stretch the calf. Rise onto your toes and hold. Common mistake: swaying the body and bouncing at the bottom.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Standing_Dumbbell_Calf_Raise",
+        "EMG (recordado, sin verificar): Riemann y cols. 2011 (rodilla extendida)"
+      ]
+    },
+    {
+      "id": "barbell_seated_calf_raise",
+      "nombre": "Gemelos sentado con barra",
+      "nombre_en": "Barbell seated calf raise",
+      "grupo": "calves",
+      "equipamiento": "barbell",
+      "unilateral": false,
+      "patron_movimiento": "Flexión plantar (rodilla flexionada)",
+      "patron_movimiento_en": "Plantar flexion (knee flexed)",
+      "mecanica": "Aislamiento",
+      "musculos": [
+        {
+          "musculo_id": "soleo",
+          "rol": "principal",
+          "activacion": 1
+        },
+        {
+          "musculo_id": "gastrocnemio",
+          "rol": "secundario",
+          "activacion": 0.45
+        },
+        {
+          "musculo_id": "tibial_anterior",
+          "rol": "estabilizador",
+          "activacion": 0.15
+        }
+      ],
+      "descripcion": "Sentado en un banco con la barra sobre los muslos cerca de las rodillas y las puntas sobre una plataforma. Baja los talones para estirar. Eleva los talones al máximo y mantén. Error típico: usar impulso y no estirar del todo abajo.",
+      "descripcion_en": "Sit on a bench with the bar across your thighs near the knees and the balls of your feet on a platform. Lower the heels to stretch. Raise the heels as high as possible and hold. Common mistake: using momentum and not stretching fully at the bottom.",
+      "confianza": "media",
+      "fuentes": [
+        "free-exercise-db: Barbell_Seated_Calf_Raise",
+        "EMG (recordado, sin verificar): Riemann y cols. 2011 (sóleo con la rodilla flexionada)"
+      ]
+    }
+  ]
+}
