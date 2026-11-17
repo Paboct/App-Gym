@@ -20,8 +20,12 @@ describe('músculos de la app = data/catalogo/musculos.json', () => {
   it('el braquiorradial cuenta como bíceps', () => {
     expect(MUSCLE_GROUP.braquiorradial).toBe('biceps');
   });
-  it('src/data/catalog.json es copia exacta de data/catalogo/ejercicios.json', () => {
-    expect(readFileSync('src/data/catalog.json', 'utf8')).toBe(readFileSync('data/catalogo/ejercicios.json', 'utf8'));
+  it('src/data/catalog.json es data/catalogo/ejercicios.json sin `fuentes`', () => {
+    const full = JSON.parse(readFileSync('data/catalogo/ejercicios.json', 'utf8'));
+    const slim = JSON.parse(readFileSync('src/data/catalog.json', 'utf8'));
+    for (const e of full.ejercicios) delete e.fuentes;
+    expect(slim).toEqual(full);
+    expect(JSON.stringify(slim)).not.toContain('"fuentes"');
   });
 });
 

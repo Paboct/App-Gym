@@ -48,6 +48,8 @@ function procesarVista(svg, vista) {
     .replace(/\bstroke="#fff(?:fff)?"/gi, 'style="stroke:var(--body-line)"')
     .replace(/\s+/g, ' ').replace(/> </g, '><').trim();
   if (!base) throw new Error(`Base vacía en ${vista.id}`);
+  // Un elemento con dos atributos `style` es SVG inválido: el segundo se ignoraría.
+  if (/<[^>]*style="[^"]*"[^>]*style="/.test(base)) throw new Error(`Elemento con dos atributos style en la base de ${vista.id}`);
   if (/#[0-9a-f]{3,6}\b/i.test(base)) throw new Error(`Color fijo en la base de ${vista.id}`);
   return {
     viewBox: `${vista.cx - MEDIO} 0 ${MEDIO * 2} 860`,

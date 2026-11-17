@@ -140,8 +140,8 @@ export const MUSCLE_NAMES: Record<MuscleId, { es: string; en: string }> = {
 
 /** Nombres cortos (≤ 18 caracteres) para chips y listas compactas; las porciones siguen distinguiéndose. */
 export const MUSCLE_SHORT_NAMES: Record<MuscleId, { es: string; en: string }> = {
-  pectoral_esternal: { es: 'Pecho esternal', en: 'Chest sternal' },
-  pectoral_clavicular: { es: 'Pecho clavicular', en: 'Chest clavicular' },
+  pectoral_esternal: { es: 'Pecho esternal', en: 'Sternal chest' },
+  pectoral_clavicular: { es: 'Pecho clavicular', en: 'Clavicular chest' },
   pectoral_abdominal: { es: 'Pecho inferior', en: 'Lower chest' },
   serrato_anterior: { es: 'Serrato', en: 'Serratus' },
   dorsal_ancho: { es: 'Dorsal ancho', en: 'Lats' },
@@ -159,9 +159,9 @@ export const MUSCLE_SHORT_NAMES: Record<MuscleId, { es: string; en: string }> = 
   braquiorradial: { es: 'Braquiorradial', en: 'Brachioradialis' },
   flexores_antebrazo: { es: 'Flexores antebr.', en: 'Wrist flexors' },
   extensores_antebrazo: { es: 'Extensores antebr.', en: 'Wrist extensors' },
-  triceps_lateral: { es: 'Tríceps lateral', en: 'Triceps lateral' },
-  triceps_medial: { es: 'Tríceps medial', en: 'Triceps medial' },
-  triceps_larga: { es: 'Tríceps larga', en: 'Triceps long' },
+  triceps_lateral: { es: 'Tríceps lateral', en: 'Triceps (lateral)' },
+  triceps_medial: { es: 'Tríceps medial', en: 'Triceps (medial)' },
+  triceps_larga: { es: 'Tríceps larga', en: 'Triceps (long)' },
   cuadriceps_vastos: { es: 'Cuádriceps vastos', en: 'Quad vasti' },
   recto_femoral: { es: 'Recto femoral', en: 'Rectus femoris' },
   isquiotibiales: { es: 'Isquiotibiales', en: 'Hamstrings' },

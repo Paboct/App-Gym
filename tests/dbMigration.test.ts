@@ -29,6 +29,14 @@ async function seedV1(name: string) {
       primary: ['chest_mid'], secondary: ['delt_front', 'triceps'], unilateral: false, custom: true, updatedAt: 5,
     },
     {
+      id: 'ghost', nameEs: 'Fantasma', nameEn: 'Ghost', group: 'back', equipment: 'cable',
+      primary: ['nope'], secondary: [], unilateral: false, custom: true, updatedAt: 6,
+    },
+    {
+      id: 'soloSec', nameEs: 'Solo secundarios', nameEn: 'Secondary only', group: 'back', equipment: 'cable',
+      primary: [], secondary: ['biceps'], unilateral: false, custom: true, updatedAt: 7,
+    },
+    {
       id: 'bench_press', nameEs: 'Press de banca', nameEn: 'Bench press', group: 'chest', equipment: 'barbell',
       primary: ['chest_mid'], secondary: ['chest_lower', 'delt_front', 'triceps'], unilateral: false, custom: false, updatedAt: 0,
     },
@@ -77,5 +85,17 @@ describe('migración de Dexie a la versión 2 (músculos con activación)', () =
     expect(mine?.custom).toBe(true);
     expect(mine?.muscles[0]).toEqual({ id: 'pectoral_esternal', role: 'principal', activation: 1 });
     db.close();
+  });
+
+  it('red de seguridad: un ejercicio propio sin principal recibe el primer músculo de su grupo', async () => {
+    await seedV1('mig-d');
+    const fresh = new LegacyDB('mig-d');
+    await fresh.open();
+    const ghost = await fresh.exercises.get('ghost');
+    expect(ghost?.muscles).toEqual([{ id: 'dorsal_ancho', role: 'principal', activation: 1 }]);
+    const sec = await fresh.exercises.get('soloSec');
+    expect(sec?.muscles.filter((m) => m.role === 'principal')).toEqual([{ id: 'dorsal_ancho', role: 'principal', activation: 1 }]);
+    expect(sec?.muscles.some((m) => m.id === 'biceps_braquial' && m.role === 'secundario')).toBe(true);
+    fresh.close();
   });
 });

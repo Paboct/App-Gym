@@ -1,5 +1,5 @@
-import { convertLegacyMuscles } from '../domain/legacyMuscles';
-import { MUSCLES } from '../domain/muscles';
+import { convertLegacyMuscles, ensurePrincipal } from '../domain/legacyMuscles';
+import { MUSCLES, type GroupId } from '../domain/muscles';
 import type {
   BodyWeight,
   Exercise,
@@ -285,7 +285,7 @@ function remoteMuscles(r: Remote): MuscleActivation[] {
     .map((m) => ({ id: m.id, role: m.role, activation: m.activation }) as MuscleActivation);
   if (muscles.length > 0) return muscles;
   const list = (v: unknown) => (Array.isArray(v) ? (v as string[]) : []);
-  return convertLegacyMuscles(list(r.primary_muscles), list(r.secondary_muscles));
+  return ensurePrincipal(convertLegacyMuscles(list(r.primary_muscles), list(r.secondary_muscles)), r.muscle_group as GroupId);
 }
 
 /** Solo los ejercicios creados por el usuario viajan a la nube; el catálogo vive en la app. */

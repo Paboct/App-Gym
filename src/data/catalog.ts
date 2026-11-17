@@ -5,8 +5,9 @@ import data from './catalog.json';
 
 /**
  * Catálogo propio de ejercicios con coeficientes de activación por músculo.
- * `catalog.json` es una copia de `data/catalogo/ejercicios.json` (validado en la
- * parte de datos); para actualizarlo se vuelve a copiar. Los ids son estables:
+ * `catalog.json` sale de `data/catalogo/ejercicios.json` sin `fuentes` (se regenera con
+ * `node scripts/catalogo/generar-catalog-json.mjs`; el contenido se valida en
+ * tests/catalogData.test.ts). Los ids son estables:
  * no se deben cambiar, porque los entrenos guardados y las imágenes apuntan a ellos.
  */
 export const CATALOG: Exercise[] = (data as CatalogFile).ejercicios.map((e) => ({

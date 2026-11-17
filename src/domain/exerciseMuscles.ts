@@ -36,11 +36,13 @@ export interface MuscleRow {
   id: MuscleId;
   role: MuscleRole;
   percent: number;
+  /** Tramo de color con la activación sin redondear. */
+  band: ActivationBand;
 }
 
 /** Músculos de un ejercicio (estabilizadores incluidos) de mayor a menor activación, con el porcentaje redondeado. */
 export function muscleRows(e: Exercise): MuscleRow[] {
   return [...e.muscles]
     .sort((a, b) => b.activation - a.activation)
-    .map((m) => ({ id: m.id, role: m.role, percent: Math.round(m.activation * 100) }));
+    .map((m) => ({ id: m.id, role: m.role, percent: Math.round(m.activation * 100), band: activationBand(m.activation) }));
 }

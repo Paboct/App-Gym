@@ -140,4 +140,15 @@ describe('conversión local ↔ nube (ida y vuelta)', () => {
     };
     expect(customExercisesSync.toLocal(row).muscles).toEqual([{ id: 'dorsal_ancho', role: 'principal', activation: 1 }]);
   });
+
+  it('red de seguridad: sin principal válido se añade el primer músculo del grupo', () => {
+    const base = { id: 'x', name_es: 'X', name_en: 'X', muscle_group: 'back', equipment: 'cable', unilateral: false, updated_at: '2026-11-01T00:00:00.000Z', deleted_at: null };
+    const unknown = customExercisesSync.toLocal({ ...base, primary_muscles: ['nope'], secondary_muscles: [] });
+    expect(unknown.muscles).toEqual([{ id: 'dorsal_ancho', role: 'principal', activation: 1 }]);
+    const onlySecondary = customExercisesSync.toLocal({ ...base, primary_muscles: [], secondary_muscles: ['biceps'] });
+    expect(onlySecondary.muscles).toEqual([
+      { id: 'biceps_braquial', role: 'secundario', activation: 0.5 },
+      { id: 'dorsal_ancho', role: 'principal', activation: 1 },
+    ]);
+  });
 });

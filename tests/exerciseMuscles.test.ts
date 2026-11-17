@@ -88,7 +88,29 @@ describe('muscleRows', () => {
 
   it('incluye los estabilizadores con su rol', () => {
     const rows = muscleRows(press);
-    expect(rows.at(-1)).toEqual({ id: 'recto_abdominal', role: 'estabilizador', percent: 30 });
-    expect(rows[0]).toEqual({ id: 'pectoral_esternal', role: 'principal', percent: 100 });
+    expect(rows.at(-1)).toEqual({ id: 'recto_abdominal', role: 'estabilizador', percent: 30, band: 'low' });
+    expect(rows[0]).toEqual({ id: 'pectoral_esternal', role: 'principal', percent: 100, band: 'high' });
+  });
+
+  it('los empates mantienen el orden original (orden estable)', () => {
+    const rows = muscleRows(
+      ex([
+        { id: 'triceps_lateral', role: 'secundario', activation: 0.5 },
+        { id: 'triceps_medial', role: 'secundario', activation: 0.5 },
+        { id: 'triceps_larga', role: 'secundario', activation: 0.5 },
+      ]),
+    );
+    expect(rows.map((r) => r.id)).toEqual(['triceps_lateral', 'triceps_medial', 'triceps_larga']);
+  });
+
+  it('0,995 se muestra como 100 %', () => {
+    const [row] = muscleRows(ex([{ id: 'pectoral_esternal', role: 'principal', activation: 0.995 }]));
+    expect(row.percent).toBe(100);
+  });
+
+  it('la banda se calcula con la activación sin redondear (0,795 → mid aunque percent = 80)', () => {
+    const [row] = muscleRows(ex([{ id: 'pectoral_esternal', role: 'principal', activation: 0.795 }]));
+    expect(row.percent).toBe(80);
+    expect(row.band).toBe('mid');
   });
 });

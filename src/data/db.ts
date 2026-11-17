@@ -12,7 +12,8 @@ import type {
   Workout,
   WorkoutExercise,
 } from '../domain/types';
-import { convertLegacyMuscles } from '../domain/legacyMuscles';
+import { convertLegacyMuscles, ensurePrincipal } from '../domain/legacyMuscles';
+import type { GroupId } from '../domain/muscles';
 import { CATALOG } from './catalog';
 
 export interface SettingRow {
@@ -67,7 +68,7 @@ export class LegacyDB extends Dexie {
             const primary = Array.isArray(e.primary) ? (e.primary as string[]) : [];
             const secondary = Array.isArray(e.secondary) ? (e.secondary as string[]) : [];
             if (!Array.isArray(e.muscles) || e.muscles.length === 0) {
-              e.muscles = convertLegacyMuscles(primary, secondary);
+              e.muscles = ensurePrincipal(convertLegacyMuscles(primary, secondary), e.group as GroupId);
             }
             delete e.primary;
             delete e.secondary;

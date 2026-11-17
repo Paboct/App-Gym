@@ -17,7 +17,7 @@ import {
   type MuscleId,
 } from '../domain/muscles';
 import type { Exercise, MuscleActivation } from '../domain/types';
-import { activationBand, muscleRows } from '../domain/exerciseMuscles';
+import { muscleRows } from '../domain/exerciseMuscles';
 import { muscleActivations } from '../lib/muscles';
 import { exerciseName, muscleNames, useSettings, useT } from '../lib/settings';
 import { ExerciseImage } from './ExerciseImage';
@@ -174,7 +174,9 @@ export function ExerciseDetail({ exercise, onClose, action }: DetailProps) {
         <span className="badge">{GROUP_NAMES[exercise.group][lang]}</span>
         <span className="badge">{EQUIPMENT_NAMES[exercise.equipment][lang]}</span>
         {pattern && <span className="badge">{pattern}</span>}
-        {exercise.mechanics && <span className="badge">{t(MECH_KEY[exercise.mechanics])}</span>}
+        {exercise.mechanics && MECH_KEY[exercise.mechanics] && (
+          <span className="badge">{t(MECH_KEY[exercise.mechanics])}</span>
+        )}
         {exercise.unilateral && <span className="badge gold">{t('unilateral')}</span>}
         {exercise.custom && <span className="badge gold">{t('custom')}</span>}
       </div>
@@ -183,19 +185,21 @@ export function ExerciseDetail({ exercise, onClose, action }: DetailProps) {
       <MuscleSummary activations={muscleActivations([exercise])} showList={false} />
       <ul className="list" style={{ gap: 4, margin: 0, padding: 0, listStyle: 'none' }}>
         {muscleRows(exercise).map((r) => (
-          <li key={r.id} className="row between small">
-            <span className="row" style={{ gap: 8 }}>
+          <li key={r.id} className="row between small" style={{ gap: 8 }}>
+            <span className="row" style={{ gap: 8, minWidth: 0 }}>
               <i
+                aria-hidden="true"
                 style={{
                   width: 10,
                   height: 10,
                   borderRadius: 5,
-                  background: `var(--act-${activationBand(r.percent / 100)})`,
+                  flexShrink: 0,
+                  background: `var(--act-${r.band})`,
                 }}
               />
-              {MUSCLE_NAMES[r.id][lang]}
+              <span style={{ minWidth: 0, overflowWrap: 'anywhere' }}>{MUSCLE_NAMES[r.id][lang]}</span>
             </span>
-            <span className="faint">
+            <span className="faint" style={{ flexShrink: 0 }}>
               {r.percent} % · {t(ROLE_KEY[r.role])}
             </span>
           </li>

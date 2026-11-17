@@ -1,4 +1,4 @@
-import { MUSCLES, type MuscleId } from './muscles';
+import { MUSCLES, MUSCLE_GROUP, type GroupId, type MuscleId } from './muscles';
 import type { MuscleActivation } from './types';
 
 /**
@@ -57,4 +57,17 @@ export function convertLegacyMuscles(primary: string[], secondary: string[]): Mu
   add(primary ?? [], 'principal', 1);
   add(secondary ?? [], 'secundario', 0.5);
   return out;
+}
+
+/**
+ * Red de seguridad tras convertir un ejercicio propio: si no queda ningún músculo
+ * principal (ids desconocidos, solo secundarios, lista vacía), el primer músculo
+ * del grupo del ejercicio pasa a ser principal (1,0); si ya estaba como
+ * secundario, se promociona.
+ */
+export function ensurePrincipal(muscles: MuscleActivation[], group: GroupId): MuscleActivation[] {
+  if (muscles.some((m) => m.role === 'principal')) return muscles;
+  const first = MUSCLES.find((id) => MUSCLE_GROUP[id] === group);
+  if (!first) return muscles;
+  return [...muscles.filter((m) => m.id !== first), { id: first, role: 'principal', activation: 1 }];
 }
