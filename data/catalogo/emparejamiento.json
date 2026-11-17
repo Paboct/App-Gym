@@ -1,0 +1,182 @@
+{
+  "pecho_001": {
+    "appId": null,
+    "motivo": "mejor candidato «Press de banca con mancuernas» (db_bench_press) con 0.57"
+  },
+  "pecho_002": {
+    "appId": "incline_db_press",
+    "motivo": "exacto"
+  },
+  "pecho_003": {
+    "appId": "machine_chest_press",
+    "motivo": "solapamiento 0.83 con «Press de pecho en máquina»"
+  },
+  "pecho_004": {
+    "appId": "chest_dip",
+    "motivo": "exacto"
+  },
+  "pecho_005": {
+    "appId": null,
+    "motivo": "mejor candidato «Pullover en polea alta» (straight_arm_pulldown) con 0.60"
+  },
+  "pecho_006": {
+    "appId": null,
+    "motivo": "mejor candidato «Remo en máquina» (machine_row) con 0.33"
+  },
+  "espalda_001": {
+    "appId": null,
+    "motivo": "mejor candidato «Dominadas» (pull_up) con 0.50"
+  },
+  "espalda_002": {
+    "appId": null,
+    "motivo": "mejor candidato «Jalón al pecho» (lat_pulldown) con 0.50"
+  },
+  "espalda_003": {
+    "appId": null,
+    "motivo": "mejor candidato «Jalón al pecho» (lat_pulldown) con 0.50"
+  },
+  "espalda_004": {
+    "appId": null,
+    "motivo": "mejor candidato «Remo con barra» (barbell_row) con 0.75"
+  },
+  "espalda_005": {
+    "appId": "seated_cable_row",
+    "motivo": "solapamiento 0.80 con «Remo sentado en polea»"
+  },
+  "espalda_006": {
+    "appId": null,
+    "motivo": "mejor candidato «Remo con mancuerna» (db_row) con 0.43"
+  },
+  "espalda_007": {
+    "appId": null,
+    "motivo": "mejor candidato «Crunch con cuerda en polea de pie» (rope_crunch) con 0.40"
+  },
+  "pierna_001": {
+    "appId": null,
+    "motivo": "mejor candidato «Sentadilla con barra» (squat) con 0.75"
+  },
+  "pierna_002": {
+    "appId": null,
+    "motivo": "mejor candidato «Sentadilla tumbada en máquina» (lying_machine_squat) con 0.60"
+  },
+  "pierna_003": {
+    "appId": null,
+    "motivo": "mejor candidato «Prensa de piernas» (leg_press) con 0.60"
+  },
+  "pierna_004": {
+    "appId": null,
+    "motivo": "mejor candidato «Zancadas caminando» (walking_lunge) con 0.50"
+  },
+  "pierna_005": {
+    "appId": null,
+    "motivo": "mejor candidato «Extensión de tríceps en máquina» (machine_triceps_ext) con 0.67"
+  },
+  "pierna_006": {
+    "appId": null,
+    "motivo": "mejor candidato «Peso muerto con barra hexagonal» (trap_bar_deadlift) con 0.67"
+  },
+  "pierna_007": {
+    "appId": null,
+    "motivo": "mejor candidato «Peso muerto rumano con mancuernas» (db_rdl) con 0.67"
+  },
+  "pierna_008": {
+    "appId": null,
+    "motivo": "mejor candidato «Curl femoral sentado» (seated_leg_curl) con 0.60"
+  },
+  "pierna_009": {
+    "appId": null,
+    "motivo": "mejor candidato «Curl femoral tumbado» (lying_leg_curl) con 0.60"
+  },
+  "pierna_010": {
+    "appId": "hip_thrust",
+    "motivo": "exacto"
+  },
+  "pierna_011": {
+    "appId": "hip_abduction",
+    "motivo": "exacto"
+  },
+  "pierna_012": {
+    "appId": "hip_adduction",
+    "motivo": "exacto"
+  },
+  "pierna_013": {
+    "appId": null,
+    "motivo": "mejor candidato «Elevación de gemelos de pie» (standing_calf_raise) con 0.60"
+  },
+  "pierna_014": {
+    "appId": null,
+    "motivo": "mejor candidato «Elevación de gemelos sentado» (seated_calf_raise) con 0.60"
+  },
+  "hombro_001": {
+    "appId": null,
+    "motivo": "mejor candidato «Press militar con barra» (ohp) con 0.67"
+  },
+  "hombro_002": {
+    "appId": "db_shoulder_press",
+    "motivo": "solapamiento 0.83 con «Press de hombros con mancuernas»"
+  },
+  "hombro_003": {
+    "appId": "db_lateral_raise",
+    "motivo": "exacto"
+  },
+  "hombro_004": {
+    "appId": "cable_lateral_raise",
+    "motivo": "solapamiento 0.80 con «Elevaciones laterales en polea»"
+  },
+  "hombro_005": {
+    "appId": null,
+    "motivo": "mejor candidato «Pájaros en máquina» (reverse_pec_deck) con 0.50"
+  },
+  "hombro_006": {
+    "appId": null,
+    "motivo": "mejor candidato «Crunch con cuerda en polea de pie» (rope_crunch) con 0.40"
+  },
+  "hombro_007": {
+    "appId": null,
+    "motivo": "mejor candidato «Press de hombros con mancuernas» (db_shoulder_press) con 0.67"
+  },
+  "brazos_001": {
+    "appId": null,
+    "motivo": "mejor candidato «Curl con barra Z» (ez_curl) con 0.67"
+  },
+  "brazos_002": {
+    "appId": "incline_db_curl",
+    "motivo": "exacto"
+  },
+  "brazos_003": {
+    "appId": null,
+    "motivo": "mejor candidato «Curl con mancuernas» (db_curl) con 0.75"
+  },
+  "brazos_004": {
+    "appId": null,
+    "motivo": "mejor candidato «Curl con barra Z» (ez_curl) con 0.38"
+  },
+  "brazos_005": {
+    "appId": null,
+    "motivo": "mejor candidato «Extensión de tríceps en polea con barra» (triceps_pushdown) con 0.67"
+  },
+  "brazos_006": {
+    "appId": "decline_ez_triceps",
+    "motivo": "solapamiento 0.83 con «Press francés declinado con barra Z»"
+  },
+  "brazos_007": {
+    "appId": null,
+    "motivo": "mejor candidato «Extensión de tríceps sobre la cabeza en polea» (overhead_cable_ext) con 0.70"
+  },
+  "core_001": {
+    "appId": null,
+    "motivo": "mejor candidato «Plancha» (plank) con 0.33"
+  },
+  "core_002": {
+    "appId": null,
+    "motivo": "mejor candidato «Crunch en polea» (cable_crunch) con 0.60"
+  },
+  "core_003": {
+    "appId": "hanging_leg_raise",
+    "motivo": "exacto"
+  },
+  "core_004": {
+    "appId": null,
+    "motivo": "mejor candidato «Press inclinado en polea» (incline_cable_press) con 0.60"
+  }
+}
