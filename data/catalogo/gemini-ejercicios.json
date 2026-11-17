@@ -1,0 +1,715 @@
+{
+  "version": "1.0.0",
+  "catalogo_musculos": {
+    "pectoral_esternal": "Pectoral mayor (porción esternal)",
+    "pectoral_clavicular": "Pectoral mayor (porción clavicular)",
+    "pectoral_abdominal": "Pectoral mayor (porción abdominal)",
+    "serrato_anterior": "Serrato anterior",
+    "dorsal_ancho": "Dorsal ancho",
+    "redondo_mayor": "Redondo mayor",
+    "romboides": "Romboides mayor y menor",
+    "trapecio_superior": "Trapecio (fibras superiores)",
+    "trapecio_medio": "Trapecio (fibras medias)",
+    "trapecio_inferior": "Trapecio (fibras inferiores)",
+    "deltoides_anterior": "Deltoides anterior",
+    "deltoides_lateral": "Deltoides lateral",
+    "deltoides_posterior": "Deltoides posterior",
+    "manguito_rotador": "Manguito rotador (infraespinoso y redondo menor)",
+    "biceps_braquial": "Bíceps braquial",
+    "braquial_anterior": "Braquial anterior",
+    "braquiorradial": "Braquiorradial",
+    "flexores_antebrazo": "Flexores de muñeca y dedos",
+    "extensores_antebrazo": "Extensores de muñeca y dedos",
+    "triceps_lateral": "Tríceps (cabeza lateral)",
+    "triceps_medial": "Tríceps (cabeza medial)",
+    "triceps_larga": "Tríceps (cabeza larga)",
+    "cuadriceps_vastos": "Cuádriceps (vasto lateral, medial e intermedio)",
+    "recto_femoral": "Cuádriceps (recto femoral)",
+    "isquiotibiales": "Isquiotibiales (bíceps femoral, semitendinoso, semimembranoso)",
+    "gluteo_mayor": "Glúteo mayor",
+    "gluteo_medio": "Glúteo medio y menor",
+    "aductores": "Aductores de cadera",
+    "gastrocnemio": "Gastrocnemio (gemelos)",
+    "soleo": "Sóleo",
+    "tibial_anterior": "Tibial anterior",
+    "erectores_espinales": "Erectores espinales",
+    "recto_abdominal": "Recto abdominal",
+    "oblicuos": "Oblicuos internos y externos",
+    "transverso_abdomen": "Transverso del abdomen"
+  },
+  "ejercicios": [
+    {
+      "id": "pecho_001",
+      "nombre": "Press de banca plano con barra",
+      "grupo_principal": "Pecho",
+      "patron_movimiento": "Empuje horizontal",
+      "mecanica": "Compuesto",
+      "equipamiento": "Barra y banco plano",
+      "musculos": [
+        { "musculo_id": "pectoral_esternal", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "pectoral_clavicular", "rol": "secundario", "activacion": 0.65 },
+        { "musculo_id": "deltoides_anterior", "rol": "secundario", "activacion": 0.55 },
+        { "musculo_id": "triceps_lateral", "rol": "secundario", "activacion": 0.45 },
+        { "musculo_id": "triceps_medial", "rol": "secundario", "activacion": 0.45 }
+      ],
+      "descripcion": "Acuéstate boca arriba en un banco plano con los pies firmes en el suelo. Agarra la barra un poco más abierta que el ancho de los hombros. Retrae y deprime las escápulas, saca la barra y bájala de forma controlada hasta tocar la parte media-baja del esternón. Empuja verticalmente hasta extender los codos sin perder la retracción escapular."
+    },
+    {
+      "id": "pecho_002",
+      "nombre": "Press inclinado con mancuernas (30°)",
+      "grupo_principal": "Pecho",
+      "patron_movimiento": "Empuje inclinado",
+      "mecanica": "Compuesto",
+      "equipamiento": "Mancuernas y banco inclinado",
+      "musculos": [
+        { "musculo_id": "pectoral_clavicular", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "pectoral_esternal", "rol": "secundario", "activacion": 0.70 },
+        { "musculo_id": "deltoides_anterior", "rol": "secundario", "activacion": 0.65 },
+        { "musculo_id": "triceps_lateral", "rol": "secundario", "activacion": 0.40 },
+        { "musculo_id": "triceps_medial", "rol": "secundario", "activacion": 0.40 }
+      ],
+      "descripcion": "Ajusta el banco a 30 grados. Recuéstate con una mancuerna en cada mano a la altura de los hombros y los codos ligeramente metidos (45° respecto al torso). Empuja las mancuernas hacia arriba convergiendo suavemente sin que choquen. Desciende de forma controlada hasta sentir estiramiento en el pecho superior."
+    },
+    {
+      "id": "pecho_003",
+      "nombre": "Press de pecho en máquina convergente",
+      "grupo_principal": "Pecho",
+      "patron_movimiento": "Empuje horizontal",
+      "mecanica": "Compuesto",
+      "equipamiento": "Máquina guiada",
+      "musculos": [
+        { "musculo_id": "pectoral_esternal", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "pectoral_clavicular", "rol": "secundario", "activacion": 0.60 },
+        { "musculo_id": "deltoides_anterior", "rol": "secundario", "activacion": 0.50 },
+        { "musculo_id": "triceps_lateral", "rol": "secundario", "activacion": 0.40 }
+      ],
+      "descripcion": "Ajusta el asiento para que los agarres queden alineados con la parte media del pecho. Apoya la espalda firme, retrae escápulas y empuja los brazos hacia adelante hasta casi extender los codos. Regresa controlando la fase excéntrica sin que las placas lleguen a chocar."
+    },
+    {
+      "id": "pecho_004",
+      "nombre": "Fondos en paralelas (énfasis pecho)",
+      "grupo_principal": "Pecho",
+      "patron_movimiento": "Empuje descendente",
+      "mecanica": "Compuesto",
+      "equipamiento": "Barras paralelas",
+      "musculos": [
+        { "musculo_id": "pectoral_abdominal", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "pectoral_esternal", "rol": "principal", "activacion": 0.90 },
+        { "musculo_id": "triceps_lateral", "rol": "secundario", "activacion": 0.65 },
+        { "musculo_id": "triceps_medial", "rol": "secundario", "activacion": 0.65 },
+        { "musculo_id": "deltoides_anterior", "rol": "secundario", "activacion": 0.60 }
+      ],
+      "descripcion": "Sujétate en las barras paralelas, inclina el torso hacia adelante unos 30° y abre ligeramente los codos hacia afuera. Desciende flexionando los codos hasta que los hombros queden ligeramente por debajo de los codos y empuja hasta volver arriba manteniendo la inclinación del torso."
+    },
+    {
+      "id": "pecho_005",
+      "nombre": "Cruces en polea alta",
+      "grupo_principal": "Pecho",
+      "patron_movimiento": "Aducción horizontal / descendente",
+      "mecanica": "Aislamiento",
+      "equipamiento": "Estación de poleas",
+      "musculos": [
+        { "musculo_id": "pectoral_esternal", "rol": "principal", "activacion": 0.95 },
+        { "musculo_id": "pectoral_abdominal", "rol": "principal", "activacion": 0.90 },
+        { "musculo_id": "deltoides_anterior", "rol": "secundario", "activacion": 0.35 },
+        { "musculo_id": "biceps_braquial", "rol": "estabilizador", "activacion": 0.15 }
+      ],
+      "descripcion": "Coloca las poleas arriba, toma un agarre con cada mano y adelanta un pie inclinando ligeramente el torso. Con una leve flexión fija en los codos, junta las manos frente a la parte baja del abdomen apretando el pecho. Vuelve atrás de forma lenta hasta estirar el pectoral."
+    },
+    {
+      "id": "pecho_006",
+      "nombre": "Aperturas en máquina Peck-Deck (Contractor)",
+      "grupo_principal": "Pecho",
+      "patron_movimiento": "Aducción horizontal",
+      "mecanica": "Aislamiento",
+      "equipamiento": "Máquina Peck-Deck",
+      "musculos": [
+        { "musculo_id": "pectoral_esternal", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "pectoral_clavicular", "rol": "secundario", "activacion": 0.55 },
+        { "musculo_id": "deltoides_anterior", "rol": "secundario", "activacion": 0.35 }
+      ],
+      "descripcion": "Ajusta el asiento para que los brazos queden paralelos al suelo. Mantén el pecho alto y los hombros atrás. Junta los brazos al frente describiendo un arco amplio, haz una pausa de 1 segundo en máxima contracción y regresa controlando el peso hasta alinear los codos con el torso."
+    },
+    {
+      "id": "espalda_001",
+      "nombre": "Dominadas pronas",
+      "grupo_principal": "Espalda",
+      "patron_movimiento": "Tracción vertical",
+      "mecanica": "Compuesto",
+      "equipamiento": "Barra de dominadas",
+      "musculos": [
+        { "musculo_id": "dorsal_ancho", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "redondo_mayor", "rol": "secundario", "activacion": 0.75 },
+        { "musculo_id": "trapecio_inferior", "rol": "secundario", "activacion": 0.60 },
+        { "musculo_id": "romboides", "rol": "secundario", "activacion": 0.55 },
+        { "musculo_id": "biceps_braquial", "rol": "secundario", "activacion": 0.50 },
+        { "musculo_id": "braquial_anterior", "rol": "secundario", "activacion": 0.55 }
+      ],
+      "descripcion": "Cuélgate de la barra con agarre prono más ancho que los hombros. Inicia deprimiendo las escápulas y tira llevando el pecho hacia la barra hasta que la barbilla la supere. Desciende lentamente hasta extender casi por completo los brazos."
+    },
+    {
+      "id": "espalda_002",
+      "nombre": "Jalón al pecho en polea alta (agarre ancho)",
+      "grupo_principal": "Espalda",
+      "patron_movimiento": "Tracción vertical",
+      "mecanica": "Compuesto",
+      "equipamiento": "Máquina de polea alta",
+      "musculos": [
+        { "musculo_id": "dorsal_ancho", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "redondo_mayor", "rol": "secundario", "activacion": 0.70 },
+        { "musculo_id": "biceps_braquial", "rol": "secundario", "activacion": 0.50 },
+        { "musculo_id": "romboides", "rol": "secundario", "activacion": 0.45 },
+        { "musculo_id": "trapecio_inferior", "rol": "secundario", "activacion": 0.45 }
+      ],
+      "descripcion": "Fija tus muslos bajo los rodillos. Agarra la barra con las palmas hacia adelante. Inclina levemente el torso atrás, saca pecho y tira de la barra hacia la parte superior del esternón llevando los codos hacia abajo. Regresa arriba controlando el recorrido."
+    },
+    {
+      "id": "espalda_003",
+      "nombre": "Jalón al pecho agarre estrecho neutro",
+      "grupo_principal": "Espalda",
+      "patron_movimiento": "Tracción vertical (extensión de hombro)",
+      "mecanica": "Compuesto",
+      "equipamiento": "Polea alta y agarre triángulo",
+      "musculos": [
+        { "musculo_id": "dorsal_ancho", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "redondo_mayor", "rol": "secundario", "activacion": 0.65 },
+        { "musculo_id": "braquial_anterior", "rol": "secundario", "activacion": 0.60 },
+        { "musculo_id": "biceps_braquial", "rol": "secundario", "activacion": 0.55 },
+        { "musculo_id": "trapecio_inferior", "rol": "secundario", "activacion": 0.50 }
+      ],
+      "descripcion": "Sujeta el agarre cerrado con palmas enfrentadas. Manteniendo los codos pegados a los costados del torso, tira del agarre hacia la parte baja del esternón enfatizando la extensión del hombro para aislar las fibras inferiores del dorsal ancho."
+    },
+    {
+      "id": "espalda_004",
+      "nombre": "Remo con barra inclinado",
+      "grupo_principal": "Espalda",
+      "patron_movimiento": "Tracción horizontal",
+      "mecanica": "Compuesto",
+      "equipamiento": "Barra",
+      "musculos": [
+        { "musculo_id": "dorsal_ancho", "rol": "principal", "activacion": 0.90 },
+        { "musculo_id": "trapecio_medio", "rol": "principal", "activacion": 0.85 },
+        { "musculo_id": "romboides", "rol": "principal", "activacion": 0.85 },
+        { "musculo_id": "deltoides_posterior", "rol": "secundario", "activacion": 0.60 },
+        { "musculo_id": "erectores_espinales", "rol": "estabilizador", "activacion": 0.55 },
+        { "musculo_id": "biceps_braquial", "rol": "secundario", "activacion": 0.45 }
+      ],
+      "descripcion": "De pie con pies al ancho de hombros, inclina el torso unos 45° manteniendo la columna neutra. Tira de la barra hacia el ombligo llevando los codos hacia atrás y juntando las escápulas al final. Baja la barra sin perder la postura lumbar."
+    },
+    {
+      "id": "espalda_005",
+      "nombre": "Remo sentado en polea baja (Gironda)",
+      "grupo_principal": "Espalda",
+      "patron_movimiento": "Tracción horizontal",
+      "mecanica": "Compuesto",
+      "equipamiento": "Polea baja y agarre neutro",
+      "musculos": [
+        { "musculo_id": "trapecio_medio", "rol": "principal", "activacion": 0.95 },
+        { "musculo_id": "romboides", "rol": "principal", "activacion": 0.90 },
+        { "musculo_id": "dorsal_ancho", "rol": "principal", "activacion": 0.85 },
+        { "musculo_id": "deltoides_posterior", "rol": "secundario", "activacion": 0.55 },
+        { "musculo_id": "biceps_braquial", "rol": "secundario", "activacion": 0.45 },
+        { "musculo_id": "erectores_espinales", "rol": "estabilizador", "activacion": 0.35 }
+      ],
+      "descripcion": "Siéntate con las rodillas semiflexionadas y la espalda recta. Tira del agarre hacia la boca del estómago retrayendo las escápulas y sacando pecho. Permite que los hombros se adelanten ligeramente en la fase excéntrica sin encorvar la zona lumbar."
+    },
+    {
+      "id": "espalda_006",
+      "nombre": "Remo unilateral con mancuerna apoyado en banco",
+      "grupo_principal": "Espalda",
+      "patron_movimiento": "Tracción horizontal unilateral",
+      "mecanica": "Compuesto",
+      "equipamiento": "Mancuerna y banco plano",
+      "musculos": [
+        { "musculo_id": "dorsal_ancho", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "trapecio_medio", "rol": "secundario", "activacion": 0.75 },
+        { "musculo_id": "romboides", "rol": "secundario", "activacion": 0.75 },
+        { "musculo_id": "deltoides_posterior", "rol": "secundario", "activacion": 0.55 },
+        { "musculo_id": "biceps_braquial", "rol": "secundario", "activacion": 0.45 }
+      ],
+      "descripcion": "Apoya una rodilla y la mano del mismo lado sobre un banco plano manteniendo la espalda paralela al suelo. Con la otra mano, tira de la mancuerna describiendo un arco hacia la cadera (no hacia el hombro) para maximizar la palanca del dorsal ancho."
+    },
+    {
+      "id": "espalda_007",
+      "nombre": "Pull-over en polea alta con cuerda",
+      "grupo_principal": "Espalda",
+      "patron_movimiento": "Extensión de hombro",
+      "mecanica": "Aislamiento",
+      "equipamiento": "Polea alta y cuerda",
+      "musculos": [
+        { "musculo_id": "dorsal_ancho", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "redondo_mayor", "rol": "secundario", "activacion": 0.80 },
+        { "musculo_id": "triceps_larga", "rol": "estabilizador", "activacion": 0.45 },
+        { "musculo_id": "pectoral_abdominal", "rol": "secundario", "activacion": 0.30 }
+      ],
+      "descripcion": "De pie frente a la polea alta, inclina el torso ligeramente hacia adelante y mantén los brazos casi extendidos. Lleva la cuerda hacia abajo hasta tocar los muslos contrayendo los dorsales, y regresa arriba dejando que los brazos suban hasta estirar por completo el dorsal."
+    },
+    {
+      "id": "pierna_001",
+      "nombre": "Sentadilla trasera con barra",
+      "grupo_principal": "Piernas",
+      "patron_movimiento": "Dominante de rodilla",
+      "mecanica": "Compuesto",
+      "equipamiento": "Barra y rack",
+      "musculos": [
+        { "musculo_id": "cuadriceps_vastos", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "gluteo_mayor", "rol": "principal", "activacion": 0.85 },
+        { "musculo_id": "aductores", "rol": "secundario", "activacion": 0.60 },
+        { "musculo_id": "erectores_espinales", "rol": "estabilizador", "activacion": 0.55 },
+        { "musculo_id": "recto_femoral", "rol": "secundario", "activacion": 0.40 },
+        { "musculo_id": "isquiotibiales", "rol": "estabilizador", "activacion": 0.25 }
+      ],
+      "descripcion": "Apoya la barra sobre los trapecios, separa los pies al ancho de hombros con puntas levemente hacia afuera. Manteniendo el tronco firme, desciende flexionando cadera y rodillas hasta romper el paralelo y empuja con toda la planta del pie hasta subir."
+    },
+    {
+      "id": "pierna_002",
+      "nombre": "Sentadilla Hack en máquina",
+      "grupo_principal": "Piernas",
+      "patron_movimiento": "Dominante de rodilla",
+      "mecanica": "Compuesto",
+      "equipamiento": "Máquina Hack Squat",
+      "musculos": [
+        { "musculo_id": "cuadriceps_vastos", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "gluteo_mayor", "rol": "secundario", "activacion": 0.70 },
+        { "musculo_id": "recto_femoral", "rol": "secundario", "activacion": 0.45 },
+        { "musculo_id": "aductores", "rol": "secundario", "activacion": 0.45 }
+      ],
+      "descripcion": "Apoya completamente la espalda y los hombros en los soportes de la máquina y coloca los pies en la zona media-baja de la plataforma. Desciende de forma profunda permitiendo que las rodillas viajen hacia adelante sin despegar los talones."
+    },
+    {
+      "id": "pierna_003",
+      "nombre": "Prensa de piernas inclinada 45°",
+      "grupo_principal": "Piernas",
+      "patron_movimiento": "Dominante de rodilla",
+      "mecanica": "Compuesto",
+      "equipamiento": "Máquina prensa 45°",
+      "musculos": [
+        { "musculo_id": "cuadriceps_vastos", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "gluteo_mayor", "rol": "secundario", "activacion": 0.75 },
+        { "musculo_id": "aductores", "rol": "secundario", "activacion": 0.50 },
+        { "musculo_id": "recto_femoral", "rol": "secundario", "activacion": 0.40 }
+      ],
+      "descripcion": "Apoya la zona lumbar firmemente en el respaldo. Coloca los pies al ancho de los hombros, baja la plataforma hasta lograr la máxima flexión de rodilla sin que el sacro se levante del asiento y empuja sin bloquear las articulaciones arriba."
+    },
+    {
+      "id": "pierna_004",
+      "nombre": "Zancadas caminando con mancuernas",
+      "grupo_principal": "Piernas",
+      "patron_movimiento": "Dominante de rodilla unilateral",
+      "mecanica": "Compuesto",
+      "equipamiento": "Mancuernas",
+      "musculos": [
+        { "musculo_id": "cuadriceps_vastos", "rol": "principal", "activacion": 0.95 },
+        { "musculo_id": "gluteo_mayor", "rol": "principal", "activacion": 0.90 },
+        { "musculo_id": "gluteo_medio", "rol": "estabilizador", "activacion": 0.65 },
+        { "musculo_id": "aductores", "rol": "secundario", "activacion": 0.55 },
+        { "musculo_id": "isquiotibiales", "rol": "secundario", "activacion": 0.40 }
+      ],
+      "descripcion": "Sosteniendo una mancuerna en cada mano, da un paso largo hacia adelante y desciende hasta que la rodilla trasera casi roce el suelo (ambas rodillas a 90°). Impúlsate con la pierna delantera para dar el siguiente paso manteniendo el torso erguido."
+    },
+    {
+      "id": "pierna_005",
+      "nombre": "Extensión de cuádriceps en máquina",
+      "grupo_principal": "Piernas",
+      "patron_movimiento": "Extensión de rodilla",
+      "mecanica": "Aislamiento",
+      "equipamiento": "Máquina de extensión",
+      "musculos": [
+        { "musculo_id": "recto_femoral", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "cuadriceps_vastos", "rol": "principal", "activacion": 0.95 }
+      ],
+      "descripcion": "Alinea el eje de rotación de la máquina con tus rodillas y coloca el rodillo justo encima de los tobillos. Agárrate fuerte a las asas laterales para fijar la cadera, extiende las rodillas por completo haciendo una breve pausa arriba y baja lentamente."
+    },
+    {
+      "id": "pierna_006",
+      "nombre": "Peso muerto convencional con barra",
+      "grupo_principal": "Piernas",
+      "patron_movimiento": "Bisagra de cadera / Tracción global",
+      "mecanica": "Compuesto",
+      "equipamiento": "Barra",
+      "musculos": [
+        { "musculo_id": "gluteo_mayor", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "isquiotibiales", "rol": "principal", "activacion": 0.90 },
+        { "musculo_id": "erectores_espinales", "rol": "principal", "activacion": 0.85 },
+        { "musculo_id": "cuadriceps_vastos", "rol": "secundario", "activacion": 0.60 },
+        { "musculo_id": "trapecio_medio", "rol": "estabilizador", "activacion": 0.55 },
+        { "musculo_id": "dorsal_ancho", "rol": "estabilizador", "activacion": 0.45 }
+      ],
+      "descripcion": "Coloca los pies al ancho de las caderas con la barra sobre la mitad del pie. Agarra la barra por fuera de las piernas, baja la cadera, saca pecho activando los dorsales y empuja el suelo con las piernas manteniendo la barra pegada al cuerpo hasta extender la cadera por completo."
+    },
+    {
+      "id": "pierna_007",
+      "nombre": "Peso muerto rumano con barra",
+      "grupo_principal": "Piernas",
+      "patron_movimiento": "Bisagra de cadera",
+      "mecanica": "Compuesto",
+      "equipamiento": "Barra",
+      "musculos": [
+        { "musculo_id": "isquiotibiales", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "gluteo_mayor", "rol": "principal", "activacion": 0.85 },
+        { "musculo_id": "erectores_espinales", "rol": "secundario", "activacion": 0.70 },
+        { "musculo_id": "aductores", "rol": "secundario", "activacion": 0.45 }
+      ],
+      "descripcion": "De pie con la barra en las manos y una semiflexión fija de rodillas. Empuja la cadera horizontalmente hacia atrás manteniendo la columna neutra y la barra rozando los muslos hasta notar el límite de estiramiento de los isquiotibiales. Vuelve a subir contrayendo glúteos."
+    },
+    {
+      "id": "pierna_008",
+      "nombre": "Curl femoral sentado en máquina",
+      "grupo_principal": "Piernas",
+      "patron_movimiento": "Flexión de rodilla",
+      "mecanica": "Aislamiento",
+      "equipamiento": "Máquina curl femoral sentado",
+      "musculos": [
+        { "musculo_id": "isquiotibiales", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "gastrocnemio", "rol": "secundario", "activacion": 0.35 }
+      ],
+      "descripcion": "Ajusta el rodillo superior sobre los muslos para bloquear la cadera (esta posición pre-estira los isquiotibiales aumentando la hipertrofia). Flexiona las rodillas llevando los talones por debajo del asiento y regresa controlando el retorno."
+    },
+    {
+      "id": "pierna_009",
+      "nombre": "Curl femoral tumbado en máquina",
+      "grupo_principal": "Piernas",
+      "patron_movimiento": "Flexión de rodilla",
+      "mecanica": "Aislamiento",
+      "equipamiento": "Máquina curl femoral tumbado",
+      "musculos": [
+        { "musculo_id": "isquiotibiales", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "gastrocnemio", "rol": "secundario", "activacion": 0.40 },
+        { "musculo_id": "gluteo_mayor", "rol": "estabilizador", "activacion": 0.25 }
+      ],
+      "descripcion": "Acuéstate boca abajo alineando las rodillas con el eje de la máquina. Presiona la pelvis contra el banco (evitando arquear la lumbar), flexiona las rodillas llevando el rodillo hacia los glúteos y desciende lentamente."
+    },
+    {
+      "id": "pierna_010",
+      "nombre": "Hip Thrust con barra (Empuje de cadera)",
+      "grupo_principal": "Glúteos",
+      "patron_movimiento": "Extensión de cadera",
+      "mecanica": "Compuesto",
+      "equipamiento": "Barra y banco",
+      "musculos": [
+        { "musculo_id": "gluteo_mayor", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "isquiotibiales", "rol": "secundario", "activacion": 0.55 },
+        { "musculo_id": "cuadriceps_vastos", "rol": "secundario", "activacion": 0.45 },
+        { "musculo_id": "aductores", "rol": "secundario", "activacion": 0.40 }
+      ],
+      "descripcion": "Apoya el borde inferior de las escápulas en un banco y coloca la barra acolchada sobre el pliegue de la cadera. Con las espinillas verticales en la cima, empuja la barra hacia arriba haciendo retroversión pélvica y contrayendo al máximo los glúteos."
+    },
+    {
+      "id": "pierna_011",
+      "nombre": "Abducción de cadera en máquina",
+      "grupo_principal": "Glúteos",
+      "patron_movimiento": "Abducción de cadera",
+      "mecanica": "Aislamiento",
+      "equipamiento": "Máquina de abductores",
+      "musculos": [
+        { "musculo_id": "gluteo_medio", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "gluteo_mayor", "rol": "secundario", "activacion": 0.55 }
+      ],
+      "descripcion": "Siéntate en la máquina apoyando la cara externa de las rodillas en las almohadillas. Separa las piernas empujando hacia afuera todo lo posible, mantén 1 segundo la contracción y junta las piernas de forma controlada."
+    },
+    {
+      "id": "pierna_012",
+      "nombre": "Aducción de cadera en máquina",
+      "grupo_principal": "Piernas",
+      "patron_movimiento": "Aducción de cadera",
+      "mecanica": "Aislamiento",
+      "equipamiento": "Máquina de aductores",
+      "musculos": [
+        { "musculo_id": "aductores", "rol": "principal", "activacion": 1.0 }
+      ],
+      "descripcion": "Ajusta la apertura inicial según tu movilidad. Apoya la cara interna de las piernas en los cojines y junta las piernas apretando los aductores. Regresa despacio hasta el estiramiento inicial."
+    },
+    {
+      "id": "pierna_013",
+      "nombre": "Elevación de talones de pie",
+      "grupo_principal": "Piernas",
+      "patron_movimiento": "Flexión plantar (rodilla extendida)",
+      "mecanica": "Aislamiento",
+      "equipamiento": "Máquina de gemelos o escalón",
+      "musculos": [
+        { "musculo_id": "gastrocnemio", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "soleo", "rol": "secundario", "activacion": 0.55 }
+      ],
+      "descripcion": "Con las rodillas estiradas, apoya el antepié en la plataforma. Desciende los talones al máximo haciendo una pausa abajo para eliminar el rebote del tendón de Aquiles y sube poniéndote de puntillas."
+    },
+    {
+      "id": "pierna_014",
+      "nombre": "Elevación de talones sentado (Costurera)",
+      "grupo_principal": "Piernas",
+      "patron_movimiento": "Flexión plantar (rodilla flexionada)",
+      "mecanica": "Aislamiento",
+      "equipamiento": "Máquina de sóleo sentado",
+      "musculos": [
+        { "musculo_id": "soleo", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "gastrocnemio", "rol": "secundario", "activacion": 0.30 }
+      ],
+      "descripcion": "Al tener las rodillas flexionadas a 90°, el gastrocnemio pierde ventaja mecánica y el trabajo recae en el sóleo. Baja los talones al máximo, pausa un segundo y eleva el peso extendiendo los tobillos."
+    },
+    {
+      "id": "hombro_001",
+      "nombre": "Press militar de pie con barra",
+      "grupo_principal": "Hombros",
+      "patron_movimiento": "Empuje vertical",
+      "mecanica": "Compuesto",
+      "equipamiento": "Barra",
+      "musculos": [
+        { "musculo_id": "deltoides_anterior", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "deltoides_lateral", "rol": "secundario", "activacion": 0.65 },
+        { "musculo_id": "triceps_lateral", "rol": "secundario", "activacion": 0.55 },
+        { "musculo_id": "triceps_medial", "rol": "secundario", "activacion": 0.55 },
+        { "musculo_id": "trapecio_superior", "rol": "secundario", "activacion": 0.45 },
+        { "musculo_id": "pectoral_clavicular", "rol": "secundario", "activacion": 0.40 },
+        { "musculo_id": "recto_abdominal", "rol": "estabilizador", "activacion": 0.35 }
+      ],
+      "descripcion": "De pie con glúteos y abdomen contraídos, apoya la barra sobre las clavículas. Empuja verticalmente por encima de la cabeza metiendo ligeramente el torso debajo de la barra una vez pase la frente. Baja de forma controlada."
+    },
+    {
+      "id": "hombro_002",
+      "nombre": "Press de hombros sentado con mancuernas",
+      "grupo_principal": "Hombros",
+      "patron_movimiento": "Empuje vertical",
+      "mecanica": "Compuesto",
+      "equipamiento": "Mancuernas y banco vertical",
+      "musculos": [
+        { "musculo_id": "deltoides_anterior", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "deltoides_lateral", "rol": "secundario", "activacion": 0.70 },
+        { "musculo_id": "triceps_lateral", "rol": "secundario", "activacion": 0.50 },
+        { "musculo_id": "triceps_medial", "rol": "secundario", "activacion": 0.50 },
+        { "musculo_id": "trapecio_superior", "rol": "secundario", "activacion": 0.40 }
+      ],
+      "descripcion": "Siéntate en un banco con respaldo a 80-85°. Con una mancuerna en cada mano a la altura de las orejas y los codos ligeramente adelantados (plano escapular), empuja hacia arriba sin llegar a chocar las pesas y desciende hasta la altura del mentón."
+    },
+    {
+      "id": "hombro_003",
+      "nombre": "Elevaciones laterales con mancuernas",
+      "grupo_principal": "Hombros",
+      "patron_movimiento": "Abducción de hombro",
+      "mecanica": "Aislamiento",
+      "equipamiento": "Mancuernas",
+      "musculos": [
+        { "musculo_id": "deltoides_lateral", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "deltoides_anterior", "rol": "secundario", "activacion": 0.40 },
+        { "musculo_id": "trapecio_superior", "rol": "secundario", "activacion": 0.35 },
+        { "musculo_id": "deltoides_posterior", "rol": "secundario", "activacion": 0.25 }
+      ],
+      "descripcion": "De pie con ligera inclinación hacia adelante, eleva los brazos hacia los lados en el plano escapular (unos 30° hacia adelante) liderando con los codos hasta la altura de los hombros. Evita encoger los trapecios."
+    },
+    {
+      "id": "hombro_004",
+      "nombre": "Elevaciones laterales en polea baja",
+      "grupo_principal": "Hombros",
+      "patron_movimiento": "Abducción de hombro",
+      "mecanica": "Aislamiento",
+      "equipamiento": "Estación de poleas",
+      "musculos": [
+        { "musculo_id": "deltoides_lateral", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "deltoides_anterior", "rol": "secundario", "activacion": 0.35 },
+        { "musculo_id": "trapecio_superior", "rol": "secundario", "activacion": 0.30 }
+      ],
+      "descripcion": "Colócate de lado a una polea ajustada a la altura de la muñeca (ofrece tensión máxima en el estiramiento inicial). Sujeta el estribo y eleva el brazo lateralmente hasta la horizontal. Baja controlando la resistencia del cable."
+    },
+    {
+      "id": "hombro_005",
+      "nombre": "Pájaros en máquina Peck-Deck inverso",
+      "grupo_principal": "Hombros",
+      "patron_movimiento": "Abducción horizontal",
+      "mecanica": "Aislamiento",
+      "equipamiento": "Máquina Peck-Deck inverso",
+      "musculos": [
+        { "musculo_id": "deltoides_posterior", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "trapecio_medio", "rol": "secundario", "activacion": 0.55 },
+        { "musculo_id": "romboides", "rol": "secundario", "activacion": 0.50 },
+        { "musculo_id": "manguito_rotador", "rol": "secundario", "activacion": 0.45 }
+      ],
+      "descripcion": "Siéntate mirando hacia el respaldo de la máquina. Agarra las manijas con las palmas hacia abajo o neutras y abre los brazos hacia atrás empujando con los codos, evitando juntar excesivamente las escápulas para no robar trabajo al deltoides posterior."
+    },
+    {
+      "id": "hombro_006",
+      "nombre": "Face Pull en polea alta con cuerda",
+      "grupo_principal": "Hombros",
+      "patron_movimiento": "Abducción horizontal + Rotación externa",
+      "mecanica": "Compuesto",
+      "equipamiento": "Polea alta y cuerda",
+      "musculos": [
+        { "musculo_id": "deltoides_posterior", "rol": "principal", "activacion": 0.95 },
+        { "musculo_id": "manguito_rotador", "rol": "principal", "activacion": 0.90 },
+        { "musculo_id": "trapecio_medio", "rol": "secundario", "activacion": 0.75 },
+        { "musculo_id": "romboides", "rol": "secundario", "activacion": 0.70 },
+        { "musculo_id": "trapecio_inferior", "rol": "secundario", "activacion": 0.60 }
+      ],
+      "descripcion": "Coloca la polea a la altura de la cara, toma la cuerda con los pulgares apuntando hacia atrás y tira hacia tu frente separando las manos y rotando externamente los hombros (acabando en postura de doble bíceps)."
+    },
+    {
+      "id": "hombro_007",
+      "nombre": "Encogimientos de hombros con mancuernas",
+      "grupo_principal": "Hombros",
+      "patron_movimiento": "Elevación escapular",
+      "mecanica": "Aislamiento",
+      "equipamiento": "Mancuernas",
+      "musculos": [
+        { "musculo_id": "trapecio_superior", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "trapecio_medio", "rol": "secundario", "activacion": 0.45 },
+        { "musculo_id": "flexores_antebrazo", "rol": "estabilizador", "activacion": 0.40 }
+      ],
+      "descripcion": "De pie con una mancuerna pesada en cada mano a los costados, inclina levemente el torso adelante y eleva los hombros en dirección hacia las orejas (sin rotarlos). Haz una pausa arriba y desciende completamente."
+    },
+    {
+      "id": "brazos_001",
+      "nombre": "Curl de bíceps con barra Z",
+      "grupo_principal": "Brazos",
+      "patron_movimiento": "Flexión de codo",
+      "mecanica": "Aislamiento",
+      "equipamiento": "Barra Z",
+      "musculos": [
+        { "musculo_id": "biceps_braquial", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "braquial_anterior", "rol": "secundario", "activacion": 0.80 },
+        { "musculo_id": "braquiorradial", "rol": "secundario", "activacion": 0.65 },
+        { "musculo_id": "deltoides_anterior", "rol": "estabilizador", "activacion": 0.15 }
+      ],
+      "descripcion": "De pie con los codos pegados a los costados del torso, sujeta la barra Z en los ángulos semi-supinos. Flexiona los codos levantando la barra sin adelantar los brazos ni impulsar con la espalda. Desciende de forma controlada."
+    },
+    {
+      "id": "brazos_002",
+      "nombre": "Curl inclinado con mancuernas (45°)",
+      "grupo_principal": "Brazos",
+      "patron_movimiento": "Flexión de codo (hombro extendido)",
+      "mecanica": "Aislamiento",
+      "equipamiento": "Mancuernas y banco inclinado",
+      "musculos": [
+        { "musculo_id": "biceps_braquial", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "braquial_anterior", "rol": "secundario", "activacion": 0.70 },
+        { "musculo_id": "braquiorradial", "rol": "secundario", "activacion": 0.55 }
+      ],
+      "descripcion": "Recostado en un banco a 45-60°, deja que los brazos cuelguen perpendicularmente al suelo (estirando la cabeza larga del bíceps). Manteniendo los codos apuntando hacia abajo, flexiona los brazos supinando las muñecas al subir."
+    },
+    {
+      "id": "brazos_003",
+      "nombre": "Curl martillo con mancuernas",
+      "grupo_principal": "Brazos",
+      "patron_movimiento": "Flexión de codo (agarre neutro)",
+      "mecanica": "Aislamiento",
+      "equipamiento": "Mancuernas",
+      "musculos": [
+        { "musculo_id": "braquial_anterior", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "braquiorradial", "rol": "principal", "activacion": 0.95 },
+        { "musculo_id": "biceps_braquial", "rol": "secundario", "activacion": 0.75 }
+      ],
+      "descripcion": "De pie con una mancuerna en cada mano y las palmas mirando hacia tu cuerpo (agarre neutro). Flexiona los codos manteniendo las muñecas rectas y los codos fijos a los costados. Baja lentamente."
+    },
+    {
+      "id": "brazos_004",
+      "nombre": "Curl predicador (Banco Scott) en máquina o barra Z",
+      "grupo_principal": "Brazos",
+      "patron_movimiento": "Flexión de codo (hombro flexionado)",
+      "mecanica": "Aislamiento",
+      "equipamiento": "Banco Scott y barra Z",
+      "musculos": [
+        { "musculo_id": "biceps_braquial", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "braquial_anterior", "rol": "secundario", "activacion": 0.85 },
+        { "musculo_id": "braquiorradial", "rol": "secundario", "activacion": 0.50 }
+      ],
+      "descripcion": "Apoya la parte posterior de los brazos sobre el pupitre inclinado fijando los hombros. Flexiona los codos subiendo el peso y desciende controlando especialmente los últimos grados de extensión sin dejar caer la carga."
+    },
+    {
+      "id": "brazos_005",
+      "nombre": "Extensión de tríceps en polea alta con cuerda",
+      "grupo_principal": "Brazos",
+      "patron_movimiento": "Extensión de codo",
+      "mecanica": "Aislamiento",
+      "equipamiento": "Polea alta y cuerda",
+      "musculos": [
+        { "musculo_id": "triceps_lateral", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "triceps_medial", "rol": "principal", "activacion": 0.95 },
+        { "musculo_id": "triceps_larga", "rol": "secundario", "activacion": 0.65 }
+      ],
+      "descripcion": "Frente a la polea alta con los codos pegados al torso, extiende los antebrazos hacia abajo abriendo ligeramente las puntas de la cuerda al final del movimiento. Regresa arriba flexionando solo los codos."
+    },
+    {
+      "id": "brazos_006",
+      "nombre": "Press francés con barra Z",
+      "grupo_principal": "Brazos",
+      "patron_movimiento": "Extensión de codo (hombro flexionado)",
+      "mecanica": "Aislamiento",
+      "equipamiento": "Barra Z y banco plano",
+      "musculos": [
+        { "musculo_id": "triceps_larga", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "triceps_medial", "rol": "secundario", "activacion": 0.75 },
+        { "musculo_id": "triceps_lateral", "rol": "secundario", "activacion": 0.75 }
+      ],
+      "descripcion": "Acostado en banco plano, sostén la barra Z con los brazos inclinados ligeramente hacia atrás (100° respecto al torso). Flexiona los codos bajando la barra justo por detrás de la cabeza para estirar la cabeza larga y vuelve a extender."
+    },
+    {
+      "id": "brazos_007",
+      "nombre": "Extensión de tríceps por encima de la cabeza en polea",
+      "grupo_principal": "Brazos",
+      "patron_movimiento": "Extensión de codo (flexión máxima de hombro)",
+      "mecanica": "Aislamiento",
+      "equipamiento": "Polea baja/media y cuerda",
+      "musculos": [
+        { "musculo_id": "triceps_larga", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "triceps_medial", "rol": "secundario", "activacion": 0.70 },
+        { "musculo_id": "triceps_lateral", "rol": "secundario", "activacion": 0.70 }
+      ],
+      "descripcion": "De espaldas a la polea, inclina ligeramente el torso adelante con los brazos elevados junto a las orejas. Extiende los codos hacia adelante y arriba manteniendo los brazos fijos y regresa hasta estirar por completo el tríceps detrás de la nuca."
+    },
+    {
+      "id": "core_001",
+      "nombre": "Plancha abdominal isométrica",
+      "grupo_principal": "Core",
+      "patron_movimiento": "Anti-extensión",
+      "mecanica": "Isométrico",
+      "equipamiento": "Peso corporal",
+      "musculos": [
+        { "musculo_id": "transverso_abdomen", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "recto_abdominal", "rol": "principal", "activacion": 0.85 },
+        { "musculo_id": "oblicuos", "rol": "secundario", "activacion": 0.65 },
+        { "musculo_id": "gluteo_mayor", "rol": "estabilizador", "activacion": 0.40 },
+        { "musculo_id": "serrato_anterior", "rol": "estabilizador", "activacion": 0.35 }
+      ],
+      "descripcion": "Apoya antebrazos y puntas de los pies en el suelo formando una línea recta. Haz retroversión pélvica contrayendo abdomen y glúteos para bloquear la zona lumbar y mantén la postura respirando de forma controlada."
+    },
+    {
+      "id": "core_002",
+      "nombre": "Crunch abdominal en polea alta",
+      "grupo_principal": "Core",
+      "patron_movimiento": "Flexión de columna",
+      "mecanica": "Aislamiento",
+      "equipamiento": "Polea alta y cuerda",
+      "musculos": [
+        { "musculo_id": "recto_abdominal", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "oblicuos", "rol": "secundario", "activacion": 0.55 }
+      ],
+      "descripcion": "Arrodíllate frente a la polea alta sujetando la cuerda junto a tus sienes. Con la cadera fija, enrolla la columna llevando las costillas hacia la pelvis (no bajes simplemente inclinando la cadera) y regresa estirando el abdomen."
+    },
+    {
+      "id": "core_003",
+      "nombre": "Elevación de piernas colgado",
+      "grupo_principal": "Core",
+      "patron_movimiento": "Flexión de columna / Retroversión pélvica",
+      "mecanica": "Compuesto",
+      "equipamiento": "Barra de dominadas",
+      "musculos": [
+        { "musculo_id": "recto_abdominal", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "oblicuos", "rol": "secundario", "activacion": 0.65 },
+        { "musculo_id": "recto_femoral", "rol": "secundario", "activacion": 0.55 },
+        { "musculo_id": "flexores_antebrazo", "rol": "estabilizador", "activacion": 0.40 }
+      ],
+      "descripcion": "Cuélgate de la barra sin balancearte. Eleva las piernas (estiradas o con rodillas flexionadas) enrollando la pelvis hacia arriba al final del recorrido para activar la porción inferior del recto abdominal. Desciende lentamente."
+    },
+    {
+      "id": "core_004",
+      "nombre": "Press Pallof en polea (Anti-rotación)",
+      "grupo_principal": "Core",
+      "patron_movimiento": "Anti-rotación",
+      "mecanica": "Isométrico / Estabilidad",
+      "equipamiento": "Polea media",
+      "musculos": [
+        { "musculo_id": "oblicuos", "rol": "principal", "activacion": 1.0 },
+        { "musculo_id": "transverso_abdomen", "rol": "principal", "activacion": 0.90 },
+        { "musculo_id": "recto_abdominal", "rol": "secundario", "activacion": 0.60 },
+        { "musculo_id": "gluteo_medio", "rol": "estabilizador", "activacion": 0.40 }
+      ],
+      "descripcion": "Colócate de lado a la polea ajustada a la altura del esternón. Sujeta el agarre con ambas manos pegado al pecho, da un paso lateral para generar tensión y empuja las manos al frente resistiendo que el cable gire tu torso."
+    }
+  ]
+}

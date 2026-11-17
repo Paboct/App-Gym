@@ -1,0 +1,212 @@
+[
+  {
+    "id": "pectoral_esternal",
+    "nombre_es": "Pectoral mayor (porción esternal)",
+    "nombre_en": "Pectoralis major (sternal head)",
+    "grupo": "chest"
+  },
+  {
+    "id": "pectoral_clavicular",
+    "nombre_es": "Pectoral mayor (porción clavicular)",
+    "nombre_en": "Pectoralis major (clavicular head)",
+    "grupo": "chest"
+  },
+  {
+    "id": "pectoral_abdominal",
+    "nombre_es": "Pectoral mayor (porción abdominal)",
+    "nombre_en": "Pectoralis major (abdominal head)",
+    "grupo": "chest"
+  },
+  {
+    "id": "serrato_anterior",
+    "nombre_es": "Serrato anterior",
+    "nombre_en": "Serratus anterior",
+    "grupo": "chest"
+  },
+  {
+    "id": "dorsal_ancho",
+    "nombre_es": "Dorsal ancho",
+    "nombre_en": "Latissimus dorsi",
+    "grupo": "back"
+  },
+  {
+    "id": "redondo_mayor",
+    "nombre_es": "Redondo mayor",
+    "nombre_en": "Teres major",
+    "grupo": "back"
+  },
+  {
+    "id": "romboides",
+    "nombre_es": "Romboides mayor y menor",
+    "nombre_en": "Rhomboids",
+    "grupo": "back"
+  },
+  {
+    "id": "trapecio_superior",
+    "nombre_es": "Trapecio (fibras superiores)",
+    "nombre_en": "Trapezius (upper fibers)",
+    "grupo": "back"
+  },
+  {
+    "id": "trapecio_medio",
+    "nombre_es": "Trapecio (fibras medias)",
+    "nombre_en": "Trapezius (middle fibers)",
+    "grupo": "back"
+  },
+  {
+    "id": "trapecio_inferior",
+    "nombre_es": "Trapecio (fibras inferiores)",
+    "nombre_en": "Trapezius (lower fibers)",
+    "grupo": "back"
+  },
+  {
+    "id": "deltoides_anterior",
+    "nombre_es": "Deltoides anterior",
+    "nombre_en": "Anterior deltoid",
+    "grupo": "shoulders"
+  },
+  {
+    "id": "deltoides_lateral",
+    "nombre_es": "Deltoides lateral",
+    "nombre_en": "Lateral deltoid",
+    "grupo": "shoulders"
+  },
+  {
+    "id": "deltoides_posterior",
+    "nombre_es": "Deltoides posterior",
+    "nombre_en": "Posterior deltoid",
+    "grupo": "shoulders"
+  },
+  {
+    "id": "manguito_rotador",
+    "nombre_es": "Manguito rotador (infraespinoso y redondo menor)",
+    "nombre_en": "Rotator cuff (infraspinatus and teres minor)",
+    "grupo": "shoulders"
+  },
+  {
+    "id": "biceps_braquial",
+    "nombre_es": "Bíceps braquial",
+    "nombre_en": "Biceps brachii",
+    "grupo": "biceps"
+  },
+  {
+    "id": "braquial_anterior",
+    "nombre_es": "Braquial anterior",
+    "nombre_en": "Brachialis",
+    "grupo": "biceps"
+  },
+  {
+    "id": "braquiorradial",
+    "nombre_es": "Braquiorradial",
+    "nombre_en": "Brachioradialis",
+    "grupo": "biceps"
+  },
+  {
+    "id": "flexores_antebrazo",
+    "nombre_es": "Flexores de muñeca y dedos",
+    "nombre_en": "Wrist and finger flexors",
+    "grupo": "forearms"
+  },
+  {
+    "id": "extensores_antebrazo",
+    "nombre_es": "Extensores de muñeca y dedos",
+    "nombre_en": "Wrist and finger extensors",
+    "grupo": "forearms"
+  },
+  {
+    "id": "triceps_lateral",
+    "nombre_es": "Tríceps (cabeza lateral)",
+    "nombre_en": "Triceps (lateral head)",
+    "grupo": "triceps"
+  },
+  {
+    "id": "triceps_medial",
+    "nombre_es": "Tríceps (cabeza medial)",
+    "nombre_en": "Triceps (medial head)",
+    "grupo": "triceps"
+  },
+  {
+    "id": "triceps_larga",
+    "nombre_es": "Tríceps (cabeza larga)",
+    "nombre_en": "Triceps (long head)",
+    "grupo": "triceps"
+  },
+  {
+    "id": "cuadriceps_vastos",
+    "nombre_es": "Cuádriceps (vasto lateral, medial e intermedio)",
+    "nombre_en": "Quadriceps (vastus lateralis, medialis and intermedius)",
+    "grupo": "quads"
+  },
+  {
+    "id": "recto_femoral",
+    "nombre_es": "Cuádriceps (recto femoral)",
+    "nombre_en": "Quadriceps (rectus femoris)",
+    "grupo": "quads"
+  },
+  {
+    "id": "isquiotibiales",
+    "nombre_es": "Isquiotibiales (bíceps femoral, semitendinoso, semimembranoso)",
+    "nombre_en": "Hamstrings (biceps femoris, semitendinosus, semimembranosus)",
+    "grupo": "hamstrings"
+  },
+  {
+    "id": "gluteo_mayor",
+    "nombre_es": "Glúteo mayor",
+    "nombre_en": "Gluteus maximus",
+    "grupo": "glutes"
+  },
+  {
+    "id": "gluteo_medio",
+    "nombre_es": "Glúteo medio y menor",
+    "nombre_en": "Gluteus medius and minimus",
+    "grupo": "glutes"
+  },
+  {
+    "id": "aductores",
+    "nombre_es": "Aductores de cadera",
+    "nombre_en": "Hip adductors",
+    "grupo": "adductors"
+  },
+  {
+    "id": "gastrocnemio",
+    "nombre_es": "Gastrocnemio (gemelos)",
+    "nombre_en": "Gastrocnemius",
+    "grupo": "calves"
+  },
+  {
+    "id": "soleo",
+    "nombre_es": "Sóleo",
+    "nombre_en": "Soleus",
+    "grupo": "calves"
+  },
+  {
+    "id": "tibial_anterior",
+    "nombre_es": "Tibial anterior",
+    "nombre_en": "Tibialis anterior",
+    "grupo": "calves"
+  },
+  {
+    "id": "erectores_espinales",
+    "nombre_es": "Erectores espinales",
+    "nombre_en": "Erector spinae",
+    "grupo": "back"
+  },
+  {
+    "id": "recto_abdominal",
+    "nombre_es": "Recto abdominal",
+    "nombre_en": "Rectus abdominis",
+    "grupo": "core"
+  },
+  {
+    "id": "oblicuos",
+    "nombre_es": "Oblicuos internos y externos",
+    "nombre_en": "Internal and external obliques",
+    "grupo": "core"
+  },
+  {
+    "id": "transverso_abdomen",
+    "nombre_es": "Transverso del abdomen",
+    "nombre_en": "Transversus abdominis",
+    "grupo": "core"
+  }
+]
