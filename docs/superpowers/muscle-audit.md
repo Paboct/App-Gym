@@ -1,6 +1,6 @@
 # Auditoría de músculos del catálogo
 
-Fecha: 2026-11-16. Método: `node scripts/audit-muscles.mjs <clon de free-exercise-db>` compara, por grupo muscular, los principales del catálogo con los del dataset en los 139 ejercicios con foto. Después, revisión anatómica de cada desacuerdo y de los 17 ejercicios sin foto.
+Fecha: 2026-11-16. Método: un script (`scripts/audit-muscles.mjs`, retirado al llegar el catálogo con activación; la validación vive ahora en `tests/catalogData.test.ts`) compara, por grupo muscular, los principales del catálogo con los del dataset en los 139 ejercicios con foto. Después, revisión anatómica de cada desacuerdo y de los 17 ejercicios sin foto.
 
 Resultado: el dataset es más grueso que el catálogo (no separa espalda alta de dorsales, ni las porciones del pecho o del hombro), así que la mayoría de los 32 desacuerdos eran diferencias de detalle y el catálogo estaba bien.
 
