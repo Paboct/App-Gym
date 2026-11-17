@@ -7,6 +7,9 @@ import { chromium } from 'playwright-core';
 
 const RES = 'android/app/src/main/res';
 const BG = '#0b0b0c';
+// El logo es una «L»: su peso visual cae abajo a la izquierda del recuadro, así que se
+// desplaza (en fracción de su ancho) hacia arriba y a la derecha para que parezca centrado.
+const OPTICAL = { x: 0.08, y: -0.08 };
 const logo = `data:image/svg+xml;base64,${readFileSync('public/logo.svg').toString('base64')}`;
 
 const browser = await chromium.launch(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH } : {});
@@ -18,7 +21,7 @@ async function render(file, width, height, { ratio, background, radius = '0' }) 
   await page.setContent(
     `<body style="margin:0;width:${width}px;height:${height}px;display:grid;place-items:center;background:transparent">
        <div style="width:100%;height:100%;display:grid;place-items:center;background:${background ?? 'transparent'};border-radius:${radius}">
-         <img src="${logo}" style="width:${Math.round(Math.min(width, height) * ratio)}px">
+         <img src="${logo}" style="width:${Math.round(Math.min(width, height) * ratio)}px;transform:translate(${OPTICAL.x * 100}%,${OPTICAL.y * 100}%)">
        </div>
      </body>`,
   );

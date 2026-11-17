@@ -1194,6 +1194,7 @@ textarea.input {
 .splash-logo {
   width: min(40vw, 170px);
   height: auto;
+  transform: translate(8%, -8%); /* centrado óptico de la «L» */
   filter: drop-shadow(0 12px 28px rgba(0, 0, 0, 0.6));
 }
 
