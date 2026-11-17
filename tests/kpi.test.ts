@@ -2,7 +2,9 @@ import { describe, expect, it } from 'vitest';
 import { CATALOG } from '../src/data/catalog';
 import {
   TIERS,
+  WEIGHTS,
   avgDurationSec,
+  effectiveSetsByMuscle,
   groupByWorkout,
   groupScore,
   groupWeight,
@@ -14,7 +16,8 @@ import {
   type ScoreContext,
   type WorkoutSets,
 } from '../src/domain/kpi';
-import type { Exercise, Mesocycle, PrRecord, SetLog, Workout } from '../src/domain/types';
+import type { MuscleId } from '../src/domain/muscles';
+import type { Exercise, Mesocycle, MuscleRole, PrRecord, SetLog, Workout } from '../src/domain/types';
 
 const byId = new Map(CATALOG.map((e) => [e.id, e]));
 const ex = (id: string): Exercise => byId.get(id)!;
@@ -125,5 +128,85 @@ describe('otros KPIs', () => {
     const sets = [set({ kind: 'warmup' }), set({ done: false }), set({ weight: 80, reps: 10 })];
     const g = groupByWorkout(ws, sets);
     expect(g[0].sets).toHaveLength(1);
+  });
+});
+
+
+// Ejercicios de prueba hechos a mano (no dependen de catalog.json).
+function mk(id: string, muscles: [MuscleId, MuscleRole, number][]): Exercise {
+  return { id, muscles: muscles.map(([mid, role, activation]) => ({ id: mid, role, activation })) } as Exercise;
+}
+const BENCH = mk('t_bench', [
+  ['pectoral_esternal', 'principal', 1],
+  ['deltoides_anterior', 'secundario', 0.55],
+  ['triceps_lateral', 'secundario', 0.6],
+  ['biceps_braquial', 'estabilizador', 0.3],
+]);
+const OHP = mk('t_ohp', [
+  ['deltoides_anterior', 'principal', 1],
+  ['triceps_lateral', 'secundario', 0.5],
+]);
+const DEADLIFT = mk('t_dl', [
+  ['gluteo_mayor', 'principal', 1],
+  ['isquiotibiales', 'principal', 0.9],
+  ['erectores_espinales', 'secundario', 0.65],
+]);
+const SQUAT = mk('t_sq', [
+  ['cuadriceps_vastos', 'principal', 1],
+  ['gluteo_mayor', 'secundario', 0.8],
+]);
+const STAB_ONLY = mk('t_stab', [
+  ['erectores_espinales', 'estabilizador', 0.5],
+  ['pectoral_esternal', 'principal', 1],
+]);
+const tex = new Map<string, Exercise>([BENCH, OHP, DEADLIFT, SQUAT, STAB_ONLY].map((e) => [e.id, e]));
+const sets = (exerciseId: string, n: number, p: Partial<SetLog> = {}) => Array.from({ length: n }, () => set({ exerciseId, ...p }));
+function tctx(data: WorkoutSets[], bw: number | null = 80, weeks = 1): ScoreContext {
+  return { data, exercises: tex, bodyWeightKg: bw, meso: null, weeks };
+}
+
+describe('series efectivas por músculo', () => {
+  const data: WorkoutSets[] = [{ workout: workout({}), sets: [...sets('t_bench', 4), ...sets('t_ohp', 3)] }];
+  it('4 de banca + 3 de militar: deltoides anterior 5,2 y pectoral 4,0', () => {
+    const m = effectiveSetsByMuscle(tctx(data));
+    expect(m.get('deltoides_anterior')).toBeCloseTo(5.2, 10);
+    expect(m.get('pectoral_esternal')).toBeCloseTo(4, 10);
+  });
+  it('un estabilizador no suma', () => {
+    const m = effectiveSetsByMuscle(tctx(data));
+    expect(m.get('biceps_braquial') ?? 0).toBe(0);
+    const only = effectiveSetsByMuscle(tctx([{ workout: workout({}), sets: sets('t_stab', 2) }]));
+    expect(only.get('erectores_espinales') ?? 0).toBe(0);
+  });
+  it('divide entre las semanas del ámbito', () => {
+    expect(effectiveSetsByMuscle(tctx(data, 80, 2)).get('pectoral_esternal')).toBeCloseTo(2, 10);
+  });
+  it('el volumen de grupo usa la activación máxima, no la suma', () => {
+    const one: WorkoutSets[] = [{ workout: workout({}), sets: sets('t_bench', 1) }];
+    expect(groupScore(tctx(one), 'chest').weeklySets).toBe(1);
+    expect(groupScore(tctx(one), 'triceps').weeklySets).toBe(0.6);
+  });
+  it('un grupo cuyo único músculo es estabilizador aporta 0', () => {
+    const one: WorkoutSets[] = [{ workout: workout({}), sets: sets('t_stab', 3) }];
+    const sc = groupScore(tctx(one), 'back');
+    expect(sc.weeklySets).toBe(0);
+    expect(sc.volume).toBeNull();
+  });
+});
+
+describe('fuerza relativa: solo ejercicios con músculo principal del grupo', () => {
+  const dl: WorkoutSets[] = [{ workout: workout({}), sets: sets('t_dl', 1) }];
+  const sq: WorkoutSets[] = [{ workout: workout({}), sets: sets('t_sq', 1) }];
+  it('peso muerto puntúa fuerza de glúteos e isquios y no de espalda', () => {
+    expect(groupScore(tctx(dl), 'glutes').strength).not.toBeNull();
+    expect(groupScore(tctx(dl), 'hamstrings').strength).not.toBeNull();
+    expect(groupScore(tctx(dl), 'back').strength).toBeNull();
+  });
+  it('sentadilla puntúa fuerza de cuádriceps y no de glúteos (secundario)', () => {
+    expect(groupScore(tctx(sq), 'quads').strength).not.toBeNull();
+    expect(groupScore(tctx(sq), 'glutes').strength).toBeNull();
+  });
+  it('los pesos del ranking siguen en 50/30/20', () => {
+    expect(WEIGHTS).toEqual({ progress: 0.5, strength: 0.3, volume: 0.2 });
   });
 });

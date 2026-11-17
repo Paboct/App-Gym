@@ -350,3 +350,21 @@ export function weeklySetsByGroup(ctx: ScoreContext): Map<GroupId, number> {
   for (const [g, v] of out) out.set(g, v / weeks);
   return out;
 }
+
+/**
+ * Series efectivas semanales por músculo: Σ (series × activación), sin
+ * estabilizadores. Misma semana y mismas series que `weeklySetsByGroup`.
+ */
+export function effectiveSetsByMuscle(ctx: ScoreContext): Map<MuscleId, number> {
+  const out = new Map<MuscleId, number>();
+  const weeks = Math.max(1, ctx.weeks);
+  for (const d of ctx.data) {
+    for (const s of d.sets) {
+      const ex = ctx.exercises.get(s.exerciseId);
+      if (!ex) continue;
+      for (const m of countedMuscles(ex)) out.set(m.id, (out.get(m.id) ?? 0) + m.activation);
+    }
+  }
+  for (const [id, v] of out) out.set(id, v / weeks);
+  return out;
+}
