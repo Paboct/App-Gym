@@ -55,11 +55,13 @@
       ],
       "descripcion": "Cuélgate de la barra con agarre prono algo más ancho que los hombros y baja las escápulas antes de tirar. Lleva el pecho hacia la barra llevando los codos hacia las costillas, hasta que la barbilla pase la barra. Baja controlando hasta la extensión casi completa. Error típico: balancearse y tirar con impulso o quedarse a medio recorrido.",
       "descripcion_en": "Hang from the bar with a pronated grip slightly wider than the shoulders and depress the shoulder blades before pulling. Drive the chest toward the bar by bringing the elbows down to the ribs until the chin clears the bar. Lower under control to near full extension. Common mistake: swinging and kipping or stopping short of full range.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "Youdas et al. 2010 — Journal of Strength and Conditioning Research — https://doi.org/10.1519/JSC.0b013e3181f1598c (pull-up vs chin-up: dorsal más activo, luego bíceps; chin-up más bíceps/pectoral, pull-up más trapecio inferior)",
+        "Dickie et al. 2017 — Journal of Electromyography and Kinesiology — https://pubmed.ncbi.nlm.nih.gov/28011412/ (pull-ups con agarre supino/prono/neutro/cuerda; activación similar entre agarres salvo trapecio medio mayor en prono)",
+        "Di Fonza et al. 2026 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk11030315 (revisión narrativa de EMG del dorsal en jalón, remo, pull-up, pullover)",
         "free-exercise-db: Pullups",
-        "analogía: Gemini espalda_001",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_001"
       ]
     },
     {
@@ -111,11 +113,12 @@
       ],
       "descripcion": "Agarra la barra en supinación a la anchura de los hombros y empieza con los brazos casi extendidos. Tira llevando los codos hacia abajo y atrás hasta que la barbilla supere la barra, con el pecho alto. Desciende sin dejarte caer. Error típico: encoger los hombros hacia las orejas y dejar que los bíceps hagan todo el trabajo.",
       "descripcion_en": "Grip the bar underhand at shoulder width and start with the arms nearly straight. Pull by driving the elbows down and back until the chin clears the bar, keeping the chest tall. Lower without dropping. Common mistake: shrugging toward the ears and letting the biceps do all the work.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "Youdas et al. 2010 — Journal of Strength and Conditioning Research — https://doi.org/10.1519/JSC.0b013e3181f1598c (pull-up vs chin-up: dorsal más activo, luego bíceps; chin-up más bíceps/pectoral, pull-up más trapecio inferior)",
+        "Dickie et al. 2017 — Journal of Electromyography and Kinesiology — https://pubmed.ncbi.nlm.nih.gov/28011412/ (pull-ups con agarre supino/prono/neutro/cuerda; activación similar entre agarres salvo trapecio medio mayor en prono)",
         "free-exercise-db: Chin-Up",
-        "analogía: Gemini espalda_001 (ajustando bíceps al agarre supino)",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_001 (ajustando bíceps al agarre supino)"
       ]
     },
     {
@@ -167,11 +170,12 @@
       ],
       "descripcion": "Usa asas paralelas con las palmas enfrentadas y los brazos extendidos. Inicia el gesto bajando las escápulas y tira de los codos hacia los costados hasta subir el pecho a las asas. Baja despacio hasta el estiramiento completo. Error típico: arquear en exceso la zona lumbar para ganar altura.",
       "descripcion_en": "Use parallel handles with palms facing each other and arms extended. Start by depressing the shoulder blades, then pull the elbows to your sides until the chest reaches the handles. Lower slowly to a full stretch. Common mistake: over-arching the lower back to gain height.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "Dickie et al. 2017 — Journal of Electromyography and Kinesiology — https://pubmed.ncbi.nlm.nih.gov/28011412/ (pull-ups con agarre supino/prono/neutro/cuerda; activación similar entre agarres salvo trapecio medio mayor en prono)",
+        "Youdas et al. 2010 — Journal of Strength and Conditioning Research — https://doi.org/10.1519/JSC.0b013e3181f1598c (pull-up vs chin-up: dorsal más activo, luego bíceps; chin-up más bíceps/pectoral, pull-up más trapecio inferior)",
         "free-exercise-db: Pullups",
-        "analogía: Gemini espalda_001 y espalda_003",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_001 y espalda_003"
       ]
     },
     {
@@ -223,11 +227,13 @@
       ],
       "descripcion": "Siéntate con los muslos fijos bajo el rodillo y agarra la barra algo más ancha que los hombros. Inclina ligeramente el torso y tira de la barra hacia la parte alta del pecho llevando los codos abajo y atrás. Sube controlando hasta estirar los dorsales. Error típico: tirar con el torso hacia atrás y llevar la barra detrás de la nuca.",
       "descripcion_en": "Sit with the thighs locked under the pad and grip the bar slightly wider than the shoulders. Lean back slightly and pull the bar to the upper chest by driving the elbows down and back. Return under control until the lats are stretched. Common mistake: swinging the torso back or pulling the bar behind the neck.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "Lusk et al. 2010 — Journal of Strength and Conditioning Research — https://pubmed.ncbi.nlm.nih.gov/20543740/ (jalón: agarre prono da más dorsal que supino; trapecio medio y bíceps sin diferencias)",
+        "Buonsenso et al. 2025 — Journal of Functional Morphology and Kinesiology — https://pubmed.ncbi.nlm.nih.gov/40981044/ (7 variantes de jalón en 40 hombres: dorsal, deltoides posterior, bíceps, trapecio medio/inferior, infraespinoso; sin diferencias de dorsal entre agarres)",
+        "Di Fonza et al. 2026 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk11030315 (revisión narrativa de EMG del dorsal en jalón, remo, pull-up, pullover)",
         "free-exercise-db: Wide-Grip_Lat_Pulldown",
-        "analogía: Gemini espalda_002",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_002"
       ]
     },
     {
@@ -279,11 +285,12 @@
       ],
       "descripcion": "Agarra el asa estrecha con las palmas enfrentadas o prono cerrado y siéntate con el pecho alto. Tira del asa hacia la parte alta del pecho acercando los codos a los costados. Vuelve arriba controlando el estiramiento. Error típico: encogerse de hombros y perder la tensión del dorsal en la fase de subida.",
       "descripcion_en": "Take the narrow handle with a neutral or close pronated grip and sit tall. Pull the handle to the upper chest by bringing the elbows close to your sides. Return upward while controlling the stretch. Common mistake: shrugging and losing lat tension on the way up.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "Lusk et al. 2010 — Journal of Strength and Conditioning Research — https://pubmed.ncbi.nlm.nih.gov/20543740/ (jalón: agarre prono da más dorsal que supino; trapecio medio y bíceps sin diferencias)",
+        "Buonsenso et al. 2025 — Journal of Functional Morphology and Kinesiology — https://pubmed.ncbi.nlm.nih.gov/40981044/ (7 variantes de jalón en 40 hombres: dorsal, deltoides posterior, bíceps, trapecio medio/inferior, infraespinoso; sin diferencias de dorsal entre agarres)",
         "free-exercise-db: Close-Grip_Front_Lat_Pulldown",
-        "analogía: Gemini espalda_003",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_003"
       ]
     },
     {
@@ -333,8 +340,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: One_Arm_Lat_Pulldown",
-        "analogía: Gemini espalda_002 (analogía unilateral)",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_002 (analogía unilateral)"
       ]
     },
     {
@@ -379,8 +385,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Straight-Arm_Pulldown",
-        "analogía: Gemini espalda_007",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_007"
       ]
     },
     {
@@ -437,11 +442,12 @@
       ],
       "descripcion": "Con la barra en las manos, inclina el torso unos 45 grados con la espalda neutra y las rodillas flexionadas. Tira de la barra hacia el abdomen llevando los codos atrás y juntando las escápulas. Baja controlando sin redondear la espalda. Error típico: impulsarse con la cadera y subir el torso en cada repetición.",
       "descripcion_en": "Holding the bar, hinge the torso to about 45 degrees with a neutral spine and bent knees. Pull the bar to the abdomen driving the elbows back and squeezing the shoulder blades together. Lower under control without rounding the back. Common mistake: heaving with the hips and standing up on each rep.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "Fenwick et al. 2009 — Journal of Strength and Conditioning Research — https://pubmed.ncbi.nlm.nih.gov/19620925/ (remo invertido: mayor activación de dorsal y espalda alta; remo con barra: gran activación simétrica de espalda)",
+        "ACE-sponsored study 2018 — American Council on Exercise — https://www.acefitness.org/continuing-education/certified/january-2023/8214/what-is-the-best-back-exercise/ (EMG de dominada, jalón, remo sentado, remo con barra, remo invertido; remo con barra mayor en trapecio medio/erectores, dominadas mayor en dorsal)",
         "free-exercise-db: Bent_Over_Barbell_Row",
-        "analogía: Gemini espalda_004",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_004"
       ]
     },
     {
@@ -491,8 +497,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: T-Bar_Row_with_Handle",
-        "analogía: Gemini espalda_004",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_004"
       ]
     },
     {
@@ -547,8 +552,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: One-Arm_Dumbbell_Row",
-        "analogía: Gemini espalda_006",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_006"
       ]
     },
     {
@@ -595,11 +599,12 @@
       ],
       "descripcion": "Siéntate con los pies apoyados y la espalda recta, agarrando el asa con los brazos extendidos. Tira hacia el abdomen llevando los codos atrás y juntando las escápulas. Vuelve estirando los brazos sin redondear la espalda. Error típico: balancear el torso hacia atrás para mover más peso.",
       "descripcion_en": "Sit with feet braced and a straight back, holding the handle with arms extended. Pull to the abdomen driving the elbows back and squeezing the shoulder blades. Return by extending the arms without rounding the back. Common mistake: rocking the torso back to move more weight.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "ACE-sponsored study 2018 — American Council on Exercise — https://www.acefitness.org/continuing-education/certified/january-2023/8214/what-is-the-best-back-exercise/ (EMG de dominada, jalón, remo sentado, remo con barra, remo invertido; remo con barra mayor en trapecio medio/erectores, dominadas mayor en dorsal)",
+        "Di Fonza et al. 2026 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk11030315 (revisión narrativa de EMG del dorsal en jalón, remo, pull-up, pullover)",
         "free-exercise-db: Seated_Cable_Rows",
-        "analogía: Gemini espalda_005",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_005"
       ]
     },
     {
@@ -644,8 +649,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Seated_Cable_Rows",
-        "analogía: Gemini espalda_005 (más deltoides posterior por el agarre ancho)",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_005 (más deltoides posterior por el agarre ancho)"
       ]
     },
     {
@@ -690,8 +694,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Leverage_Iso_Row",
-        "analogía: Gemini espalda_005",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_005"
       ]
     },
     {
@@ -736,8 +739,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Lying_T-Bar_Row",
-        "analogía: Gemini espalda_004 y espalda_005",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_004 y espalda_005"
       ]
     },
     {
@@ -787,8 +789,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Seated_One-arm_Cable_Pulley_Rows",
-        "analogía: Gemini espalda_006",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_006"
       ]
     },
     {
@@ -837,9 +838,9 @@
       "descripcion_en": "Lying on a bench, hold a dumbbell with both hands over the chest. Lower the arms behind the head with slightly bent elbows until you feel a stretch. Return to the start pulling from the lats. Common mistake: arching the lower back and lowering beyond shoulder mobility.",
       "confianza": "baja",
       "fuentes": [
+        "Di Fonza et al. 2026 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk11030315 (revisión narrativa de EMG del dorsal en jalón, remo, pull-up, pullover) — el pullover parece favorecer al pectoral mayor sobre el dorsal; no cuantificado, coeficientes sin cambios",
         "free-exercise-db: Bent-Arm_Dumbbell_Pullover",
-        "analogía: Gemini espalda_007",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_007"
       ]
     },
     {
@@ -887,7 +888,9 @@
       "descripcion": "Ajusta el asiento y apoya los codos en las almohadillas con los brazos por encima de la cabeza. Lleva los codos hacia abajo y adelante en un arco hasta que la barra llegue al abdomen. Sube controlando el estiramiento. Error típico: empujar con las manos en lugar de con los codos.",
       "descripcion_en": "Adjust the seat and place the elbows on the pads with the arms overhead. Drive the elbows down and forward in an arc until the bar reaches the abdomen. Return while controlling the stretch. Common mistake: pushing with the hands instead of the elbows.",
       "confianza": "baja",
-      "fuentes": []
+      "fuentes": [
+        "Di Fonza et al. 2026 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk11030315 (revisión narrativa de EMG del dorsal en jalón, remo, pull-up, pullover) — el pullover parece favorecer al pectoral mayor sobre el dorsal; no cuantificado, coeficientes sin cambios"
+      ]
     },
     {
       "id": "deadlift",
@@ -950,9 +953,9 @@
       "descripcion_en": "Stand with the bar over mid-foot and grip it with straight arms. Push the floor away with the legs keeping a neutral spine and the bar close, then extend the hips to lock out. Lower in reverse under control. Common mistake: rounding the back or yanking with the arms before driving with the legs.",
       "confianza": "baja",
       "fuentes": [
+        "Martín-Fuentes et al. 2020 — PLoS One — https://pubmed.ncbi.nlm.nih.gov/32107499/ (revisión sistemática: erectores y cuádriceps con más activación que glúteo y bíceps femoral; no cuantificado, coeficientes sin cambios)",
         "free-exercise-db: Barbell_Deadlift",
-        "analogía: Gemini pierna_006",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini pierna_006"
       ]
     },
     {
@@ -1007,8 +1010,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Rack_Pulls",
-        "analogía: Gemini pierna_006 (rango corto)",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini pierna_006 (rango corto)"
       ]
     },
     {
@@ -1043,8 +1045,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Hyperextensions_Back_Extensions",
-        "analogía: Gemini pierna_007",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini pierna_007"
       ]
     },
     {
@@ -1083,8 +1084,7 @@
       "descripcion_en": "Stand holding the bar in front with arms extended and chest tall. Raise the shoulders straight up toward the ears and pause at the top. Lower slowly to a stretch. Common mistake: rolling the shoulders or bending the elbows to help.",
       "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Barbell_Shrug",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "free-exercise-db: Barbell_Shrug"
       ]
     },
     {
@@ -1123,8 +1123,7 @@
       "descripcion_en": "Hold a dumbbell in each hand at your sides with arms extended. Raise the shoulders straight toward the ears and squeeze at the top. Lower under control without dropping suddenly. Common mistake: using too much weight and shortening the range.",
       "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Dumbbell_Shrug",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "free-exercise-db: Dumbbell_Shrug"
       ]
     },
     {
@@ -1174,8 +1173,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Bent_Over_Barbell_Row",
-        "analogía: Gemini espalda_004 (inicio desde el suelo)",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_004 (inicio desde el suelo)"
       ]
     },
     {
@@ -1227,11 +1225,12 @@
       ],
       "descripcion": "Túmbate bajo una barra baja y agarra con las manos algo más anchas que los hombros, con el cuerpo recto. Tira del pecho hacia la barra juntando las escápulas sin dejar caer la cadera. Baja controlando hasta extender los brazos. Error típico: dejar caer la cadera y encoger los hombros.",
       "descripcion_en": "Lie under a low bar and grip slightly wider than the shoulders with the body straight. Pull the chest to the bar squeezing the shoulder blades without letting the hips sag. Lower under control to full arm extension. Common mistake: letting the hips drop and shrugging.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "Fenwick et al. 2009 — Journal of Strength and Conditioning Research — https://pubmed.ncbi.nlm.nih.gov/19620925/ (remo invertido: mayor activación de dorsal y espalda alta; remo con barra: gran activación simétrica de espalda)",
+        "ACE-sponsored study 2018 — American Council on Exercise — https://www.acefitness.org/continuing-education/certified/january-2023/8214/what-is-the-best-back-exercise/ (EMG de dominada, jalón, remo sentado, remo con barra, remo invertido; remo con barra mayor en trapecio medio/erectores, dominadas mayor en dorsal)",
         "free-exercise-db: Inverted_Row",
-        "analogía: Gemini espalda_004",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_004"
       ]
     },
     {
@@ -1286,8 +1285,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Trap_Bar_Deadlift",
-        "analogía: Gemini pierna_006 (más cuádriceps por la posición)",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini pierna_006 (más cuádriceps por la posición)"
       ]
     },
     {
@@ -1379,8 +1377,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: One-Arm_Long_Bar_Row",
-        "analogía: Gemini espalda_006 (unilateral)",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_006 (unilateral)"
       ]
     },
     {
@@ -1435,8 +1432,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Reverse_Grip_Bent-Over_Rows",
-        "analogía: Gemini espalda_004 (más bíceps por el agarre supino)",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_004 (más bíceps por el agarre supino)"
       ]
     },
     {
@@ -1483,11 +1479,12 @@
       ],
       "descripcion": "Siéntate con el asa en V y los muslos fijos, con el pecho alto. Tira del asa hacia el esternón llevando los codos hacia abajo y atrás. Vuelve arriba controlando el estiramiento. Error típico: inclinarte hacia atrás y tirar con impulso.",
       "descripcion_en": "Sit with the V-handle and thighs secured, chest tall. Pull the handle toward the sternum driving the elbows down and back. Return up while controlling the stretch. Common mistake: leaning back and pulling with momentum.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "Lusk et al. 2010 — Journal of Strength and Conditioning Research — https://pubmed.ncbi.nlm.nih.gov/20543740/ (jalón: agarre prono da más dorsal que supino; trapecio medio y bíceps sin diferencias)",
+        "Buonsenso et al. 2025 — Journal of Functional Morphology and Kinesiology — https://pubmed.ncbi.nlm.nih.gov/40981044/ (7 variantes de jalón en 40 hombres: dorsal, deltoides posterior, bíceps, trapecio medio/inferior, infraespinoso; sin diferencias de dorsal entre agarres)",
         "free-exercise-db: V-Bar_Pulldown",
-        "analogía: Gemini espalda_003",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_003"
       ]
     },
     {
@@ -1534,11 +1531,12 @@
       ],
       "descripcion": "Agarra la barra en supinación a la anchura de los hombros y siéntate con el pecho alto. Tira de la barra hacia la parte alta del pecho llevando los codos hacia abajo. Sube controlando el estiramiento. Error típico: tirar con los brazos y no con los codos.",
       "descripcion_en": "Take the bar underhand at shoulder width and sit with the chest tall. Pull the bar to the upper chest driving the elbows down. Return while controlling the stretch. Common mistake: pulling with the arms instead of the elbows.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "Lusk et al. 2010 — Journal of Strength and Conditioning Research — https://pubmed.ncbi.nlm.nih.gov/20543740/ (jalón: agarre prono da más dorsal que supino; trapecio medio y bíceps sin diferencias)",
+        "Buonsenso et al. 2025 — Journal of Functional Morphology and Kinesiology — https://pubmed.ncbi.nlm.nih.gov/40981044/ (7 variantes de jalón en 40 hombres: dorsal, deltoides posterior, bíceps, trapecio medio/inferior, infraespinoso; sin diferencias de dorsal entre agarres)",
         "free-exercise-db: Underhand_Cable_Pulldowns",
-        "analogía: Gemini espalda_002 (ajuste por agarre supino)",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_002 (ajuste por agarre supino)"
       ]
     },
     {
@@ -1588,8 +1586,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Kneeling_Single-Arm_High_Pulley_Row",
-        "analogía: Gemini espalda_006",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_006"
       ]
     },
     {
@@ -1636,11 +1633,12 @@
       ],
       "descripcion": "Agarra las asas de suspensión y recuéstate hacia atrás con el cuerpo recto y los brazos extendidos. Tira del pecho hacia las manos juntando las escápulas. Baja controlando sin dejar caer la cadera. Error típico: arquear la espalda o dejar caer la pelvis.",
       "descripcion_en": "Hold the suspension handles and lean back with a straight body and arms extended. Pull the chest toward the hands squeezing the shoulder blades. Lower under control without letting the hips drop. Common mistake: arching the back or letting the pelvis sag.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "Fenwick et al. 2009 — Journal of Strength and Conditioning Research — https://pubmed.ncbi.nlm.nih.gov/19620925/ (remo invertido: mayor activación de dorsal y espalda alta; remo con barra: gran activación simétrica de espalda)",
+        "ACE-sponsored study 2018 — American Council on Exercise — https://www.acefitness.org/continuing-education/certified/january-2023/8214/what-is-the-best-back-exercise/ (EMG de dominada, jalón, remo sentado, remo con barra, remo invertido; remo con barra mayor en trapecio medio/erectores, dominadas mayor en dorsal)",
         "free-exercise-db: Suspended_Row",
-        "analogía: Gemini espalda_004 (análogo con peso corporal)",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_004 (análogo con peso corporal)"
       ]
     },
     {
@@ -1690,8 +1688,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Bent_Over_Two-Dumbbell_Row",
-        "analogía: Gemini espalda_004",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_004"
       ]
     },
     {
@@ -1795,8 +1792,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Deficit_Deadlift",
-        "analogía: Gemini pierna_006 (más cuádriceps por el rango extra)",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini pierna_006 (más cuádriceps por el rango extra)"
       ]
     },
     {
@@ -1841,8 +1837,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Leverage_High_Row",
-        "analogía: Gemini espalda_003 y espalda_005",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_003 y espalda_005"
       ]
     },
     {
@@ -1938,11 +1933,12 @@
       ],
       "descripcion": "Añade lastre con cinturón y cuélgate con agarre prono algo más ancho que los hombros. Baja las escápulas y tira de los codos hacia las costillas hasta pasar la barbilla. Baja con control hasta la extensión. Error típico: balancearse con el lastre y acortar el rango.",
       "descripcion_en": "Add load with a belt and hang with a pronated grip slightly wider than the shoulders. Depress the shoulder blades and pull the elbows to the ribs until the chin passes the bar. Lower under control to full extension. Common mistake: swinging with the load and shortening the range.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "Youdas et al. 2010 — Journal of Strength and Conditioning Research — https://doi.org/10.1519/JSC.0b013e3181f1598c (pull-up vs chin-up: dorsal más activo, luego bíceps; chin-up más bíceps/pectoral, pull-up más trapecio inferior)",
+        "Dickie et al. 2017 — Journal of Electromyography and Kinesiology — https://pubmed.ncbi.nlm.nih.gov/28011412/ (pull-ups con agarre supino/prono/neutro/cuerda; activación similar entre agarres salvo trapecio medio mayor en prono)",
         "free-exercise-db: Weighted_Pull_Ups",
-        "analogía: Gemini espalda_001",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_001"
       ]
     },
     {

@@ -76,8 +76,7 @@
       "descripcion_en": "Grip the rope with palms facing each other and elbows fixed beside your body. Extend your elbows and spread the rope ends apart at the bottom to squeeze the triceps. Return slowly without moving your upper arms. Common mistake: letting the elbows drift forward so the movement turns into a press.",
       "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Triceps_Pushdown_-_Rope_Attachment",
-        "EMG (recordado, sin verificar): Contreras y cols. (cabeza lateral y medial dominantes en la extensión en polea)"
+        "free-exercise-db: Triceps_Pushdown_-_Rope_Attachment"
       ]
     },
     {
@@ -117,7 +116,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Cable_Rope_Overhead_Triceps_Extension",
-        "EMG (recordado, sin verificar): Maeo y cols. 2022 (la cabeza larga se activa más con el brazo por encima de la cabeza)"
+        "Maeo et al. 2023 — Eur J Sport Sci — https://pubmed.ncbi.nlm.nih.gov/35819335/ (12 sem, 21 adultos; extensión de codo en polea con brazo sobre la cabeza vs. brazo neutro: mayor hipertrofia del tríceps, sobre todo de la cabeza larga; mide volumen por RM, no EMG)"
       ]
     },
     {
@@ -156,8 +155,7 @@
       "descripcion_en": "Holding a single handle on the high pulley, keep the elbow tucked at your side. Extend the elbow until it is locked out without twisting the trunk. Return while controlling the full range. Common mistake: rotating the torso and pushing with the shoulder to help the lift.",
       "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Cable_One_Arm_Tricep_Extension",
-        "EMG (recordado, sin verificar): Contreras y cols. (patrón análogo a la extensión bilateral en polea)"
+        "free-exercise-db: Cable_One_Arm_Tricep_Extension"
       ]
     },
     {
@@ -199,10 +197,9 @@
       ],
       "descripcion": "Túmbate en un banco con la barra sobre el pecho y los brazos ligeramente inclinados hacia atrás. Flexiona solo los codos hasta bajar la barra cerca de la frente o detrás de la cabeza. Extiende de nuevo sin mover los codos. Error típico: abrir los codos y convertir el movimiento en un press.",
       "descripcion_en": "Lie on a bench with the bar over your chest and the arms slightly angled back. Bend only at the elbows to lower the bar toward the forehead or just behind the head. Extend again without moving the elbows. Common mistake: flaring the elbows and turning the lift into a press.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: EZ-Bar_Skullcrusher",
-        "EMG (recordado, sin verificar): Maeo y cols. 2022 (la cabeza larga trabaja más con el hombro flexionado)"
+        "free-exercise-db: EZ-Bar_Skullcrusher"
       ]
     },
     {
@@ -237,7 +234,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Standing_Dumbbell_Triceps_Extension",
-        "EMG (recordado, sin verificar): Maeo y cols. 2022 (extensión por encima de la cabeza y cabeza larga)"
+        "Maeo et al. 2023 — Eur J Sport Sci — https://pubmed.ncbi.nlm.nih.gov/35819335/ (12 sem, 21 adultos; extensión de codo en polea con brazo sobre la cabeza vs. brazo neutro: mayor hipertrofia del tríceps, sobre todo de la cabeza larga; mide volumen por RM, no EMG) — ejercicio muy equivalente (mismo brazo sobre la cabeza, con mancuerna)"
       ]
     },
     {
@@ -287,7 +284,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Close-Grip_Barbell_Bench_Press",
-        "EMG (recordado, sin verificar): Lauver y cols. 2016 (el agarre cerrado aumenta la activación del tríceps)"
+        "Saeterbakken et al. 2021 — Int J Environ Res Public Health — https://pubmed.ncbi.nlm.nih.gov/34198674/ (press de banca 6RM: el agarre ancho da menor activación del tríceps braquial que el medio y el estrecho; EMG)",
+        "Larsen et al. 2020 — Front Sports Act Living — https://pubmed.ncbi.nlm.nih.gov/33554113/ (press de banca 1RM: tríceps medial mayor con agarre medio/estrecho que ancho; EMG)"
       ]
     },
     {
@@ -334,10 +332,10 @@
       ],
       "descripcion": "Sujétate en las paralelas con el torso vertical y los codos pegados al cuerpo. Baja hasta que los hombros queden un poco por debajo de los codos. Empuja hasta extender los codos del todo. Error típico: inclinar el torso hacia delante, que desplaza el trabajo al pecho.",
       "descripcion_en": "Support yourself on the parallel bars with an upright torso and elbows close to the body. Lower until the shoulders sit slightly below the elbows. Press up until the elbows are fully extended. Common mistake: leaning the torso forward, which shifts the work to the chest.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "free-exercise-db: Dips_-_Triceps_Version",
-        "EMG (recordado, sin verificar): analogía con fondos en paralelas del catálogo de Gemini (pecho) con torso vertical"
+        "McKenzie et al. 2022 — Int J Environ Res Public Health — https://pubmed.ncbi.nlm.nih.gov/36293792/ (13 hombres; EMG del tríceps braquial: pico medio 0,83 mV fondo en banco, 1,04 mV en paralelas, 1,05 mV en anillas; sin normalizar a MVC)"
       ]
     },
     {
@@ -423,9 +421,10 @@
       ],
       "descripcion": "Apoya las manos en el borde de un banco detrás de ti y estira las piernas. Baja flexionando los codos hacia atrás, sin pasar de unos 90 grados. Empuja hasta extender los codos. Error típico: bajar demasiado y dejar que los hombros se adelanten, lo que los sobrecarga.",
       "descripcion_en": "Place your hands on the edge of a bench behind you and extend your legs. Lower by bending the elbows back, not going much past 90 degrees. Press up until the elbows are extended. Common mistake: dropping too low and letting the shoulders roll forward, which overloads them.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "free-exercise-db: Bench_Dips"
+        "free-exercise-db: Bench_Dips",
+        "McKenzie et al. 2022 — Int J Environ Res Public Health — https://pubmed.ncbi.nlm.nih.gov/36293792/ (13 hombres; EMG del tríceps braquial: pico medio 0,83 mV fondo en banco, 1,04 mV en paralelas, 1,05 mV en anillas; sin normalizar a MVC)"
       ]
     },
     {
@@ -469,8 +468,7 @@
       "descripcion_en": "Hinge forward with a flat back and bring the elbow up to torso height. Extend the forearm back until the elbow is locked. Return slowly keeping the upper arm fixed. Common mistake: swinging the arm and using momentum instead of extending the elbow.",
       "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Tricep_Dumbbell_Kickback",
-        "EMG (recordado, sin verificar): Contreras y cols. (el kickback activa fuerte el tríceps con baja carga)"
+        "free-exercise-db: Tricep_Dumbbell_Kickback"
       ]
     },
     {
@@ -541,10 +539,9 @@
       ],
       "descripcion": "Túmbate con una mancuerna en cada mano, brazos extendidos sobre el pecho y palmas enfrentadas. Flexiona los codos para bajar las mancuernas junto a la cabeza. Extiende sin mover los brazos. Error típico: dejar que los codos se abran o se desplacen hacia atrás.",
       "descripcion_en": "Lie back holding a dumbbell in each hand, arms extended over the chest with palms facing each other. Bend the elbows to lower the dumbbells beside your head. Extend without moving the upper arms. Common mistake: letting the elbows flare or drift backward.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Lying_Dumbbell_Tricep_Extension",
-        "EMG (recordado, sin verificar): Maeo y cols. 2022 (cabeza larga con el hombro flexionado)"
+        "free-exercise-db: Lying_Dumbbell_Tricep_Extension"
       ]
     },
     {
@@ -596,10 +593,10 @@
       ],
       "descripcion": "Coloca las manos juntas bajo el pecho formando un rombo con pulgares e índices. Baja el cuerpo en bloque con los codos cerca de las costillas. Empuja hasta extender los codos. Error típico: dejar caer la cadera o abrir los codos.",
       "descripcion_en": "Place your hands together under the chest forming a diamond with thumbs and index fingers. Lower the body as one unit with the elbows close to the ribs. Push up until the elbows are extended. Common mistake: letting the hips sag or the elbows flare.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "free-exercise-db: Close-Grip_Push-Up_off_of_a_Dumbbell",
-        "EMG (recordado, sin verificar): analogía con press de banca de agarre cerrado"
+        "Intziegianni et al. 2026 — Muscles (Basel) — https://pubmed.ncbi.nlm.nih.gov/41892990/ (20 hombres; flexiones estándar, diamante y anchas: el tríceps supera al pectoral mayor y la activación es máxima en diamante; normalizado al pico RMS, no a MVC)"
       ]
     },
     {
@@ -714,9 +711,10 @@
       ],
       "descripcion": "De rodillas de espaldas a la polea alta, sujeta la barra o cuerda sobre la cabeza con los codos hacia delante. Extiende los codos hacia delante sin mover los brazos. Vuelve controlando el estiramiento. Error típico: inclinarse hacia delante y empujar con el tronco.",
       "descripcion_en": "Kneel facing away from the high pulley, holding the bar or rope overhead with the elbows pointing forward. Extend the elbows forward without moving the upper arms. Return while controlling the stretch. Common mistake: leaning forward and pushing with the torso.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "free-exercise-db: Kneeling_Cable_Triceps_Extension"
+        "free-exercise-db: Kneeling_Cable_Triceps_Extension",
+        "Maeo et al. 2023 — Eur J Sport Sci — https://pubmed.ncbi.nlm.nih.gov/35819335/ (12 sem, 21 adultos; extensión de codo en polea con brazo sobre la cabeza vs. brazo neutro: mayor hipertrofia del tríceps, sobre todo de la cabeza larga; mide volumen por RM, no EMG) — ejercicio muy equivalente (polea sobre la cabeza)"
       ]
     },
     {
@@ -839,7 +837,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Seated_Triceps_Press",
-        "EMG (recordado, sin verificar): Maeo y cols. 2022 (extensión por encima de la cabeza y cabeza larga)"
+        "Maeo et al. 2023 — Eur J Sport Sci — https://pubmed.ncbi.nlm.nih.gov/35819335/ (12 sem, 21 adultos; extensión de codo en polea con brazo sobre la cabeza vs. brazo neutro: mayor hipertrofia del tríceps, sobre todo de la cabeza larga; mide volumen por RM, no EMG) — ejercicio muy equivalente (mismo brazo sobre la cabeza, con mancuerna)"
       ]
     },
     {
@@ -888,8 +886,7 @@
       "descripcion_en": "Lie down with a grip slightly narrower than the shoulders and lower the bar toward the forehead or neck with the elbows forward. Bend the elbows then press until they are extended. It blends a close-grip press with a triceps extension. Common mistake: flaring the elbows and turning it into a regular bench press.",
       "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: JM_Press",
-        "EMG (recordado, sin verificar): analogía con press de banca de agarre cerrado"
+        "free-exercise-db: JM_Press"
       ]
     },
     {

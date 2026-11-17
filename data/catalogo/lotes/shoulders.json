@@ -60,9 +60,11 @@
       ],
       "descripcion": "De pie, agarra la barra algo más ancha que los hombros y apóyala sobre la clavícula con los codos ligeramente adelantados. Aprieta glúteos y abdomen y empuja la barra en línea recta, echando la cabeza un poco atrás para que pase y adelantándola al final. Bloquea arriba con la barra sobre la mitad del pie. Error típico: arquear en exceso la zona lumbar para ayudarte.",
       "descripcion_en": "Standing, grip the bar slightly wider than shoulder width and rest it on your collarbone with the elbows just ahead of it. Brace glutes and abs and drive the bar straight up, moving the head back to let it pass and forward again at the top. Lock out with the bar over mid-foot. A common mistake is over-arching the lower back to cheat the rep.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "free-exercise-db: Standing_Military_Press"
+        "free-exercise-db: Standing_Military_Press",
+        "Saeterbakken & Fimland 2013 — J Strength Cond Res 27(7):1824-1831 — https://pubmed.ncbi.nlm.nih.gov/23096062/ (resumen: press con barra y mancuernas, sentado y de pie; deltoides, bíceps y tríceps; el press de pie con mancuernas dio la mayor actividad deltoidea)",
+        "Coratella et al. 2022 — Front Physiol — https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2022.825880/full (press con barra vs máquina, delante y detrás de la nuca; 3 deltoides, pectoral clavicular, trapecio superior, tríceps lateral)"
       ]
     },
     {
@@ -119,10 +121,12 @@
       ],
       "descripcion": "Sentado con respaldo, sostén una mancuerna en cada mano a la altura de las orejas con los antebrazos verticales. Empuja hacia arriba acercando ligeramente las mancuernas sin chocarlas. Baja de forma controlada hasta que los codos queden por debajo de los hombros. Error típico: dejar que las muñecas se doblen hacia atrás y los codos se abran demasiado.",
       "descripcion_en": "Seated with back support, hold a dumbbell in each hand at ear level with the forearms vertical. Press upward, bringing the dumbbells slightly together without clanging them. Lower under control until the elbows sit just below shoulder height. A common mistake is letting the wrists bend back and the elbows flare too wide.",
-      "confianza": "media",
+      "confianza": "alta",
       "fuentes": [
         "free-exercise-db: Dumbbell_Shoulder_Press",
-        "EMG (recordado, sin verificar): Saeterbakken 2011"
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)",
+        "Luczak et al. 2013 — J Sports Med — https://dx.doi.org/10.1155/2013/612650 (press de hombros con mancuernas en mujeres; deltoides anterior, trapecio superior, pectoral esternal y clavicular)",
+        "Saeterbakken & Fimland 2013 — J Strength Cond Res 27(7):1824-1831 — https://pubmed.ncbi.nlm.nih.gov/23096062/ (resumen: press con barra y mancuernas, sentado y de pie; deltoides, bíceps y tríceps; el press de pie con mancuernas dio la mayor actividad deltoidea)"
       ]
     },
     {
@@ -174,9 +178,10 @@
       ],
       "descripcion": "Ajusta el asiento para que las empuñaduras queden a la altura de los hombros y apoya bien la espalda. Empuja hacia arriba sin bloquear los codos de golpe. Baja despacio hasta sentir el estiramiento del hombro sin que los codos pasen mucho por detrás del torso. Error típico: despegar la espalda del respaldo y encogerse hacia las orejas.",
       "descripcion_en": "Set the seat so the handles start at shoulder height and keep your back firmly against the pad. Press upward without snapping the elbows into lockout. Lower slowly until you feel a stretch in the shoulder, without letting the elbows travel far behind the torso. A common mistake is peeling the back off the pad and shrugging toward the ears.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "free-exercise-db: Machine_Shoulder_(Military)_Press"
+        "free-exercise-db: Machine_Shoulder_(Military)_Press",
+        "Coratella et al. 2022 — Front Physiol — https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2022.825880/full (press con barra vs máquina, delante y detrás de la nuca; 3 deltoides, pectoral clavicular, trapecio superior, tríceps lateral)"
       ]
     },
     {
@@ -336,10 +341,11 @@
       ],
       "descripcion": "De pie con una mancuerna en cada mano y los codos ligeramente flexionados, eleva los brazos hacia los lados hasta la altura de los hombros. Lidera con los codos, no con las manos, y mantén el torso quieto. Baja despacio en unos tres segundos. Error típico: balancear el cuerpo y encoger los trapecios para subir más peso.",
       "descripcion_en": "Standing with a dumbbell in each hand and elbows slightly bent, raise the arms out to the sides up to shoulder height. Lead with the elbows rather than the hands and keep the torso still. Lower slowly over about three seconds. A common mistake is swinging the body and shrugging the traps to lift heavier.",
-      "confianza": "media",
+      "confianza": "alta",
       "fuentes": [
         "free-exercise-db: Side_Lateral_Raise",
-        "EMG (recordado, sin verificar): Coratella 2020"
+        "Coratella et al. 2020 — Int J Environ Res Public Health 17:6015 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7503819/ (variantes de elevación lateral y frontal; deltoides, pectoral, trapecio superior, tríceps)",
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)"
       ]
     },
     {
@@ -381,9 +387,10 @@
       ],
       "descripcion": "Colócate de lado a la polea baja y agarra el asa con la mano más alejada, pasándola por delante del cuerpo. Eleva el brazo hacia el lado hasta la altura del hombro con el codo ligeramente flexionado. Baja controlando la tensión del cable. Error típico: girar el torso o tirar con el trapecio.",
       "descripcion_en": "Stand side-on to a low pulley and take the handle with the far hand, crossing in front of the body. Raise the arm out to the side to shoulder height with a slightly bent elbow. Lower while controlling the cable tension. A common mistake is twisting the torso or pulling with the traps.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "analogía con db_lateral_raise"
+        "Larsen et al. 2025 — Front Physiol 16:1611468 — https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2025.1611468/full (elevación lateral en polea vs mancuerna: hipertrofia similar del deltoides lateral; no mide EMG)",
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)"
       ]
     },
     {
@@ -464,10 +471,11 @@
       ],
       "descripcion": "De pie con las mancuernas delante de los muslos, eleva un brazo o ambos hacia delante hasta la altura de los ojos con los codos ligeramente flexionados. Mantén el torso firme y sin balanceo. Baja despacio sin dejar caer las mancuernas. Error típico: impulsarte con la espalda y subir por encima de la horizontal.",
       "descripcion_en": "Standing with the dumbbells in front of your thighs, raise one or both arms forward to about eye level with slightly bent elbows. Keep the torso firm and still. Lower slowly without dropping the dumbbells. A common mistake is swinging with the back and lifting well above horizontal.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "free-exercise-db: Front_Dumbbell_Raise",
-        "EMG (recordado, sin verificar): analogía con press militar"
+        "Coratella et al. 2020 — Int J Environ Res Public Health 17:6015 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7503819/ (variantes de elevación lateral y frontal; deltoides, pectoral, trapecio superior, tríceps)",
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)"
       ]
     },
     {
@@ -551,7 +559,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Reverse_Machine_Flyes",
-        "EMG (recordado, sin verificar): Ogasawara 2018"
+        "Schoenfeld et al. 2013 — J Strength Cond Res 27(10):2644-2649 — https://pubmed.ncbi.nlm.nih.gov/23302754/ (pájaros en máquina; deltoides posterior, medio e infraespinoso)",
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)"
       ]
     },
     {
@@ -588,7 +597,7 @@
         {
           "musculo_id": "deltoides_lateral",
           "rol": "secundario",
-          "activacion": 0.3
+          "activacion": 0.6
         }
       ],
       "descripcion": "Inclínate hacia delante con la espalda neutra y una mancuerna en cada mano colgando bajo los hombros. Abre los brazos hacia los lados con los codos ligeramente flexionados hasta la altura del torso. Baja despacio sin balancear. Error típico: usar impulso del tronco y juntar las escápulas en exceso.",
@@ -596,7 +605,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench",
-        "EMG (recordado, sin verificar): Ogasawara 2018"
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)",
+        "Schoenfeld et al. 2013 — J Strength Cond Res 27(10):2644-2649 — https://pubmed.ncbi.nlm.nih.gov/23302754/ (pájaros en máquina; deltoides posterior, medio e infraespinoso)"
       ]
     },
     {
@@ -690,7 +700,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Face_Pull",
-        "EMG (recordado, sin verificar): analogía con pájaros"
+        "(sin verificar para face pull) Fukunaga et al. 2022 — Int J Sports Phys Ther 17(3):400-408 — https://pubmed.ncbi.nlm.nih.gov/35391860/ — ejercicio análogo, no el mismo"
       ]
     },
     {
@@ -732,10 +742,11 @@
       ],
       "descripcion": "Con una barra recta, agarra con las manos algo más cerca que el ancho de los hombros. Sube la barra pegada al torso tirando de los codos hacia arriba y hacia los lados hasta la altura del pecho. Baja con control. Error típico: subir los codos por encima de los hombros con agarre muy estrecho, lo que carga el hombro.",
       "descripcion_en": "With a straight bar, grip slightly narrower than shoulder width. Pull the bar up along the torso, driving the elbows up and out to chest height. Lower under control. A common mistake is raising the elbows above the shoulders with a very narrow grip, which stresses the shoulder.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "free-exercise-db: Upright_Barbell_Row",
-        "EMG (recordado, sin verificar): analogía con remo al mentón"
+        "McAllister et al. 2013 — J Strength Cond Res 27(1):181-187 — https://pubmed.ncbi.nlm.nih.gov/22362088/ (remo al mentón; 3 deltoides, trapecio superior y medio, bíceps)",
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)"
       ]
     },
     {
@@ -947,7 +958,8 @@
       "descripcion_en": "Facing a low pulley, hold the handles with the arms crossed in front. Raise the arms into a Y shape overhead with the thumbs up. Control the descent. A common mistake is arching the lower back to reach higher.",
       "confianza": "baja",
       "fuentes": [
-        "analogía con db_rear_fly y face_pull"
+        "analogía con db_rear_fly y face_pull",
+        "Ekstrom et al. 2003 — J Orthop Sports Phys Ther 33(5):247-258 — https://pubmed.ncbi.nlm.nih.gov/12774999/ (trapecio y serrato; la elevación de brazo en prono dio la máxima activación del trapecio inferior) [relacionado: versión en prono, no en polea]"
       ]
     },
     {
@@ -984,9 +996,9 @@
       ],
       "descripcion": "Sujeta una banda con las manos separadas al ancho de los hombros y los brazos extendidos delante a la altura del pecho. Separa las manos llevando los brazos hacia los lados hasta que la banda toque el pecho. Vuelve despacio. Error típico: encoger los hombros y arquear la espalda.",
       "descripcion_en": "Hold a band with hands shoulder-width apart and arms extended in front at chest height. Pull the hands apart, taking the arms out to the sides until the band touches the chest. Return slowly. A common mistake is shrugging and arching the back.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "analogía con db_rear_fly"
+        "Fukunaga et al. 2022 — Int J Sports Phys Ther 17(3):400-408 — https://pubmed.ncbi.nlm.nih.gov/35391860/ (apertura con banda; infraespinoso, trapecio sup/medio/inf, deltoides posterior)"
       ]
     },
     {
@@ -1046,7 +1058,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Seated_Barbell_Military_Press",
-        "EMG (recordado, sin verificar): Saeterbakken 2011"
+        "Saeterbakken & Fimland 2013 — J Strength Cond Res 27(7):1824-1831 — https://pubmed.ncbi.nlm.nih.gov/23096062/ (resumen: press con barra y mancuernas, sentado y de pie; deltoides, bíceps y tríceps; el press de pie con mancuernas dio la mayor actividad deltoidea)",
+        "Coratella et al. 2022 — Front Physiol — https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2022.825880/full (press con barra vs máquina, delante y detrás de la nuca; 3 deltoides, pectoral clavicular, trapecio superior, tríceps lateral)"
       ]
     },
     {
@@ -1162,9 +1175,10 @@
       ],
       "descripcion": "De pie con los pies al ancho de caderas, sostén las mancuernas a la altura de los hombros. Aprieta glúteos y abdomen y empuja hacia arriba hasta extender los codos. Baja con control sin inclinar el torso hacia atrás. Error típico: usar las piernas y la espalda para ayudarte a subir.",
       "descripcion_en": "Standing with feet hip-width apart, hold the dumbbells at shoulder height. Brace glutes and abs and press up until the elbows are extended. Lower under control without leaning back. A common mistake is using the legs and lower back to help the lift.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "analogía con db_shoulder_press"
+        "Saeterbakken & Fimland 2013 — J Strength Cond Res 27(7):1824-1831 — https://pubmed.ncbi.nlm.nih.gov/23096062/ (resumen: press con barra y mancuernas, sentado y de pie; deltoides, bíceps y tríceps; el press de pie con mancuernas dio la mayor actividad deltoidea)",
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)"
       ]
     },
     {
@@ -1209,9 +1223,9 @@
           "activacion": 0.35
         },
         {
-          "musculo_id": "recto_abdominal",
-          "rol": "estabilizador",
-          "activacion": 0.2
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.35
         },
         {
           "musculo_id": "serrato_anterior",
@@ -1226,10 +1240,10 @@
       ],
       "descripcion": "Sostén una mancuerna a la altura del hombro con el antebrazo vertical y la otra mano libre. Empuja hasta extender el codo sin inclinar el tronco hacia el lado contrario. Baja controlando el peso hasta el hombro. Error típico: flexionar lateralmente la columna para ganar recorrido.",
       "descripcion_en": "Hold one dumbbell at shoulder height with the forearm vertical, free hand relaxed. Press until the elbow is extended without leaning the trunk to the opposite side. Lower the weight under control back to the shoulder. A common mistake is bending the spine sideways to gain range.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "analogía con db_shoulder_press",
-        "core: analogía"
+        "Dicus et al. 2018 — Int J Exerc Sci 11(1):708-716 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6033506/ (press a una mano con mancuerna: deltoides anterior 63 %MVIC, pectoral mayor 31 %MVIC)",
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)"
       ]
     },
     {
@@ -1271,9 +1285,10 @@
       ],
       "descripcion": "Sujeta un disco con ambas manos a las posiciones de las tres y las nueve, con los brazos extendidos delante de los muslos. Eleva el disco hasta la altura de los ojos con los codos casi rectos. Baja de forma controlada. Error típico: balancear el tronco hacia atrás para subir el disco.",
       "descripcion_en": "Hold a plate with both hands at the three and nine oclock positions with the arms extended in front of the thighs. Raise the plate to eye level with nearly straight elbows. Lower under control. A common mistake is rocking the trunk backward to swing the plate up.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "analogía con db_front_raise"
+        "Coratella et al. 2020 — Int J Environ Res Public Health 17:6015 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7503819/ (variantes de elevación lateral y frontal; deltoides, pectoral, trapecio superior, tríceps)",
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)"
       ]
     },
     {
@@ -1315,9 +1330,10 @@
       ],
       "descripcion": "Sujeta una mancuerna con una mano y, si quieres, apóyate con la otra en un soporte. Eleva el brazo hacia el lado hasta la altura del hombro con el codo ligeramente flexionado. Baja con control sin balancear el cuerpo. Error típico: subir con el trapecio y el impulso del tronco en lugar de con el deltoides.",
       "descripcion_en": "Hold a dumbbell in one hand and, if you like, steady yourself on a support with the other. Raise the arm out to the side to shoulder height with a slightly bent elbow. Lower under control without rocking the body. A common mistake is lifting with the traps and trunk momentum instead of the deltoid.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "analogía con db_lateral_raise"
+        "Coratella et al. 2020 — Int J Environ Res Public Health 17:6015 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7503819/ (variantes de elevación lateral y frontal; deltoides, pectoral, trapecio superior, tríceps)",
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)"
       ]
     },
     {
@@ -1359,9 +1375,10 @@
       ],
       "descripcion": "Siéntate en un banco con el torso recto y una mancuerna en cada mano. Eleva los brazos hacia los lados hasta la altura de los hombros con los codos ligeramente flexionados. Al estar sentado no puedes ayudarte con las piernas. Error típico: inclinarte hacia atrás para lanzar las mancuernas.",
       "descripcion_en": "Sit on a bench with an upright torso and a dumbbell in each hand. Raise the arms out to the sides to shoulder height with slightly bent elbows. Sitting removes any help from the legs. A common mistake is leaning back to throw the dumbbells up.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "analogía con db_lateral_raise"
+        "Coratella et al. 2020 — Int J Environ Res Public Health 17:6015 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7503819/ (variantes de elevación lateral y frontal; deltoides, pectoral, trapecio superior, tríceps)",
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)"
       ]
     },
     {
@@ -1393,7 +1410,7 @@
         {
           "musculo_id": "deltoides_lateral",
           "rol": "secundario",
-          "activacion": 0.35
+          "activacion": 0.6
         },
         {
           "musculo_id": "manguito_rotador",
@@ -1403,9 +1420,10 @@
       ],
       "descripcion": "Siéntate al borde de un banco e inclínate hasta apoyar el pecho cerca de los muslos con las mancuernas colgando. Eleva los brazos hacia los lados hasta la altura del torso con los codos ligeramente flexionados. Baja sin rebotar. Error típico: levantar el torso para ayudarte con el impulso.",
       "descripcion_en": "Sit at the edge of a bench and lean forward until the chest is near the thighs with the dumbbells hanging. Raise the arms out to the sides to torso height with slightly bent elbows. Lower without bouncing. A common mistake is lifting the torso to add momentum.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "analogía con db_rear_fly"
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)",
+        "Schoenfeld et al. 2013 — J Strength Cond Res 27(10):2644-2649 — https://pubmed.ncbi.nlm.nih.gov/23302754/ (pájaros en máquina; deltoides posterior, medio e infraespinoso)"
       ]
     },
     {
@@ -1589,9 +1607,10 @@
       ],
       "descripcion": "Con una mancuerna en cada mano, déjalas al frente de los muslos con las palmas hacia ti. Sube las mancuernas cerca del cuerpo llevando los codos arriba y a los lados hasta el pecho; las muñecas pueden moverse con libertad. Baja con control. Error típico: encoger los hombros y subir los codos por encima de las manos.",
       "descripcion_en": "Holding a dumbbell in each hand, start with them in front of the thighs and palms facing you. Raise the dumbbells close to the body with the elbows leading up and out to chest height; the wrists are free to move. Lower under control. A common mistake is shrugging and lifting the elbows well above the hands.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "analogía con upright_row"
+        "McAllister et al. 2013 — J Strength Cond Res 27(1):181-187 — https://pubmed.ncbi.nlm.nih.gov/22362088/ (remo al mentón; 3 deltoides, trapecio superior y medio, bíceps)",
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)"
       ]
     }
   ]

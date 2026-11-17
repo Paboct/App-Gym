@@ -38,7 +38,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Barbell_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Marcolin et al. 2018 — PeerJ — https://peerj.com/articles/5165 (EMG de bíceps braquial y braquiorradial en curl con barra recta, barra Z y mancuernas alternas al 65 % 1RM; braquial anterior no medido)",
+        "Coratella et al. 2023 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk8010013 (curl con barra recta vs barra Z; bíceps y deltoides anterior, normalizado a MVIC; diferencia mínima en el bíceps entre barras)"
       ]
     },
     {
@@ -78,7 +79,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: EZ-Bar_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Marcolin et al. 2018 — PeerJ — https://peerj.com/articles/5165 (EMG de bíceps braquial y braquiorradial en curl con barra recta, barra Z y mancuernas alternas al 65 % 1RM; braquial anterior no medido)",
+        "Coratella et al. 2023 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk8010013 (curl con barra recta vs barra Z; bíceps y deltoides anterior, normalizado a MVIC; diferencia mínima en el bíceps entre barras)"
       ]
     },
     {
@@ -118,7 +120,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Dumbbell_Bicep_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Oliveira et al. 2009 — Journal of Sports Science and Medicine — https://www.jssm.org/jssm-08-24.xml-Fulltext (solo bíceps braquial, cabeza larga: curl con mancuernas de pie, inclinado y predicador al 40 % MVC; el predicador solo activa alto en un rango corto)",
+        "Marcolin et al. 2018 — PeerJ — https://peerj.com/articles/5165 (EMG de bíceps braquial y braquiorradial en curl con barra recta, barra Z y mancuernas alternas al 65 % 1RM; braquial anterior no medido)"
       ]
     },
     {
@@ -158,7 +161,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Dumbbell_Alternate_Bicep_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Marcolin et al. 2018 — PeerJ — https://peerj.com/articles/5165 (EMG de bíceps braquial y braquiorradial en curl con barra recta, barra Z y mancuernas alternas al 65 % 1RM; braquial anterior no medido)",
+        "Oliveira et al. 2009 — Journal of Sports Science and Medicine — https://www.jssm.org/jssm-08-24.xml-Fulltext (solo bíceps braquial, cabeza larga: curl con mancuernas de pie, inclinado y predicador al 40 % MVC; el predicador solo activa alto en un rango corto)"
       ]
     },
     {
@@ -185,7 +189,7 @@
         {
           "musculo_id": "biceps_braquial",
           "rol": "secundario",
-          "activacion": 0.65
+          "activacion": 0.75
         },
         {
           "musculo_id": "flexores_antebrazo",
@@ -198,7 +202,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Hammer_Curls",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Coratella et al. 2023 — Sports — https://pmc.ncbi.nlm.nih.gov/articles/PMC10054060 (curl en polea de pie, agarre supino/prono con barra y neutro con cuerda; bíceps, braquiorradial y deltoides anterior; el agarre neutro baja el bíceps ~12 % nRMS y el braquiorradial ~6 % frente al supino; braquial no medido)",
+        "Kleiber et al. 2015 — Frontiers in Physiology — https://www.frontiersin.org/articles/10.3389/fphys.2015.00215/full (bíceps y braquiorradial en flexión de codo según posición de la mano: bíceps sin cambios; braquiorradial mayor en pronación, igual en supino y neutro)"
       ]
     },
     {
@@ -238,7 +243,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Incline_Dumbbell_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Oliveira et al. 2009 — Journal of Sports Science and Medicine — https://www.jssm.org/jssm-08-24.xml-Fulltext (solo bíceps braquial, cabeza larga: curl con mancuernas de pie, inclinado y predicador al 40 % MVC; el predicador solo activa alto en un rango corto)"
       ]
     },
     {
@@ -278,7 +283,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Preacher_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Oliveira et al. 2009 — Journal of Sports Science and Medicine — https://www.jssm.org/jssm-08-24.xml-Fulltext (solo bíceps braquial, cabeza larga: curl con mancuernas de pie, inclinado y predicador al 40 % MVC; el predicador solo activa alto en un rango corto)"
       ]
     },
     {
@@ -315,10 +320,9 @@
       ],
       "descripcion": "Ajusta el asiento para que las axilas queden sobre el cojín y agarra las empuñaduras. Flexiona los codos llevando las manos hacia los hombros. Mantén un instante la contracción y vuelve despacio. Error típico: levantar los hombros y rebotar abajo.",
       "descripcion_en": "Adjust the seat so your armpits rest on the pad and grab the handles. Bend the elbows to bring your hands toward the shoulders. Hold the contraction briefly and return slowly. Common mistake: shrugging the shoulders and bouncing at the bottom.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Machine_Preacher_Curls",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Machine_Preacher_Curls"
       ]
     },
     {
@@ -358,7 +362,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Standing_Biceps_Cable_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Coratella et al. 2023 — Sports — https://pmc.ncbi.nlm.nih.gov/articles/PMC10054060 (curl en polea de pie, agarre supino/prono con barra y neutro con cuerda; bíceps, braquiorradial y deltoides anterior; el agarre neutro baja el bíceps ~12 % nRMS y el braquiorradial ~6 % frente al supino; braquial no medido)"
       ]
     },
     {
@@ -398,7 +402,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Standing_One-Arm_Cable_Curl",
-        "analogía: curl en polea con estiramiento tipo curl inclinado"
+        "(sin verificar) analogía: curl en polea con estiramiento tipo curl inclinado"
       ]
     },
     {
@@ -435,10 +439,9 @@
       ],
       "descripcion": "Sentado, apoya el codo en la cara interna del muslo con la mancuerna colgando. Flexiona el codo subiendo la pesa hacia el hombro sin balancear el torso. Aprieta arriba y baja despacio hasta extender. Error típico: separar el codo del muslo y ayudarse con el hombro.",
       "descripcion_en": "Sit with your elbow braced against the inner thigh and the dumbbell hanging down. Bend the elbow to raise the weight toward the shoulder without rocking the torso. Squeeze at the top and lower slowly to full extension. Common mistake: moving the elbow off the thigh and helping with the shoulder.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Concentration_Curls",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Concentration_Curls"
       ]
     },
     {
@@ -475,10 +478,9 @@
       ],
       "descripcion": "Túmbate boca abajo en un banco inclinado con los brazos colgando hacia el suelo. Flexiona los codos subiendo las mancuernas sin mover la parte alta del brazo. Aprieta arriba, donde el bíceps está más acortado, y baja con control. Error típico: usar demasiado peso y levantar el pecho del banco.",
       "descripcion_en": "Lie face down on an incline bench with your arms hanging toward the floor. Bend the elbows to raise the dumbbells without moving the upper arms. Squeeze at the top, where the biceps is most shortened, and lower with control. Common mistake: using too much weight and lifting the chest off the bench.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Spider_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Spider_Curl"
       ]
     },
     {
@@ -505,7 +507,7 @@
         {
           "musculo_id": "biceps_braquial",
           "rol": "secundario",
-          "activacion": 0.65
+          "activacion": 0.75
         },
         {
           "musculo_id": "flexores_antebrazo",
@@ -518,7 +520,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Cable_Hammer_Curls_-_Rope_Attachment",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Coratella et al. 2023 — Sports — https://pmc.ncbi.nlm.nih.gov/articles/PMC10054060 (curl en polea de pie, agarre supino/prono con barra y neutro con cuerda; bíceps, braquiorradial y deltoides anterior; el agarre neutro baja el bíceps ~12 % nRMS y el braquiorradial ~6 % frente al supino; braquial no medido)",
+        "Kleiber et al. 2015 — Frontiers in Physiology — https://www.frontiersin.org/articles/10.3389/fphys.2015.00215/full (bíceps y braquiorradial en flexión de codo según posición de la mano: bíceps sin cambios; braquiorradial mayor en pronación, igual en supino y neutro)"
       ]
     },
     {
@@ -563,7 +566,8 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Zottman_Curl",
-        "analogía: curl supino más curl inverso"
+        "(sin verificar) analogía: curl supino más curl inverso",
+        "Kleiber et al. 2015 — Frontiers in Physiology — https://www.frontiersin.org/articles/10.3389/fphys.2015.00215/full (bíceps y braquiorradial en flexión de codo según posición de la mano: bíceps sin cambios; braquiorradial mayor en pronación, igual en supino y neutro)"
       ]
     },
     {
@@ -600,10 +604,9 @@
       ],
       "descripcion": "Colócate entre dos poleas altas con los brazos abiertos a la altura de los hombros. Flexiona los codos llevando las manos hacia las orejas, como en una pose de bíceps. Mantén los codos a la altura del hombro y contrae arriba. Error típico: dejar caer los codos y convertirlo en un tirón.",
       "descripcion_en": "Stand between two high pulleys with your arms out to shoulder height. Bend the elbows bringing the hands toward your ears, like a biceps pose. Keep the elbows at shoulder level and contract at the top. Common mistake: letting the elbows drop and turning it into a pull.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: High_Cable_Curls",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: High_Cable_Curls"
       ]
     },
     {
@@ -640,10 +643,9 @@
       ],
       "descripcion": "Apoya los brazos en el banco Scott frente a una polea baja y agarra la barra en supino. Flexiona los codos sin despegarlos del cojín. La polea mantiene la tensión incluso arriba, así que aprieta un instante. Error típico: estirar de golpe abajo y perder el control.",
       "descripcion_en": "Rest your arms on the preacher pad facing a low pulley and hold the bar with an underhand grip. Bend the elbows without lifting them off the pad. The cable keeps tension even at the top, so squeeze briefly. Common mistake: snapping into full extension at the bottom and losing control.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Cable_Preacher_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Cable_Preacher_Curl"
       ]
     },
     {
@@ -683,7 +685,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Seated_Dumbbell_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Oliveira et al. 2009 — Journal of Sports Science and Medicine — https://www.jssm.org/jssm-08-24.xml-Fulltext (solo bíceps braquial, cabeza larga: curl con mancuernas de pie, inclinado y predicador al 40 % MVC; el predicador solo activa alto en un rango corto)"
       ]
     },
     {
@@ -720,10 +722,9 @@
       ],
       "descripcion": "De pie con las mancuernas y los codos ligeramente adelantados, con las palmas hacia arriba. Sube las pesas inclinando la muñeca hacia dentro para enfatizar la cabeza corta. Baja despacio hasta casi extender. Error típico: abrir demasiado los codos y balancear el torso.",
       "descripcion_en": "Stand holding dumbbells with the elbows slightly forward and palms up. Curl the weights while angling the wrists inward to emphasize the short head. Lower slowly to near extension. Common mistake: flaring the elbows too wide and swinging the torso.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Standing_Inner-Biceps_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Standing_Inner-Biceps_Curl"
       ]
     },
     {
@@ -760,10 +761,9 @@
       ],
       "descripcion": "Túmbate en el suelo o en un banco con los pies hacia una polea baja y agarra la barra en supino. Flexiona los codos llevando la barra hacia los hombros. Al estar tumbado el cuerpo no puede ayudar. Error típico: despegar los codos del cuerpo y perder tensión arriba.",
       "descripcion_en": "Lie on the floor or a bench with your feet toward a low pulley and hold the bar with an underhand grip. Bend the elbows bringing the bar toward the shoulders. Lying down prevents body momentum. Common mistake: lifting the elbows away from the body and losing tension at the top.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Lying_Cable_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Lying_Cable_Curl"
       ]
     },
     {
@@ -800,10 +800,9 @@
       ],
       "descripcion": "De pie entre dos poleas altas, con los brazos abiertos a la altura de los hombros y las palmas arriba. Flexiona los codos llevando las manos hacia la cabeza. Mantén los brazos paralelos al suelo y aprieta el bíceps arriba. Error típico: bajar los codos y tirar con los hombros.",
       "descripcion_en": "Stand between two high pulleys with your arms out at shoulder height and palms up. Bend the elbows bringing the hands toward your head. Keep the arms parallel to the floor and squeeze the biceps at the top. Common mistake: dropping the elbows and pulling with the shoulders.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Overhead_Cable_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Overhead_Cable_Curl"
       ]
     },
     {
@@ -843,7 +842,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Wide-Grip_Standing_Barbell_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Coratella et al. 2023 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk8010013 (curl con barra recta vs barra Z; bíceps y deltoides anterior, normalizado a MVIC; diferencia mínima en el bíceps entre barras)",
+        "Marcolin et al. 2018 — PeerJ — https://peerj.com/articles/5165 (EMG de bíceps braquial y braquiorradial en curl con barra recta, barra Z y mancuernas alternas al 65 % 1RM; braquial anterior no medido)"
       ]
     },
     {
@@ -883,7 +883,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Close-Grip_EZ_Bar_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Marcolin et al. 2018 — PeerJ — https://peerj.com/articles/5165 (EMG de bíceps braquial y braquiorradial en curl con barra recta, barra Z y mancuernas alternas al 65 % 1RM; braquial anterior no medido)",
+        "Coratella et al. 2023 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk8010013 (curl con barra recta vs barra Z; bíceps y deltoides anterior, normalizado a MVIC; diferencia mínima en el bíceps entre barras)"
       ]
     },
     {
@@ -910,7 +911,7 @@
         {
           "musculo_id": "biceps_braquial",
           "rol": "secundario",
-          "activacion": 0.65
+          "activacion": 0.75
         },
         {
           "musculo_id": "flexores_antebrazo",
@@ -923,7 +924,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Cross_Body_Hammer_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Coratella et al. 2023 — Sports — https://pmc.ncbi.nlm.nih.gov/articles/PMC10054060 (curl en polea de pie, agarre supino/prono con barra y neutro con cuerda; bíceps, braquiorradial y deltoides anterior; el agarre neutro baja el bíceps ~12 % nRMS y el braquiorradial ~6 % frente al supino; braquial no medido)",
+        "Kleiber et al. 2015 — Frontiers in Physiology — https://www.frontiersin.org/articles/10.3389/fphys.2015.00215/full (bíceps y braquiorradial en flexión de codo según posición de la mano: bíceps sin cambios; braquiorradial mayor en pronación, igual en supino y neutro)"
       ]
     },
     {
@@ -950,7 +952,7 @@
         {
           "musculo_id": "biceps_braquial",
           "rol": "secundario",
-          "activacion": 0.65
+          "activacion": 0.75
         },
         {
           "musculo_id": "flexores_antebrazo",
@@ -963,7 +965,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Incline_Hammer_Curls",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Coratella et al. 2023 — Sports — https://pmc.ncbi.nlm.nih.gov/articles/PMC10054060 (curl en polea de pie, agarre supino/prono con barra y neutro con cuerda; bíceps, braquiorradial y deltoides anterior; el agarre neutro baja el bíceps ~12 % nRMS y el braquiorradial ~6 % frente al supino; braquial no medido)",
+        "Kleiber et al. 2015 — Frontiers in Physiology — https://www.frontiersin.org/articles/10.3389/fphys.2015.00215/full (bíceps y braquiorradial en flexión de codo según posición de la mano: bíceps sin cambios; braquiorradial mayor en pronación, igual en supino y neutro)"
       ]
     },
     {
@@ -1005,10 +1008,9 @@
       ],
       "descripcion": "Sujeta la barra y sube llevando los codos hacia atrás, deslizando la barra pegada al torso. Así el hombro no interviene y el bíceps trabaja más aislado. Baja deslizando la barra por el cuerpo. Error típico: separar la barra del torso y volver a un curl normal.",
       "descripcion_en": "Hold the bar and curl by driving the elbows backward, sliding the bar up along the torso. This keeps the shoulders out of it and isolates the biceps more. Lower by sliding the bar down the body. Common mistake: letting the bar drift away from the torso and reverting to a normal curl.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Drag_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Drag_Curl"
       ]
     },
     {
@@ -1045,10 +1047,9 @@
       ],
       "descripcion": "Ajusta el asiento para que los codos queden alineados con el eje de giro. Agarra las empuñaduras y flexiona los codos hacia los hombros. Mantén la espalda apoyada y controla la bajada. Error típico: usar demasiado peso y despegar los codos del soporte.",
       "descripcion_en": "Adjust the seat so your elbows line up with the machine's pivot. Grip the handles and bend the elbows toward the shoulders. Keep your back supported and control the descent. Common mistake: using too much weight and lifting the elbows off the support.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Machine_Bicep_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Machine_Bicep_Curl"
       ]
     }
   ]

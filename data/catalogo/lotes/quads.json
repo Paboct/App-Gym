@@ -45,10 +45,12 @@
       ],
       "descripcion": "Con la barra sobre los trapecios, baja con el torso firme hasta que los muslos pasen la paralela y empuja el suelo para subir. Las rodillas siguen la línea de los pies y el core se mantiene tenso. Error típico: dejar que las rodillas colapsen hacia dentro o redondear la zona lumbar en el fondo.",
       "descripcion_en": "With the bar on your traps, descend with a braced torso until your thighs pass parallel, then drive through the floor to stand. Knees track over the toes and the core stays tight. Common mistake: letting the knees cave inward or rounding the lower back at the bottom.",
-      "confianza": "media",
+      "confianza": "alta",
       "fuentes": [
         "free-exercise-db: Barbell_Full_Squat",
-        "EMG (recordado, sin verificar): Contreras 2015 (sentadilla, vastos y glúteo)"
+        "Coratella et al. 2021 — Int J Environ Res Public Health 18(2):772 — PMID 33477561 (https://europepmc.org/article/MED/33477561) — culturistas al 80% 1RM: sentadilla trasera, sumo y frontal; glúteo mayor/medio, recto femoral, vasto lateral/medial, aductor largo, erectores",
+        "Larsen et al. 2021 — Front Sports Act Living 3:719013 — PMID 34541522 (https://europepmc.org/article/MED/34541522) — sentadilla trasera 3RM: postura estrecha más vasto lateral y menos glúteo mayor; postura ancha más aporte de cadera",
+        "Escamilla et al. 1998 — Med Sci Sports Exerc 30(4):556-569 — https://europepmc.org/article/MED/9565938 — sentadilla, prensa y extensión de rodilla al 12RM: la extensión de rodilla recluta más recto femoral y las cadenas cerradas más vastos; la sentadilla da ~2x isquiotibiales que prensa y extensión"
       ]
     },
     {
@@ -95,9 +97,11 @@
       ],
       "descripcion": "Apoya la barra sobre los deltoides frontales con los codos altos y baja con el torso muy vertical. Mantén el tronco rígido y sube empujando con todo el pie. Error típico: dejar caer los codos, lo que hace que la barra ruede hacia delante y el torso se doble.",
       "descripcion_en": "Rest the bar on your front delts with elbows high and descend keeping the torso very upright. Keep the trunk rigid and drive up through the whole foot. Common mistake: dropping the elbows, which lets the bar roll forward and the torso fold.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "free-exercise-db: Front_Barbell_Squat"
+        "free-exercise-db: Front_Barbell_Squat",
+        "Yavuz et al. 2015 — J Sports Sci 33(10):1058-1066 — PMID 25630691 (https://europepmc.org/article/MED/25630691) — sentadilla frontal vs trasera con cargas máximas: más vasto medial en la frontal, más semitendinoso en la trasera",
+        "Coratella et al. 2021 — Int J Environ Res Public Health 18(2):772 — PMID 33477561 (https://europepmc.org/article/MED/33477561) — culturistas al 80% 1RM: sentadilla trasera, sumo y frontal; glúteo mayor/medio, recto femoral, vasto lateral/medial, aductor largo, erectores"
       ]
     },
     {
@@ -134,9 +138,10 @@
       ],
       "descripcion": "Colócate bajo la barra guiada con los pies algo adelantados respecto a ella y baja controlando hasta la paralela. Empuja con el pie entero para subir sin bloquear de golpe las rodillas. Error típico: poner los pies demasiado retrasados, lo que carga en exceso las rodillas y la espalda baja.",
       "descripcion_en": "Stand under the guided bar with your feet slightly forward of it and lower under control to parallel. Push through the whole foot to rise without snapping the knees straight. Common mistake: placing the feet too far back, which overloads the knees and lower back.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "free-exercise-db: Smith_Machine_Squat",
+        "Svensson et al. 2022 — Front Sports Act Living 4:1021323 — PMID 36524056 (https://europepmc.org/article/MED/36524056) — sentadilla con trayectoria fija (Smith) vs libre: menos cuádriceps e isquiotibiales en la fija, glúteo mayor sin diferencias",
         "analogía con sentadilla con barra (squat)"
       ]
     },
@@ -219,10 +224,12 @@
       ],
       "descripcion": "Siéntate con la espalda y la pelvis apoyadas y los pies a media altura de la plataforma. Baja hasta unos 90 grados de rodilla y empuja sin bloquear la articulación arriba. Error típico: dejar que la pelvis se despegue del asiento en el fondo, lo que curva la zona lumbar.",
       "descripcion_en": "Sit with your back and pelvis flat against the pad and feet mid-height on the platform. Lower to about 90 degrees of knee flexion and press up without locking out the knees. Common mistake: letting the pelvis lift off the seat at the bottom, which rounds the lower back.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "free-exercise-db: Leg_Press",
-        "analogía con Gemini (leg_press)"
+        "Martín-Fuentes et al. 2020 — Int J Environ Res Public Health 17(13):4626 — PMID 32605065 (https://europepmc.org/article/MED/32605065) — revisión sistemática sEMG en prensa de piernas: vastos máxima activación, recto femoral cercano, bíceps femoral aumenta con la rodilla extendida",
+        "Stien, Saeterbakken & Andersen 2021 — J Sports Sci Med 20:56-61 — https://www.jssm.org/jssm-20-56.xml-abst — prensa vs extensión de rodilla (6RM unilateral): vasto lateral mayor en prensa, recto femoral mayor en extensión, glúteo mayor sin diferencias",
+        "Escamilla et al. 1998 — Med Sci Sports Exerc 30(4):556-569 — https://europepmc.org/article/MED/9565938 — sentadilla, prensa y extensión de rodilla al 12RM: la extensión de rodilla recluta más recto femoral y las cadenas cerradas más vastos; la sentadilla da ~2x isquiotibiales que prensa y extensión"
       ]
     },
     {
@@ -314,10 +321,11 @@
       ],
       "descripcion": "Apoya el empeine trasero en un banco y adelanta el pie delantero lo suficiente para bajar en vertical. Desciende hasta que el muslo delantero quede paralelo y sube empujando con el talón. Error típico: dar un paso demasiado corto, que adelanta la rodilla en exceso y sobrecarga la articulación.",
       "descripcion_en": "Rest the rear foot on a bench and step the front foot far enough forward to descend vertically. Lower until the front thigh is parallel and drive up through the heel. Common mistake: using too short a stance, which pushes the knee too far forward and stresses the joint.",
-      "confianza": "media",
+      "confianza": "alta",
       "fuentes": [
         "free-exercise-db: Single_Leg_Squat",
-        "EMG (recordado, sin verificar): Bishop 2018 (sentadilla búlgara)"
+        "McCurdy et al. 2021 — J Strength Cond Res 35(5):1201-1207 — PMID 33900255 (https://europepmc.org/article/MED/33900255) — sentadilla búlgara (pie trasero elevado) al 80% 1RM: glúteo mayor, vasto lateral, isquiotibiales mediales y laterales; vasto lateral mayor que en hip thrust",
+        "Aygun-Polat et al. 2025 — BMC Sports Sci Med Rehabil 17:251 — https://link.springer.com/article/10.1186/s13102-025-01306-z — sentadilla búlgara: glúteo medio/mayor, vasto lateral/medial, recto femoral, semitendinoso, bíceps femoral y erectores; la flexión de tronco aumenta glúteo mayor, bíceps femoral y recto femoral"
       ]
     },
     {
@@ -367,7 +375,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Dumbbell_Lunges",
-        "EMG (recordado, sin verificar): Escamilla 2008 (zancadas)"
+        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados"
       ]
     },
     {
@@ -414,11 +422,11 @@
       ],
       "descripcion": "Avanza con un paso largo, baja controlando hasta que la rodilla trasera roce casi el suelo y empuja para llevar la otra pierna adelante. Mantén el torso erguido y el paso continuo. Error típico: pasos demasiado cortos o dejarse caer sin controlar el descenso.",
       "descripcion_en": "Step forward with a long stride, lower under control until the back knee nearly touches the floor, then drive through to bring the other leg forward. Keep the torso upright and the rhythm steady. Common mistake: taking steps that are too short or dropping without controlling the descent.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "free-exercise-db: Dumbbell_Lunges",
         "free-exercise-db: Bodyweight_Walking_Lunge",
-        "analogía con zancada estática"
+        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados (zancada hacia delante con zancada; extrapolado a zancadas caminando)"
       ]
     },
     {
@@ -445,10 +453,11 @@
       ],
       "descripcion": "Ajusta el respaldo para que las rodillas queden alineadas con el eje de la máquina y el rodillo sobre los tobillos. Extiende las piernas hasta casi bloquear y baja de forma lenta y controlada. Error típico: usar impulso y soltar el peso de golpe en la fase excéntrica.",
       "descripcion_en": "Adjust the backrest so your knees line up with the machine pivot and the pad rests on your ankles. Extend the legs until nearly locked out and lower slowly under control. Common mistake: using momentum and dropping the weight in the lowering phase.",
-      "confianza": "media",
+      "confianza": "alta",
       "fuentes": [
         "free-exercise-db: Leg_Extensions",
-        "EMG (recordado, sin verificar): Escamilla 1998 (extensión de rodilla en cadena abierta)"
+        "Escamilla et al. 1998 — Med Sci Sports Exerc 30(4):556-569 — https://europepmc.org/article/MED/9565938 — sentadilla, prensa y extensión de rodilla al 12RM: la extensión de rodilla recluta más recto femoral y las cadenas cerradas más vastos; la sentadilla da ~2x isquiotibiales que prensa y extensión",
+        "Stien, Saeterbakken & Andersen 2021 — J Sports Sci Med 20:56-61 — https://www.jssm.org/jssm-20-56.xml-abst — prensa vs extensión de rodilla (6RM unilateral): vasto lateral mayor en prensa, recto femoral mayor en extensión, glúteo mayor sin diferencias"
       ]
     },
     {
@@ -475,10 +484,11 @@
       ],
       "descripcion": "Trabaja una pierna cada vez con la rodilla alineada con el eje de la máquina. Extiende hasta casi bloquear, haz una pausa breve y baja lentamente. Error típico: balancear el torso o la cadera para ayudarte a subir la carga.",
       "descripcion_en": "Work one leg at a time with the knee aligned to the machine pivot. Extend until nearly locked out, pause briefly and lower slowly. Common mistake: swinging the torso or hips to help lift the load.",
-      "confianza": "baja",
+      "confianza": "alta",
       "fuentes": [
         "free-exercise-db: Leg_Extensions",
-        "analogía con extensión bilateral"
+        "Stien, Saeterbakken & Andersen 2021 — J Sports Sci Med 20:56-61 — https://www.jssm.org/jssm-20-56.xml-abst — prensa vs extensión de rodilla (6RM unilateral): vasto lateral mayor en prensa, recto femoral mayor en extensión, glúteo mayor sin diferencias (la medición fue unilateral)",
+        "Escamilla et al. 1998 — Med Sci Sports Exerc 30(4):556-569 — https://europepmc.org/article/MED/9565938 — sentadilla, prensa y extensión de rodilla al 12RM: la extensión de rodilla recluta más recto femoral y las cadenas cerradas más vastos; la sentadilla da ~2x isquiotibiales que prensa y extensión"
       ]
     },
     {
@@ -610,7 +620,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Dumbbell_Rear_Lunge",
-        "EMG (recordado, sin verificar): Escamilla 2008 (zancadas)"
+        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados (zancada hacia delante; extrapolado a la inversa)"
       ]
     },
     {
@@ -1019,7 +1029,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Barbell_Lunge",
-        "EMG (recordado, sin verificar): Escamilla 2008 (zancadas)"
+        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados (con mancuernas/peso corporal; extrapolado a barra)"
       ]
     },
     {
@@ -1114,7 +1124,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Barbell_Full_Squat",
-        "EMG (recordado, sin verificar): Paoli 2009 (anchura de postura en sentadilla)"
+        "Coratella et al. 2021 — Int J Environ Res Public Health 18(2):772 — PMID 33477561 (https://europepmc.org/article/MED/33477561) — culturistas al 80% 1RM: sentadilla trasera, sumo y frontal; glúteo mayor/medio, recto femoral, vasto lateral/medial, aductor largo, erectores (sumo: más vasto lateral y aductor largo en la subida)",
+        "Larsen et al. 2021 — Front Sports Act Living 3:719013 — PMID 34541522 (https://europepmc.org/article/MED/34541522) — sentadilla trasera 3RM: postura estrecha más vasto lateral y menos glúteo mayor; postura ancha más aporte de cadera"
       ]
     },
     {

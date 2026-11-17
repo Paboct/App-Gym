@@ -40,10 +40,14 @@
       ],
       "descripcion": "Apoya la parte alta de la espalda en un banco con la barra sobre la cadera y los pies firmes en el suelo. Sube la pelvis hasta alinear tronco y muslos, apretando los glúteos arriba con la barbilla algo recogida. Baja con control sin perder la tensión. Error típico: hiperextender la zona lumbar al final en lugar de bloquear con el glúteo.",
       "descripcion_en": "Rest your upper back on a bench with the bar over your hips and your feet planted. Drive the pelvis up until torso and thighs are aligned, squeezing the glutes at the top with the chin slightly tucked. Lower under control without losing tension. Common mistake: over-arching the lower back at lockout instead of finishing with the glutes.",
-      "confianza": "media",
+      "confianza": "alta",
       "fuentes": [
         "free-exercise-db: Barbell_Hip_Thrust",
-        "EMG (recordado, sin verificar): Contreras et al. 2015, hip thrust vs. sentadilla"
+        "Contreras et al. 2015 — J Appl Biomech — https://ro.ecu.edu.au/ecuworkspost2013/1592 (13 mujeres entrenadas, hip thrust vs sentadilla: glúteo mayor ~70-87% MVC, bíceps femoral ~41% MVC)",
+        "Andersen et al. 2018 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/28151780/ (hip thrust: mayor glúteo mayor; peso muerto con barra: mayor bíceps femoral; erectores sin diferencias)",
+        "Delgado et al. 2019 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/31356511/ (hip thrust vs sentadilla vs peso muerto rumano; el rumano aísla extensores de cadera de forma similar al hip thrust)",
+        "Krause Neto et al. 2020 — J Sports Sci Med — https://jssm.org/jssm-19-195.xml-Fulltext (revisión: hip thrust con barra y peso muerto convencional con activación muy alta >60% MVIC del glúteo mayor)",
+        "Krause Neto et al. 2019 — J Sports Sci Med — http://jssm.org/volume18/iss2/cap/jssm-18-198.pdf (revisión del hip thrust con barra: glúteo mayor y bíceps femoral más activos que en sentadilla)"
       ]
     },
     {
@@ -80,10 +84,12 @@
       ],
       "descripcion": "Ajusta el respaldo y el cinturón para que la almohadilla quede sobre la pelvis. Empuja con los talones hasta extender la cadera por completo y aprieta el glúteo un instante. Desciende de forma controlada hasta sentir estiramiento. Error típico: empujar con la espalda baja y levantar los talones en vez de dirigir el movimiento desde la cadera.",
       "descripcion_en": "Adjust the backrest and belt so the pad sits across your pelvis. Push through your heels until the hips are fully extended and squeeze the glutes briefly. Lower under control until you feel a stretch. Common mistake: pushing with the lower back and lifting the heels instead of driving the movement from the hips.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "Analogía con hip thrust con barra (mismo patrón, resistencia guiada)",
-        "free-exercise-db: Barbell_Hip_Thrust"
+        "free-exercise-db: Barbell_Hip_Thrust",
+        "Contreras et al. 2015 — J Appl Biomech — https://ro.ecu.edu.au/ecuworkspost2013/1592 (13 mujeres entrenadas, hip thrust vs sentadilla: glúteo mayor ~70-87% MVC, bíceps femoral ~41% MVC)",
+        "Krause Neto et al. 2020 — J Sports Sci Med — https://jssm.org/jssm-19-195.xml-Fulltext (revisión: hip thrust con barra y peso muerto convencional con activación muy alta >60% MVIC del glúteo mayor)"
       ]
     },
     {
@@ -123,7 +129,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Barbell_Glute_Bridge",
-        "EMG (recordado, sin verificar): Contreras et al. 2015"
+        "Selkowitz et al. 2013 — J Orthop Sports Phys Ther — https://pubmed.ncbi.nlm.nih.gov/23160432/ (fine-wire: puente unilateral y extensión de cadera en cuadrupedia activan glúteo medio y mayor superior más que el TFL)",
+        "Krause Neto et al. 2020 — J Sports Sci Med — https://jssm.org/jssm-19-195.xml-Fulltext (revisión: hip thrust con barra y peso muerto convencional con activación muy alta >60% MVIC del glúteo mayor)"
       ]
     },
     {
@@ -163,7 +170,8 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: One-Legged_Cable_Kickback",
-        "Analogía con hip thrust (extensión de cadera)"
+        "Analogía con hip thrust (extensión de cadera)",
+        "Stevens et al. 2022 — Int J Exerc Sci — https://pubmed.ncbi.nlm.nih.gov/35989703/ (6 ejercicios en mujeres: patada, nórdico y curl con mayor bíceps femoral que rumano; glúteo mayor mínimo en curl)"
       ]
     },
     {
@@ -230,7 +238,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Thigh_Abductor",
-        "EMG (recordado, sin verificar): Distefano et al. 2009, activación de glúteo medio en ejercicios de abducción"
+        "de Almeida Paz et al. 2022 — J Bodyw Mov Ther — https://pubmed.ncbi.nlm.nih.gov/35500965/ (la máquina de abducción activa el glúteo medio con poca activación del TFL)"
       ]
     },
     {
@@ -320,8 +328,10 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Sumo_Deadlift",
-        "EMG (recordado, sin verificar): Escamilla et al. 2000, peso muerto sumo vs. convencional",
-        "discrepa con free-exercise-db: principal en la app es glúteo, con aductores y cuádriceps como sinergistas"
+        "discrepa con free-exercise-db: principal en la app es glúteo, con aductores y cuádriceps como sinergistas",
+        "Escamilla et al. 2002 — Med Sci Sports Exerc — https://pubmed.ncbi.nlm.nih.gov/11932579/ (sumo vs convencional: más vastos y tibial anterior en sumo, más gastrocnemio en convencional)",
+        "Martín-Fuentes et al. 2020 — PLoS One — https://pubmed.ncbi.nlm.nih.gov/32107499/ (revisión de peso muerto y variantes: erectores y cuádriceps muy activos; en rumano semitendinoso/bíceps femoral > erectores)",
+        "Krause Neto et al. 2020 — J Sports Sci Med — https://jssm.org/jssm-19-195.xml-Fulltext (revisión: hip thrust con barra y peso muerto convencional con activación muy alta >60% MVIC del glúteo mayor)"
       ]
     },
     {
@@ -361,7 +371,8 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Pull_Through",
-        "Analogía con peso muerto rumano"
+        "Analogía con peso muerto rumano",
+        "Dicus et al. 2023 — Int J Exerc Sci — https://pubmed.ncbi.nlm.nih.gov/37113509/ (rumano vs hiperextensión inversa vs pull-through: la inversa sube glúteo mayor +19,5% y bíceps femoral +28%; pull-through baja erectores e isquios respecto al rumano)"
       ]
     },
     {
@@ -480,9 +491,11 @@
       ],
       "descripcion": "Apoya el torso en la almohadilla de la máquina con las piernas colgando y sujétate de las asas. Eleva las piernas hacia atrás hasta alinearlas con el cuerpo apretando los glúteos. Baja con control sin balancear. Error típico: lanzar las piernas con impulso y pasarse de la línea del cuerpo, cargando la zona lumbar.",
       "descripcion_en": "Rest your torso on the machine pad with the legs hanging and hold the handles. Raise the legs backward until aligned with the body, squeezing the glutes. Lower under control without swinging. Common mistake: swinging the legs with momentum and going past the body line, overloading the lower back.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "free-exercise-db: Reverse_Hyperextension"
+        "free-exercise-db: Reverse_Hyperextension",
+        "Cuthbert et al. 2021 — J Strength Cond Res — https://ro.ecu.edu.au/ecuworkspost2013/10503 (hiperextensión inversa vs hiperextensión: mayor EMG de erectores, glúteo mayor y bíceps femoral)",
+        "Dicus et al. 2023 — Int J Exerc Sci — https://pubmed.ncbi.nlm.nih.gov/37113509/ (rumano vs hiperextensión inversa vs pull-through: la inversa sube glúteo mayor +19,5% y bíceps femoral +28%; pull-through baja erectores e isquios respecto al rumano)"
       ]
     },
     {
@@ -527,7 +540,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Barbell_Glute_Bridge",
-        "EMG (recordado, sin verificar): Contreras et al. 2015"
+        "Selkowitz et al. 2013 — J Orthop Sports Phys Ther — https://pubmed.ncbi.nlm.nih.gov/23160432/ (fine-wire: puente unilateral y extensión de cadera en cuadrupedia activan glúteo medio y mayor superior más que el TFL)",
+        "Krause Neto et al. 2020 — J Sports Sci Med — https://jssm.org/jssm-19-195.xml-Fulltext (revisión: hip thrust con barra y peso muerto convencional con activación muy alta >60% MVIC del glúteo mayor)"
       ]
     }
   ]

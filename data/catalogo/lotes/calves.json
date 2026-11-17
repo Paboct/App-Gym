@@ -33,7 +33,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Standing_Calf_Raises",
-        "EMG (recordado, sin verificar): Riemann y cols. 2011 (gastrocnemio más activo con la rodilla extendida)"
+        "Hébert-Losier et al. 2012 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/22190157/ (48 adultos; elevación de talón unilateral con rodilla a 0° y 45°; EMG normalizado a MVIC: sóleo ~4 % más activo a 45° y gastrocnemios ~5 % menos; diferencia pequeña)"
       ]
     },
     {
@@ -68,7 +68,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Seated_Calf_Raise",
-        "EMG (recordado, sin verificar): Riemann y cols. 2011 (el sóleo domina con la rodilla flexionada)"
+        "Hébert-Losier et al. 2012 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/22190157/ (48 adultos; elevación de talón unilateral con rodilla a 0° y 45°; EMG normalizado a MVIC: sóleo ~4 % más activo a 45° y gastrocnemios ~5 % menos; diferencia pequeña)"
       ]
     },
     {
@@ -103,7 +103,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Calf_Press_On_The_Leg_Press_Machine",
-        "EMG (recordado, sin verificar): Riemann y cols. 2011 (rodilla extendida, gastrocnemio dominante)"
+        "Hébert-Losier et al. 2012 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/22190157/ (48 adultos; elevación de talón unilateral con rodilla a 0° y 45°; EMG normalizado a MVIC: sóleo ~4 % más activo a 45° y gastrocnemios ~5 % menos; diferencia pequeña) — ejercicio equivalente (rodilla extendida)"
       ]
     },
     {
@@ -138,7 +138,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Smith_Machine_Calf_Raise",
-        "EMG (recordado, sin verificar): Riemann y cols. 2011 (rodilla extendida)"
+        "Hébert-Losier et al. 2012 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/22190157/ (48 adultos; elevación de talón unilateral con rodilla a 0° y 45°; EMG normalizado a MVIC: sóleo ~4 % más activo a 45° y gastrocnemios ~5 % menos; diferencia pequeña) — ejercicio equivalente (rodilla extendida)"
       ]
     },
     {
@@ -178,7 +178,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Dumbbell_Seated_One-Leg_Calf_Raise (variante de pie por analogía)",
-        "EMG (recordado, sin verificar): Riemann y cols. 2011"
+        "Hébert-Losier et al. 2012 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/22190157/ (48 adultos; elevación de talón unilateral con rodilla a 0° y 45°; EMG normalizado a MVIC: sóleo ~4 % más activo a 45° y gastrocnemios ~5 % menos; diferencia pequeña)"
       ]
     },
     {
@@ -218,7 +218,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Donkey_Calf_Raises",
-        "EMG (recordado, sin verificar): Riemann y cols. 2011 (rodilla extendida con cadera flexionada)"
+        "Hébert-Losier et al. 2012 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/22190157/ (48 adultos; elevación de talón unilateral con rodilla a 0° y 45°; EMG normalizado a MVIC: sóleo ~4 % más activo a 45° y gastrocnemios ~5 % menos; diferencia pequeña) — ejercicio equivalente (rodilla extendida)"
       ]
     },
     {
@@ -258,7 +258,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Standing_Barbell_Calf_Raise",
-        "EMG (recordado, sin verificar): Riemann y cols. 2011 (rodilla extendida)"
+        "Hébert-Losier et al. 2012 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/22190157/ (48 adultos; elevación de talón unilateral con rodilla a 0° y 45°; EMG normalizado a MVIC: sóleo ~4 % más activo a 45° y gastrocnemios ~5 % menos; diferencia pequeña) — ejercicio equivalente (rodilla extendida)"
       ]
     },
     {
@@ -298,7 +298,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Standing_Dumbbell_Calf_Raise",
-        "EMG (recordado, sin verificar): Riemann y cols. 2011 (rodilla extendida)"
+        "Hébert-Losier et al. 2012 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/22190157/ (48 adultos; elevación de talón unilateral con rodilla a 0° y 45°; EMG normalizado a MVIC: sóleo ~4 % más activo a 45° y gastrocnemios ~5 % menos; diferencia pequeña) — ejercicio equivalente (rodilla extendida)"
       ]
     },
     {
@@ -333,7 +333,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Barbell_Seated_Calf_Raise",
-        "EMG (recordado, sin verificar): Riemann y cols. 2011 (sóleo con la rodilla flexionada)"
+        "Hébert-Losier et al. 2012 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/22190157/ (48 adultos; elevación de talón unilateral con rodilla a 0° y 45°; EMG normalizado a MVIC: sóleo ~4 % más activo a 45° y gastrocnemios ~5 % menos; diferencia pequeña) — ejercicio equivalente (rodilla flexionada)"
       ]
     }
   ]

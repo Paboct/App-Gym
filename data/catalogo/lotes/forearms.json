@@ -30,10 +30,9 @@
       ],
       "descripcion": "Siéntate con los antebrazos apoyados en un banco o en los muslos y la barra en supino con las muñecas fuera del apoyo. Deja rodar la barra hasta los dedos y vuelve a subirla flexionando las muñecas. Controla el recorrido completo. Error típico: levantar los antebrazos del apoyo.",
       "descripcion_en": "Sit with your forearms resting on a bench or thighs, holding the bar underhand with the wrists past the edge. Let the bar roll to your fingers and curl it back up by flexing the wrists. Control the full range. Common mistake: lifting the forearms off the support.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Seated_Palm-Up_Barbell_Wrist_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Seated_Palm-Up_Barbell_Wrist_Curl"
       ]
     },
     {
@@ -65,10 +64,9 @@
       ],
       "descripcion": "Apoya los antebrazos con las palmas hacia abajo y la barra en pronación, con las muñecas fuera del borde. Baja la barra flexionando las muñecas y súbela extendiéndolas. Usa poco peso porque los extensores son pequeños. Error típico: balancear los antebrazos.",
       "descripcion_en": "Rest your forearms palms down holding the bar overhand, wrists past the edge. Lower the bar by flexing the wrists and raise it by extending them. Use light weight since the extensors are small. Common mistake: swinging the forearms.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Seated_Palms-Down_Barbell_Wrist_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Seated_Palms-Down_Barbell_Wrist_Curl"
       ]
     },
     {
@@ -113,7 +111,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Reverse_Barbell_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Kleiber et al. 2015 — Frontiers in Physiology — https://www.frontiersin.org/articles/10.3389/fphys.2015.00215/full (bíceps y braquiorradial en flexión de codo según posición de la mano: bíceps sin cambios; braquiorradial mayor en pronación, igual en supino y neutro)",
+        "Coratella et al. 2023 — Sports — https://pmc.ncbi.nlm.nih.gov/articles/PMC10054060 (curl en polea de pie, agarre supino/prono con barra y neutro con cuerda; bíceps, braquiorradial y deltoides anterior; el agarre neutro baja el bíceps ~12 % nRMS y el braquiorradial ~6 % frente al supino; braquial no medido)"
       ]
     },
     {
@@ -155,10 +154,11 @@
       ],
       "descripcion": "Coge una mancuerna pesada en cada mano y camina erguido con los hombros atrás y abajo. Da pasos cortos y firmes sin inclinar el tronco. El agarre y el core soportan la carga. Error típico: encorvarse o encoger los hombros hacia las orejas.",
       "descripcion_en": "Pick up a heavy dumbbell in each hand and walk upright with the shoulders back and down. Take short, firm steps without leaning the trunk. The grip and core hold the load. Common mistake: slouching or shrugging the shoulders toward the ears.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "free-exercise-db: Farmers_Walk",
-        "analogía: acarreos de carga; sin verificar con literatura"
+        "(sin verificar) analogía: acarreos de carga; sin verificar con literatura",
+        "Hassan et al. 2025 — Int J Exercise Science: Conference Proceedings 15(7) — https://digitalcommons.wku.edu/ijesab/vol15/iss7/23 (resumen; EMG de extremidad superior en el paseo del granjero: flexor cubital del carpo entre los más reclutados con cargas altas; no midió tronco ni trapecio)"
       ]
     },
     {
@@ -193,7 +193,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Plate_Pinch",
-        "analogía: ejercicios de agarre isométrico"
+        "(sin verificar) analogía: ejercicios de agarre isométrico"
       ]
     },
     {
@@ -225,10 +225,9 @@
       ],
       "descripcion": "Sentado, apoya el antebrazo sobre el muslo o el banco con la palma hacia arriba y una mancuerna en la mano. Deja caer la mancuerna hacia los dedos y súbela flexionando la muñeca. Haz el recorrido completo y lento. Error típico: mover el antebrazo en lugar de la muñeca.",
       "descripcion_en": "Sit with your forearm resting on your thigh or a bench, palm up, holding a dumbbell. Let the dumbbell roll toward your fingers and curl it up by flexing the wrist. Use the full range slowly. Common mistake: moving the forearm instead of the wrist.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Seated_Dumbbell_Palms-Up_Wrist_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Seated_Dumbbell_Palms-Up_Wrist_Curl"
       ]
     },
     {
@@ -260,10 +259,9 @@
       ],
       "descripcion": "Sentado frente a una polea baja, apoya los antebrazos con las palmas hacia arriba y agarra la barra corta. Flexiona las muñecas llevando la barra hacia ti. La polea mantiene la tensión durante todo el recorrido. Error típico: despegar los antebrazos del apoyo.",
       "descripcion_en": "Sit facing a low pulley with your forearms supported, palms up, holding the short bar. Flex the wrists to bring the bar toward you. The cable keeps tension throughout the range. Common mistake: lifting the forearms off the support.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Seated_Two-Arm_Palms-Up_Low-Pulley_Wrist_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Seated_Two-Arm_Palms-Up_Low-Pulley_Wrist_Curl"
       ]
     },
     {
@@ -303,7 +301,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Wrist_Roller",
-        "analogía: ejercicios de muñeca"
+        "(sin verificar) analogía: ejercicios de muñeca"
       ]
     }
   ]

@@ -25,10 +25,11 @@
       ],
       "descripcion": "Siéntate en la máquina con las almohadillas en la cara interna de los muslos y la espalda apoyada. Junta las piernas de forma controlada y vuelve despacio hasta un estiramiento cómodo. Error típico: abrir con impulso o con un rango excesivo que fuerza la ingle.",
       "descripcion_en": "Sit in the machine with the pads on the inner thighs and your back supported. Bring the legs together under control and return slowly to a comfortable stretch. A typical mistake is opening with momentum or into an excessive range that strains the groin.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "free-exercise-db: Adductor",
-        "analogía con ejercicio de aducción de Gemini"
+        "analogía con ejercicio de aducción de Gemini",
+        "Serner et al. 2014 — Br J Sports Med — https://pubmed.ncbi.nlm.nih.gov/23511698/ (8 ejercicios de aducción en 40 futbolistas; aductor largo, glúteo medio, recto abdominal, oblicuo externo; valores por ejercicio vía https://sci-sport.com/prevention-des-blessures-a-l-aine-sollicitation-musculaire-des-adducteurs-de-la-hanche-072/)"
       ]
     },
     {
@@ -84,7 +85,7 @@
         {
           "musculo_id": "oblicuos",
           "rol": "secundario",
-          "activacion": 0.7
+          "activacion": 0.5
         },
         {
           "musculo_id": "recto_abdominal",
@@ -107,7 +108,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Adductor/Groin",
-        "EMG (recordado, sin verificar): Serner 2014 (plancha Copenhague, aductores)"
+        "Serner et al. 2014 — Br J Sports Med — https://pubmed.ncbi.nlm.nih.gov/23511698/ (8 ejercicios de aducción en 40 futbolistas; aductor largo, glúteo medio, recto abdominal, oblicuo externo; valores por ejercicio vía https://sci-sport.com/prevention-des-blessures-a-l-aine-sollicitation-musculaire-des-adducteurs-de-la-hanche-072/)"
       ]
     }
   ]

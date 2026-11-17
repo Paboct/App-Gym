@@ -20,12 +20,12 @@
         {
           "musculo_id": "pectoral_clavicular",
           "rol": "secundario",
-          "activacion": 0.6
+          "activacion": 0.8
         },
         {
           "musculo_id": "pectoral_abdominal",
           "rol": "secundario",
-          "activacion": 0.5
+          "activacion": 0.7
         },
         {
           "musculo_id": "deltoides_anterior",
@@ -50,10 +50,12 @@
       ],
       "descripcion": "Túmbate con los ojos bajo la barra, escápulas retraídas y pies firmes en el suelo. Baja la barra con control hasta rozar la parte media del pecho y empuja en línea ligeramente curva hacia los hombros. Error típico: rebotar la barra en el pecho o levantar los glúteos del banco.",
       "descripcion_en": "Lie with your eyes under the bar, shoulder blades pulled back and feet planted. Lower the bar under control until it touches the mid-chest, then press it up in a slight arc over the shoulders. Common mistake: bouncing the bar off the chest or lifting the hips off the bench.",
-      "confianza": "media",
+      "confianza": "alta",
       "fuentes": [
         "free-exercise-db: Barbell_Bench_Press_-_Medium_Grip",
-        "EMG (recordado, sin verificar): Barnett 1995 y Glass 1997 (banca plana, inclinada y declinada)"
+        "Rodríguez-Ridao et al. 2020 — Int J Environ Res Public Health — https://pmc.ncbi.nlm.nih.gov/articles/PMC7579505 — press de banca con barra a 0–60°: %MVIC de pectoral clavicular/esternal/costal (~27 % cada una a 0°; clavicular máximo a 30°, esternal y costal bajan al inclinar), deltoides anterior (sube con la inclinación) y tríceps medial (sin diferencias por ángulo)",
+        "Saeterbakken et al. 2017 — J Hum Kinet — https://pmc.ncbi.nlm.nih.gov/articles/PMC5504579 — banca plana, inclinada +25° y declinada −25° a 6RM: pectoral (clavicular y esternocostal) similar entre ángulos y agarres; tríceps 58–63 % menor en inclinado; deltoides anterior mayor en inclinado que en declinado",
+        "Saeterbakken et al. 2011 — J Sports Sci — https://read.qxmd.com/read/21225489/a-comparison-of-muscle-activity-and-1-rm-strength-of-three-chest-press-exercises-with-different-stability-requirements — Smith vs barra vs mancuernas: pectoral y deltoides anterior sin diferencias, tríceps menor con mancuernas, bíceps mayor con mancuernas"
       ]
     },
     {
@@ -100,10 +102,12 @@
       ],
       "descripcion": "Ajusta el banco a unos 30 grados y mantén las escápulas retraídas sobre el respaldo. Baja la barra hasta la parte alta del pecho, cerca de la clavícula, y empuja hacia arriba sin perder la posición del tronco. Error típico: usar un banco demasiado vertical, que desplaza el trabajo a los hombros.",
       "descripcion_en": "Set the bench to about 30 degrees and keep the shoulder blades pinned to the backrest. Lower the bar to the upper chest near the collarbone and press up without changing the torso position. Common mistake: using a bench that is too steep, which shifts the work to the shoulders.",
-      "confianza": "media",
+      "confianza": "alta",
       "fuentes": [
         "free-exercise-db: Barbell_Incline_Bench_Press_-_Medium_Grip",
-        "EMG (recordado, sin verificar): Barnett 1995 y Glass 1997 (banca plana, inclinada y declinada)"
+        "Rodríguez-Ridao et al. 2020 — Int J Environ Res Public Health — https://pmc.ncbi.nlm.nih.gov/articles/PMC7579505 — press de banca con barra a 0–60°: %MVIC de pectoral clavicular/esternal/costal (~27 % cada una a 0°; clavicular máximo a 30°, esternal y costal bajan al inclinar), deltoides anterior (sube con la inclinación) y tríceps medial (sin diferencias por ángulo)",
+        "Saeterbakken et al. 2017 — J Hum Kinet — https://pmc.ncbi.nlm.nih.gov/articles/PMC5504579 — banca plana, inclinada +25° y declinada −25° a 6RM: pectoral (clavicular y esternocostal) similar entre ángulos y agarres; tríceps 58–63 % menor en inclinado; deltoides anterior mayor en inclinado que en declinado",
+        "Nota: el tríceps no cambia con el ángulo en Rodríguez-Ridao (solo cabeza medial) pero es 58–63 % menor en inclinado en Saeterbakken; se mantienen valores intermedios"
       ]
     },
     {
@@ -150,10 +154,11 @@
       ],
       "descripcion": "Fija bien las piernas en el banco declinado y agarra la barra algo más ancha que los hombros. Baja la barra hasta la parte baja del pecho con control y empuja hasta extender los codos. Error típico: dejar caer la barra por la inclinación y perder el control del recorrido.",
       "descripcion_en": "Secure your legs on the decline bench and grip the bar slightly wider than shoulder width. Lower the bar under control to the lower chest and press until the elbows are extended. Common mistake: letting the bar drop because of the incline and losing control of the path.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Decline_Barbell_Bench_Press",
-        "EMG (recordado, sin verificar): Barnett 1995 y Glass 1997 (banca plana, inclinada y declinada)"
+        "Saeterbakken et al. 2017 — J Hum Kinet — https://pmc.ncbi.nlm.nih.gov/articles/PMC5504579 — banca plana, inclinada +25° y declinada −25° a 6RM: pectoral (clavicular y esternocostal) similar entre ángulos y agarres; tríceps 58–63 % menor en inclinado; deltoides anterior mayor en inclinado que en declinado",
+        "Sin respaldo: ningún estudio abierto mide la porción costal/abdominal en declinado; Saeterbakken 2017 halla pectoral similar al plano"
       ]
     },
     {
@@ -175,12 +180,12 @@
         {
           "musculo_id": "pectoral_clavicular",
           "rol": "secundario",
-          "activacion": 0.6
+          "activacion": 0.8
         },
         {
           "musculo_id": "pectoral_abdominal",
           "rol": "secundario",
-          "activacion": 0.5
+          "activacion": 0.7
         },
         {
           "musculo_id": "deltoides_anterior",
@@ -208,7 +213,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Dumbbell_Bench_Press",
-        "EMG (recordado, sin verificar): Barnett 1995 y Glass 1997 (banca plana, inclinada y declinada)"
+        "Saeterbakken et al. 2011 — J Sports Sci — https://read.qxmd.com/read/21225489/a-comparison-of-muscle-activity-and-1-rm-strength-of-three-chest-press-exercises-with-different-stability-requirements — Smith vs barra vs mancuernas: pectoral y deltoides anterior sin diferencias, tríceps menor con mancuernas, bíceps mayor con mancuernas",
+        "Rodríguez-Ridao et al. 2020 — Int J Environ Res Public Health — https://pmc.ncbi.nlm.nih.gov/articles/PMC7579505 — press de banca con barra a 0–60°: %MVIC de pectoral clavicular/esternal/costal (~27 % cada una a 0°; clavicular máximo a 30°, esternal y costal bajan al inclinar), deltoides anterior (sube con la inclinación) y tríceps medial (sin diferencias por ángulo) (analogía con barra)"
       ]
     },
     {
@@ -258,7 +264,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Incline_Dumbbell_Press",
-        "EMG (recordado, sin verificar): Barnett 1995 y Glass 1997 (banca plana, inclinada y declinada)"
+        "Rodríguez-Ridao et al. 2020 — Int J Environ Res Public Health — https://pmc.ncbi.nlm.nih.gov/articles/PMC7579505 — press de banca con barra a 0–60°: %MVIC de pectoral clavicular/esternal/costal (~27 % cada una a 0°; clavicular máximo a 30°, esternal y costal bajan al inclinar), deltoides anterior (sube con la inclinación) y tríceps medial (sin diferencias por ángulo) (analogía con barra)",
+        "Saeterbakken et al. 2011 — J Sports Sci — https://read.qxmd.com/read/21225489/a-comparison-of-muscle-activity-and-1-rm-strength-of-three-chest-press-exercises-with-different-stability-requirements — Smith vs barra vs mancuernas: pectoral y deltoides anterior sin diferencias, tríceps menor con mancuernas, bíceps mayor con mancuernas"
       ]
     },
     {
@@ -280,12 +287,12 @@
         {
           "musculo_id": "pectoral_clavicular",
           "rol": "secundario",
-          "activacion": 0.6
+          "activacion": 0.8
         },
         {
           "musculo_id": "pectoral_abdominal",
           "rol": "secundario",
-          "activacion": 0.5
+          "activacion": 0.7
         },
         {
           "musculo_id": "deltoides_anterior",
@@ -313,7 +320,9 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Smith_Machine_Bench_Press",
-        "EMG (recordado, sin verificar): Barnett 1995 y Glass 1997 (banca plana, inclinada y declinada)"
+        "Schick et al. 2010 — J Strength Cond Res — https://read.qxmd.com/read/20093960/a-comparison-of-muscle-activation-between-a-smith-machine-and-free-weight-bench-press — Smith vs peso libre al 70 y 90 % 1RM: pectoral y deltoides anterior sin diferencias, deltoides medio mayor en peso libre",
+        "Saeterbakken et al. 2011 — J Sports Sci — https://read.qxmd.com/read/21225489/a-comparison-of-muscle-activity-and-1-rm-strength-of-three-chest-press-exercises-with-different-stability-requirements — Smith vs barra vs mancuernas: pectoral y deltoides anterior sin diferencias, tríceps menor con mancuernas, bíceps mayor con mancuernas",
+        "Rodríguez-Ridao et al. 2020 — Int J Environ Res Public Health — https://pmc.ncbi.nlm.nih.gov/articles/PMC7579505 — press de banca con barra a 0–60°: %MVIC de pectoral clavicular/esternal/costal (~27 % cada una a 0°; clavicular máximo a 30°, esternal y costal bajan al inclinar), deltoides anterior (sube con la inclinación) y tríceps medial (sin diferencias por ángulo) (analogía con barra)"
       ]
     },
     {
@@ -363,7 +372,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Smith_Machine_Incline_Bench_Press",
-        "EMG (recordado, sin verificar): Barnett 1995 y Glass 1997 (banca plana, inclinada y declinada)"
+        "Schick et al. 2010 — J Strength Cond Res — https://read.qxmd.com/read/20093960/a-comparison-of-muscle-activation-between-a-smith-machine-and-free-weight-bench-press — Smith vs peso libre al 70 y 90 % 1RM: pectoral y deltoides anterior sin diferencias, deltoides medio mayor en peso libre",
+        "Rodríguez-Ridao et al. 2020 — Int J Environ Res Public Health — https://pmc.ncbi.nlm.nih.gov/articles/PMC7579505 — press de banca con barra a 0–60°: %MVIC de pectoral clavicular/esternal/costal (~27 % cada una a 0°; clavicular máximo a 30°, esternal y costal bajan al inclinar), deltoides anterior (sube con la inclinación) y tríceps medial (sin diferencias por ángulo) (analogía con barra)"
       ]
     },
     {
@@ -385,12 +395,12 @@
         {
           "musculo_id": "pectoral_clavicular",
           "rol": "secundario",
-          "activacion": 0.6
+          "activacion": 0.8
         },
         {
           "musculo_id": "pectoral_abdominal",
           "rol": "secundario",
-          "activacion": 0.45
+          "activacion": 0.65
         },
         {
           "musculo_id": "deltoides_anterior",
@@ -415,10 +425,11 @@
       ],
       "descripcion": "Regula el asiento para que los agarres queden a la altura de la parte media del pecho y apoya la espalda. Empuja hasta casi extender los codos y vuelve despacio sin que las placas descansen. Error típico: sentarse demasiado alto, lo que sobrecarga el hombro.",
       "descripcion_en": "Adjust the seat so the handles sit at mid-chest height and keep your back against the pad. Press until the elbows are almost extended and return slowly without letting the plates rest. Common mistake: sitting too high, which overloads the shoulder.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "free-exercise-db: Machine_Bench_Press",
-        "analogía con Gemini pecho_003 (press de pecho en máquina convergente)"
+        "Muyor et al. 2023 — J Hum Kinet — https://pmc.ncbi.nlm.nih.gov/articles/PMC10203828/ — press de banca vs press de pecho sentado en máquina (clavicular, esternal, costal, deltoides anterior, tríceps larga): clavicular algo mayor en la máquina (~30 vs ~25 % MVIC), deltoides anterior sin diferencias",
+        "Schanke et al. 2012 (tesis UW-La Crosse, financiada por ACE) — https://www.acefitness.org/certifiednewsarticle/2884 — activación del pectoral mayor respecto a press de banca (=100 %): pec deck 98, cruce de poleas inclinado hacia delante 93, press en máquina 79, aperturas inclinadas con mancuernas 69, fondos 69, flexiones 61 (no separa porciones)"
       ]
     },
     {
@@ -508,7 +519,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Butterfly",
-        "EMG (recordado, sin verificar): Welsch 2005 (press vs aperturas)"
+        "Schanke et al. 2012 (tesis UW-La Crosse, financiada por ACE) — https://www.acefitness.org/certifiednewsarticle/2884 — activación del pectoral mayor respecto a press de banca (=100 %): pec deck 98, cruce de poleas inclinado hacia delante 93, press en máquina 79, aperturas inclinadas con mancuernas 69, fondos 69, flexiones 61 (no separa porciones)"
       ]
     },
     {
@@ -545,10 +556,10 @@
       ],
       "descripcion": "Con las poleas altas, da un paso adelante e inclina ligeramente el torso con los codos algo flexionados. Lleva las manos hacia abajo y al centro, a la altura de la cadera, apretando la parte baja del pecho. Error típico: convertir el gesto en un press doblando y extendiendo los codos.",
       "descripcion_en": "With the pulleys set high, step forward and lean the torso slightly with the elbows softly bent. Sweep the hands down and together to hip height, squeezing the lower chest. Common mistake: turning the movement into a press by bending and extending the elbows.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Cable_Crossover",
-        "EMG (recordado, sin verificar): Welsch 2005 (press vs aperturas)"
+        "Schanke et al. 2012 (tesis UW-La Crosse, financiada por ACE) — https://www.acefitness.org/certifiednewsarticle/2884 — activación del pectoral mayor respecto a press de banca (=100 %): pec deck 98, cruce de poleas inclinado hacia delante 93, press en máquina 79, aperturas inclinadas con mancuernas 69, fondos 69, flexiones 61 (no separa porciones) (solo cruce inclinado hacia delante; no respalda la porción abdominal como principal)"
       ]
     },
     {
@@ -585,10 +596,10 @@
       ],
       "descripcion": "Con las poleas bajas, da un paso adelante y mantén los codos ligeramente flexionados. Eleva las manos en arco hacia delante y arriba, a la altura de la cara, apretando el pecho alto. Error típico: levantar con los hombros y encoger el cuello en lugar de aducir los brazos.",
       "descripcion_en": "With the pulleys set low, step forward and keep the elbows slightly bent. Sweep the hands up and forward in an arc to face height, squeezing the upper chest. Common mistake: lifting with the shoulders and shrugging instead of adducting the arms.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Low_Cable_Crossover",
-        "EMG (recordado, sin verificar): Welsch 2005 (press vs aperturas)"
+        "Sin respaldo abierto para la porción clavicular en cruce de abajo arriba; ver Schanke et al. 2012 (tesis UW-La Crosse, financiada por ACE) — https://www.acefitness.org/certifiednewsarticle/2884 — activación del pectoral mayor respecto a press de banca (=100 %): pec deck 98, cruce de poleas inclinado hacia delante 93, press en máquina 79, aperturas inclinadas con mancuernas 69, fondos 69, flexiones 61 (no separa porciones)"
       ]
     },
     {
@@ -633,7 +644,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Cable_Crossover",
-        "EMG (recordado, sin verificar): Welsch 2005 (press vs aperturas)"
+        "Schanke et al. 2012 (tesis UW-La Crosse, financiada por ACE) — https://www.acefitness.org/certifiednewsarticle/2884 — activación del pectoral mayor respecto a press de banca (=100 %): pec deck 98, cruce de poleas inclinado hacia delante 93, press en máquina 79, aperturas inclinadas con mancuernas 69, fondos 69, flexiones 61 (no separa porciones)"
       ]
     },
     {
@@ -678,7 +689,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Dumbbell_Flyes",
-        "EMG (recordado, sin verificar): Welsch 2005 (press vs aperturas)"
+        "Solstad et al. 2020 — J Sports Sci Med — https://jssm.org/jssm-19-645.xml-abst — aperturas con mancuernas vs press de banca a 6RM: pectoral, deltoides anterior y tríceps menores en aperturas; bíceps 57–86 % mayor en aperturas"
       ]
     },
     {
@@ -718,7 +729,9 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Incline_Dumbbell_Flyes",
-        "EMG (recordado, sin verificar): Welsch 2005 (press vs aperturas)"
+        "Schanke et al. 2012 (tesis UW-La Crosse, financiada por ACE) — https://www.acefitness.org/certifiednewsarticle/2884 — activación del pectoral mayor respecto a press de banca (=100 %): pec deck 98, cruce de poleas inclinado hacia delante 93, press en máquina 79, aperturas inclinadas con mancuernas 69, fondos 69, flexiones 61 (no separa porciones)",
+        "Solstad et al. 2020 — J Sports Sci Med — https://jssm.org/jssm-19-645.xml-abst — aperturas con mancuernas vs press de banca a 6RM: pectoral, deltoides anterior y tríceps menores en aperturas; bíceps 57–86 % mayor en aperturas",
+        "Rodríguez-Ridao et al. 2020 — Int J Environ Res Public Health — https://pmc.ncbi.nlm.nih.gov/articles/PMC7579505 — press de banca con barra a 0–60°: %MVIC de pectoral clavicular/esternal/costal (~27 % cada una a 0°; clavicular máximo a 30°, esternal y costal bajan al inclinar), deltoides anterior (sube con la inclinación) y tríceps medial (sin diferencias por ángulo) (analogía: pectoral clavicular al inclinar)"
       ]
     },
     {
@@ -778,7 +791,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Pushups",
-        "EMG (recordado, sin verificar): Cogley 2005 (flexiones)"
+        "Marcolin et al. 2015 — J Athl Train — https://pmc.ncbi.nlm.nih.gov/articles/PMC4732391 — 5 variantes de flexión: pectoral esternal y clavicular, deltoides anterior, tríceps larga/lateral, serrato, recto abdominal, oblicuo externo; base estrecha da más pectoral y tríceps",
+        "Calatayud et al. 2014 — J Sports Sci Med — https://jssm.org/jssm-13-502.xml-abst — flexión estable en suelo: pectoral clavicular, deltoides anterior, tríceps y recto abdominal normalizados a MVIC"
       ]
     },
     {
@@ -828,7 +842,8 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Dips_-_Chest_Version",
-        "analogía con Gemini pecho_004 (fondos con énfasis en pecho)"
+        "analogía con Gemini pecho_004 (fondos con énfasis en pecho)",
+        "Schanke et al. 2012 (tesis UW-La Crosse, financiada por ACE) — https://www.acefitness.org/certifiednewsarticle/2884 — activación del pectoral mayor respecto a press de banca (=100 %): pec deck 98, cruce de poleas inclinado hacia delante 93, press en máquina 79, aperturas inclinadas con mancuernas 69, fondos 69, flexiones 61 (no separa porciones) (fondos 69 % del press de banca)"
       ]
     },
     {
@@ -885,11 +900,13 @@
       ],
       "descripcion": "Cuélgate de la barra con agarre prono algo más ancho que los hombros y baja las escápulas antes de tirar. Lleva el pecho hacia la barra llevando los codos hacia las costillas, hasta que la barbilla pase la barra. Baja controlando hasta la extensión casi completa. Error típico: balancearse y tirar con impulso o quedarse a medio recorrido.",
       "descripcion_en": "Hang from the bar with a pronated grip slightly wider than the shoulders and depress the shoulder blades before pulling. Drive the chest toward the bar by bringing the elbows down to the ribs until the chin clears the bar. Lower under control to near full extension. Common mistake: swinging and kipping or stopping short of full range.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "Youdas et al. 2010 — Journal of Strength and Conditioning Research — https://doi.org/10.1519/JSC.0b013e3181f1598c (pull-up vs chin-up: dorsal más activo, luego bíceps; chin-up más bíceps/pectoral, pull-up más trapecio inferior)",
+        "Dickie et al. 2017 — Journal of Electromyography and Kinesiology — https://pubmed.ncbi.nlm.nih.gov/28011412/ (pull-ups con agarre supino/prono/neutro/cuerda; activación similar entre agarres salvo trapecio medio mayor en prono)",
+        "Di Fonza et al. 2026 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk11030315 (revisión narrativa de EMG del dorsal en jalón, remo, pull-up, pullover)",
         "free-exercise-db: Pullups",
-        "analogía: Gemini espalda_001",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_001"
       ]
     },
     {
@@ -941,11 +958,12 @@
       ],
       "descripcion": "Agarra la barra en supinación a la anchura de los hombros y empieza con los brazos casi extendidos. Tira llevando los codos hacia abajo y atrás hasta que la barbilla supere la barra, con el pecho alto. Desciende sin dejarte caer. Error típico: encoger los hombros hacia las orejas y dejar que los bíceps hagan todo el trabajo.",
       "descripcion_en": "Grip the bar underhand at shoulder width and start with the arms nearly straight. Pull by driving the elbows down and back until the chin clears the bar, keeping the chest tall. Lower without dropping. Common mistake: shrugging toward the ears and letting the biceps do all the work.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "Youdas et al. 2010 — Journal of Strength and Conditioning Research — https://doi.org/10.1519/JSC.0b013e3181f1598c (pull-up vs chin-up: dorsal más activo, luego bíceps; chin-up más bíceps/pectoral, pull-up más trapecio inferior)",
+        "Dickie et al. 2017 — Journal of Electromyography and Kinesiology — https://pubmed.ncbi.nlm.nih.gov/28011412/ (pull-ups con agarre supino/prono/neutro/cuerda; activación similar entre agarres salvo trapecio medio mayor en prono)",
         "free-exercise-db: Chin-Up",
-        "analogía: Gemini espalda_001 (ajustando bíceps al agarre supino)",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_001 (ajustando bíceps al agarre supino)"
       ]
     },
     {
@@ -997,11 +1015,12 @@
       ],
       "descripcion": "Usa asas paralelas con las palmas enfrentadas y los brazos extendidos. Inicia el gesto bajando las escápulas y tira de los codos hacia los costados hasta subir el pecho a las asas. Baja despacio hasta el estiramiento completo. Error típico: arquear en exceso la zona lumbar para ganar altura.",
       "descripcion_en": "Use parallel handles with palms facing each other and arms extended. Start by depressing the shoulder blades, then pull the elbows to your sides until the chest reaches the handles. Lower slowly to a full stretch. Common mistake: over-arching the lower back to gain height.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "Dickie et al. 2017 — Journal of Electromyography and Kinesiology — https://pubmed.ncbi.nlm.nih.gov/28011412/ (pull-ups con agarre supino/prono/neutro/cuerda; activación similar entre agarres salvo trapecio medio mayor en prono)",
+        "Youdas et al. 2010 — Journal of Strength and Conditioning Research — https://doi.org/10.1519/JSC.0b013e3181f1598c (pull-up vs chin-up: dorsal más activo, luego bíceps; chin-up más bíceps/pectoral, pull-up más trapecio inferior)",
         "free-exercise-db: Pullups",
-        "analogía: Gemini espalda_001 y espalda_003",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_001 y espalda_003"
       ]
     },
     {
@@ -1053,11 +1072,13 @@
       ],
       "descripcion": "Siéntate con los muslos fijos bajo el rodillo y agarra la barra algo más ancha que los hombros. Inclina ligeramente el torso y tira de la barra hacia la parte alta del pecho llevando los codos abajo y atrás. Sube controlando hasta estirar los dorsales. Error típico: tirar con el torso hacia atrás y llevar la barra detrás de la nuca.",
       "descripcion_en": "Sit with the thighs locked under the pad and grip the bar slightly wider than the shoulders. Lean back slightly and pull the bar to the upper chest by driving the elbows down and back. Return under control until the lats are stretched. Common mistake: swinging the torso back or pulling the bar behind the neck.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "Lusk et al. 2010 — Journal of Strength and Conditioning Research — https://pubmed.ncbi.nlm.nih.gov/20543740/ (jalón: agarre prono da más dorsal que supino; trapecio medio y bíceps sin diferencias)",
+        "Buonsenso et al. 2025 — Journal of Functional Morphology and Kinesiology — https://pubmed.ncbi.nlm.nih.gov/40981044/ (7 variantes de jalón en 40 hombres: dorsal, deltoides posterior, bíceps, trapecio medio/inferior, infraespinoso; sin diferencias de dorsal entre agarres)",
+        "Di Fonza et al. 2026 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk11030315 (revisión narrativa de EMG del dorsal en jalón, remo, pull-up, pullover)",
         "free-exercise-db: Wide-Grip_Lat_Pulldown",
-        "analogía: Gemini espalda_002",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_002"
       ]
     },
     {
@@ -1109,11 +1130,12 @@
       ],
       "descripcion": "Agarra el asa estrecha con las palmas enfrentadas o prono cerrado y siéntate con el pecho alto. Tira del asa hacia la parte alta del pecho acercando los codos a los costados. Vuelve arriba controlando el estiramiento. Error típico: encogerse de hombros y perder la tensión del dorsal en la fase de subida.",
       "descripcion_en": "Take the narrow handle with a neutral or close pronated grip and sit tall. Pull the handle to the upper chest by bringing the elbows close to your sides. Return upward while controlling the stretch. Common mistake: shrugging and losing lat tension on the way up.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "Lusk et al. 2010 — Journal of Strength and Conditioning Research — https://pubmed.ncbi.nlm.nih.gov/20543740/ (jalón: agarre prono da más dorsal que supino; trapecio medio y bíceps sin diferencias)",
+        "Buonsenso et al. 2025 — Journal of Functional Morphology and Kinesiology — https://pubmed.ncbi.nlm.nih.gov/40981044/ (7 variantes de jalón en 40 hombres: dorsal, deltoides posterior, bíceps, trapecio medio/inferior, infraespinoso; sin diferencias de dorsal entre agarres)",
         "free-exercise-db: Close-Grip_Front_Lat_Pulldown",
-        "analogía: Gemini espalda_003",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_003"
       ]
     },
     {
@@ -1163,8 +1185,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: One_Arm_Lat_Pulldown",
-        "analogía: Gemini espalda_002 (analogía unilateral)",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_002 (analogía unilateral)"
       ]
     },
     {
@@ -1209,8 +1230,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Straight-Arm_Pulldown",
-        "analogía: Gemini espalda_007",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_007"
       ]
     },
     {
@@ -1267,11 +1287,12 @@
       ],
       "descripcion": "Con la barra en las manos, inclina el torso unos 45 grados con la espalda neutra y las rodillas flexionadas. Tira de la barra hacia el abdomen llevando los codos atrás y juntando las escápulas. Baja controlando sin redondear la espalda. Error típico: impulsarse con la cadera y subir el torso en cada repetición.",
       "descripcion_en": "Holding the bar, hinge the torso to about 45 degrees with a neutral spine and bent knees. Pull the bar to the abdomen driving the elbows back and squeezing the shoulder blades together. Lower under control without rounding the back. Common mistake: heaving with the hips and standing up on each rep.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "Fenwick et al. 2009 — Journal of Strength and Conditioning Research — https://pubmed.ncbi.nlm.nih.gov/19620925/ (remo invertido: mayor activación de dorsal y espalda alta; remo con barra: gran activación simétrica de espalda)",
+        "ACE-sponsored study 2018 — American Council on Exercise — https://www.acefitness.org/continuing-education/certified/january-2023/8214/what-is-the-best-back-exercise/ (EMG de dominada, jalón, remo sentado, remo con barra, remo invertido; remo con barra mayor en trapecio medio/erectores, dominadas mayor en dorsal)",
         "free-exercise-db: Bent_Over_Barbell_Row",
-        "analogía: Gemini espalda_004",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_004"
       ]
     },
     {
@@ -1321,8 +1342,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: T-Bar_Row_with_Handle",
-        "analogía: Gemini espalda_004",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_004"
       ]
     },
     {
@@ -1377,8 +1397,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: One-Arm_Dumbbell_Row",
-        "analogía: Gemini espalda_006",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_006"
       ]
     },
     {
@@ -1425,11 +1444,12 @@
       ],
       "descripcion": "Siéntate con los pies apoyados y la espalda recta, agarrando el asa con los brazos extendidos. Tira hacia el abdomen llevando los codos atrás y juntando las escápulas. Vuelve estirando los brazos sin redondear la espalda. Error típico: balancear el torso hacia atrás para mover más peso.",
       "descripcion_en": "Sit with feet braced and a straight back, holding the handle with arms extended. Pull to the abdomen driving the elbows back and squeezing the shoulder blades. Return by extending the arms without rounding the back. Common mistake: rocking the torso back to move more weight.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "ACE-sponsored study 2018 — American Council on Exercise — https://www.acefitness.org/continuing-education/certified/january-2023/8214/what-is-the-best-back-exercise/ (EMG de dominada, jalón, remo sentado, remo con barra, remo invertido; remo con barra mayor en trapecio medio/erectores, dominadas mayor en dorsal)",
+        "Di Fonza et al. 2026 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk11030315 (revisión narrativa de EMG del dorsal en jalón, remo, pull-up, pullover)",
         "free-exercise-db: Seated_Cable_Rows",
-        "analogía: Gemini espalda_005",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_005"
       ]
     },
     {
@@ -1474,8 +1494,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Seated_Cable_Rows",
-        "analogía: Gemini espalda_005 (más deltoides posterior por el agarre ancho)",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_005 (más deltoides posterior por el agarre ancho)"
       ]
     },
     {
@@ -1520,8 +1539,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Leverage_Iso_Row",
-        "analogía: Gemini espalda_005",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_005"
       ]
     },
     {
@@ -1566,8 +1584,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Lying_T-Bar_Row",
-        "analogía: Gemini espalda_004 y espalda_005",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_004 y espalda_005"
       ]
     },
     {
@@ -1617,8 +1634,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Seated_One-arm_Cable_Pulley_Rows",
-        "analogía: Gemini espalda_006",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_006"
       ]
     },
     {
@@ -1667,9 +1683,9 @@
       "descripcion_en": "Lying on a bench, hold a dumbbell with both hands over the chest. Lower the arms behind the head with slightly bent elbows until you feel a stretch. Return to the start pulling from the lats. Common mistake: arching the lower back and lowering beyond shoulder mobility.",
       "confianza": "baja",
       "fuentes": [
+        "Di Fonza et al. 2026 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk11030315 (revisión narrativa de EMG del dorsal en jalón, remo, pull-up, pullover) — el pullover parece favorecer al pectoral mayor sobre el dorsal; no cuantificado, coeficientes sin cambios",
         "free-exercise-db: Bent-Arm_Dumbbell_Pullover",
-        "analogía: Gemini espalda_007",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_007"
       ]
     },
     {
@@ -1717,7 +1733,9 @@
       "descripcion": "Ajusta el asiento y apoya los codos en las almohadillas con los brazos por encima de la cabeza. Lleva los codos hacia abajo y adelante en un arco hasta que la barra llegue al abdomen. Sube controlando el estiramiento. Error típico: empujar con las manos en lugar de con los codos.",
       "descripcion_en": "Adjust the seat and place the elbows on the pads with the arms overhead. Drive the elbows down and forward in an arc until the bar reaches the abdomen. Return while controlling the stretch. Common mistake: pushing with the hands instead of the elbows.",
       "confianza": "baja",
-      "fuentes": []
+      "fuentes": [
+        "Di Fonza et al. 2026 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk11030315 (revisión narrativa de EMG del dorsal en jalón, remo, pull-up, pullover) — el pullover parece favorecer al pectoral mayor sobre el dorsal; no cuantificado, coeficientes sin cambios"
+      ]
     },
     {
       "id": "deadlift",
@@ -1780,9 +1798,9 @@
       "descripcion_en": "Stand with the bar over mid-foot and grip it with straight arms. Push the floor away with the legs keeping a neutral spine and the bar close, then extend the hips to lock out. Lower in reverse under control. Common mistake: rounding the back or yanking with the arms before driving with the legs.",
       "confianza": "baja",
       "fuentes": [
+        "Martín-Fuentes et al. 2020 — PLoS One — https://pubmed.ncbi.nlm.nih.gov/32107499/ (revisión sistemática: erectores y cuádriceps con más activación que glúteo y bíceps femoral; no cuantificado, coeficientes sin cambios)",
         "free-exercise-db: Barbell_Deadlift",
-        "analogía: Gemini pierna_006",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini pierna_006"
       ]
     },
     {
@@ -1837,8 +1855,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Rack_Pulls",
-        "analogía: Gemini pierna_006 (rango corto)",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini pierna_006 (rango corto)"
       ]
     },
     {
@@ -1873,8 +1890,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Hyperextensions_Back_Extensions",
-        "analogía: Gemini pierna_007",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini pierna_007"
       ]
     },
     {
@@ -1913,8 +1929,7 @@
       "descripcion_en": "Stand holding the bar in front with arms extended and chest tall. Raise the shoulders straight up toward the ears and pause at the top. Lower slowly to a stretch. Common mistake: rolling the shoulders or bending the elbows to help.",
       "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Barbell_Shrug",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "free-exercise-db: Barbell_Shrug"
       ]
     },
     {
@@ -1953,8 +1968,7 @@
       "descripcion_en": "Hold a dumbbell in each hand at your sides with arms extended. Raise the shoulders straight toward the ears and squeeze at the top. Lower under control without dropping suddenly. Common mistake: using too much weight and shortening the range.",
       "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Dumbbell_Shrug",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "free-exercise-db: Dumbbell_Shrug"
       ]
     },
     {
@@ -2016,9 +2030,11 @@
       ],
       "descripcion": "De pie, agarra la barra algo más ancha que los hombros y apóyala sobre la clavícula con los codos ligeramente adelantados. Aprieta glúteos y abdomen y empuja la barra en línea recta, echando la cabeza un poco atrás para que pase y adelantándola al final. Bloquea arriba con la barra sobre la mitad del pie. Error típico: arquear en exceso la zona lumbar para ayudarte.",
       "descripcion_en": "Standing, grip the bar slightly wider than shoulder width and rest it on your collarbone with the elbows just ahead of it. Brace glutes and abs and drive the bar straight up, moving the head back to let it pass and forward again at the top. Lock out with the bar over mid-foot. A common mistake is over-arching the lower back to cheat the rep.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "free-exercise-db: Standing_Military_Press"
+        "free-exercise-db: Standing_Military_Press",
+        "Saeterbakken & Fimland 2013 — J Strength Cond Res 27(7):1824-1831 — https://pubmed.ncbi.nlm.nih.gov/23096062/ (resumen: press con barra y mancuernas, sentado y de pie; deltoides, bíceps y tríceps; el press de pie con mancuernas dio la mayor actividad deltoidea)",
+        "Coratella et al. 2022 — Front Physiol — https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2022.825880/full (press con barra vs máquina, delante y detrás de la nuca; 3 deltoides, pectoral clavicular, trapecio superior, tríceps lateral)"
       ]
     },
     {
@@ -2075,10 +2091,12 @@
       ],
       "descripcion": "Sentado con respaldo, sostén una mancuerna en cada mano a la altura de las orejas con los antebrazos verticales. Empuja hacia arriba acercando ligeramente las mancuernas sin chocarlas. Baja de forma controlada hasta que los codos queden por debajo de los hombros. Error típico: dejar que las muñecas se doblen hacia atrás y los codos se abran demasiado.",
       "descripcion_en": "Seated with back support, hold a dumbbell in each hand at ear level with the forearms vertical. Press upward, bringing the dumbbells slightly together without clanging them. Lower under control until the elbows sit just below shoulder height. A common mistake is letting the wrists bend back and the elbows flare too wide.",
-      "confianza": "media",
+      "confianza": "alta",
       "fuentes": [
         "free-exercise-db: Dumbbell_Shoulder_Press",
-        "EMG (recordado, sin verificar): Saeterbakken 2011"
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)",
+        "Luczak et al. 2013 — J Sports Med — https://dx.doi.org/10.1155/2013/612650 (press de hombros con mancuernas en mujeres; deltoides anterior, trapecio superior, pectoral esternal y clavicular)",
+        "Saeterbakken & Fimland 2013 — J Strength Cond Res 27(7):1824-1831 — https://pubmed.ncbi.nlm.nih.gov/23096062/ (resumen: press con barra y mancuernas, sentado y de pie; deltoides, bíceps y tríceps; el press de pie con mancuernas dio la mayor actividad deltoidea)"
       ]
     },
     {
@@ -2130,9 +2148,10 @@
       ],
       "descripcion": "Ajusta el asiento para que las empuñaduras queden a la altura de los hombros y apoya bien la espalda. Empuja hacia arriba sin bloquear los codos de golpe. Baja despacio hasta sentir el estiramiento del hombro sin que los codos pasen mucho por detrás del torso. Error típico: despegar la espalda del respaldo y encogerse hacia las orejas.",
       "descripcion_en": "Set the seat so the handles start at shoulder height and keep your back firmly against the pad. Press upward without snapping the elbows into lockout. Lower slowly until you feel a stretch in the shoulder, without letting the elbows travel far behind the torso. A common mistake is peeling the back off the pad and shrugging toward the ears.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "free-exercise-db: Machine_Shoulder_(Military)_Press"
+        "free-exercise-db: Machine_Shoulder_(Military)_Press",
+        "Coratella et al. 2022 — Front Physiol — https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2022.825880/full (press con barra vs máquina, delante y detrás de la nuca; 3 deltoides, pectoral clavicular, trapecio superior, tríceps lateral)"
       ]
     },
     {
@@ -2292,10 +2311,11 @@
       ],
       "descripcion": "De pie con una mancuerna en cada mano y los codos ligeramente flexionados, eleva los brazos hacia los lados hasta la altura de los hombros. Lidera con los codos, no con las manos, y mantén el torso quieto. Baja despacio en unos tres segundos. Error típico: balancear el cuerpo y encoger los trapecios para subir más peso.",
       "descripcion_en": "Standing with a dumbbell in each hand and elbows slightly bent, raise the arms out to the sides up to shoulder height. Lead with the elbows rather than the hands and keep the torso still. Lower slowly over about three seconds. A common mistake is swinging the body and shrugging the traps to lift heavier.",
-      "confianza": "media",
+      "confianza": "alta",
       "fuentes": [
         "free-exercise-db: Side_Lateral_Raise",
-        "EMG (recordado, sin verificar): Coratella 2020"
+        "Coratella et al. 2020 — Int J Environ Res Public Health 17:6015 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7503819/ (variantes de elevación lateral y frontal; deltoides, pectoral, trapecio superior, tríceps)",
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)"
       ]
     },
     {
@@ -2337,9 +2357,10 @@
       ],
       "descripcion": "Colócate de lado a la polea baja y agarra el asa con la mano más alejada, pasándola por delante del cuerpo. Eleva el brazo hacia el lado hasta la altura del hombro con el codo ligeramente flexionado. Baja controlando la tensión del cable. Error típico: girar el torso o tirar con el trapecio.",
       "descripcion_en": "Stand side-on to a low pulley and take the handle with the far hand, crossing in front of the body. Raise the arm out to the side to shoulder height with a slightly bent elbow. Lower while controlling the cable tension. A common mistake is twisting the torso or pulling with the traps.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "analogía con db_lateral_raise"
+        "Larsen et al. 2025 — Front Physiol 16:1611468 — https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2025.1611468/full (elevación lateral en polea vs mancuerna: hipertrofia similar del deltoides lateral; no mide EMG)",
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)"
       ]
     },
     {
@@ -2420,10 +2441,11 @@
       ],
       "descripcion": "De pie con las mancuernas delante de los muslos, eleva un brazo o ambos hacia delante hasta la altura de los ojos con los codos ligeramente flexionados. Mantén el torso firme y sin balanceo. Baja despacio sin dejar caer las mancuernas. Error típico: impulsarte con la espalda y subir por encima de la horizontal.",
       "descripcion_en": "Standing with the dumbbells in front of your thighs, raise one or both arms forward to about eye level with slightly bent elbows. Keep the torso firm and still. Lower slowly without dropping the dumbbells. A common mistake is swinging with the back and lifting well above horizontal.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "free-exercise-db: Front_Dumbbell_Raise",
-        "EMG (recordado, sin verificar): analogía con press militar"
+        "Coratella et al. 2020 — Int J Environ Res Public Health 17:6015 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7503819/ (variantes de elevación lateral y frontal; deltoides, pectoral, trapecio superior, tríceps)",
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)"
       ]
     },
     {
@@ -2507,7 +2529,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Reverse_Machine_Flyes",
-        "EMG (recordado, sin verificar): Ogasawara 2018"
+        "Schoenfeld et al. 2013 — J Strength Cond Res 27(10):2644-2649 — https://pubmed.ncbi.nlm.nih.gov/23302754/ (pájaros en máquina; deltoides posterior, medio e infraespinoso)",
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)"
       ]
     },
     {
@@ -2544,7 +2567,7 @@
         {
           "musculo_id": "deltoides_lateral",
           "rol": "secundario",
-          "activacion": 0.3
+          "activacion": 0.6
         }
       ],
       "descripcion": "Inclínate hacia delante con la espalda neutra y una mancuerna en cada mano colgando bajo los hombros. Abre los brazos hacia los lados con los codos ligeramente flexionados hasta la altura del torso. Baja despacio sin balancear. Error típico: usar impulso del tronco y juntar las escápulas en exceso.",
@@ -2552,7 +2575,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench",
-        "EMG (recordado, sin verificar): Ogasawara 2018"
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)",
+        "Schoenfeld et al. 2013 — J Strength Cond Res 27(10):2644-2649 — https://pubmed.ncbi.nlm.nih.gov/23302754/ (pájaros en máquina; deltoides posterior, medio e infraespinoso)"
       ]
     },
     {
@@ -2646,7 +2670,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Face_Pull",
-        "EMG (recordado, sin verificar): analogía con pájaros"
+        "(sin verificar para face pull) Fukunaga et al. 2022 — Int J Sports Phys Ther 17(3):400-408 — https://pubmed.ncbi.nlm.nih.gov/35391860/ — ejercicio análogo, no el mismo"
       ]
     },
     {
@@ -2688,10 +2712,11 @@
       ],
       "descripcion": "Con una barra recta, agarra con las manos algo más cerca que el ancho de los hombros. Sube la barra pegada al torso tirando de los codos hacia arriba y hacia los lados hasta la altura del pecho. Baja con control. Error típico: subir los codos por encima de los hombros con agarre muy estrecho, lo que carga el hombro.",
       "descripcion_en": "With a straight bar, grip slightly narrower than shoulder width. Pull the bar up along the torso, driving the elbows up and out to chest height. Lower under control. A common mistake is raising the elbows above the shoulders with a very narrow grip, which stresses the shoulder.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "free-exercise-db: Upright_Barbell_Row",
-        "EMG (recordado, sin verificar): analogía con remo al mentón"
+        "McAllister et al. 2013 — J Strength Cond Res 27(1):181-187 — https://pubmed.ncbi.nlm.nih.gov/22362088/ (remo al mentón; 3 deltoides, trapecio superior y medio, bíceps)",
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)"
       ]
     },
     {
@@ -2731,7 +2756,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Barbell_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Marcolin et al. 2018 — PeerJ — https://peerj.com/articles/5165 (EMG de bíceps braquial y braquiorradial en curl con barra recta, barra Z y mancuernas alternas al 65 % 1RM; braquial anterior no medido)",
+        "Coratella et al. 2023 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk8010013 (curl con barra recta vs barra Z; bíceps y deltoides anterior, normalizado a MVIC; diferencia mínima en el bíceps entre barras)"
       ]
     },
     {
@@ -2771,7 +2797,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: EZ-Bar_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Marcolin et al. 2018 — PeerJ — https://peerj.com/articles/5165 (EMG de bíceps braquial y braquiorradial en curl con barra recta, barra Z y mancuernas alternas al 65 % 1RM; braquial anterior no medido)",
+        "Coratella et al. 2023 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk8010013 (curl con barra recta vs barra Z; bíceps y deltoides anterior, normalizado a MVIC; diferencia mínima en el bíceps entre barras)"
       ]
     },
     {
@@ -2811,7 +2838,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Dumbbell_Bicep_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Oliveira et al. 2009 — Journal of Sports Science and Medicine — https://www.jssm.org/jssm-08-24.xml-Fulltext (solo bíceps braquial, cabeza larga: curl con mancuernas de pie, inclinado y predicador al 40 % MVC; el predicador solo activa alto en un rango corto)",
+        "Marcolin et al. 2018 — PeerJ — https://peerj.com/articles/5165 (EMG de bíceps braquial y braquiorradial en curl con barra recta, barra Z y mancuernas alternas al 65 % 1RM; braquial anterior no medido)"
       ]
     },
     {
@@ -2851,7 +2879,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Dumbbell_Alternate_Bicep_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Marcolin et al. 2018 — PeerJ — https://peerj.com/articles/5165 (EMG de bíceps braquial y braquiorradial en curl con barra recta, barra Z y mancuernas alternas al 65 % 1RM; braquial anterior no medido)",
+        "Oliveira et al. 2009 — Journal of Sports Science and Medicine — https://www.jssm.org/jssm-08-24.xml-Fulltext (solo bíceps braquial, cabeza larga: curl con mancuernas de pie, inclinado y predicador al 40 % MVC; el predicador solo activa alto en un rango corto)"
       ]
     },
     {
@@ -2878,7 +2907,7 @@
         {
           "musculo_id": "biceps_braquial",
           "rol": "secundario",
-          "activacion": 0.65
+          "activacion": 0.75
         },
         {
           "musculo_id": "flexores_antebrazo",
@@ -2891,7 +2920,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Hammer_Curls",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Coratella et al. 2023 — Sports — https://pmc.ncbi.nlm.nih.gov/articles/PMC10054060 (curl en polea de pie, agarre supino/prono con barra y neutro con cuerda; bíceps, braquiorradial y deltoides anterior; el agarre neutro baja el bíceps ~12 % nRMS y el braquiorradial ~6 % frente al supino; braquial no medido)",
+        "Kleiber et al. 2015 — Frontiers in Physiology — https://www.frontiersin.org/articles/10.3389/fphys.2015.00215/full (bíceps y braquiorradial en flexión de codo según posición de la mano: bíceps sin cambios; braquiorradial mayor en pronación, igual en supino y neutro)"
       ]
     },
     {
@@ -2931,7 +2961,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Incline_Dumbbell_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Oliveira et al. 2009 — Journal of Sports Science and Medicine — https://www.jssm.org/jssm-08-24.xml-Fulltext (solo bíceps braquial, cabeza larga: curl con mancuernas de pie, inclinado y predicador al 40 % MVC; el predicador solo activa alto en un rango corto)"
       ]
     },
     {
@@ -2971,7 +3001,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Preacher_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Oliveira et al. 2009 — Journal of Sports Science and Medicine — https://www.jssm.org/jssm-08-24.xml-Fulltext (solo bíceps braquial, cabeza larga: curl con mancuernas de pie, inclinado y predicador al 40 % MVC; el predicador solo activa alto en un rango corto)"
       ]
     },
     {
@@ -3008,10 +3038,9 @@
       ],
       "descripcion": "Ajusta el asiento para que las axilas queden sobre el cojín y agarra las empuñaduras. Flexiona los codos llevando las manos hacia los hombros. Mantén un instante la contracción y vuelve despacio. Error típico: levantar los hombros y rebotar abajo.",
       "descripcion_en": "Adjust the seat so your armpits rest on the pad and grab the handles. Bend the elbows to bring your hands toward the shoulders. Hold the contraction briefly and return slowly. Common mistake: shrugging the shoulders and bouncing at the bottom.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Machine_Preacher_Curls",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Machine_Preacher_Curls"
       ]
     },
     {
@@ -3051,7 +3080,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Standing_Biceps_Cable_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Coratella et al. 2023 — Sports — https://pmc.ncbi.nlm.nih.gov/articles/PMC10054060 (curl en polea de pie, agarre supino/prono con barra y neutro con cuerda; bíceps, braquiorradial y deltoides anterior; el agarre neutro baja el bíceps ~12 % nRMS y el braquiorradial ~6 % frente al supino; braquial no medido)"
       ]
     },
     {
@@ -3091,7 +3120,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Standing_One-Arm_Cable_Curl",
-        "analogía: curl en polea con estiramiento tipo curl inclinado"
+        "(sin verificar) analogía: curl en polea con estiramiento tipo curl inclinado"
       ]
     },
     {
@@ -3128,10 +3157,9 @@
       ],
       "descripcion": "Sentado, apoya el codo en la cara interna del muslo con la mancuerna colgando. Flexiona el codo subiendo la pesa hacia el hombro sin balancear el torso. Aprieta arriba y baja despacio hasta extender. Error típico: separar el codo del muslo y ayudarse con el hombro.",
       "descripcion_en": "Sit with your elbow braced against the inner thigh and the dumbbell hanging down. Bend the elbow to raise the weight toward the shoulder without rocking the torso. Squeeze at the top and lower slowly to full extension. Common mistake: moving the elbow off the thigh and helping with the shoulder.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Concentration_Curls",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Concentration_Curls"
       ]
     },
     {
@@ -3168,10 +3196,9 @@
       ],
       "descripcion": "Túmbate boca abajo en un banco inclinado con los brazos colgando hacia el suelo. Flexiona los codos subiendo las mancuernas sin mover la parte alta del brazo. Aprieta arriba, donde el bíceps está más acortado, y baja con control. Error típico: usar demasiado peso y levantar el pecho del banco.",
       "descripcion_en": "Lie face down on an incline bench with your arms hanging toward the floor. Bend the elbows to raise the dumbbells without moving the upper arms. Squeeze at the top, where the biceps is most shortened, and lower with control. Common mistake: using too much weight and lifting the chest off the bench.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Spider_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Spider_Curl"
       ]
     },
     {
@@ -3198,7 +3225,7 @@
         {
           "musculo_id": "biceps_braquial",
           "rol": "secundario",
-          "activacion": 0.65
+          "activacion": 0.75
         },
         {
           "musculo_id": "flexores_antebrazo",
@@ -3211,7 +3238,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Cable_Hammer_Curls_-_Rope_Attachment",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Coratella et al. 2023 — Sports — https://pmc.ncbi.nlm.nih.gov/articles/PMC10054060 (curl en polea de pie, agarre supino/prono con barra y neutro con cuerda; bíceps, braquiorradial y deltoides anterior; el agarre neutro baja el bíceps ~12 % nRMS y el braquiorradial ~6 % frente al supino; braquial no medido)",
+        "Kleiber et al. 2015 — Frontiers in Physiology — https://www.frontiersin.org/articles/10.3389/fphys.2015.00215/full (bíceps y braquiorradial en flexión de codo según posición de la mano: bíceps sin cambios; braquiorradial mayor en pronación, igual en supino y neutro)"
       ]
     },
     {
@@ -3289,8 +3317,7 @@
       "descripcion_en": "Grip the rope with palms facing each other and elbows fixed beside your body. Extend your elbows and spread the rope ends apart at the bottom to squeeze the triceps. Return slowly without moving your upper arms. Common mistake: letting the elbows drift forward so the movement turns into a press.",
       "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Triceps_Pushdown_-_Rope_Attachment",
-        "EMG (recordado, sin verificar): Contreras y cols. (cabeza lateral y medial dominantes en la extensión en polea)"
+        "free-exercise-db: Triceps_Pushdown_-_Rope_Attachment"
       ]
     },
     {
@@ -3330,7 +3357,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Cable_Rope_Overhead_Triceps_Extension",
-        "EMG (recordado, sin verificar): Maeo y cols. 2022 (la cabeza larga se activa más con el brazo por encima de la cabeza)"
+        "Maeo et al. 2023 — Eur J Sport Sci — https://pubmed.ncbi.nlm.nih.gov/35819335/ (12 sem, 21 adultos; extensión de codo en polea con brazo sobre la cabeza vs. brazo neutro: mayor hipertrofia del tríceps, sobre todo de la cabeza larga; mide volumen por RM, no EMG)"
       ]
     },
     {
@@ -3369,8 +3396,7 @@
       "descripcion_en": "Holding a single handle on the high pulley, keep the elbow tucked at your side. Extend the elbow until it is locked out without twisting the trunk. Return while controlling the full range. Common mistake: rotating the torso and pushing with the shoulder to help the lift.",
       "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Cable_One_Arm_Tricep_Extension",
-        "EMG (recordado, sin verificar): Contreras y cols. (patrón análogo a la extensión bilateral en polea)"
+        "free-exercise-db: Cable_One_Arm_Tricep_Extension"
       ]
     },
     {
@@ -3412,10 +3438,9 @@
       ],
       "descripcion": "Túmbate en un banco con la barra sobre el pecho y los brazos ligeramente inclinados hacia atrás. Flexiona solo los codos hasta bajar la barra cerca de la frente o detrás de la cabeza. Extiende de nuevo sin mover los codos. Error típico: abrir los codos y convertir el movimiento en un press.",
       "descripcion_en": "Lie on a bench with the bar over your chest and the arms slightly angled back. Bend only at the elbows to lower the bar toward the forehead or just behind the head. Extend again without moving the elbows. Common mistake: flaring the elbows and turning the lift into a press.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: EZ-Bar_Skullcrusher",
-        "EMG (recordado, sin verificar): Maeo y cols. 2022 (la cabeza larga trabaja más con el hombro flexionado)"
+        "free-exercise-db: EZ-Bar_Skullcrusher"
       ]
     },
     {
@@ -3450,7 +3475,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Standing_Dumbbell_Triceps_Extension",
-        "EMG (recordado, sin verificar): Maeo y cols. 2022 (extensión por encima de la cabeza y cabeza larga)"
+        "Maeo et al. 2023 — Eur J Sport Sci — https://pubmed.ncbi.nlm.nih.gov/35819335/ (12 sem, 21 adultos; extensión de codo en polea con brazo sobre la cabeza vs. brazo neutro: mayor hipertrofia del tríceps, sobre todo de la cabeza larga; mide volumen por RM, no EMG) — ejercicio muy equivalente (mismo brazo sobre la cabeza, con mancuerna)"
       ]
     },
     {
@@ -3500,7 +3525,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Close-Grip_Barbell_Bench_Press",
-        "EMG (recordado, sin verificar): Lauver y cols. 2016 (el agarre cerrado aumenta la activación del tríceps)"
+        "Saeterbakken et al. 2021 — Int J Environ Res Public Health — https://pubmed.ncbi.nlm.nih.gov/34198674/ (press de banca 6RM: el agarre ancho da menor activación del tríceps braquial que el medio y el estrecho; EMG)",
+        "Larsen et al. 2020 — Front Sports Act Living — https://pubmed.ncbi.nlm.nih.gov/33554113/ (press de banca 1RM: tríceps medial mayor con agarre medio/estrecho que ancho; EMG)"
       ]
     },
     {
@@ -3547,10 +3573,10 @@
       ],
       "descripcion": "Sujétate en las paralelas con el torso vertical y los codos pegados al cuerpo. Baja hasta que los hombros queden un poco por debajo de los codos. Empuja hasta extender los codos del todo. Error típico: inclinar el torso hacia delante, que desplaza el trabajo al pecho.",
       "descripcion_en": "Support yourself on the parallel bars with an upright torso and elbows close to the body. Lower until the shoulders sit slightly below the elbows. Press up until the elbows are fully extended. Common mistake: leaning the torso forward, which shifts the work to the chest.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "free-exercise-db: Dips_-_Triceps_Version",
-        "EMG (recordado, sin verificar): analogía con fondos en paralelas del catálogo de Gemini (pecho) con torso vertical"
+        "McKenzie et al. 2022 — Int J Environ Res Public Health — https://pubmed.ncbi.nlm.nih.gov/36293792/ (13 hombres; EMG del tríceps braquial: pico medio 0,83 mV fondo en banco, 1,04 mV en paralelas, 1,05 mV en anillas; sin normalizar a MVC)"
       ]
     },
     {
@@ -3636,9 +3662,10 @@
       ],
       "descripcion": "Apoya las manos en el borde de un banco detrás de ti y estira las piernas. Baja flexionando los codos hacia atrás, sin pasar de unos 90 grados. Empuja hasta extender los codos. Error típico: bajar demasiado y dejar que los hombros se adelanten, lo que los sobrecarga.",
       "descripcion_en": "Place your hands on the edge of a bench behind you and extend your legs. Lower by bending the elbows back, not going much past 90 degrees. Press up until the elbows are extended. Common mistake: dropping too low and letting the shoulders roll forward, which overloads them.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "free-exercise-db: Bench_Dips"
+        "free-exercise-db: Bench_Dips",
+        "McKenzie et al. 2022 — Int J Environ Res Public Health — https://pubmed.ncbi.nlm.nih.gov/36293792/ (13 hombres; EMG del tríceps braquial: pico medio 0,83 mV fondo en banco, 1,04 mV en paralelas, 1,05 mV en anillas; sin normalizar a MVC)"
       ]
     },
     {
@@ -3682,8 +3709,7 @@
       "descripcion_en": "Hinge forward with a flat back and bring the elbow up to torso height. Extend the forearm back until the elbow is locked. Return slowly keeping the upper arm fixed. Common mistake: swinging the arm and using momentum instead of extending the elbow.",
       "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Tricep_Dumbbell_Kickback",
-        "EMG (recordado, sin verificar): Contreras y cols. (el kickback activa fuerte el tríceps con baja carga)"
+        "free-exercise-db: Tricep_Dumbbell_Kickback"
       ]
     },
     {
@@ -3749,10 +3775,9 @@
       ],
       "descripcion": "Siéntate con los antebrazos apoyados en un banco o en los muslos y la barra en supino con las muñecas fuera del apoyo. Deja rodar la barra hasta los dedos y vuelve a subirla flexionando las muñecas. Controla el recorrido completo. Error típico: levantar los antebrazos del apoyo.",
       "descripcion_en": "Sit with your forearms resting on a bench or thighs, holding the bar underhand with the wrists past the edge. Let the bar roll to your fingers and curl it back up by flexing the wrists. Control the full range. Common mistake: lifting the forearms off the support.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Seated_Palm-Up_Barbell_Wrist_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Seated_Palm-Up_Barbell_Wrist_Curl"
       ]
     },
     {
@@ -3784,10 +3809,9 @@
       ],
       "descripcion": "Apoya los antebrazos con las palmas hacia abajo y la barra en pronación, con las muñecas fuera del borde. Baja la barra flexionando las muñecas y súbela extendiéndolas. Usa poco peso porque los extensores son pequeños. Error típico: balancear los antebrazos.",
       "descripcion_en": "Rest your forearms palms down holding the bar overhand, wrists past the edge. Lower the bar by flexing the wrists and raise it by extending them. Use light weight since the extensors are small. Common mistake: swinging the forearms.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Seated_Palms-Down_Barbell_Wrist_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Seated_Palms-Down_Barbell_Wrist_Curl"
       ]
     },
     {
@@ -3832,7 +3856,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Reverse_Barbell_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Kleiber et al. 2015 — Frontiers in Physiology — https://www.frontiersin.org/articles/10.3389/fphys.2015.00215/full (bíceps y braquiorradial en flexión de codo según posición de la mano: bíceps sin cambios; braquiorradial mayor en pronación, igual en supino y neutro)",
+        "Coratella et al. 2023 — Sports — https://pmc.ncbi.nlm.nih.gov/articles/PMC10054060 (curl en polea de pie, agarre supino/prono con barra y neutro con cuerda; bíceps, braquiorradial y deltoides anterior; el agarre neutro baja el bíceps ~12 % nRMS y el braquiorradial ~6 % frente al supino; braquial no medido)"
       ]
     },
     {
@@ -3874,10 +3899,11 @@
       ],
       "descripcion": "Coge una mancuerna pesada en cada mano y camina erguido con los hombros atrás y abajo. Da pasos cortos y firmes sin inclinar el tronco. El agarre y el core soportan la carga. Error típico: encorvarse o encoger los hombros hacia las orejas.",
       "descripcion_en": "Pick up a heavy dumbbell in each hand and walk upright with the shoulders back and down. Take short, firm steps without leaning the trunk. The grip and core hold the load. Common mistake: slouching or shrugging the shoulders toward the ears.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "free-exercise-db: Farmers_Walk",
-        "analogía: acarreos de carga; sin verificar con literatura"
+        "(sin verificar) analogía: acarreos de carga; sin verificar con literatura",
+        "Hassan et al. 2025 — Int J Exercise Science: Conference Proceedings 15(7) — https://digitalcommons.wku.edu/ijesab/vol15/iss7/23 (resumen; EMG de extremidad superior en el paseo del granjero: flexor cubital del carpo entre los más reclutados con cargas altas; no midió tronco ni trapecio)"
       ]
     },
     {
@@ -3907,7 +3933,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Crunch - Hands Overhead",
-        "EMG (recordado, sin verificar): Escamilla 2006 (crunch, recto abdominal)"
+        "Escamilla et al. 2010 — JOSPT — https://pubmed.ncbi.nlm.nih.gov/20436242/ (EMG %MVIC en 8 ejercicios con balón y crunch/sit-up; roll-out, recto femoral, dorsal ancho)",
+        "Stenger et al. 2013 — tesis UW-La Crosse (resumen ACE) — https://minds.wisc.edu/items/13f23340-bc92-4049-9c47-6fcc60df9852 (16 ejercicios vs crunch: RA, oblicuo externo, recto femoral)"
       ]
     },
     {
@@ -4004,10 +4031,11 @@
       ],
       "descripcion": "Cuélgate de la barra con agarre firme y el cuerpo quieto. Eleva las piernas y enrolla la pelvis hacia arriba al final del recorrido para implicar el abdomen, y baja despacio. Error típico: balancearte con impulso y mover solo las piernas sin retroversión pélvica.",
       "descripcion_en": "Hang from the bar with a firm grip and a still body. Raise the legs and curl the pelvis upward at the top to involve the abs, then lower slowly. A typical mistake is swinging with momentum and moving only the legs without a posterior pelvic tilt.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "free-exercise-db: Hanging Leg Raise",
-        "analogía con core_003 de Gemini"
+        "analogía con core_003 de Gemini",
+        "Escamilla et al. 2006 — Physical Therapy — https://pubmed.ncbi.nlm.nih.gov/16649890/ (EMG %MVIC de recto abdominal, oblicuos, recto femoral, dorsal ancho en crunch, sit-up y ejercicios no tradicionales)"
       ]
     },
     {
@@ -4047,7 +4075,8 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Flat Bench Lying Leg Raise",
-        "analogía con elevación de piernas colgado"
+        "analogía con elevación de piernas colgado",
+        "Youdas et al. 2008 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/18978615/ (Ab-Slide, crunch, supine double leg thrust y side bridge: RA, oblicuos, recto femoral)"
       ]
     },
     {
@@ -4097,7 +4126,9 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Plank",
-        "analogía con core_001 de Gemini"
+        "analogía con core_001 de Gemini",
+        "Ekstrom et al. 2007 — JOSPT — https://pubmed.ncbi.nlm.nih.gov/18560185/ (9 ejercicios de rehabilitación: side bridge y prone bridge; RA, oblicuo externo, glúteo medio)",
+        "Stenger et al. 2013 — tesis UW-La Crosse (resumen ACE) — https://minds.wisc.edu/items/13f23340-bc92-4049-9c47-6fcc60df9852 (16 ejercicios vs crunch: RA, oblicuo externo, recto femoral)"
       ]
     },
     {
@@ -4139,10 +4170,13 @@
       ],
       "descripcion": "Apóyate sobre un antebrazo con el codo bajo el hombro y los pies apilados. Eleva la cadera hasta alinear cabeza, tronco y piernas, y mantén la posición sin rotar. Error típico: dejar que la cadera caiga o que el tronco gire hacia delante.",
       "descripcion_en": "Rest on one forearm with the elbow under the shoulder and feet stacked. Lift the hips until head, trunk and legs form a line, and hold without rotating. A typical mistake is letting the hips drop or the torso roll forward.",
-      "confianza": "media",
+      "confianza": "alta",
       "fuentes": [
         "free-exercise-db: Side Bridge",
-        "EMG (recordado, sin verificar): McGill 2006 (plancha lateral, oblicuos)"
+        "Ekstrom et al. 2007 — JOSPT — https://pubmed.ncbi.nlm.nih.gov/18560185/ (9 ejercicios de rehabilitación: side bridge y prone bridge; RA, oblicuo externo, glúteo medio)",
+        "Kinney et al. 2020 — J Sport Rehabil — https://pubmed.ncbi.nlm.nih.gov/32369764/ (plancha lateral: oblicuo interno 107 %, externo 72 % MVC)",
+        "Youdas et al. 2008 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/18978615/ (Ab-Slide, crunch, supine double leg thrust y side bridge: RA, oblicuos, recto femoral)",
+        "Stenger et al. 2013 — tesis UW-La Crosse (resumen ACE) — https://minds.wisc.edu/items/13f23340-bc92-4049-9c47-6fcc60df9852 (16 ejercicios vs crunch: RA, oblicuo externo, recto femoral)"
       ]
     },
     {
@@ -4187,7 +4221,9 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Ab Roller",
-        "EMG (recordado, sin verificar): Escamilla 2006 (rueda abdominal, recto abdominal)"
+        "Escamilla et al. 2006 — Physical Therapy — https://pubmed.ncbi.nlm.nih.gov/16649890/ (EMG %MVIC de recto abdominal, oblicuos, recto femoral, dorsal ancho en crunch, sit-up y ejercicios no tradicionales)",
+        "Escamilla et al. 2010 — JOSPT — https://pubmed.ncbi.nlm.nih.gov/20436242/ (EMG %MVIC en 8 ejercicios con balón y crunch/sit-up; roll-out, recto femoral, dorsal ancho)",
+        "Stenger et al. 2013 — tesis UW-La Crosse (resumen ACE) — https://minds.wisc.edu/items/13f23340-bc92-4049-9c47-6fcc60df9852 (16 ejercicios vs crunch: RA, oblicuo externo, recto femoral)"
       ]
     },
     {
@@ -4319,10 +4355,12 @@
       ],
       "descripcion": "Con la barra sobre los trapecios, baja con el torso firme hasta que los muslos pasen la paralela y empuja el suelo para subir. Las rodillas siguen la línea de los pies y el core se mantiene tenso. Error típico: dejar que las rodillas colapsen hacia dentro o redondear la zona lumbar en el fondo.",
       "descripcion_en": "With the bar on your traps, descend with a braced torso until your thighs pass parallel, then drive through the floor to stand. Knees track over the toes and the core stays tight. Common mistake: letting the knees cave inward or rounding the lower back at the bottom.",
-      "confianza": "media",
+      "confianza": "alta",
       "fuentes": [
         "free-exercise-db: Barbell_Full_Squat",
-        "EMG (recordado, sin verificar): Contreras 2015 (sentadilla, vastos y glúteo)"
+        "Coratella et al. 2021 — Int J Environ Res Public Health 18(2):772 — PMID 33477561 (https://europepmc.org/article/MED/33477561) — culturistas al 80% 1RM: sentadilla trasera, sumo y frontal; glúteo mayor/medio, recto femoral, vasto lateral/medial, aductor largo, erectores",
+        "Larsen et al. 2021 — Front Sports Act Living 3:719013 — PMID 34541522 (https://europepmc.org/article/MED/34541522) — sentadilla trasera 3RM: postura estrecha más vasto lateral y menos glúteo mayor; postura ancha más aporte de cadera",
+        "Escamilla et al. 1998 — Med Sci Sports Exerc 30(4):556-569 — https://europepmc.org/article/MED/9565938 — sentadilla, prensa y extensión de rodilla al 12RM: la extensión de rodilla recluta más recto femoral y las cadenas cerradas más vastos; la sentadilla da ~2x isquiotibiales que prensa y extensión"
       ]
     },
     {
@@ -4369,9 +4407,11 @@
       ],
       "descripcion": "Apoya la barra sobre los deltoides frontales con los codos altos y baja con el torso muy vertical. Mantén el tronco rígido y sube empujando con todo el pie. Error típico: dejar caer los codos, lo que hace que la barra ruede hacia delante y el torso se doble.",
       "descripcion_en": "Rest the bar on your front delts with elbows high and descend keeping the torso very upright. Keep the trunk rigid and drive up through the whole foot. Common mistake: dropping the elbows, which lets the bar roll forward and the torso fold.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "free-exercise-db: Front_Barbell_Squat"
+        "free-exercise-db: Front_Barbell_Squat",
+        "Yavuz et al. 2015 — J Sports Sci 33(10):1058-1066 — PMID 25630691 (https://europepmc.org/article/MED/25630691) — sentadilla frontal vs trasera con cargas máximas: más vasto medial en la frontal, más semitendinoso en la trasera",
+        "Coratella et al. 2021 — Int J Environ Res Public Health 18(2):772 — PMID 33477561 (https://europepmc.org/article/MED/33477561) — culturistas al 80% 1RM: sentadilla trasera, sumo y frontal; glúteo mayor/medio, recto femoral, vasto lateral/medial, aductor largo, erectores"
       ]
     },
     {
@@ -4408,9 +4448,10 @@
       ],
       "descripcion": "Colócate bajo la barra guiada con los pies algo adelantados respecto a ella y baja controlando hasta la paralela. Empuja con el pie entero para subir sin bloquear de golpe las rodillas. Error típico: poner los pies demasiado retrasados, lo que carga en exceso las rodillas y la espalda baja.",
       "descripcion_en": "Stand under the guided bar with your feet slightly forward of it and lower under control to parallel. Push through the whole foot to rise without snapping the knees straight. Common mistake: placing the feet too far back, which overloads the knees and lower back.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "free-exercise-db: Smith_Machine_Squat",
+        "Svensson et al. 2022 — Front Sports Act Living 4:1021323 — PMID 36524056 (https://europepmc.org/article/MED/36524056) — sentadilla con trayectoria fija (Smith) vs libre: menos cuádriceps e isquiotibiales en la fija, glúteo mayor sin diferencias",
         "analogía con sentadilla con barra (squat)"
       ]
     },
@@ -4493,10 +4534,12 @@
       ],
       "descripcion": "Siéntate con la espalda y la pelvis apoyadas y los pies a media altura de la plataforma. Baja hasta unos 90 grados de rodilla y empuja sin bloquear la articulación arriba. Error típico: dejar que la pelvis se despegue del asiento en el fondo, lo que curva la zona lumbar.",
       "descripcion_en": "Sit with your back and pelvis flat against the pad and feet mid-height on the platform. Lower to about 90 degrees of knee flexion and press up without locking out the knees. Common mistake: letting the pelvis lift off the seat at the bottom, which rounds the lower back.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "free-exercise-db: Leg_Press",
-        "analogía con Gemini (leg_press)"
+        "Martín-Fuentes et al. 2020 — Int J Environ Res Public Health 17(13):4626 — PMID 32605065 (https://europepmc.org/article/MED/32605065) — revisión sistemática sEMG en prensa de piernas: vastos máxima activación, recto femoral cercano, bíceps femoral aumenta con la rodilla extendida",
+        "Stien, Saeterbakken & Andersen 2021 — J Sports Sci Med 20:56-61 — https://www.jssm.org/jssm-20-56.xml-abst — prensa vs extensión de rodilla (6RM unilateral): vasto lateral mayor en prensa, recto femoral mayor en extensión, glúteo mayor sin diferencias",
+        "Escamilla et al. 1998 — Med Sci Sports Exerc 30(4):556-569 — https://europepmc.org/article/MED/9565938 — sentadilla, prensa y extensión de rodilla al 12RM: la extensión de rodilla recluta más recto femoral y las cadenas cerradas más vastos; la sentadilla da ~2x isquiotibiales que prensa y extensión"
       ]
     },
     {
@@ -4588,10 +4631,11 @@
       ],
       "descripcion": "Apoya el empeine trasero en un banco y adelanta el pie delantero lo suficiente para bajar en vertical. Desciende hasta que el muslo delantero quede paralelo y sube empujando con el talón. Error típico: dar un paso demasiado corto, que adelanta la rodilla en exceso y sobrecarga la articulación.",
       "descripcion_en": "Rest the rear foot on a bench and step the front foot far enough forward to descend vertically. Lower until the front thigh is parallel and drive up through the heel. Common mistake: using too short a stance, which pushes the knee too far forward and stresses the joint.",
-      "confianza": "media",
+      "confianza": "alta",
       "fuentes": [
         "free-exercise-db: Single_Leg_Squat",
-        "EMG (recordado, sin verificar): Bishop 2018 (sentadilla búlgara)"
+        "McCurdy et al. 2021 — J Strength Cond Res 35(5):1201-1207 — PMID 33900255 (https://europepmc.org/article/MED/33900255) — sentadilla búlgara (pie trasero elevado) al 80% 1RM: glúteo mayor, vasto lateral, isquiotibiales mediales y laterales; vasto lateral mayor que en hip thrust",
+        "Aygun-Polat et al. 2025 — BMC Sports Sci Med Rehabil 17:251 — https://link.springer.com/article/10.1186/s13102-025-01306-z — sentadilla búlgara: glúteo medio/mayor, vasto lateral/medial, recto femoral, semitendinoso, bíceps femoral y erectores; la flexión de tronco aumenta glúteo mayor, bíceps femoral y recto femoral"
       ]
     },
     {
@@ -4641,7 +4685,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Dumbbell_Lunges",
-        "EMG (recordado, sin verificar): Escamilla 2008 (zancadas)"
+        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados"
       ]
     },
     {
@@ -4688,11 +4732,11 @@
       ],
       "descripcion": "Avanza con un paso largo, baja controlando hasta que la rodilla trasera roce casi el suelo y empuja para llevar la otra pierna adelante. Mantén el torso erguido y el paso continuo. Error típico: pasos demasiado cortos o dejarse caer sin controlar el descenso.",
       "descripcion_en": "Step forward with a long stride, lower under control until the back knee nearly touches the floor, then drive through to bring the other leg forward. Keep the torso upright and the rhythm steady. Common mistake: taking steps that are too short or dropping without controlling the descent.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "free-exercise-db: Dumbbell_Lunges",
         "free-exercise-db: Bodyweight_Walking_Lunge",
-        "analogía con zancada estática"
+        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados (zancada hacia delante con zancada; extrapolado a zancadas caminando)"
       ]
     },
     {
@@ -4719,10 +4763,11 @@
       ],
       "descripcion": "Ajusta el respaldo para que las rodillas queden alineadas con el eje de la máquina y el rodillo sobre los tobillos. Extiende las piernas hasta casi bloquear y baja de forma lenta y controlada. Error típico: usar impulso y soltar el peso de golpe en la fase excéntrica.",
       "descripcion_en": "Adjust the backrest so your knees line up with the machine pivot and the pad rests on your ankles. Extend the legs until nearly locked out and lower slowly under control. Common mistake: using momentum and dropping the weight in the lowering phase.",
-      "confianza": "media",
+      "confianza": "alta",
       "fuentes": [
         "free-exercise-db: Leg_Extensions",
-        "EMG (recordado, sin verificar): Escamilla 1998 (extensión de rodilla en cadena abierta)"
+        "Escamilla et al. 1998 — Med Sci Sports Exerc 30(4):556-569 — https://europepmc.org/article/MED/9565938 — sentadilla, prensa y extensión de rodilla al 12RM: la extensión de rodilla recluta más recto femoral y las cadenas cerradas más vastos; la sentadilla da ~2x isquiotibiales que prensa y extensión",
+        "Stien, Saeterbakken & Andersen 2021 — J Sports Sci Med 20:56-61 — https://www.jssm.org/jssm-20-56.xml-abst — prensa vs extensión de rodilla (6RM unilateral): vasto lateral mayor en prensa, recto femoral mayor en extensión, glúteo mayor sin diferencias"
       ]
     },
     {
@@ -4749,10 +4794,11 @@
       ],
       "descripcion": "Trabaja una pierna cada vez con la rodilla alineada con el eje de la máquina. Extiende hasta casi bloquear, haz una pausa breve y baja lentamente. Error típico: balancear el torso o la cadera para ayudarte a subir la carga.",
       "descripcion_en": "Work one leg at a time with the knee aligned to the machine pivot. Extend until nearly locked out, pause briefly and lower slowly. Common mistake: swinging the torso or hips to help lift the load.",
-      "confianza": "baja",
+      "confianza": "alta",
       "fuentes": [
         "free-exercise-db: Leg_Extensions",
-        "analogía con extensión bilateral"
+        "Stien, Saeterbakken & Andersen 2021 — J Sports Sci Med 20:56-61 — https://www.jssm.org/jssm-20-56.xml-abst — prensa vs extensión de rodilla (6RM unilateral): vasto lateral mayor en prensa, recto femoral mayor en extensión, glúteo mayor sin diferencias (la medición fue unilateral)",
+        "Escamilla et al. 1998 — Med Sci Sports Exerc 30(4):556-569 — https://europepmc.org/article/MED/9565938 — sentadilla, prensa y extensión de rodilla al 12RM: la extensión de rodilla recluta más recto femoral y las cadenas cerradas más vastos; la sentadilla da ~2x isquiotibiales que prensa y extensión"
       ]
     },
     {
@@ -4876,10 +4922,13 @@
       ],
       "descripcion": "De pie con la barra a la altura de los muslos, rodillas ligeramente flexionadas. Lleva la cadera hacia atrás con la espalda neutra y la barra pegada a las piernas hasta notar estiramiento en los isquiotibiales. Extiende la cadera para volver arriba apretando los glúteos. Error típico: redondear la espalda o flexionar las rodillas más de la cuenta.",
       "descripcion_en": "Stand holding the bar at thigh level with soft knees. Push the hips back with a neutral spine and the bar close to your legs until you feel a hamstring stretch. Extend the hips to return, squeezing the glutes. Common mistake: rounding the back or bending the knees too much.",
-      "confianza": "media",
+      "confianza": "alta",
       "fuentes": [
         "free-exercise-db: Romanian_Deadlift",
-        "EMG (recordado, sin verificar): Schoenfeld 2011, peso muerto rumano y flexión de rodilla en isquiotibiales"
+        "McAllister et al. 2014 — J Strength Cond Res — https://oliverfinlay.com/assets/pdf/mcallister et al (2014) muscle activation during various hamstring exercises.pdf (curl prono, buenos días, glute-ham raise y rumano al 85% 1RM: semitendinoso > bíceps femoral; máximo en rumano y glute-ham raise; erectores del GHR > rumano y buenos días)",
+        "Delgado et al. 2019 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/31356511/ (hip thrust vs sentadilla vs peso muerto rumano; el rumano aísla extensores de cadera de forma similar al hip thrust)",
+        "Coratella et al. 2022 — Int J Environ Res Public Health — https://econpapers.repec.org/RePEc:gam:jijerp:v:19:y:2022:i:3:p:1903-:d:744557 (rumano favorece semitendinoso; rígido favorece glúteo mayor)",
+        "Andersen et al. 2021 — J Sports Sci Med — http://jssm.org/volume20/iss2/cap/jssm-20-181.pdf (peso muerto rumano, extensión en banco romano y en máquina: glúteo mayor, bíceps femoral, erectores)"
       ]
     },
     {
@@ -4916,10 +4965,12 @@
       ],
       "descripcion": "Sujeta una mancuerna en cada mano frente a los muslos con las rodillas semiflexionadas. Empuja la cadera hacia atrás deslizando las mancuernas cerca de las piernas hasta sentir tensión en la parte posterior del muslo. Vuelve arriba extendiendo la cadera. Error típico: separar las mancuernas del cuerpo y perder la neutralidad de la espalda.",
       "descripcion_en": "Hold a dumbbell in each hand in front of your thighs with soft knees. Push the hips back, sliding the dumbbells close to your legs until you feel tension in the back of the thigh. Return by extending the hips. Common mistake: letting the dumbbells drift away from the body and losing a neutral spine.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "Analogía con peso muerto rumano con barra",
-        "free-exercise-db: Stiff-Legged_Dumbbell_Deadlift"
+        "free-exercise-db: Stiff-Legged_Dumbbell_Deadlift",
+        "McAllister et al. 2014 — J Strength Cond Res — https://oliverfinlay.com/assets/pdf/mcallister et al (2014) muscle activation during various hamstring exercises.pdf (curl prono, buenos días, glute-ham raise y rumano al 85% 1RM: semitendinoso > bíceps femoral; máximo en rumano y glute-ham raise; erectores del GHR > rumano y buenos días)",
+        "Delgado et al. 2019 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/31356511/ (hip thrust vs sentadilla vs peso muerto rumano; el rumano aísla extensores de cadera de forma similar al hip thrust)"
       ]
     },
     {
@@ -4961,10 +5012,12 @@
       ],
       "descripcion": "Con la barra en las manos y las rodillas casi extendidas, inclina el tronco desde la cadera manteniendo la espalda recta. Baja hasta notar un estiramiento fuerte en los isquiotibiales y sube empujando la cadera hacia delante. Error típico: redondear la zona lumbar al bajar más allá de la movilidad propia.",
       "descripcion_en": "With the bar in your hands and knees nearly straight, hinge forward from the hips keeping a flat back. Lower until you feel a strong hamstring stretch and rise by driving the hips forward. Common mistake: rounding the lower back by lowering beyond your available mobility.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "free-exercise-db: Stiff-Legged_Barbell_Deadlift",
-        "Analogía con peso muerto rumano"
+        "Analogía con peso muerto rumano",
+        "Ebben 2009 — Int J Sports Physiol Perform — https://pubmed.ncbi.nlm.nih.gov/19417230/ (activación de bíceps femoral en curl sentado y peso muerto con piernas rígidas, entre otros)",
+        "Coratella et al. 2022 — Int J Environ Res Public Health — https://econpapers.repec.org/RePEc:gam:jijerp:v:19:y:2022:i:3:p:1903-:d:744557 (rumano favorece semitendinoso; rígido favorece glúteo mayor)"
       ]
     },
     {
@@ -4994,7 +5047,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Lying_Leg_Curls",
-        "EMG (recordado, sin verificar): Schoenfeld et al. 2021, flexión de rodilla en posición tumbada vs. sentada"
+        "McAllister et al. 2014 — J Strength Cond Res — https://oliverfinlay.com/assets/pdf/mcallister et al (2014) muscle activation during various hamstring exercises.pdf (curl prono, buenos días, glute-ham raise y rumano al 85% 1RM: semitendinoso > bíceps femoral; máximo en rumano y glute-ham raise; erectores del GHR > rumano y buenos días)",
+        "Stevens et al. 2022 — Int J Exerc Sci — https://pubmed.ncbi.nlm.nih.gov/35989703/ (6 ejercicios en mujeres: patada, nórdico y curl con mayor bíceps femoral que rumano; glúteo mayor mínimo en curl)"
       ]
     },
     {
@@ -5024,7 +5078,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Seated_Leg_Curl",
-        "EMG (recordado, sin verificar): Maeo et al. 2021, mayor hipertrofia de isquiotibiales con curl sentado"
+        "Maeo et al. 2021 — Med Sci Sports Exerc — https://pubmed.ncbi.nlm.nih.gov/33009197/ (curl sentado produjo más hipertrofia de isquios que el curl prono)",
+        "Stevens et al. 2022 — Int J Exerc Sci — https://pubmed.ncbi.nlm.nih.gov/35989703/ (6 ejercicios en mujeres: patada, nórdico y curl con mayor bíceps femoral que rumano; glúteo mayor mínimo en curl)"
       ]
     },
     {
@@ -5051,9 +5106,11 @@
       ],
       "descripcion": "Coloca una pierna bajo la almohadilla de la máquina y mantén la otra relajada. Flexiona la rodilla llevando el talón hacia el glúteo sin levantar la cadera. Baja lento hasta casi extender. Error típico: compensar con la pierna libre o con la pelvis.",
       "descripcion_en": "Place one leg under the machine pad and keep the other relaxed. Curl the knee bringing the heel toward the glute without lifting the hip. Lower slowly until nearly straight. Common mistake: compensating with the free leg or the pelvis.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "Analogía con curl femoral tumbado"
+        "Analogía con curl femoral tumbado",
+        "McAllister et al. 2014 — J Strength Cond Res — https://oliverfinlay.com/assets/pdf/mcallister et al (2014) muscle activation during various hamstring exercises.pdf (curl prono, buenos días, glute-ham raise y rumano al 85% 1RM: semitendinoso > bíceps femoral; máximo en rumano y glute-ham raise; erectores del GHR > rumano y buenos días)",
+        "Stevens et al. 2022 — Int J Exerc Sci — https://pubmed.ncbi.nlm.nih.gov/35989703/ (6 ejercicios en mujeres: patada, nórdico y curl con mayor bíceps femoral que rumano; glúteo mayor mínimo en curl)"
       ]
     },
     {
@@ -5075,12 +5132,12 @@
         {
           "musculo_id": "gluteo_mayor",
           "rol": "secundario",
-          "activacion": 0.4
+          "activacion": 0.55
         },
         {
           "musculo_id": "gastrocnemio",
           "rol": "secundario",
-          "activacion": 0.4
+          "activacion": 0.6
         },
         {
           "musculo_id": "erectores_espinales",
@@ -5090,10 +5147,12 @@
       ],
       "descripcion": "Arrodíllate con los tobillos sujetos y el cuerpo recto desde las rodillas a la cabeza. Inclínate hacia delante frenando la caída con los isquiotibiales el mayor tiempo posible. Ayúdate con las manos al final y empuja para volver. Error típico: doblar la cadera en lugar de mantener el cuerpo alineado.",
       "descripcion_en": "Kneel with your ankles secured and the body straight from knees to head. Lean forward resisting the fall with the hamstrings for as long as possible. Catch yourself with your hands at the end and push back up. Common mistake: folding at the hips instead of staying aligned.",
-      "confianza": "media",
+      "confianza": "alta",
       "fuentes": [
         "free-exercise-db: Natural_Glute_Ham_Raise",
-        "EMG (recordado, sin verificar): Bourne et al. 2017, curl nórdico y activación de isquiotibiales"
+        "Marušič y Šarabon 2020 — Eur J Transl Myol — https://pagepressjournals.org/bam/article/download/8957/8825/47371 (nórdico: pico ~%MVC semitendinoso ~130, bíceps femoral ~120, gastrocnemio ~80, glúteo mayor ~72, erectores ~20)",
+        "Bourne et al. 2017 — Br J Sports Med — https://pure.southwales.ac.uk/en/publications/impact-of-exercise-selection-on-hamstring-muscle-activation/ (el nórdico recluta preferentemente el semitendinoso; la extensión de cadera, los isquios largos)",
+        "Stevens et al. 2022 — Int J Exerc Sci — https://pubmed.ncbi.nlm.nih.gov/35989703/ (6 ejercicios en mujeres: patada, nórdico y curl con mayor bíceps femoral que rumano; glúteo mayor mínimo en curl)"
       ]
     },
     {
@@ -5115,7 +5174,7 @@
         {
           "musculo_id": "erectores_espinales",
           "rol": "secundario",
-          "activacion": 0.7
+          "activacion": 0.55
         },
         {
           "musculo_id": "gluteo_mayor",
@@ -5130,10 +5189,11 @@
       ],
       "descripcion": "Coloca la barra sobre los trapecios, rodillas ligeramente flexionadas y el core firme. Inclina el tronco llevando la cadera atrás con la espalda neutra hasta que quede casi paralelo al suelo. Vuelve arriba extendiendo la cadera. Error típico: redondear la espalda o usar demasiada carga y compensar con las rodillas.",
       "descripcion_en": "Place the bar on your traps with soft knees and a braced core. Hinge forward pushing the hips back with a neutral spine until the torso is nearly parallel to the floor. Return by extending the hips. Common mistake: rounding the back or using too much load and compensating with the knees.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "free-exercise-db: Good_Morning",
-        "Analogía con peso muerto rumano"
+        "Analogía con peso muerto rumano",
+        "McAllister et al. 2014 — J Strength Cond Res — https://oliverfinlay.com/assets/pdf/mcallister et al (2014) muscle activation during various hamstring exercises.pdf (curl prono, buenos días, glute-ham raise y rumano al 85% 1RM: semitendinoso > bíceps femoral; máximo en rumano y glute-ham raise; erectores del GHR > rumano y buenos días)"
       ]
     },
     {
@@ -5175,10 +5235,14 @@
       ],
       "descripcion": "Apoya la parte alta de la espalda en un banco con la barra sobre la cadera y los pies firmes en el suelo. Sube la pelvis hasta alinear tronco y muslos, apretando los glúteos arriba con la barbilla algo recogida. Baja con control sin perder la tensión. Error típico: hiperextender la zona lumbar al final en lugar de bloquear con el glúteo.",
       "descripcion_en": "Rest your upper back on a bench with the bar over your hips and your feet planted. Drive the pelvis up until torso and thighs are aligned, squeezing the glutes at the top with the chin slightly tucked. Lower under control without losing tension. Common mistake: over-arching the lower back at lockout instead of finishing with the glutes.",
-      "confianza": "media",
+      "confianza": "alta",
       "fuentes": [
         "free-exercise-db: Barbell_Hip_Thrust",
-        "EMG (recordado, sin verificar): Contreras et al. 2015, hip thrust vs. sentadilla"
+        "Contreras et al. 2015 — J Appl Biomech — https://ro.ecu.edu.au/ecuworkspost2013/1592 (13 mujeres entrenadas, hip thrust vs sentadilla: glúteo mayor ~70-87% MVC, bíceps femoral ~41% MVC)",
+        "Andersen et al. 2018 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/28151780/ (hip thrust: mayor glúteo mayor; peso muerto con barra: mayor bíceps femoral; erectores sin diferencias)",
+        "Delgado et al. 2019 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/31356511/ (hip thrust vs sentadilla vs peso muerto rumano; el rumano aísla extensores de cadera de forma similar al hip thrust)",
+        "Krause Neto et al. 2020 — J Sports Sci Med — https://jssm.org/jssm-19-195.xml-Fulltext (revisión: hip thrust con barra y peso muerto convencional con activación muy alta >60% MVIC del glúteo mayor)",
+        "Krause Neto et al. 2019 — J Sports Sci Med — http://jssm.org/volume18/iss2/cap/jssm-18-198.pdf (revisión del hip thrust con barra: glúteo mayor y bíceps femoral más activos que en sentadilla)"
       ]
     },
     {
@@ -5215,10 +5279,12 @@
       ],
       "descripcion": "Ajusta el respaldo y el cinturón para que la almohadilla quede sobre la pelvis. Empuja con los talones hasta extender la cadera por completo y aprieta el glúteo un instante. Desciende de forma controlada hasta sentir estiramiento. Error típico: empujar con la espalda baja y levantar los talones en vez de dirigir el movimiento desde la cadera.",
       "descripcion_en": "Adjust the backrest and belt so the pad sits across your pelvis. Push through your heels until the hips are fully extended and squeeze the glutes briefly. Lower under control until you feel a stretch. Common mistake: pushing with the lower back and lifting the heels instead of driving the movement from the hips.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "Analogía con hip thrust con barra (mismo patrón, resistencia guiada)",
-        "free-exercise-db: Barbell_Hip_Thrust"
+        "free-exercise-db: Barbell_Hip_Thrust",
+        "Contreras et al. 2015 — J Appl Biomech — https://ro.ecu.edu.au/ecuworkspost2013/1592 (13 mujeres entrenadas, hip thrust vs sentadilla: glúteo mayor ~70-87% MVC, bíceps femoral ~41% MVC)",
+        "Krause Neto et al. 2020 — J Sports Sci Med — https://jssm.org/jssm-19-195.xml-Fulltext (revisión: hip thrust con barra y peso muerto convencional con activación muy alta >60% MVIC del glúteo mayor)"
       ]
     },
     {
@@ -5258,7 +5324,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Barbell_Glute_Bridge",
-        "EMG (recordado, sin verificar): Contreras et al. 2015"
+        "Selkowitz et al. 2013 — J Orthop Sports Phys Ther — https://pubmed.ncbi.nlm.nih.gov/23160432/ (fine-wire: puente unilateral y extensión de cadera en cuadrupedia activan glúteo medio y mayor superior más que el TFL)",
+        "Krause Neto et al. 2020 — J Sports Sci Med — https://jssm.org/jssm-19-195.xml-Fulltext (revisión: hip thrust con barra y peso muerto convencional con activación muy alta >60% MVIC del glúteo mayor)"
       ]
     },
     {
@@ -5298,7 +5365,8 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: One-Legged_Cable_Kickback",
-        "Analogía con hip thrust (extensión de cadera)"
+        "Analogía con hip thrust (extensión de cadera)",
+        "Stevens et al. 2022 — Int J Exerc Sci — https://pubmed.ncbi.nlm.nih.gov/35989703/ (6 ejercicios en mujeres: patada, nórdico y curl con mayor bíceps femoral que rumano; glúteo mayor mínimo en curl)"
       ]
     },
     {
@@ -5365,7 +5433,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Thigh_Abductor",
-        "EMG (recordado, sin verificar): Distefano et al. 2009, activación de glúteo medio en ejercicios de abducción"
+        "de Almeida Paz et al. 2022 — J Bodyw Mov Ther — https://pubmed.ncbi.nlm.nih.gov/35500965/ (la máquina de abducción activa el glúteo medio con poca activación del TFL)"
       ]
     },
     {
@@ -5455,8 +5523,10 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Sumo_Deadlift",
-        "EMG (recordado, sin verificar): Escamilla et al. 2000, peso muerto sumo vs. convencional",
-        "discrepa con free-exercise-db: principal en la app es glúteo, con aductores y cuádriceps como sinergistas"
+        "discrepa con free-exercise-db: principal en la app es glúteo, con aductores y cuádriceps como sinergistas",
+        "Escamilla et al. 2002 — Med Sci Sports Exerc — https://pubmed.ncbi.nlm.nih.gov/11932579/ (sumo vs convencional: más vastos y tibial anterior en sumo, más gastrocnemio en convencional)",
+        "Martín-Fuentes et al. 2020 — PLoS One — https://pubmed.ncbi.nlm.nih.gov/32107499/ (revisión de peso muerto y variantes: erectores y cuádriceps muy activos; en rumano semitendinoso/bíceps femoral > erectores)",
+        "Krause Neto et al. 2020 — J Sports Sci Med — https://jssm.org/jssm-19-195.xml-Fulltext (revisión: hip thrust con barra y peso muerto convencional con activación muy alta >60% MVIC del glúteo mayor)"
       ]
     },
     {
@@ -5496,7 +5566,8 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Pull_Through",
-        "Analogía con peso muerto rumano"
+        "Analogía con peso muerto rumano",
+        "Dicus et al. 2023 — Int J Exerc Sci — https://pubmed.ncbi.nlm.nih.gov/37113509/ (rumano vs hiperextensión inversa vs pull-through: la inversa sube glúteo mayor +19,5% y bíceps femoral +28%; pull-through baja erectores e isquios respecto al rumano)"
       ]
     },
     {
@@ -5523,10 +5594,11 @@
       ],
       "descripcion": "Siéntate en la máquina con las almohadillas en la cara interna de los muslos y la espalda apoyada. Junta las piernas de forma controlada y vuelve despacio hasta un estiramiento cómodo. Error típico: abrir con impulso o con un rango excesivo que fuerza la ingle.",
       "descripcion_en": "Sit in the machine with the pads on the inner thighs and your back supported. Bring the legs together under control and return slowly to a comfortable stretch. A typical mistake is opening with momentum or into an excessive range that strains the groin.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "free-exercise-db: Adductor",
-        "analogía con ejercicio de aducción de Gemini"
+        "analogía con ejercicio de aducción de Gemini",
+        "Serner et al. 2014 — Br J Sports Med — https://pubmed.ncbi.nlm.nih.gov/23511698/ (8 ejercicios de aducción en 40 futbolistas; aductor largo, glúteo medio, recto abdominal, oblicuo externo; valores por ejercicio vía https://sci-sport.com/prevention-des-blessures-a-l-aine-sollicitation-musculaire-des-adducteurs-de-la-hanche-072/)"
       ]
     },
     {
@@ -5582,7 +5654,7 @@
         {
           "musculo_id": "oblicuos",
           "rol": "secundario",
-          "activacion": 0.7
+          "activacion": 0.5
         },
         {
           "musculo_id": "recto_abdominal",
@@ -5605,7 +5677,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Adductor/Groin",
-        "EMG (recordado, sin verificar): Serner 2014 (plancha Copenhague, aductores)"
+        "Serner et al. 2014 — Br J Sports Med — https://pubmed.ncbi.nlm.nih.gov/23511698/ (8 ejercicios de aducción en 40 futbolistas; aductor largo, glúteo medio, recto abdominal, oblicuo externo; valores por ejercicio vía https://sci-sport.com/prevention-des-blessures-a-l-aine-sollicitation-musculaire-des-adducteurs-de-la-hanche-072/)"
       ]
     },
     {
@@ -5640,7 +5712,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Standing_Calf_Raises",
-        "EMG (recordado, sin verificar): Riemann y cols. 2011 (gastrocnemio más activo con la rodilla extendida)"
+        "Hébert-Losier et al. 2012 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/22190157/ (48 adultos; elevación de talón unilateral con rodilla a 0° y 45°; EMG normalizado a MVIC: sóleo ~4 % más activo a 45° y gastrocnemios ~5 % menos; diferencia pequeña)"
       ]
     },
     {
@@ -5675,7 +5747,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Seated_Calf_Raise",
-        "EMG (recordado, sin verificar): Riemann y cols. 2011 (el sóleo domina con la rodilla flexionada)"
+        "Hébert-Losier et al. 2012 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/22190157/ (48 adultos; elevación de talón unilateral con rodilla a 0° y 45°; EMG normalizado a MVIC: sóleo ~4 % más activo a 45° y gastrocnemios ~5 % menos; diferencia pequeña)"
       ]
     },
     {
@@ -5710,7 +5782,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Calf_Press_On_The_Leg_Press_Machine",
-        "EMG (recordado, sin verificar): Riemann y cols. 2011 (rodilla extendida, gastrocnemio dominante)"
+        "Hébert-Losier et al. 2012 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/22190157/ (48 adultos; elevación de talón unilateral con rodilla a 0° y 45°; EMG normalizado a MVIC: sóleo ~4 % más activo a 45° y gastrocnemios ~5 % menos; diferencia pequeña) — ejercicio equivalente (rodilla extendida)"
       ]
     },
     {
@@ -5745,7 +5817,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Smith_Machine_Calf_Raise",
-        "EMG (recordado, sin verificar): Riemann y cols. 2011 (rodilla extendida)"
+        "Hébert-Losier et al. 2012 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/22190157/ (48 adultos; elevación de talón unilateral con rodilla a 0° y 45°; EMG normalizado a MVIC: sóleo ~4 % más activo a 45° y gastrocnemios ~5 % menos; diferencia pequeña) — ejercicio equivalente (rodilla extendida)"
       ]
     },
     {
@@ -5785,7 +5857,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Dumbbell_Seated_One-Leg_Calf_Raise (variante de pie por analogía)",
-        "EMG (recordado, sin verificar): Riemann y cols. 2011"
+        "Hébert-Losier et al. 2012 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/22190157/ (48 adultos; elevación de talón unilateral con rodilla a 0° y 45°; EMG normalizado a MVIC: sóleo ~4 % más activo a 45° y gastrocnemios ~5 % menos; diferencia pequeña)"
       ]
     },
     {
@@ -5832,10 +5904,11 @@
       ],
       "descripcion": "Asegura las piernas en el banco declinado y lleva las mancuernas a los lados de la parte baja del pecho. Empuja hacia arriba y ligeramente hacia dentro hasta extender los codos. Error típico: perder el control al colocarse con las mancuernas en esta posición.",
       "descripcion_en": "Secure your legs on the decline bench and bring the dumbbells to the sides of the lower chest. Press up and slightly inward until the elbows are extended. Common mistake: losing control when getting into position with the dumbbells.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Decline_Dumbbell_Bench_Press",
-        "EMG (recordado, sin verificar): Barnett 1995 y Glass 1997 (banca plana, inclinada y declinada)"
+        "Saeterbakken et al. 2017 — J Hum Kinet — https://pmc.ncbi.nlm.nih.gov/articles/PMC5504579 — banca plana, inclinada +25° y declinada −25° a 6RM: pectoral (clavicular y esternocostal) similar entre ángulos y agarres; tríceps 58–63 % menor en inclinado; deltoides anterior mayor en inclinado que en declinado",
+        "Sin respaldo abierto de la porción abdominal como principal"
       ]
     },
     {
@@ -5984,8 +6057,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Bent_Over_Barbell_Row",
-        "analogía: Gemini espalda_004 (inicio desde el suelo)",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_004 (inicio desde el suelo)"
       ]
     },
     {
@@ -6037,11 +6109,12 @@
       ],
       "descripcion": "Túmbate bajo una barra baja y agarra con las manos algo más anchas que los hombros, con el cuerpo recto. Tira del pecho hacia la barra juntando las escápulas sin dejar caer la cadera. Baja controlando hasta extender los brazos. Error típico: dejar caer la cadera y encoger los hombros.",
       "descripcion_en": "Lie under a low bar and grip slightly wider than the shoulders with the body straight. Pull the chest to the bar squeezing the shoulder blades without letting the hips sag. Lower under control to full arm extension. Common mistake: letting the hips drop and shrugging.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "Fenwick et al. 2009 — Journal of Strength and Conditioning Research — https://pubmed.ncbi.nlm.nih.gov/19620925/ (remo invertido: mayor activación de dorsal y espalda alta; remo con barra: gran activación simétrica de espalda)",
+        "ACE-sponsored study 2018 — American Council on Exercise — https://www.acefitness.org/continuing-education/certified/january-2023/8214/what-is-the-best-back-exercise/ (EMG de dominada, jalón, remo sentado, remo con barra, remo invertido; remo con barra mayor en trapecio medio/erectores, dominadas mayor en dorsal)",
         "free-exercise-db: Inverted_Row",
-        "analogía: Gemini espalda_004",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_004"
       ]
     },
     {
@@ -6096,8 +6169,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Trap_Bar_Deadlift",
-        "analogía: Gemini pierna_006 (más cuádriceps por la posición)",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini pierna_006 (más cuádriceps por la posición)"
       ]
     },
     {
@@ -6189,8 +6261,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: One-Arm_Long_Bar_Row",
-        "analogía: Gemini espalda_006 (unilateral)",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_006 (unilateral)"
       ]
     },
     {
@@ -6348,7 +6419,8 @@
       "descripcion_en": "Facing a low pulley, hold the handles with the arms crossed in front. Raise the arms into a Y shape overhead with the thumbs up. Control the descent. A common mistake is arching the lower back to reach higher.",
       "confianza": "baja",
       "fuentes": [
-        "analogía con db_rear_fly y face_pull"
+        "analogía con db_rear_fly y face_pull",
+        "Ekstrom et al. 2003 — J Orthop Sports Phys Ther 33(5):247-258 — https://pubmed.ncbi.nlm.nih.gov/12774999/ (trapecio y serrato; la elevación de brazo en prono dio la máxima activación del trapecio inferior) [relacionado: versión en prono, no en polea]"
       ]
     },
     {
@@ -6393,7 +6465,8 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Zottman_Curl",
-        "analogía: curl supino más curl inverso"
+        "(sin verificar) analogía: curl supino más curl inverso",
+        "Kleiber et al. 2015 — Frontiers in Physiology — https://www.frontiersin.org/articles/10.3389/fphys.2015.00215/full (bíceps y braquiorradial en flexión de codo según posición de la mano: bíceps sin cambios; braquiorradial mayor en pronación, igual en supino y neutro)"
       ]
     },
     {
@@ -6430,10 +6503,9 @@
       ],
       "descripcion": "Colócate entre dos poleas altas con los brazos abiertos a la altura de los hombros. Flexiona los codos llevando las manos hacia las orejas, como en una pose de bíceps. Mantén los codos a la altura del hombro y contrae arriba. Error típico: dejar caer los codos y convertirlo en un tirón.",
       "descripcion_en": "Stand between two high pulleys with your arms out to shoulder height. Bend the elbows bringing the hands toward your ears, like a biceps pose. Keep the elbows at shoulder level and contract at the top. Common mistake: letting the elbows drop and turning it into a pull.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: High_Cable_Curls",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: High_Cable_Curls"
       ]
     },
     {
@@ -6470,10 +6542,9 @@
       ],
       "descripcion": "Túmbate con una mancuerna en cada mano, brazos extendidos sobre el pecho y palmas enfrentadas. Flexiona los codos para bajar las mancuernas junto a la cabeza. Extiende sin mover los brazos. Error típico: dejar que los codos se abran o se desplacen hacia atrás.",
       "descripcion_en": "Lie back holding a dumbbell in each hand, arms extended over the chest with palms facing each other. Bend the elbows to lower the dumbbells beside your head. Extend without moving the upper arms. Common mistake: letting the elbows flare or drift backward.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Lying_Dumbbell_Tricep_Extension",
-        "EMG (recordado, sin verificar): Maeo y cols. 2022 (cabeza larga con el hombro flexionado)"
+        "free-exercise-db: Lying_Dumbbell_Tricep_Extension"
       ]
     },
     {
@@ -6513,7 +6584,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Knee/Hip Raise On Parallel Bars",
-        "EMG (recordado, sin verificar): Escamilla 2006 (silla romana, recto abdominal)"
+        "Stenger et al. 2013 — tesis UW-La Crosse (resumen ACE) — https://minds.wisc.edu/items/13f23340-bc92-4049-9c47-6fcc60df9852 (16 ejercicios vs crunch: RA, oblicuo externo, recto femoral)",
+        "Escamilla et al. 2006 — Physical Therapy — https://pubmed.ncbi.nlm.nih.gov/16649890/ (EMG %MVIC de recto abdominal, oblicuos, recto femoral, dorsal ancho en crunch, sit-up y ejercicios no tradicionales)"
       ]
     },
     {
@@ -6545,9 +6617,10 @@
       ],
       "descripcion": "Fija los pies en un banco declinado con las manos cruzadas sobre el pecho. Enrolla el tronco hasta separar los omóplatos del banco y baja con control. Error típico: incorporarte del todo y tirar con los flexores de cadera.",
       "descripcion_en": "Secure your feet on a decline bench with hands crossed over the chest. Curl the torso until the shoulder blades leave the bench, then lower under control. A typical mistake is sitting all the way up and pulling with the hip flexors.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "free-exercise-db: Decline Crunch"
+        "free-exercise-db: Decline Crunch",
+        "Stenger et al. 2013 — tesis UW-La Crosse (resumen ACE) — https://minds.wisc.edu/items/13f23340-bc92-4049-9c47-6fcc60df9852 (16 ejercicios vs crunch: RA, oblicuo externo, recto femoral)"
       ]
     },
     {
@@ -6642,7 +6715,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Dumbbell_Rear_Lunge",
-        "EMG (recordado, sin verificar): Escamilla 2008 (zancadas)"
+        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados (zancada hacia delante; extrapolado a la inversa)"
       ]
     },
     {
@@ -6771,10 +6844,12 @@
       ],
       "descripcion": "Sostén una mancuerna y apóyate en una pierna con la rodilla ligeramente flexionada. Inclina el tronco llevando la otra pierna hacia atrás como una palanca hasta quedar casi horizontal. Vuelve arriba empujando con el pie de apoyo. Error típico: rotar la cadera hacia fuera y perder el equilibrio.",
       "descripcion_en": "Hold a dumbbell and stand on one leg with a slightly bent knee. Hinge the torso while the other leg extends behind like a lever until nearly horizontal. Return by driving through the standing foot. Common mistake: rotating the hips open and losing balance.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "Analogía con peso muerto rumano; mayor demanda de glúteo medio por estabilidad",
-        "free-exercise-db: Romanian_Deadlift"
+        "free-exercise-db: Romanian_Deadlift",
+        "Mo et al. 2023 — Front Physiol — https://pubmed.ncbi.nlm.nih.gov/38093908/ (peso muerto rumano a una pierna: glúteo mayor superior 105-169% y bíceps femoral 70-122% MVIC)",
+        "McAllister et al. 2014 — J Strength Cond Res — https://oliverfinlay.com/assets/pdf/mcallister et al (2014) muscle activation during various hamstring exercises.pdf (curl prono, buenos días, glute-ham raise y rumano al 85% 1RM: semitendinoso > bíceps femoral; máximo en rumano y glute-ham raise; erectores del GHR > rumano y buenos días)"
       ]
     },
     {
@@ -6896,7 +6971,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Donkey_Calf_Raises",
-        "EMG (recordado, sin verificar): Riemann y cols. 2011 (rodilla extendida con cadera flexionada)"
+        "Hébert-Losier et al. 2012 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/22190157/ (48 adultos; elevación de talón unilateral con rodilla a 0° y 45°; EMG normalizado a MVIC: sóleo ~4 % más activo a 45° y gastrocnemios ~5 % menos; diferencia pequeña) — ejercicio equivalente (rodilla extendida)"
       ]
     },
     {
@@ -6931,7 +7006,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Plate_Pinch",
-        "analogía: ejercicios de agarre isométrico"
+        "(sin verificar) analogía: ejercicios de agarre isométrico"
       ]
     },
     {
@@ -6968,10 +7043,10 @@
       ],
       "descripcion": "Coloca un banco inclinado entre las poleas bajas y túmbate con codos ligeramente flexionados. Eleva las manos en arco hasta juntarlas sobre el pecho alto y vuelve despacio. Error típico: flexionar los codos y empujar en lugar de abrir y cerrar en arco.",
       "descripcion_en": "Place an incline bench between low pulleys and lie back with slightly bent elbows. Raise the hands in an arc until they meet above the upper chest, then return slowly. Common mistake: bending the elbows and pressing instead of opening and closing in an arc.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Incline_Cable_Flye",
-        "EMG (recordado, sin verificar): Welsch 2005 (press vs aperturas)"
+        "Rodríguez-Ridao et al. 2020 — Int J Environ Res Public Health — https://pmc.ncbi.nlm.nih.gov/articles/PMC7579505 — press de banca con barra a 0–60°: %MVIC de pectoral clavicular/esternal/costal (~27 % cada una a 0°; clavicular máximo a 30°, esternal y costal bajan al inclinar), deltoides anterior (sube con la inclinación) y tríceps medial (sin diferencias por ángulo) (analogía: pectoral clavicular al inclinar)"
       ]
     },
     {
@@ -7008,10 +7083,9 @@
       ],
       "descripcion": "En un banco declinado, sostén las mancuernas sobre el pecho con codos ligeramente flexionados. Abre los brazos en arco hasta notar estiramiento y cierra apretando la parte baja del pecho. Error típico: bajar demasiado el peso, con el hombro en posición forzada.",
       "descripcion_en": "On a decline bench, hold the dumbbells above your chest with slightly bent elbows. Open the arms in an arc until you feel a stretch and close while squeezing the lower chest. Common mistake: lowering the weight too far, forcing the shoulder into a strained position.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Decline_Dumbbell_Flyes",
-        "EMG (recordado, sin verificar): Welsch 2005 (press vs aperturas)"
+        "free-exercise-db: Decline_Dumbbell_Flyes"
       ]
     },
     {
@@ -7233,10 +7307,10 @@
       ],
       "descripcion": "Apoya los pies sobre un banco o caja y las manos en el suelo algo más anchas que los hombros. Mantén el cuerpo en línea recta, baja el pecho hacia el suelo y empuja hasta extender los codos. Error típico: dejar que la zona lumbar se hunda.",
       "descripcion_en": "Place your feet on a bench or box and your hands on the floor slightly wider than the shoulders. Keep the body in a straight line, lower the chest toward the floor and press until the elbows extend. Common mistake: letting the lower back sag.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Decline_Push-Up",
-        "EMG (recordado, sin verificar): Cogley 2005 (flexiones)"
+        "Marcolin et al. 2015 — J Athl Train — https://pmc.ncbi.nlm.nih.gov/articles/PMC4732391 — 5 variantes de flexión: pectoral esternal y clavicular, deltoides anterior, tríceps larga/lateral, serrato, recto abdominal, oblicuo externo; base estrecha da más pectoral y tríceps (solo variantes en suelo; no cubre pies elevados)"
       ]
     },
     {
@@ -7283,10 +7357,10 @@
       ],
       "descripcion": "Apoya las manos en un banco o barra elevada algo más anchas que los hombros y el cuerpo en línea recta. Baja el pecho hacia el soporte y empuja hasta extender los codos. Error típico: dejar caer la cadera o no bajar el pecho lo suficiente.",
       "descripcion_en": "Place your hands on an elevated bench or bar slightly wider than the shoulders with the body in a straight line. Lower the chest toward the support and press until the elbows extend. Common mistake: letting the hips drop or not lowering the chest far enough.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Incline_Push-Up",
-        "EMG (recordado, sin verificar): Cogley 2005 (flexiones)"
+        "Marcolin et al. 2015 — J Athl Train — https://pmc.ncbi.nlm.nih.gov/articles/PMC4732391 — 5 variantes de flexión: pectoral esternal y clavicular, deltoides anterior, tríceps larga/lateral, serrato, recto abdominal, oblicuo externo; base estrecha da más pectoral y tríceps (solo variantes en suelo; no cubre manos elevadas)"
       ]
     },
     {
@@ -7338,10 +7412,10 @@
       ],
       "descripcion": "Coloca las manos juntas bajo el pecho formando un rombo con pulgares e índices. Baja el cuerpo en bloque con los codos cerca de las costillas. Empuja hasta extender los codos. Error típico: dejar caer la cadera o abrir los codos.",
       "descripcion_en": "Place your hands together under the chest forming a diamond with thumbs and index fingers. Lower the body as one unit with the elbows close to the ribs. Push up until the elbows are extended. Common mistake: letting the hips sag or the elbows flare.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "free-exercise-db: Close-Grip_Push-Up_off_of_a_Dumbbell",
-        "EMG (recordado, sin verificar): analogía con press de banca de agarre cerrado"
+        "Intziegianni et al. 2026 — Muscles (Basel) — https://pubmed.ncbi.nlm.nih.gov/41892990/ (20 hombres; flexiones estándar, diamante y anchas: el tríceps supera al pectoral mayor y la activación es máxima en diamante; normalizado al pico RMS, no a MVC)"
       ]
     },
     {
@@ -7363,12 +7437,12 @@
         {
           "musculo_id": "pectoral_clavicular",
           "rol": "secundario",
-          "activacion": 0.6
+          "activacion": 0.8
         },
         {
           "musculo_id": "pectoral_abdominal",
           "rol": "secundario",
-          "activacion": 0.5
+          "activacion": 0.7
         },
         {
           "musculo_id": "deltoides_anterior",
@@ -7396,7 +7470,9 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Wide-Grip_Barbell_Bench_Press",
-        "EMG (recordado, sin verificar): Barnett 1995 y Glass 1997 (banca plana, inclinada y declinada)"
+        "Muyor et al. 2023 — J Hum Kinet — https://pmc.ncbi.nlm.nih.gov/articles/PMC10203828/ — press de banca vs press de pecho sentado en máquina (clavicular, esternal, costal, deltoides anterior, tríceps larga): clavicular algo mayor en la máquina (~30 vs ~25 % MVIC), deltoides anterior sin diferencias (agarres 150 % vs 50 % de la anchura biacromial; tríceps mayor con agarre estrecho)",
+        "Saeterbakken et al. 2017 — J Hum Kinet — https://pmc.ncbi.nlm.nih.gov/articles/PMC5504579 — banca plana, inclinada +25° y declinada −25° a 6RM: pectoral (clavicular y esternocostal) similar entre ángulos y agarres; tríceps 58–63 % menor en inclinado; deltoides anterior mayor en inclinado que en declinado",
+        "Rodríguez-Ridao et al. 2020 — Int J Environ Res Public Health — https://pmc.ncbi.nlm.nih.gov/articles/PMC7579505 — press de banca con barra a 0–60°: %MVIC de pectoral clavicular/esternal/costal (~27 % cada una a 0°; clavicular máximo a 30°, esternal y costal bajan al inclinar), deltoides anterior (sube con la inclinación) y tríceps medial (sin diferencias por ángulo)"
       ]
     },
     {
@@ -7456,7 +7532,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: One_Arm_Dumbbell_Bench_Press",
-        "EMG (recordado, sin verificar): Barnett 1995 y Glass 1997 (banca plana, inclinada y declinada)"
+        "Saeterbakken et al. 2011 — J Sports Sci — https://read.qxmd.com/read/21225489/a-comparison-of-muscle-activity-and-1-rm-strength-of-three-chest-press-exercises-with-different-stability-requirements — Smith vs barra vs mancuernas: pectoral y deltoides anterior sin diferencias, tríceps menor con mancuernas, bíceps mayor con mancuernas (analogía bilateral)",
+        "Rodríguez-Ridao et al. 2020 — Int J Environ Res Public Health — https://pmc.ncbi.nlm.nih.gov/articles/PMC7579505 — press de banca con barra a 0–60°: %MVIC de pectoral clavicular/esternal/costal (~27 % cada una a 0°; clavicular máximo a 30°, esternal y costal bajan al inclinar), deltoides anterior (sube con la inclinación) y tríceps medial (sin diferencias por ángulo) (analogía con barra)"
       ]
     },
     {
@@ -7503,10 +7580,11 @@
       ],
       "descripcion": "Coloca el banco declinado de modo que la barra baje hacia la parte baja del pecho y asegura los pies. Desbloquea la barra, baja con control y empuja hasta extender los codos. Error típico: alinear mal el banco y forzar el hombro durante el recorrido.",
       "descripcion_en": "Set the decline bench so the bar lowers to the lower chest and secure your feet. Unrack the bar, lower under control and press until the elbows extend. Common mistake: poor bench alignment that forces the shoulder through the path.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Smith_Machine_Decline_Press",
-        "EMG (recordado, sin verificar): Barnett 1995 y Glass 1997 (banca plana, inclinada y declinada)"
+        "Schick et al. 2010 — J Strength Cond Res — https://read.qxmd.com/read/20093960/a-comparison-of-muscle-activation-between-a-smith-machine-and-free-weight-bench-press — Smith vs peso libre al 70 y 90 % 1RM: pectoral y deltoides anterior sin diferencias, deltoides medio mayor en peso libre (solo plano)",
+        "Saeterbakken et al. 2017 — J Hum Kinet — https://pmc.ncbi.nlm.nih.gov/articles/PMC5504579 — banca plana, inclinada +25° y declinada −25° a 6RM: pectoral (clavicular y esternocostal) similar entre ángulos y agarres; tríceps 58–63 % menor en inclinado; deltoides anterior mayor en inclinado que en declinado"
       ]
     },
     {
@@ -7611,8 +7689,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Reverse_Grip_Bent-Over_Rows",
-        "analogía: Gemini espalda_004 (más bíceps por el agarre supino)",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_004 (más bíceps por el agarre supino)"
       ]
     },
     {
@@ -7659,11 +7736,12 @@
       ],
       "descripcion": "Siéntate con el asa en V y los muslos fijos, con el pecho alto. Tira del asa hacia el esternón llevando los codos hacia abajo y atrás. Vuelve arriba controlando el estiramiento. Error típico: inclinarte hacia atrás y tirar con impulso.",
       "descripcion_en": "Sit with the V-handle and thighs secured, chest tall. Pull the handle toward the sternum driving the elbows down and back. Return up while controlling the stretch. Common mistake: leaning back and pulling with momentum.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "Lusk et al. 2010 — Journal of Strength and Conditioning Research — https://pubmed.ncbi.nlm.nih.gov/20543740/ (jalón: agarre prono da más dorsal que supino; trapecio medio y bíceps sin diferencias)",
+        "Buonsenso et al. 2025 — Journal of Functional Morphology and Kinesiology — https://pubmed.ncbi.nlm.nih.gov/40981044/ (7 variantes de jalón en 40 hombres: dorsal, deltoides posterior, bíceps, trapecio medio/inferior, infraespinoso; sin diferencias de dorsal entre agarres)",
         "free-exercise-db: V-Bar_Pulldown",
-        "analogía: Gemini espalda_003",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_003"
       ]
     },
     {
@@ -7710,11 +7788,12 @@
       ],
       "descripcion": "Agarra la barra en supinación a la anchura de los hombros y siéntate con el pecho alto. Tira de la barra hacia la parte alta del pecho llevando los codos hacia abajo. Sube controlando el estiramiento. Error típico: tirar con los brazos y no con los codos.",
       "descripcion_en": "Take the bar underhand at shoulder width and sit with the chest tall. Pull the bar to the upper chest driving the elbows down. Return while controlling the stretch. Common mistake: pulling with the arms instead of the elbows.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "Lusk et al. 2010 — Journal of Strength and Conditioning Research — https://pubmed.ncbi.nlm.nih.gov/20543740/ (jalón: agarre prono da más dorsal que supino; trapecio medio y bíceps sin diferencias)",
+        "Buonsenso et al. 2025 — Journal of Functional Morphology and Kinesiology — https://pubmed.ncbi.nlm.nih.gov/40981044/ (7 variantes de jalón en 40 hombres: dorsal, deltoides posterior, bíceps, trapecio medio/inferior, infraespinoso; sin diferencias de dorsal entre agarres)",
         "free-exercise-db: Underhand_Cable_Pulldowns",
-        "analogía: Gemini espalda_002 (ajuste por agarre supino)",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_002 (ajuste por agarre supino)"
       ]
     },
     {
@@ -7764,8 +7843,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Kneeling_Single-Arm_High_Pulley_Row",
-        "analogía: Gemini espalda_006",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_006"
       ]
     },
     {
@@ -7812,11 +7890,12 @@
       ],
       "descripcion": "Agarra las asas de suspensión y recuéstate hacia atrás con el cuerpo recto y los brazos extendidos. Tira del pecho hacia las manos juntando las escápulas. Baja controlando sin dejar caer la cadera. Error típico: arquear la espalda o dejar caer la pelvis.",
       "descripcion_en": "Hold the suspension handles and lean back with a straight body and arms extended. Pull the chest toward the hands squeezing the shoulder blades. Lower under control without letting the hips drop. Common mistake: arching the back or letting the pelvis sag.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "Fenwick et al. 2009 — Journal of Strength and Conditioning Research — https://pubmed.ncbi.nlm.nih.gov/19620925/ (remo invertido: mayor activación de dorsal y espalda alta; remo con barra: gran activación simétrica de espalda)",
+        "ACE-sponsored study 2018 — American Council on Exercise — https://www.acefitness.org/continuing-education/certified/january-2023/8214/what-is-the-best-back-exercise/ (EMG de dominada, jalón, remo sentado, remo con barra, remo invertido; remo con barra mayor en trapecio medio/erectores, dominadas mayor en dorsal)",
         "free-exercise-db: Suspended_Row",
-        "analogía: Gemini espalda_004 (análogo con peso corporal)",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_004 (análogo con peso corporal)"
       ]
     },
     {
@@ -7866,8 +7945,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Bent_Over_Two-Dumbbell_Row",
-        "analogía: Gemini espalda_004",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_004"
       ]
     },
     {
@@ -7904,9 +7982,9 @@
       ],
       "descripcion": "Sujeta una banda con las manos separadas al ancho de los hombros y los brazos extendidos delante a la altura del pecho. Separa las manos llevando los brazos hacia los lados hasta que la banda toque el pecho. Vuelve despacio. Error típico: encoger los hombros y arquear la espalda.",
       "descripcion_en": "Hold a band with hands shoulder-width apart and arms extended in front at chest height. Pull the hands apart, taking the arms out to the sides until the band touches the chest. Return slowly. A common mistake is shrugging and arching the back.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "analogía con db_rear_fly"
+        "Fukunaga et al. 2022 — Int J Sports Phys Ther 17(3):400-408 — https://pubmed.ncbi.nlm.nih.gov/35391860/ (apertura con banda; infraespinoso, trapecio sup/medio/inf, deltoides posterior)"
       ]
     },
     {
@@ -8010,8 +8088,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Deficit_Deadlift",
-        "analogía: Gemini pierna_006 (más cuádriceps por el rango extra)",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini pierna_006 (más cuádriceps por el rango extra)"
       ]
     },
     {
@@ -8056,8 +8133,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Leverage_High_Row",
-        "analogía: Gemini espalda_003 y espalda_005",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_003 y espalda_005"
       ]
     },
     {
@@ -8153,11 +8229,12 @@
       ],
       "descripcion": "Añade lastre con cinturón y cuélgate con agarre prono algo más ancho que los hombros. Baja las escápulas y tira de los codos hacia las costillas hasta pasar la barbilla. Baja con control hasta la extensión. Error típico: balancearse con el lastre y acortar el rango.",
       "descripcion_en": "Add load with a belt and hang with a pronated grip slightly wider than the shoulders. Depress the shoulder blades and pull the elbows to the ribs until the chin passes the bar. Lower under control to full extension. Common mistake: swinging with the load and shortening the range.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
+        "Youdas et al. 2010 — Journal of Strength and Conditioning Research — https://doi.org/10.1519/JSC.0b013e3181f1598c (pull-up vs chin-up: dorsal más activo, luego bíceps; chin-up más bíceps/pectoral, pull-up más trapecio inferior)",
+        "Dickie et al. 2017 — Journal of Electromyography and Kinesiology — https://pubmed.ncbi.nlm.nih.gov/28011412/ (pull-ups con agarre supino/prono/neutro/cuerda; activación similar entre agarres salvo trapecio medio mayor en prono)",
         "free-exercise-db: Weighted_Pull_Ups",
-        "analogía: Gemini espalda_001",
-        "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
+        "analogía: Gemini espalda_001"
       ]
     },
     {
@@ -8217,7 +8294,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Seated_Barbell_Military_Press",
-        "EMG (recordado, sin verificar): Saeterbakken 2011"
+        "Saeterbakken & Fimland 2013 — J Strength Cond Res 27(7):1824-1831 — https://pubmed.ncbi.nlm.nih.gov/23096062/ (resumen: press con barra y mancuernas, sentado y de pie; deltoides, bíceps y tríceps; el press de pie con mancuernas dio la mayor actividad deltoidea)",
+        "Coratella et al. 2022 — Front Physiol — https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2022.825880/full (press con barra vs máquina, delante y detrás de la nuca; 3 deltoides, pectoral clavicular, trapecio superior, tríceps lateral)"
       ]
     },
     {
@@ -8333,9 +8411,10 @@
       ],
       "descripcion": "De pie con los pies al ancho de caderas, sostén las mancuernas a la altura de los hombros. Aprieta glúteos y abdomen y empuja hacia arriba hasta extender los codos. Baja con control sin inclinar el torso hacia atrás. Error típico: usar las piernas y la espalda para ayudarte a subir.",
       "descripcion_en": "Standing with feet hip-width apart, hold the dumbbells at shoulder height. Brace glutes and abs and press up until the elbows are extended. Lower under control without leaning back. A common mistake is using the legs and lower back to help the lift.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "analogía con db_shoulder_press"
+        "Saeterbakken & Fimland 2013 — J Strength Cond Res 27(7):1824-1831 — https://pubmed.ncbi.nlm.nih.gov/23096062/ (resumen: press con barra y mancuernas, sentado y de pie; deltoides, bíceps y tríceps; el press de pie con mancuernas dio la mayor actividad deltoidea)",
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)"
       ]
     },
     {
@@ -8380,9 +8459,9 @@
           "activacion": 0.35
         },
         {
-          "musculo_id": "recto_abdominal",
-          "rol": "estabilizador",
-          "activacion": 0.2
+          "musculo_id": "pectoral_clavicular",
+          "rol": "secundario",
+          "activacion": 0.35
         },
         {
           "musculo_id": "serrato_anterior",
@@ -8397,10 +8476,10 @@
       ],
       "descripcion": "Sostén una mancuerna a la altura del hombro con el antebrazo vertical y la otra mano libre. Empuja hasta extender el codo sin inclinar el tronco hacia el lado contrario. Baja controlando el peso hasta el hombro. Error típico: flexionar lateralmente la columna para ganar recorrido.",
       "descripcion_en": "Hold one dumbbell at shoulder height with the forearm vertical, free hand relaxed. Press until the elbow is extended without leaning the trunk to the opposite side. Lower the weight under control back to the shoulder. A common mistake is bending the spine sideways to gain range.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "analogía con db_shoulder_press",
-        "core: analogía"
+        "Dicus et al. 2018 — Int J Exerc Sci 11(1):708-716 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6033506/ (press a una mano con mancuerna: deltoides anterior 63 %MVIC, pectoral mayor 31 %MVIC)",
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)"
       ]
     },
     {
@@ -8442,9 +8521,10 @@
       ],
       "descripcion": "Sujeta un disco con ambas manos a las posiciones de las tres y las nueve, con los brazos extendidos delante de los muslos. Eleva el disco hasta la altura de los ojos con los codos casi rectos. Baja de forma controlada. Error típico: balancear el tronco hacia atrás para subir el disco.",
       "descripcion_en": "Hold a plate with both hands at the three and nine oclock positions with the arms extended in front of the thighs. Raise the plate to eye level with nearly straight elbows. Lower under control. A common mistake is rocking the trunk backward to swing the plate up.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "analogía con db_front_raise"
+        "Coratella et al. 2020 — Int J Environ Res Public Health 17:6015 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7503819/ (variantes de elevación lateral y frontal; deltoides, pectoral, trapecio superior, tríceps)",
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)"
       ]
     },
     {
@@ -8486,9 +8566,10 @@
       ],
       "descripcion": "Sujeta una mancuerna con una mano y, si quieres, apóyate con la otra en un soporte. Eleva el brazo hacia el lado hasta la altura del hombro con el codo ligeramente flexionado. Baja con control sin balancear el cuerpo. Error típico: subir con el trapecio y el impulso del tronco en lugar de con el deltoides.",
       "descripcion_en": "Hold a dumbbell in one hand and, if you like, steady yourself on a support with the other. Raise the arm out to the side to shoulder height with a slightly bent elbow. Lower under control without rocking the body. A common mistake is lifting with the traps and trunk momentum instead of the deltoid.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "analogía con db_lateral_raise"
+        "Coratella et al. 2020 — Int J Environ Res Public Health 17:6015 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7503819/ (variantes de elevación lateral y frontal; deltoides, pectoral, trapecio superior, tríceps)",
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)"
       ]
     },
     {
@@ -8530,9 +8611,10 @@
       ],
       "descripcion": "Siéntate en un banco con el torso recto y una mancuerna en cada mano. Eleva los brazos hacia los lados hasta la altura de los hombros con los codos ligeramente flexionados. Al estar sentado no puedes ayudarte con las piernas. Error típico: inclinarte hacia atrás para lanzar las mancuernas.",
       "descripcion_en": "Sit on a bench with an upright torso and a dumbbell in each hand. Raise the arms out to the sides to shoulder height with slightly bent elbows. Sitting removes any help from the legs. A common mistake is leaning back to throw the dumbbells up.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "analogía con db_lateral_raise"
+        "Coratella et al. 2020 — Int J Environ Res Public Health 17:6015 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7503819/ (variantes de elevación lateral y frontal; deltoides, pectoral, trapecio superior, tríceps)",
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)"
       ]
     },
     {
@@ -8564,7 +8646,7 @@
         {
           "musculo_id": "deltoides_lateral",
           "rol": "secundario",
-          "activacion": 0.35
+          "activacion": 0.6
         },
         {
           "musculo_id": "manguito_rotador",
@@ -8574,9 +8656,10 @@
       ],
       "descripcion": "Siéntate al borde de un banco e inclínate hasta apoyar el pecho cerca de los muslos con las mancuernas colgando. Eleva los brazos hacia los lados hasta la altura del torso con los codos ligeramente flexionados. Baja sin rebotar. Error típico: levantar el torso para ayudarte con el impulso.",
       "descripcion_en": "Sit at the edge of a bench and lean forward until the chest is near the thighs with the dumbbells hanging. Raise the arms out to the sides to torso height with slightly bent elbows. Lower without bouncing. A common mistake is lifting the torso to add momentum.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "analogía con db_rear_fly"
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)",
+        "Schoenfeld et al. 2013 — J Strength Cond Res 27(10):2644-2649 — https://pubmed.ncbi.nlm.nih.gov/23302754/ (pájaros en máquina; deltoides posterior, medio e infraespinoso)"
       ]
     },
     {
@@ -8760,9 +8843,10 @@
       ],
       "descripcion": "Con una mancuerna en cada mano, déjalas al frente de los muslos con las palmas hacia ti. Sube las mancuernas cerca del cuerpo llevando los codos arriba y a los lados hasta el pecho; las muñecas pueden moverse con libertad. Baja con control. Error típico: encoger los hombros y subir los codos por encima de las manos.",
       "descripcion_en": "Holding a dumbbell in each hand, start with them in front of the thighs and palms facing you. Raise the dumbbells close to the body with the elbows leading up and out to chest height; the wrists are free to move. Lower under control. A common mistake is shrugging and lifting the elbows well above the hands.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "analogía con upright_row"
+        "McAllister et al. 2013 — J Strength Cond Res 27(1):181-187 — https://pubmed.ncbi.nlm.nih.gov/22362088/ (remo al mentón; 3 deltoides, trapecio superior y medio, bíceps)",
+        "Sweeney et al. 2015 — ACE ProSource (Univ. Wisconsin-La Crosse; no revisado por pares) — https://www.acefitness.org/education-and-resources/professional/prosource/research-special-issue-2015/5320/dynamite-delts-ace-research-identifies-top-shoulder-exercises/ (%MVC de las 3 porciones del deltoides)"
       ]
     },
     {
@@ -8799,10 +8883,9 @@
       ],
       "descripcion": "Apoya los brazos en el banco Scott frente a una polea baja y agarra la barra en supino. Flexiona los codos sin despegarlos del cojín. La polea mantiene la tensión incluso arriba, así que aprieta un instante. Error típico: estirar de golpe abajo y perder el control.",
       "descripcion_en": "Rest your arms on the preacher pad facing a low pulley and hold the bar with an underhand grip. Bend the elbows without lifting them off the pad. The cable keeps tension even at the top, so squeeze briefly. Common mistake: snapping into full extension at the bottom and losing control.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Cable_Preacher_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Cable_Preacher_Curl"
       ]
     },
     {
@@ -8842,7 +8925,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Seated_Dumbbell_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Oliveira et al. 2009 — Journal of Sports Science and Medicine — https://www.jssm.org/jssm-08-24.xml-Fulltext (solo bíceps braquial, cabeza larga: curl con mancuernas de pie, inclinado y predicador al 40 % MVC; el predicador solo activa alto en un rango corto)"
       ]
     },
     {
@@ -8879,10 +8962,9 @@
       ],
       "descripcion": "De pie con las mancuernas y los codos ligeramente adelantados, con las palmas hacia arriba. Sube las pesas inclinando la muñeca hacia dentro para enfatizar la cabeza corta. Baja despacio hasta casi extender. Error típico: abrir demasiado los codos y balancear el torso.",
       "descripcion_en": "Stand holding dumbbells with the elbows slightly forward and palms up. Curl the weights while angling the wrists inward to emphasize the short head. Lower slowly to near extension. Common mistake: flaring the elbows too wide and swinging the torso.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Standing_Inner-Biceps_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Standing_Inner-Biceps_Curl"
       ]
     },
     {
@@ -8919,10 +9001,9 @@
       ],
       "descripcion": "Túmbate en el suelo o en un banco con los pies hacia una polea baja y agarra la barra en supino. Flexiona los codos llevando la barra hacia los hombros. Al estar tumbado el cuerpo no puede ayudar. Error típico: despegar los codos del cuerpo y perder tensión arriba.",
       "descripcion_en": "Lie on the floor or a bench with your feet toward a low pulley and hold the bar with an underhand grip. Bend the elbows bringing the bar toward the shoulders. Lying down prevents body momentum. Common mistake: lifting the elbows away from the body and losing tension at the top.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Lying_Cable_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Lying_Cable_Curl"
       ]
     },
     {
@@ -8959,10 +9040,9 @@
       ],
       "descripcion": "De pie entre dos poleas altas, con los brazos abiertos a la altura de los hombros y las palmas arriba. Flexiona los codos llevando las manos hacia la cabeza. Mantén los brazos paralelos al suelo y aprieta el bíceps arriba. Error típico: bajar los codos y tirar con los hombros.",
       "descripcion_en": "Stand between two high pulleys with your arms out at shoulder height and palms up. Bend the elbows bringing the hands toward your head. Keep the arms parallel to the floor and squeeze the biceps at the top. Common mistake: dropping the elbows and pulling with the shoulders.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Overhead_Cable_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Overhead_Cable_Curl"
       ]
     },
     {
@@ -9002,7 +9082,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Wide-Grip_Standing_Barbell_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Coratella et al. 2023 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk8010013 (curl con barra recta vs barra Z; bíceps y deltoides anterior, normalizado a MVIC; diferencia mínima en el bíceps entre barras)",
+        "Marcolin et al. 2018 — PeerJ — https://peerj.com/articles/5165 (EMG de bíceps braquial y braquiorradial en curl con barra recta, barra Z y mancuernas alternas al 65 % 1RM; braquial anterior no medido)"
       ]
     },
     {
@@ -9042,7 +9123,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Close-Grip_EZ_Bar_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Marcolin et al. 2018 — PeerJ — https://peerj.com/articles/5165 (EMG de bíceps braquial y braquiorradial en curl con barra recta, barra Z y mancuernas alternas al 65 % 1RM; braquial anterior no medido)",
+        "Coratella et al. 2023 — Journal of Functional Morphology and Kinesiology — https://doi.org/10.3390/jfmk8010013 (curl con barra recta vs barra Z; bíceps y deltoides anterior, normalizado a MVIC; diferencia mínima en el bíceps entre barras)"
       ]
     },
     {
@@ -9069,7 +9151,7 @@
         {
           "musculo_id": "biceps_braquial",
           "rol": "secundario",
-          "activacion": 0.65
+          "activacion": 0.75
         },
         {
           "musculo_id": "flexores_antebrazo",
@@ -9082,7 +9164,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Cross_Body_Hammer_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Coratella et al. 2023 — Sports — https://pmc.ncbi.nlm.nih.gov/articles/PMC10054060 (curl en polea de pie, agarre supino/prono con barra y neutro con cuerda; bíceps, braquiorradial y deltoides anterior; el agarre neutro baja el bíceps ~12 % nRMS y el braquiorradial ~6 % frente al supino; braquial no medido)",
+        "Kleiber et al. 2015 — Frontiers in Physiology — https://www.frontiersin.org/articles/10.3389/fphys.2015.00215/full (bíceps y braquiorradial en flexión de codo según posición de la mano: bíceps sin cambios; braquiorradial mayor en pronación, igual en supino y neutro)"
       ]
     },
     {
@@ -9109,7 +9192,7 @@
         {
           "musculo_id": "biceps_braquial",
           "rol": "secundario",
-          "activacion": 0.65
+          "activacion": 0.75
         },
         {
           "musculo_id": "flexores_antebrazo",
@@ -9122,7 +9205,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Incline_Hammer_Curls",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "Coratella et al. 2023 — Sports — https://pmc.ncbi.nlm.nih.gov/articles/PMC10054060 (curl en polea de pie, agarre supino/prono con barra y neutro con cuerda; bíceps, braquiorradial y deltoides anterior; el agarre neutro baja el bíceps ~12 % nRMS y el braquiorradial ~6 % frente al supino; braquial no medido)",
+        "Kleiber et al. 2015 — Frontiers in Physiology — https://www.frontiersin.org/articles/10.3389/fphys.2015.00215/full (bíceps y braquiorradial en flexión de codo según posición de la mano: bíceps sin cambios; braquiorradial mayor en pronación, igual en supino y neutro)"
       ]
     },
     {
@@ -9164,10 +9248,9 @@
       ],
       "descripcion": "Sujeta la barra y sube llevando los codos hacia atrás, deslizando la barra pegada al torso. Así el hombro no interviene y el bíceps trabaja más aislado. Baja deslizando la barra por el cuerpo. Error típico: separar la barra del torso y volver a un curl normal.",
       "descripcion_en": "Hold the bar and curl by driving the elbows backward, sliding the bar up along the torso. This keeps the shoulders out of it and isolates the biceps more. Lower by sliding the bar down the body. Common mistake: letting the bar drift away from the torso and reverting to a normal curl.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Drag_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Drag_Curl"
       ]
     },
     {
@@ -9204,10 +9287,9 @@
       ],
       "descripcion": "Ajusta el asiento para que los codos queden alineados con el eje de giro. Agarra las empuñaduras y flexiona los codos hacia los hombros. Mantén la espalda apoyada y controla la bajada. Error típico: usar demasiado peso y despegar los codos del soporte.",
       "descripcion_en": "Adjust the seat so your elbows line up with the machine's pivot. Grip the handles and bend the elbows toward the shoulders. Keep your back supported and control the descent. Common mistake: using too much weight and lifting the elbows off the support.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Machine_Bicep_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Machine_Bicep_Curl"
       ]
     },
     {
@@ -9322,9 +9404,10 @@
       ],
       "descripcion": "De rodillas de espaldas a la polea alta, sujeta la barra o cuerda sobre la cabeza con los codos hacia delante. Extiende los codos hacia delante sin mover los brazos. Vuelve controlando el estiramiento. Error típico: inclinarse hacia delante y empujar con el tronco.",
       "descripcion_en": "Kneel facing away from the high pulley, holding the bar or rope overhead with the elbows pointing forward. Extend the elbows forward without moving the upper arms. Return while controlling the stretch. Common mistake: leaning forward and pushing with the torso.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "free-exercise-db: Kneeling_Cable_Triceps_Extension"
+        "free-exercise-db: Kneeling_Cable_Triceps_Extension",
+        "Maeo et al. 2023 — Eur J Sport Sci — https://pubmed.ncbi.nlm.nih.gov/35819335/ (12 sem, 21 adultos; extensión de codo en polea con brazo sobre la cabeza vs. brazo neutro: mayor hipertrofia del tríceps, sobre todo de la cabeza larga; mide volumen por RM, no EMG) — ejercicio muy equivalente (polea sobre la cabeza)"
       ]
     },
     {
@@ -9447,7 +9530,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Seated_Triceps_Press",
-        "EMG (recordado, sin verificar): Maeo y cols. 2022 (extensión por encima de la cabeza y cabeza larga)"
+        "Maeo et al. 2023 — Eur J Sport Sci — https://pubmed.ncbi.nlm.nih.gov/35819335/ (12 sem, 21 adultos; extensión de codo en polea con brazo sobre la cabeza vs. brazo neutro: mayor hipertrofia del tríceps, sobre todo de la cabeza larga; mide volumen por RM, no EMG) — ejercicio muy equivalente (mismo brazo sobre la cabeza, con mancuerna)"
       ]
     },
     {
@@ -9496,8 +9579,7 @@
       "descripcion_en": "Lie down with a grip slightly narrower than the shoulders and lower the bar toward the forehead or neck with the elbows forward. Bend the elbows then press until they are extended. It blends a close-grip press with a triceps extension. Common mistake: flaring the elbows and turning it into a regular bench press.",
       "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: JM_Press",
-        "EMG (recordado, sin verificar): analogía con press de banca de agarre cerrado"
+        "free-exercise-db: JM_Press"
       ]
     },
     {
@@ -9568,10 +9650,9 @@
       ],
       "descripcion": "Sentado, apoya el antebrazo sobre el muslo o el banco con la palma hacia arriba y una mancuerna en la mano. Deja caer la mancuerna hacia los dedos y súbela flexionando la muñeca. Haz el recorrido completo y lento. Error típico: mover el antebrazo en lugar de la muñeca.",
       "descripcion_en": "Sit with your forearm resting on your thigh or a bench, palm up, holding a dumbbell. Let the dumbbell roll toward your fingers and curl it up by flexing the wrist. Use the full range slowly. Common mistake: moving the forearm instead of the wrist.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Seated_Dumbbell_Palms-Up_Wrist_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Seated_Dumbbell_Palms-Up_Wrist_Curl"
       ]
     },
     {
@@ -9603,10 +9684,9 @@
       ],
       "descripcion": "Sentado frente a una polea baja, apoya los antebrazos con las palmas hacia arriba y agarra la barra corta. Flexiona las muñecas llevando la barra hacia ti. La polea mantiene la tensión durante todo el recorrido. Error típico: despegar los antebrazos del apoyo.",
       "descripcion_en": "Sit facing a low pulley with your forearms supported, palms up, holding the short bar. Flex the wrists to bring the bar toward you. The cable keeps tension throughout the range. Common mistake: lifting the forearms off the support.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Seated_Two-Arm_Palms-Up_Low-Pulley_Wrist_Curl",
-        "EMG (recordado, sin verificar): Oliveira 2009; Marcolin 2018"
+        "free-exercise-db: Seated_Two-Arm_Palms-Up_Low-Pulley_Wrist_Curl"
       ]
     },
     {
@@ -9646,7 +9726,7 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Wrist_Roller",
-        "analogía: ejercicios de muñeca"
+        "(sin verificar) analogía: ejercicios de muñeca"
       ]
     },
     {
@@ -9681,7 +9761,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Sit-Up",
-        "EMG (recordado, sin verificar): Escamilla 2006 (sit-up y crunch)"
+        "Escamilla et al. 2006 — Physical Therapy — https://pubmed.ncbi.nlm.nih.gov/16649890/ (EMG %MVIC de recto abdominal, oblicuos, recto femoral, dorsal ancho en crunch, sit-up y ejercicios no tradicionales)",
+        "Escamilla et al. 2010 — JOSPT — https://pubmed.ncbi.nlm.nih.gov/20436242/ (EMG %MVIC en 8 ejercicios con balón y crunch/sit-up; roll-out, recto femoral, dorsal ancho)"
       ]
     },
     {
@@ -9708,7 +9789,7 @@
         {
           "musculo_id": "recto_femoral",
           "rol": "secundario",
-          "activacion": 0.3
+          "activacion": 0.5
         },
         {
           "musculo_id": "transverso_abdomen",
@@ -9718,9 +9799,10 @@
       ],
       "descripcion": "Túmbate boca arriba con caderas y rodillas flexionadas a 90 grados. Eleva la pelvis del suelo llevando las rodillas hacia el pecho y baja despacio. Error típico: balancear las piernas con impulso sin elevar la pelvis.",
       "descripcion_en": "Lie on your back with hips and knees bent at 90 degrees. Lift the pelvis off the floor bringing the knees toward the chest, then lower slowly. A typical mistake is swinging the legs with momentum without lifting the pelvis.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "free-exercise-db: Reverse Crunch"
+        "free-exercise-db: Reverse Crunch",
+        "Escamilla et al. 2006 — Physical Therapy — https://pubmed.ncbi.nlm.nih.gov/16649890/ (EMG %MVIC de recto abdominal, oblicuos, recto femoral, dorsal ancho en crunch, sit-up y ejercicios no tradicionales)"
       ]
     },
     {
@@ -9832,10 +9914,9 @@
       ],
       "descripcion": "Túmbate con rodillas flexionadas y una mano tras la cabeza. Eleva el hombro hacia la cadera contraria rotando el tronco y baja con control. Error típico: tirar de la cabeza con la mano en lugar de rotar con el abdomen.",
       "descripcion_en": "Lie with knees bent and one hand behind the head. Lift the shoulder toward the opposite hip rotating the trunk, then lower under control. A typical mistake is pulling the head with the hand instead of rotating with the abs.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Oblique Crunches",
-        "EMG (recordado, sin verificar): Escamilla 2006 (crunch oblicuo)"
+        "free-exercise-db: Oblique Crunches"
       ]
     },
     {
@@ -9872,10 +9953,9 @@
       ],
       "descripcion": "De pie con una mancuerna en una mano, inclina el tronco hacia ese lado y vuelve a la vertical contrayendo el oblicuo contrario. Mantén las caderas quietas y el movimiento en el plano frontal. Error típico: usar demasiado peso y balancear el cuerpo.",
       "descripcion_en": "Stand holding a dumbbell in one hand, lean the trunk toward that side and return to upright by contracting the opposite oblique. Keep the hips still and the movement in the frontal plane. A typical mistake is using too much weight and swaying the body.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Dumbbell Side Bend",
-        "EMG (recordado, sin verificar): McGill 2006 (flexión lateral, oblicuos)"
+        "free-exercise-db: Dumbbell Side Bend"
       ]
     },
     {
@@ -10272,7 +10352,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Barbell_Lunge",
-        "EMG (recordado, sin verificar): Escamilla 2008 (zancadas)"
+        "Escamilla et al. 2025 — J Funct Morphol Kinesiol 10(1):42 — PMID 39982282 (https://europepmc.org/article/MED/39982282) — zancada hacia delante al 12RM, %MVIC: cuádriceps, glúteo mayor y medio altos-muy altos; isquiotibiales, gemelo y aductor largo moderados (con mancuernas/peso corporal; extrapolado a barra)"
       ]
     },
     {
@@ -10367,7 +10447,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Barbell_Full_Squat",
-        "EMG (recordado, sin verificar): Paoli 2009 (anchura de postura en sentadilla)"
+        "Coratella et al. 2021 — Int J Environ Res Public Health 18(2):772 — PMID 33477561 (https://europepmc.org/article/MED/33477561) — culturistas al 80% 1RM: sentadilla trasera, sumo y frontal; glúteo mayor/medio, recto femoral, vasto lateral/medial, aductor largo, erectores (sumo: más vasto lateral y aductor largo en la subida)",
+        "Larsen et al. 2021 — Front Sports Act Living 3:719013 — PMID 34541522 (https://europepmc.org/article/MED/34541522) — sentadilla trasera 3RM: postura estrecha más vasto lateral y menos glúteo mayor; postura ancha más aporte de cadera"
       ]
     },
     {
@@ -10492,15 +10573,15 @@
         {
           "musculo_id": "erectores_espinales",
           "rol": "secundario",
-          "activacion": 0.35
+          "activacion": 0.6
         }
       ],
       "descripcion": "Fija los pies en la máquina con los muslos apoyados en la almohadilla y el cuerpo extendido. Baja el tronco con control y sube flexionando las rodillas y extendiendo la cadera a la vez. Mantén el cuerpo alineado al subir. Error típico: tirar con la espalda baja en lugar de usar los isquiotibiales.",
       "descripcion_en": "Lock your feet in the machine with the thighs on the pad and the body extended. Lower the torso under control and rise by flexing the knees and extending the hips together. Keep the body aligned on the way up. Common mistake: pulling with the lower back instead of the hamstrings.",
-      "confianza": "media",
+      "confianza": "alta",
       "fuentes": [
         "free-exercise-db: Glute_Ham_Raise",
-        "EMG (recordado, sin verificar): McAllister et al. 2014, glute-ham raise vs. peso muerto rumano"
+        "McAllister et al. 2014 — J Strength Cond Res — https://oliverfinlay.com/assets/pdf/mcallister et al (2014) muscle activation during various hamstring exercises.pdf (curl prono, buenos días, glute-ham raise y rumano al 85% 1RM: semitendinoso > bíceps femoral; máximo en rumano y glute-ham raise; erectores del GHR > rumano y buenos días)"
       ]
     },
     {
@@ -10537,9 +10618,11 @@
       ],
       "descripcion": "Apoya el torso en la almohadilla de la máquina con las piernas colgando y sujétate de las asas. Eleva las piernas hacia atrás hasta alinearlas con el cuerpo apretando los glúteos. Baja con control sin balancear. Error típico: lanzar las piernas con impulso y pasarse de la línea del cuerpo, cargando la zona lumbar.",
       "descripcion_en": "Rest your torso on the machine pad with the legs hanging and hold the handles. Raise the legs backward until aligned with the body, squeezing the glutes. Lower under control without swinging. Common mistake: swinging the legs with momentum and going past the body line, overloading the lower back.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "free-exercise-db: Reverse_Hyperextension"
+        "free-exercise-db: Reverse_Hyperextension",
+        "Cuthbert et al. 2021 — J Strength Cond Res — https://ro.ecu.edu.au/ecuworkspost2013/10503 (hiperextensión inversa vs hiperextensión: mayor EMG de erectores, glúteo mayor y bíceps femoral)",
+        "Dicus et al. 2023 — Int J Exerc Sci — https://pubmed.ncbi.nlm.nih.gov/37113509/ (rumano vs hiperextensión inversa vs pull-through: la inversa sube glúteo mayor +19,5% y bíceps femoral +28%; pull-through baja erectores e isquios respecto al rumano)"
       ]
     },
     {
@@ -10571,9 +10654,11 @@
       ],
       "descripcion": "De pie frente a la máquina, coloca la almohadilla sobre el talón de la pierna de trabajo y apóyate con las manos. Flexiona la rodilla llevando el talón hacia el glúteo sin mover el muslo. Baja despacio. Error típico: balancear el cuerpo o adelantar la rodilla para ayudarse.",
       "descripcion_en": "Stand facing the machine, place the pad above the heel of the working leg and brace with your hands. Curl the heel toward the glute without moving the thigh. Lower slowly. Common mistake: swinging the body or pushing the knee forward to cheat.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "free-exercise-db: Standing_Leg_Curl"
+        "free-exercise-db: Standing_Leg_Curl",
+        "Stevens et al. 2022 — Int J Exerc Sci — https://pubmed.ncbi.nlm.nih.gov/35989703/ (6 ejercicios en mujeres: patada, nórdico y curl con mayor bíceps femoral que rumano; glúteo mayor mínimo en curl)",
+        "McAllister et al. 2014 — J Strength Cond Res — https://oliverfinlay.com/assets/pdf/mcallister et al (2014) muscle activation during various hamstring exercises.pdf (curl prono, buenos días, glute-ham raise y rumano al 85% 1RM: semitendinoso > bíceps femoral; máximo en rumano y glute-ham raise; erectores del GHR > rumano y buenos días)"
       ]
     },
     {
@@ -10618,7 +10703,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Barbell_Glute_Bridge",
-        "EMG (recordado, sin verificar): Contreras et al. 2015"
+        "Selkowitz et al. 2013 — J Orthop Sports Phys Ther — https://pubmed.ncbi.nlm.nih.gov/23160432/ (fine-wire: puente unilateral y extensión de cadera en cuadrupedia activan glúteo medio y mayor superior más que el TFL)",
+        "Krause Neto et al. 2020 — J Sports Sci Med — https://jssm.org/jssm-19-195.xml-Fulltext (revisión: hip thrust con barra y peso muerto convencional con activación muy alta >60% MVIC del glúteo mayor)"
       ]
     },
     {
@@ -10658,7 +10744,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Standing_Barbell_Calf_Raise",
-        "EMG (recordado, sin verificar): Riemann y cols. 2011 (rodilla extendida)"
+        "Hébert-Losier et al. 2012 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/22190157/ (48 adultos; elevación de talón unilateral con rodilla a 0° y 45°; EMG normalizado a MVIC: sóleo ~4 % más activo a 45° y gastrocnemios ~5 % menos; diferencia pequeña) — ejercicio equivalente (rodilla extendida)"
       ]
     },
     {
@@ -10698,7 +10784,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Standing_Dumbbell_Calf_Raise",
-        "EMG (recordado, sin verificar): Riemann y cols. 2011 (rodilla extendida)"
+        "Hébert-Losier et al. 2012 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/22190157/ (48 adultos; elevación de talón unilateral con rodilla a 0° y 45°; EMG normalizado a MVIC: sóleo ~4 % más activo a 45° y gastrocnemios ~5 % menos; diferencia pequeña) — ejercicio equivalente (rodilla extendida)"
       ]
     },
     {
@@ -10733,7 +10819,7 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Barbell_Seated_Calf_Raise",
-        "EMG (recordado, sin verificar): Riemann y cols. 2011 (sóleo con la rodilla flexionada)"
+        "Hébert-Losier et al. 2012 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/22190157/ (48 adultos; elevación de talón unilateral con rodilla a 0° y 45°; EMG normalizado a MVIC: sóleo ~4 % más activo a 45° y gastrocnemios ~5 % menos; diferencia pequeña) — ejercicio equivalente (rodilla flexionada)"
       ]
     }
   ]

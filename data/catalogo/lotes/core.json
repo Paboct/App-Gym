@@ -28,7 +28,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Crunch - Hands Overhead",
-        "EMG (recordado, sin verificar): Escamilla 2006 (crunch, recto abdominal)"
+        "Escamilla et al. 2010 — JOSPT — https://pubmed.ncbi.nlm.nih.gov/20436242/ (EMG %MVIC en 8 ejercicios con balón y crunch/sit-up; roll-out, recto femoral, dorsal ancho)",
+        "Stenger et al. 2013 — tesis UW-La Crosse (resumen ACE) — https://minds.wisc.edu/items/13f23340-bc92-4049-9c47-6fcc60df9852 (16 ejercicios vs crunch: RA, oblicuo externo, recto femoral)"
       ]
     },
     {
@@ -125,10 +126,11 @@
       ],
       "descripcion": "Cuélgate de la barra con agarre firme y el cuerpo quieto. Eleva las piernas y enrolla la pelvis hacia arriba al final del recorrido para implicar el abdomen, y baja despacio. Error típico: balancearte con impulso y mover solo las piernas sin retroversión pélvica.",
       "descripcion_en": "Hang from the bar with a firm grip and a still body. Raise the legs and curl the pelvis upward at the top to involve the abs, then lower slowly. A typical mistake is swinging with momentum and moving only the legs without a posterior pelvic tilt.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
         "free-exercise-db: Hanging Leg Raise",
-        "analogía con core_003 de Gemini"
+        "analogía con core_003 de Gemini",
+        "Escamilla et al. 2006 — Physical Therapy — https://pubmed.ncbi.nlm.nih.gov/16649890/ (EMG %MVIC de recto abdominal, oblicuos, recto femoral, dorsal ancho en crunch, sit-up y ejercicios no tradicionales)"
       ]
     },
     {
@@ -168,7 +170,8 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Flat Bench Lying Leg Raise",
-        "analogía con elevación de piernas colgado"
+        "analogía con elevación de piernas colgado",
+        "Youdas et al. 2008 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/18978615/ (Ab-Slide, crunch, supine double leg thrust y side bridge: RA, oblicuos, recto femoral)"
       ]
     },
     {
@@ -218,7 +221,9 @@
       "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Plank",
-        "analogía con core_001 de Gemini"
+        "analogía con core_001 de Gemini",
+        "Ekstrom et al. 2007 — JOSPT — https://pubmed.ncbi.nlm.nih.gov/18560185/ (9 ejercicios de rehabilitación: side bridge y prone bridge; RA, oblicuo externo, glúteo medio)",
+        "Stenger et al. 2013 — tesis UW-La Crosse (resumen ACE) — https://minds.wisc.edu/items/13f23340-bc92-4049-9c47-6fcc60df9852 (16 ejercicios vs crunch: RA, oblicuo externo, recto femoral)"
       ]
     },
     {
@@ -260,10 +265,13 @@
       ],
       "descripcion": "Apóyate sobre un antebrazo con el codo bajo el hombro y los pies apilados. Eleva la cadera hasta alinear cabeza, tronco y piernas, y mantén la posición sin rotar. Error típico: dejar que la cadera caiga o que el tronco gire hacia delante.",
       "descripcion_en": "Rest on one forearm with the elbow under the shoulder and feet stacked. Lift the hips until head, trunk and legs form a line, and hold without rotating. A typical mistake is letting the hips drop or the torso roll forward.",
-      "confianza": "media",
+      "confianza": "alta",
       "fuentes": [
         "free-exercise-db: Side Bridge",
-        "EMG (recordado, sin verificar): McGill 2006 (plancha lateral, oblicuos)"
+        "Ekstrom et al. 2007 — JOSPT — https://pubmed.ncbi.nlm.nih.gov/18560185/ (9 ejercicios de rehabilitación: side bridge y prone bridge; RA, oblicuo externo, glúteo medio)",
+        "Kinney et al. 2020 — J Sport Rehabil — https://pubmed.ncbi.nlm.nih.gov/32369764/ (plancha lateral: oblicuo interno 107 %, externo 72 % MVC)",
+        "Youdas et al. 2008 — J Strength Cond Res — https://pubmed.ncbi.nlm.nih.gov/18978615/ (Ab-Slide, crunch, supine double leg thrust y side bridge: RA, oblicuos, recto femoral)",
+        "Stenger et al. 2013 — tesis UW-La Crosse (resumen ACE) — https://minds.wisc.edu/items/13f23340-bc92-4049-9c47-6fcc60df9852 (16 ejercicios vs crunch: RA, oblicuo externo, recto femoral)"
       ]
     },
     {
@@ -308,7 +316,9 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Ab Roller",
-        "EMG (recordado, sin verificar): Escamilla 2006 (rueda abdominal, recto abdominal)"
+        "Escamilla et al. 2006 — Physical Therapy — https://pubmed.ncbi.nlm.nih.gov/16649890/ (EMG %MVIC de recto abdominal, oblicuos, recto femoral, dorsal ancho en crunch, sit-up y ejercicios no tradicionales)",
+        "Escamilla et al. 2010 — JOSPT — https://pubmed.ncbi.nlm.nih.gov/20436242/ (EMG %MVIC en 8 ejercicios con balón y crunch/sit-up; roll-out, recto femoral, dorsal ancho)",
+        "Stenger et al. 2013 — tesis UW-La Crosse (resumen ACE) — https://minds.wisc.edu/items/13f23340-bc92-4049-9c47-6fcc60df9852 (16 ejercicios vs crunch: RA, oblicuo externo, recto femoral)"
       ]
     },
     {
@@ -433,7 +443,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Knee/Hip Raise On Parallel Bars",
-        "EMG (recordado, sin verificar): Escamilla 2006 (silla romana, recto abdominal)"
+        "Stenger et al. 2013 — tesis UW-La Crosse (resumen ACE) — https://minds.wisc.edu/items/13f23340-bc92-4049-9c47-6fcc60df9852 (16 ejercicios vs crunch: RA, oblicuo externo, recto femoral)",
+        "Escamilla et al. 2006 — Physical Therapy — https://pubmed.ncbi.nlm.nih.gov/16649890/ (EMG %MVIC de recto abdominal, oblicuos, recto femoral, dorsal ancho en crunch, sit-up y ejercicios no tradicionales)"
       ]
     },
     {
@@ -465,9 +476,10 @@
       ],
       "descripcion": "Fija los pies en un banco declinado con las manos cruzadas sobre el pecho. Enrolla el tronco hasta separar los omóplatos del banco y baja con control. Error típico: incorporarte del todo y tirar con los flexores de cadera.",
       "descripcion_en": "Secure your feet on a decline bench with hands crossed over the chest. Curl the torso until the shoulder blades leave the bench, then lower under control. A typical mistake is sitting all the way up and pulling with the hip flexors.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "free-exercise-db: Decline Crunch"
+        "free-exercise-db: Decline Crunch",
+        "Stenger et al. 2013 — tesis UW-La Crosse (resumen ACE) — https://minds.wisc.edu/items/13f23340-bc92-4049-9c47-6fcc60df9852 (16 ejercicios vs crunch: RA, oblicuo externo, recto femoral)"
       ]
     },
     {
@@ -547,7 +559,8 @@
       "confianza": "media",
       "fuentes": [
         "free-exercise-db: Sit-Up",
-        "EMG (recordado, sin verificar): Escamilla 2006 (sit-up y crunch)"
+        "Escamilla et al. 2006 — Physical Therapy — https://pubmed.ncbi.nlm.nih.gov/16649890/ (EMG %MVIC de recto abdominal, oblicuos, recto femoral, dorsal ancho en crunch, sit-up y ejercicios no tradicionales)",
+        "Escamilla et al. 2010 — JOSPT — https://pubmed.ncbi.nlm.nih.gov/20436242/ (EMG %MVIC en 8 ejercicios con balón y crunch/sit-up; roll-out, recto femoral, dorsal ancho)"
       ]
     },
     {
@@ -574,7 +587,7 @@
         {
           "musculo_id": "recto_femoral",
           "rol": "secundario",
-          "activacion": 0.3
+          "activacion": 0.5
         },
         {
           "musculo_id": "transverso_abdomen",
@@ -584,9 +597,10 @@
       ],
       "descripcion": "Túmbate boca arriba con caderas y rodillas flexionadas a 90 grados. Eleva la pelvis del suelo llevando las rodillas hacia el pecho y baja despacio. Error típico: balancear las piernas con impulso sin elevar la pelvis.",
       "descripcion_en": "Lie on your back with hips and knees bent at 90 degrees. Lift the pelvis off the floor bringing the knees toward the chest, then lower slowly. A typical mistake is swinging the legs with momentum without lifting the pelvis.",
-      "confianza": "baja",
+      "confianza": "media",
       "fuentes": [
-        "free-exercise-db: Reverse Crunch"
+        "free-exercise-db: Reverse Crunch",
+        "Escamilla et al. 2006 — Physical Therapy — https://pubmed.ncbi.nlm.nih.gov/16649890/ (EMG %MVIC de recto abdominal, oblicuos, recto femoral, dorsal ancho en crunch, sit-up y ejercicios no tradicionales)"
       ]
     },
     {
@@ -698,10 +712,9 @@
       ],
       "descripcion": "Túmbate con rodillas flexionadas y una mano tras la cabeza. Eleva el hombro hacia la cadera contraria rotando el tronco y baja con control. Error típico: tirar de la cabeza con la mano en lugar de rotar con el abdomen.",
       "descripcion_en": "Lie with knees bent and one hand behind the head. Lift the shoulder toward the opposite hip rotating the trunk, then lower under control. A typical mistake is pulling the head with the hand instead of rotating with the abs.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Oblique Crunches",
-        "EMG (recordado, sin verificar): Escamilla 2006 (crunch oblicuo)"
+        "free-exercise-db: Oblique Crunches"
       ]
     },
     {
@@ -738,10 +751,9 @@
       ],
       "descripcion": "De pie con una mancuerna en una mano, inclina el tronco hacia ese lado y vuelve a la vertical contrayendo el oblicuo contrario. Mantén las caderas quietas y el movimiento en el plano frontal. Error típico: usar demasiado peso y balancear el cuerpo.",
       "descripcion_en": "Stand holding a dumbbell in one hand, lean the trunk toward that side and return to upright by contracting the opposite oblique. Keep the hips still and the movement in the frontal plane. A typical mistake is using too much weight and swaying the body.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Dumbbell Side Bend",
-        "EMG (recordado, sin verificar): McGill 2006 (flexión lateral, oblicuos)"
+        "free-exercise-db: Dumbbell Side Bend"
       ]
     },
     {
