@@ -27,9 +27,9 @@ function set(p: Partial<SetLog>): SetLog {
 }
 
 describe('peso de un ejercicio sobre un grupo', () => {
-  it('press de banca es principal de pecho y secundario de tríceps', () => {
+  it('press de banca: activación máxima del grupo (pecho 1, tríceps 0,6)', () => {
     expect(groupWeight(ex('bench_press'), 'chest')).toBe(1);
-    expect(groupWeight(ex('bench_press'), 'triceps')).toBe(0.5);
+    expect(groupWeight(ex('bench_press'), 'triceps')).toBe(0.6);
     expect(groupWeight(ex('bench_press'), 'quads')).toBe(0);
   });
 });

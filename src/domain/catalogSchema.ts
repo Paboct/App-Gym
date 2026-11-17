@@ -1,6 +1,7 @@
 import type { EquipmentId, GroupId } from './muscles';
+import type { MuscleRole } from './types';
 
-export type MuscleRole = 'principal' | 'secundario' | 'estabilizador';
+export type { MuscleRole };
 export type Confidence = 'alta' | 'media' | 'baja';
 
 export interface CatalogMuscle {

@@ -20,7 +20,7 @@ import {
 } from '../data/repo';
 import { effectivePlan, formatDuration, todayIso } from '../domain/calc';
 import type { Exercise, Mesocycle, PlannedExercise, Rir } from '../domain/types';
-import { muscleLevels } from '../lib/muscles';
+import { muscleActivations } from '../lib/muscles';
 import { exerciseName, useSettings, useT } from '../lib/settings';
 
 const REST_OPTIONS = [60, 90, 120, 150, 180, 240];
@@ -74,7 +74,7 @@ export function DayScreen() {
   const microClamped = Math.min(micro, meso.microcycles);
   const isDeload = meso.deloadMicro === microClamped;
   const plans = planned.map((p) => ({ pe: p, plan: effectivePlan(p, meso, microClamped) }));
-  const levels = muscleLevels(plans.map(({ plan }) => exercises.get(plan.exerciseId)));
+  const activations = muscleActivations(plans.map(({ plan }) => exercises.get(plan.exerciseId)));
   const doneWorkout = workouts.find((w) => w.micro === microClamped && w.status === 'done');
   const active = meso.status === 'active';
 
@@ -115,7 +115,7 @@ export function DayScreen() {
 
       {planned.length > 0 && (
         <div className="card">
-          <MuscleSummary levels={levels} />
+          <MuscleSummary activations={activations} />
         </div>
       )}
 

@@ -23,7 +23,8 @@ const DATASET_GROUP = {
   adductors: 'adductors', abductors: 'glutes', calves: 'calves', neck: 'neck',
 };
 
-const catalogSrc = readFileSync(new URL('../src/data/catalog.ts', import.meta.url), 'utf-8').split('`')[1];
+// Usa el catálogo antiguo congelado (ids de 22 músculos), no el actual de 35.
+const catalogSrc = readFileSync(new URL('../data/catalogo/catalogo-legacy.txt', import.meta.url), 'utf-8');
 const catalog = catalogSrc.trim().split('\n').filter((l) => l.includes('|')).map((l) => {
   const [id, es, en, , , p, s] = l.split('|');
   return { id, es, en, primary: p ? p.split(',') : [], secondary: s ? s.split(',') : [] };

@@ -1,44 +1,38 @@
-import { splitLevels } from '../lib/muscles';
-import { muscleNames, useSettings, useT } from '../lib/settings';
-import type { MuscleId } from '../domain/muscles';
-import { BodyMap, type MuscleLevel } from './BodyMap';
+import { MUSCLE_NAMES, type MuscleId } from '../domain/muscles';
+import { sortedActivations } from '../lib/muscles';
+import { useSettings, useT } from '../lib/settings';
+import { BodyMap } from './BodyMap';
 
 interface Props {
-  levels: Partial<Record<MuscleId, MuscleLevel>>;
+  activations: Partial<Record<MuscleId, number>>;
   size?: 'sm' | 'md' | 'lg';
 }
 
-/** Mapa corporal (frente y espalda) con leyenda y, debajo y en pequeño, los músculos trabajados. */
-export function MuscleSummary({ levels, size = 'md' }: Props) {
+/** Mapa corporal (frente y espalda) con la leyenda de tramos y, debajo, los músculos con su % de activación. */
+export function MuscleSummary({ activations, size = 'md' }: Props) {
   const { figure, lang } = useSettings();
   const t = useT();
-  const { primary, secondary } = splitLevels(levels);
+  const list = sortedActivations(activations);
   return (
     <div className="col" style={{ gap: 8 }}>
-      <BodyMap figure={figure} levels={levels} size={size} frontLabel={t('bodyFront')} backLabel={t('bodyBack')} />
+      <BodyMap figure={figure} activations={activations} size={size} frontLabel={t('bodyFront')} backLabel={t('bodyBack')} />
       <div className="legend">
         <span>
-          <i style={{ background: 'var(--muscle-primary)' }} />
-          {t('primary')}
+          <i style={{ background: 'var(--act-high)' }} />
+          {t('actHigh')}
         </span>
         <span>
-          <i style={{ background: 'var(--muscle-secondary)' }} />
-          {t('secondary')}
+          <i style={{ background: 'var(--act-mid)' }} />
+          {t('actMid')}
+        </span>
+        <span>
+          <i style={{ background: 'var(--act-low)' }} />
+          {t('actLow')}
         </span>
       </div>
-      {primary.length + secondary.length > 0 && (
+      {list.length > 0 && (
         <p className="muscle-list">
-          {primary.length > 0 && (
-            <>
-              {t('primary')}: {muscleNames(primary, lang)}.
-            </>
-          )}
-          {secondary.length > 0 && (
-            <>
-              {' '}
-              {t('secondary')}: {muscleNames(secondary, lang)}.
-            </>
-          )}
+          {list.map((m) => `${MUSCLE_NAMES[m.id][lang]} ${Math.round(m.activation * 100)} %`).join(' · ')}
         </p>
       )}
     </div>

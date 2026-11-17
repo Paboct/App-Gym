@@ -9,7 +9,7 @@ import {
 import type { Exercise, SetLog } from '../src/domain/types';
 
 const ex = (id: string, nameEs: string, nameEn: string): Exercise => ({
-  id, nameEs, nameEn, group: 'chest', equipment: 'barbell', primary: ['chest_mid'], secondary: [],
+  id, nameEs, nameEn, group: 'chest', equipment: 'barbell', muscles: [{ id: 'pectoral_esternal', role: 'principal', activation: 1 }],
   unilateral: false, custom: false, updatedAt: 0,
 });
 
