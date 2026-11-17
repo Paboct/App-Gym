@@ -11,7 +11,7 @@ const emp = leer('emparejamiento.json')
 
 const porId = new Map(ejercicios.map((e) => [e.id, e]))
 const gPorId = new Map(gemini.map((e) => [e.id, e]))
-const esc = (s) => String(s).replace(/\|/g, '\|')
+const esc = (s) => String(s).replace(/\|/g, '\\|')
 const cmp = (a, b) => (a < b ? -1 : a > b ? 1 : 0)
 const fmt = (m) => (m ? `${m.rol} ${m.activacion}` : 'ausente (0)')
 const tabla = (cab, filas) =>
@@ -28,6 +28,7 @@ const out = ['# Informe de revisión del catálogo', '']
 // 1. Resumen
 const conf = cuenta('confianza')
 out.push('## 1. Resumen', '', `Total de ejercicios: ${ejercicios.length}`, '')
+out.push('Ninguna cita de EMG está verificada: todas son de memoria del generador.', '')
 out.push(tabla(['confianza', 'ejercicios'], ['alta', 'media', 'baja'].map((k) => [k, conf[k] ?? 0])), '')
 out.push(tabla(['grupo', 'ejercicios'], Object.entries(cuenta('grupo')).sort((a, b) => cmp(a[0], b[0]))), '')
 

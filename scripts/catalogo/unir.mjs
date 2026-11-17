@@ -1,6 +1,7 @@
 // Une los lotes de data/catalogo/lotes/*.json en data/catalogo/ejercicios.json,
 // en el orden de src/data/catalog.ts. Falla si falta o sobra algún id.
 import { readFileSync, readdirSync, writeFileSync } from 'node:fs';
+import { readCatalogRows } from './lib-catalog.mjs';
 
 const rel = (p) => new URL(p, import.meta.url);
 const raw = readFileSync(rel('../../src/data/catalog.ts'), 'utf-8').split('`')[1];
@@ -8,8 +9,17 @@ const order = raw.trim().split('\n').filter((l) => l.includes('|')).map((l) => l
 
 const dir = rel('../../data/catalogo/lotes/');
 const byId = new Map();
+const dup = new Set();
 for (const f of readdirSync(dir).filter((n) => n.endsWith('.json')).sort()) {
-  for (const e of JSON.parse(readFileSync(new URL(f, dir), 'utf-8')).ejercicios) byId.set(e.id, e);
+  for (const e of JSON.parse(readFileSync(new URL(f, dir), 'utf-8')).ejercicios) {
+    if (byId.has(e.id)) dup.add(e.id);
+    byId.set(e.id, e);
+  }
+}
+
+if (dup.size) {
+  console.error(`Ids repetidos en más de un lote: ${[...dup].join(', ')}`);
+  process.exit(1);
 }
 
 const missing = order.filter((id) => !byId.has(id));

@@ -155,7 +155,7 @@
       ],
       "descripcion": "Coge una mancuerna pesada en cada mano y camina erguido con los hombros atrás y abajo. Da pasos cortos y firmes sin inclinar el tronco. El agarre y el core soportan la carga. Error típico: encorvarse o encoger los hombros hacia las orejas.",
       "descripcion_en": "Pick up a heavy dumbbell in each hand and walk upright with the shoulders back and down. Take short, firm steps without leaning the trunk. The grip and core hold the load. Common mistake: slouching or shrugging the shoulders toward the ears.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Farmers_Walk",
         "analogía: acarreos de carga; sin verificar con literatura"
@@ -190,7 +190,7 @@
       ],
       "descripcion": "Coge dos discos lisos juntos con los dedos y el pulgar, con las caras lisas hacia fuera. Mantén el agarre sin soltar durante el tiempo marcado, con el brazo relajado a un lado. Aprieta como si quisieras juntar los discos. Error típico: usar discos demasiado pesados y soltar antes de tiempo.",
       "descripcion_en": "Pinch two smooth plates together with your fingers and thumb, smooth sides facing out. Hold the grip without dropping for the target time with the arm relaxed at your side. Squeeze as if trying to press the plates together. Common mistake: using plates too heavy and letting go early.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Plate_Pinch",
         "analogía: ejercicios de agarre isométrico"
@@ -300,7 +300,7 @@
       ],
       "descripcion": "Sujeta el rodillo con los brazos extendidos al frente a la altura de los hombros. Gira las muñecas alternando para enrollar la cuerda y subir el peso. Cuando llegues arriba, desenrolla con control. Error típico: bajar los brazos o soltar la cuerda de golpe.",
       "descripcion_en": "Hold the roller with your arms extended in front at shoulder height. Alternate wrist rotations to wind the rope and raise the weight. When it reaches the top, unwind under control. Common mistake: letting the arms drop or releasing the rope suddenly.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Wrist_Roller",
         "analogía: ejercicios de muñeca"

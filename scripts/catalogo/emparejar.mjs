@@ -1,14 +1,11 @@
 // Empareja los ejercicios de Gemini con los ids del catálogo de la app.
 // Uso: node scripts/catalogo/emparejar.mjs
 import { readFileSync, writeFileSync } from 'node:fs';
+import { readCatalogRows } from './lib-catalog.mjs';
 
 const raiz = new URL('../../', import.meta.url);
 const gemini = JSON.parse(readFileSync(new URL('data/catalogo/gemini-ejercicios.json', raiz), 'utf-8')).ejercicios;
-const raw = readFileSync(new URL('src/data/catalog.ts', raiz), 'utf-8').split('`')[1];
-const catalogo = raw.split(/\r?\n/).map((l) => l.trim()).filter((l) => l.includes('|') && !l.startsWith('*') && !l.startsWith('//')).map((l) => {
-  const [id, es] = l.split('|');
-  return { id, nombre: es };
-});
+const catalogo = readCatalogRows();
 
 const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
   .replace(/\([^)]*\)/g, ' ').replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').trim();

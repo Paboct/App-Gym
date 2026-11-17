@@ -80,7 +80,7 @@
       ],
       "descripcion": "Ajusta el respaldo y el cinturón para que la almohadilla quede sobre la pelvis. Empuja con los talones hasta extender la cadera por completo y aprieta el glúteo un instante. Desciende de forma controlada hasta sentir estiramiento. Error típico: empujar con la espalda baja y levantar los talones en vez de dirigir el movimiento desde la cadera.",
       "descripcion_en": "Adjust the backrest and belt so the pad sits across your pelvis. Push through your heels until the hips are fully extended and squeeze the glutes briefly. Lower under control until you feel a stretch. Common mistake: pushing with the lower back and lifting the heels instead of driving the movement from the hips.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "Analogía con hip thrust con barra (mismo patrón, resistencia guiada)",
         "free-exercise-db: Barbell_Hip_Thrust"
@@ -160,7 +160,7 @@
       ],
       "descripcion": "Engancha la tobillera a la polea baja y apóyate en la máquina con el tronco ligeramente inclinado. Lleva la pierna hacia atrás extendiendo la cadera y aprieta el glúteo sin mover la pelvis. Vuelve lentamente sin dejar caer la pesa. Error típico: arquear la zona lumbar para ganar recorrido en vez de extender solo la cadera.",
       "descripcion_en": "Attach the ankle strap to the low cable and brace against the machine with a slight forward torso lean. Drive the leg back by extending the hip and squeeze the glute without moving the pelvis. Return slowly without letting the stack drop. Common mistake: arching the lower back to gain range instead of extending only at the hip.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: One-Legged_Cable_Kickback",
         "Analogía con hip thrust (extensión de cadera)"
@@ -267,7 +267,7 @@
       ],
       "descripcion": "Con la tobillera en la pierna de trabajo, colócate de lado a la polea y agárrate para mantener el equilibrio. Eleva la pierna hacia fuera sin inclinar el tronco y pausa arriba. Vuelve con control cruzando ligeramente la línea media. Error típico: inclinar el cuerpo hacia el lado contrario para subir más la pierna.",
       "descripcion_en": "With the ankle strap on the working leg, stand sideways to the cable and hold on for balance. Raise the leg outward without leaning the torso and pause at the top. Return under control, crossing slightly past the midline. Common mistake: leaning away to lift the leg higher.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "Analogía con abducción en máquina",
         "free-exercise-db: Thigh_Abductor"
@@ -358,7 +358,7 @@
       ],
       "descripcion": "De espaldas a la polea baja, toma la cuerda entre las piernas y da un paso adelante con las rodillas semiflexionadas. Lleva la cadera hacia atrás con la espalda recta hasta notar estiramiento en los isquiotibiales. Extiende la cadera con fuerza y aprieta los glúteos arriba. Error típico: flexionar demasiado las rodillas y convertirlo en una sentadilla.",
       "descripcion_en": "Facing away from the low cable, hold the rope between your legs and step forward with soft knees. Push the hips back with a flat back until you feel a hamstring stretch. Drive the hips forward and squeeze the glutes at the top. Common mistake: bending the knees too much so it becomes a squat.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Pull_Through",
         "Analogía con peso muerto rumano"
@@ -403,7 +403,7 @@
       ],
       "descripcion": "Apoya la espalda alta en un banco con un pie en el suelo y la otra pierna extendida o flexionada en el aire. Empuja con el talón de apoyo hasta alinear tronco y muslo y aprieta el glúteo. Baja controlando sin que la pelvis rote. Error típico: dejar caer la cadera hacia el lado libre en lugar de mantenerla nivelada.",
       "descripcion_en": "Rest your upper back on a bench with one foot on the floor and the other leg extended or bent in the air. Drive through the supporting heel until torso and thigh align and squeeze the glute. Lower under control without letting the pelvis rotate. Common mistake: letting the hip drop toward the free side instead of keeping it level.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "Analogía con hip thrust con barra; mayor demanda de glúteo medio por estabilidad unilateral",
         "free-exercise-db: Single_Leg_Glute_Bridge"
@@ -480,7 +480,7 @@
       ],
       "descripcion": "Apoya el torso en la almohadilla de la máquina con las piernas colgando y sujétate de las asas. Eleva las piernas hacia atrás hasta alinearlas con el cuerpo apretando los glúteos. Baja con control sin balancear. Error típico: lanzar las piernas con impulso y pasarse de la línea del cuerpo, cargando la zona lumbar.",
       "descripcion_en": "Rest your torso on the machine pad with the legs hanging and hold the handles. Raise the legs backward until aligned with the body, squeezing the glutes. Lower under control without swinging. Common mistake: swinging the legs with momentum and going past the body line, overloading the lower back.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Reverse_Hyperextension"
       ]

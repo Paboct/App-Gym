@@ -80,7 +80,7 @@
       ],
       "descripcion": "Sujeta una mancuerna en cada mano frente a los muslos con las rodillas semiflexionadas. Empuja la cadera hacia atrás deslizando las mancuernas cerca de las piernas hasta sentir tensión en la parte posterior del muslo. Vuelve arriba extendiendo la cadera. Error típico: separar las mancuernas del cuerpo y perder la neutralidad de la espalda.",
       "descripcion_en": "Hold a dumbbell in each hand in front of your thighs with soft knees. Push the hips back, sliding the dumbbells close to your legs until you feel tension in the back of the thigh. Return by extending the hips. Common mistake: letting the dumbbells drift away from the body and losing a neutral spine.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "Analogía con peso muerto rumano con barra",
         "free-exercise-db: Stiff-Legged_Dumbbell_Deadlift"
@@ -116,11 +116,16 @@
           "musculo_id": "flexores_antebrazo",
           "rol": "estabilizador",
           "activacion": 0.2
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.4
         }
       ],
       "descripcion": "Con la barra en las manos y las rodillas casi extendidas, inclina el tronco desde la cadera manteniendo la espalda recta. Baja hasta notar un estiramiento fuerte en los isquiotibiales y sube empujando la cadera hacia delante. Error típico: redondear la zona lumbar al bajar más allá de la movilidad propia.",
       "descripcion_en": "With the bar in your hands and knees nearly straight, hinge forward from the hips keeping a flat back. Lower until you feel a strong hamstring stretch and rise by driving the hips forward. Common mistake: rounding the lower back by lowering beyond your available mobility.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Stiff-Legged_Barbell_Deadlift",
         "Analogía con peso muerto rumano"
@@ -289,7 +294,7 @@
       ],
       "descripcion": "Coloca la barra sobre los trapecios, rodillas ligeramente flexionadas y el core firme. Inclina el tronco llevando la cadera atrás con la espalda neutra hasta que quede casi paralelo al suelo. Vuelve arriba extendiendo la cadera. Error típico: redondear la espalda o usar demasiada carga y compensar con las rodillas.",
       "descripcion_en": "Place the bar on your traps with soft knees and a braced core. Hinge forward pushing the hips back with a neutral spine until the torso is nearly parallel to the floor. Return by extending the hips. Common mistake: rounding the back or using too much load and compensating with the knees.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Good_Morning",
         "Analogía con peso muerto rumano"
@@ -334,7 +339,7 @@
       ],
       "descripcion": "Sostén una mancuerna y apóyate en una pierna con la rodilla ligeramente flexionada. Inclina el tronco llevando la otra pierna hacia atrás como una palanca hasta quedar casi horizontal. Vuelve arriba empujando con el pie de apoyo. Error típico: rotar la cadera hacia fuera y perder el equilibrio.",
       "descripcion_en": "Hold a dumbbell and stand on one leg with a slightly bent knee. Hinge the torso while the other leg extends behind like a lever until nearly horizontal. Return by driving through the standing foot. Common mistake: rotating the hips open and losing balance.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "Analogía con peso muerto rumano; mayor demanda de glúteo medio por estabilidad",
         "free-exercise-db: Romanian_Deadlift"
@@ -409,7 +414,7 @@
       ],
       "descripcion": "De pie frente a la máquina, coloca la almohadilla sobre el talón de la pierna de trabajo y apóyate con las manos. Flexiona la rodilla llevando el talón hacia el glúteo sin mover el muslo. Baja despacio. Error típico: balancear el cuerpo o adelantar la rodilla para ayudarse.",
       "descripcion_en": "Stand facing the machine, place the pad above the heel of the working leg and brace with your hands. Curl the heel toward the glute without moving the thigh. Lower slowly. Common mistake: swinging the body or pushing the knee forward to cheat.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Standing_Leg_Curl"
       ]

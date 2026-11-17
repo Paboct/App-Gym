@@ -18,14 +18,14 @@
           "activacion": 1
         },
         {
-          "musculo_id": "gluteo_mayor",
+          "musculo_id": "isquiotibiales",
           "rol": "secundario",
-          "activacion": 0.25
+          "activacion": 0.3
         }
       ],
       "descripcion": "Siéntate en la máquina con las almohadillas en la cara interna de los muslos y la espalda apoyada. Junta las piernas de forma controlada y vuelve despacio hasta un estiramiento cómodo. Error típico: abrir con impulso o con un rango excesivo que fuerza la ingle.",
       "descripcion_en": "Sit in the machine with the pads on the inner thighs and your back supported. Bring the legs together under control and return slowly to a comfortable stretch. A typical mistake is opening with momentum or into an excessive range that strains the groin.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Adductor",
         "analogía con ejercicio de aducción de Gemini"
@@ -48,14 +48,14 @@
           "activacion": 1
         },
         {
-          "musculo_id": "gluteo_mayor",
-          "rol": "secundario",
-          "activacion": 0.25
-        },
-        {
           "musculo_id": "oblicuos",
           "rol": "estabilizador",
           "activacion": 0.2
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "secundario",
+          "activacion": 0.3
         }
       ],
       "descripcion": "Engancha la tobillera en el tobillo más cercano a la polea baja y sujétate a un soporte. Lleva la pierna a través del cuerpo cruzando por delante de la otra y vuelve controlando. Error típico: inclinar el tronco o rotar la cadera en vez de aducir.",

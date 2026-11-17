@@ -395,7 +395,7 @@
       ],
       "descripcion": "Colócate de espaldas a la polea baja con el brazo estirado hacia atrás y un pie adelantado. Flexiona el codo llevando la mano hacia el hombro sin mover el brazo. Siente el estiramiento del bíceps en la parte baja y repite con control. Error típico: adelantar el codo y convertirlo en un curl normal.",
       "descripcion_en": "Face away from a low pulley with the working arm extended behind you and one foot forward. Bend the elbow bringing the hand toward the shoulder without moving the upper arm. Feel the biceps stretch at the bottom and repeat with control. Common mistake: letting the elbow drift forward, turning it into a regular curl.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Standing_One-Arm_Cable_Curl",
         "analogía: curl en polea con estiramiento tipo curl inclinado"
@@ -560,7 +560,7 @@
       ],
       "descripcion": "Sube las mancuernas con las palmas hacia arriba como un curl normal. Arriba, gira las muñecas para que las palmas miren al suelo. Baja lentamente en pronación, lo que carga el braquial y los antebrazos. Error típico: bajar rápido o torcer las muñecas con peso excesivo.",
       "descripcion_en": "Curl the dumbbells with palms up as in a regular curl. At the top, rotate the wrists so the palms face the floor. Lower slowly in pronation, which loads the brachialis and forearms. Common mistake: lowering too fast or twisting the wrists with excessive weight.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Zottman_Curl",
         "analogía: curl supino más curl inverso"
@@ -993,14 +993,14 @@
           "activacion": 0.35
         },
         {
-          "musculo_id": "deltoides_anterior",
-          "rol": "estabilizador",
-          "activacion": 0.15
-        },
-        {
           "musculo_id": "flexores_antebrazo",
           "rol": "estabilizador",
           "activacion": 0.2
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "estabilizador",
+          "activacion": 0.15
         }
       ],
       "descripcion": "Sujeta la barra y sube llevando los codos hacia atrás, deslizando la barra pegada al torso. Así el hombro no interviene y el bíceps trabaja más aislado. Baja deslizando la barra por el cuerpo. Error típico: separar la barra del torso y volver a un curl normal.",

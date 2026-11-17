@@ -68,7 +68,7 @@ describe('validateCatalog', () => {
     expect(e.join('|')).toContain('principal por debajo de 0,8');
   });
 
-  it('principal exactamente 0,8 es válido', () => {
+  it('principal exactamente 0,8 con secundario por encima es error', () => {
     const e = errs(
       file(
         ex({
@@ -79,7 +79,45 @@ describe('validateCatalog', () => {
         }),
       ),
     );
+    expect(e).toContain('bench_press: músculo no principal por encima del principal');
+  });
+
+  it('no principal igual al principal es válido', () => {
+    const e = errs(
+      file(
+        ex({
+          musculos: [
+            { musculo_id: 'pectoral_esternal', rol: 'principal', activacion: 0.9 },
+            { musculo_id: 'deltoides_anterior', rol: 'secundario', activacion: 0.9 },
+          ],
+        }),
+      ),
+    );
     expect(e).toEqual([]);
+  });
+
+  it('rol no válido', () => {
+    const e = errs(
+      file(
+        ex({
+          musculos: [
+            { musculo_id: 'pectoral_esternal', rol: 'principal', activacion: 1 },
+            { musculo_id: 'deltoides_anterior', rol: 'terciario' as never, activacion: 0.5 },
+          ],
+        }),
+      ),
+    );
+    expect(e).toContain('bench_press: rol no válido (terciario)');
+  });
+
+  it('mecánica, unilateral y textos obligatorios', () => {
+    expect(errs(file(ex({ mecanica: 'Otra' as never })))).toContain('bench_press: mecánica no válida');
+    expect(errs(file(ex({ unilateral: 'si' as never })))).toContain('bench_press: unilateral no es booleano');
+    expect(errs(file(ex({ nombre: ' ' })))).toContain('bench_press: nombre vacío');
+    expect(errs(file(ex({ patron_movimiento: '' })))).toContain('bench_press: patron_movimiento vacío');
+    expect(errs(file(ex({ patron_movimiento_en: ' ' })))).toContain('bench_press: patron_movimiento_en vacío');
+    for (const m of ['Compuesto', 'Aislamiento', 'Isométrico'])
+      expect(errs(file(ex({ mecanica: m as never })))).toEqual([]);
   });
 
   it('activación fuera de rango', () => {
@@ -127,15 +165,15 @@ describe('validateCatalog', () => {
   });
 
   it('descripción vacía, vacía en inglés o idéntica', () => {
-    expect(errs(file(ex({ descripcion: ' ' }))).join('|')).toContain('descripción');
-    expect(errs(file(ex({ descripcion_en: '' }))).join('|')).toContain('descripción');
+    expect(errs(file(ex({ descripcion: ' ' }))).join('|')).toContain('bench_press: descripción vacía o sin traducir');
+    expect(errs(file(ex({ descripcion_en: '' }))).join('|')).toContain('bench_press: descripción vacía o sin traducir');
     expect(errs(file(ex({ descripcion_en: 'Acuéstate en el banco y empuja la barra.' }))).join('|')).toContain(
-      'descripción',
+      'bench_press: descripción vacía o sin traducir',
     );
   });
 
   it('nombre_en vacío', () => {
-    expect(errs(file(ex({ nombre_en: ' ' }))).join('|')).toContain('nombre_en');
+    expect(errs(file(ex({ nombre_en: ' ' }))).join('|')).toContain('bench_press: nombre_en vacío');
   });
 
   it('confianza inválida y fuentes vacías', () => {
@@ -155,7 +193,7 @@ describe('validateCatalog', () => {
   });
 
   it('grupo y equipamiento fuera de lo permitido', () => {
-    expect(errs(file(ex({ grupo: 'legs' as never }))).join('|')).toContain('grupo');
-    expect(errs(file(ex({ equipamiento: 'kettlebell' as never }))).join('|')).toContain('equipamiento');
+    expect(errs(file(ex({ grupo: 'legs' as never }))).join('|')).toContain('bench_press: grupo no permitido');
+    expect(errs(file(ex({ equipamiento: 'kettlebell' as never }))).join('|')).toContain('bench_press: equipamiento no permitido');
   });
 });

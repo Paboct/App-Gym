@@ -46,14 +46,23 @@
           "musculo_id": "recto_abdominal",
           "rol": "estabilizador",
           "activacion": 0.2
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
         }
       ],
       "descripcion": "De pie, agarra la barra algo más ancha que los hombros y apóyala sobre la clavícula con los codos ligeramente adelantados. Aprieta glúteos y abdomen y empuja la barra en línea recta, echando la cabeza un poco atrás para que pase y adelantándola al final. Bloquea arriba con la barra sobre la mitad del pie. Error típico: arquear en exceso la zona lumbar para ayudarte.",
       "descripcion_en": "Standing, grip the bar slightly wider than shoulder width and rest it on your collarbone with the elbows just ahead of it. Brace glutes and abs and drive the bar straight up, moving the head back to let it pass and forward again at the top. Lock out with the bar over mid-foot. A common mistake is over-arching the lower back to cheat the rep.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Standing_Military_Press",
-        "EMG (recordado, sin verificar): Saeterbakken 2011; Paoli 2017"
+        "free-exercise-db: Standing_Military_Press"
       ]
     },
     {
@@ -96,6 +105,16 @@
           "musculo_id": "pectoral_clavicular",
           "rol": "secundario",
           "activacion": 0.35
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
         }
       ],
       "descripcion": "Sentado con respaldo, sostén una mancuerna en cada mano a la altura de las orejas con los antebrazos verticales. Empuja hacia arriba acercando ligeramente las mancuernas sin chocarlas. Baja de forma controlada hasta que los codos queden por debajo de los hombros. Error típico: dejar que las muñecas se doblen hacia atrás y los codos se abran demasiado.",
@@ -139,6 +158,16 @@
         },
         {
           "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "triceps_larga",
           "rol": "secundario",
           "activacion": 0.3
         }
@@ -190,6 +219,16 @@
           "musculo_id": "trapecio_superior",
           "rol": "secundario",
           "activacion": 0.35
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
         }
       ],
       "descripcion": "Coloca un banco con respaldo bajo la barra guiada y agárrala algo más ancha que los hombros. Desbloquea y baja la barra hasta la altura de la barbilla o la clavícula con los antebrazos verticales. Empuja hasta extender los codos sin despegar la espalda. Error típico: colocar el banco demasiado adelantado y empujar la barra hacia delante del cuerpo.",
@@ -239,6 +278,16 @@
           "musculo_id": "trapecio_superior",
           "rol": "secundario",
           "activacion": 0.3
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
         }
       ],
       "descripcion": "Empieza sentado con las mancuernas frente al pecho y las palmas hacia ti. Al subir, gira las muñecas hasta que las palmas miren al frente y termina con los brazos extendidos arriba. Invierte el giro al bajar de forma controlada. Error típico: hacer el giro con impulso del torso en lugar de con los hombros.",
@@ -278,6 +327,11 @@
           "musculo_id": "deltoides_posterior",
           "rol": "secundario",
           "activacion": 0.3
+        },
+        {
+          "musculo_id": "manguito_rotador",
+          "rol": "secundario",
+          "activacion": 0.35
         }
       ],
       "descripcion": "De pie con una mancuerna en cada mano y los codos ligeramente flexionados, eleva los brazos hacia los lados hasta la altura de los hombros. Lidera con los codos, no con las manos, y mantén el torso quieto. Baja despacio en unos tres segundos. Error típico: balancear el cuerpo y encoger los trapecios para subir más peso.",
@@ -318,6 +372,11 @@
           "musculo_id": "deltoides_posterior",
           "rol": "secundario",
           "activacion": 0.25
+        },
+        {
+          "musculo_id": "manguito_rotador",
+          "rol": "secundario",
+          "activacion": 0.35
         }
       ],
       "descripcion": "Colócate de lado a la polea baja y agarra el asa con la mano más alejada, pasándola por delante del cuerpo. Eleva el brazo hacia el lado hasta la altura del hombro con el codo ligeramente flexionado. Baja controlando la tensión del cable. Error típico: girar el torso o tirar con el trapecio.",
@@ -352,6 +411,11 @@
           "musculo_id": "trapecio_superior",
           "rol": "secundario",
           "activacion": 0.3
+        },
+        {
+          "musculo_id": "manguito_rotador",
+          "rol": "secundario",
+          "activacion": 0.35
         }
       ],
       "descripcion": "Ajusta el asiento para que el eje de la máquina coincida con tus hombros y apoya los antebrazos en los cojines. Eleva los brazos hacia los lados hasta la altura del hombro empujando con los codos. Baja despacio sin dejar caer la carga. Error típico: encoger los hombros y apoyarse hacia atrás.",
@@ -400,7 +464,7 @@
       ],
       "descripcion": "De pie con las mancuernas delante de los muslos, eleva un brazo o ambos hacia delante hasta la altura de los ojos con los codos ligeramente flexionados. Mantén el torso firme y sin balanceo. Baja despacio sin dejar caer las mancuernas. Error típico: impulsarte con la espalda y subir por encima de la horizontal.",
       "descripcion_en": "Standing with the dumbbells in front of your thighs, raise one or both arms forward to about eye level with slightly bent elbows. Keep the torso firm and still. Lower slowly without dropping the dumbbells. A common mistake is swinging with the back and lifting well above horizontal.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Front_Dumbbell_Raise",
         "EMG (recordado, sin verificar): analogía con press militar"
@@ -623,7 +687,7 @@
       ],
       "descripcion": "Ajusta la polea a la altura de la cara y agarra la cuerda con las palmas enfrentadas. Tira hacia la frente separando las manos y rotando los hombros hacia fuera al final. Aprieta atrás un instante y vuelve controlando. Error típico: usar demasiado peso e inclinarte hacia atrás.",
       "descripcion_en": "Set the pulley at face height and hold the rope with palms facing each other. Pull toward the forehead, splitting the hands apart and externally rotating the shoulders at the end. Squeeze briefly and return under control. A common mistake is using too much weight and leaning back.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Face_Pull",
         "EMG (recordado, sin verificar): analogía con pájaros"
@@ -666,9 +730,9 @@
           "activacion": 0.3
         }
       ],
-      "descripcion": "Agarra la carga con las manos algo más cerca que el ancho de los hombros. Sube tirando de los codos hacia arriba y hacia los lados hasta la altura del pecho, manteniendo el peso cerca del cuerpo. Baja con control. Error típico: subir los codos por encima de los hombros con agarre muy estrecho, lo que carga el hombro.",
-      "descripcion_en": "Grip the load slightly narrower than shoulder width. Pull by driving the elbows up and out to chest height, keeping the weight close to the body. Lower under control. A common mistake is raising the elbows above the shoulders with a very narrow grip, which stresses the shoulder.",
-      "confianza": "media",
+      "descripcion": "Con una barra recta, agarra con las manos algo más cerca que el ancho de los hombros. Sube la barra pegada al torso tirando de los codos hacia arriba y hacia los lados hasta la altura del pecho. Baja con control. Error típico: subir los codos por encima de los hombros con agarre muy estrecho, lo que carga el hombro.",
+      "descripcion_en": "With a straight bar, grip slightly narrower than shoulder width. Pull the bar up along the torso, driving the elbows up and out to chest height. Lower under control. A common mistake is raising the elbows above the shoulders with a very narrow grip, which stresses the shoulder.",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Upright_Barbell_Row",
         "EMG (recordado, sin verificar): analogía con remo al mentón"
@@ -778,11 +842,21 @@
           "musculo_id": "recto_abdominal",
           "rol": "estabilizador",
           "activacion": 0.2
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
         }
       ],
       "descripcion": "Con la barra apoyada en la clavícula, flexiona rodillas y caderas un poco manteniendo el torso erguido. Extiende las piernas con fuerza y usa ese impulso para lanzar la barra arriba, terminando con los brazos. Recibe la barra bloqueada sobre la cabeza y bájala con control a la clavícula. Error típico: hacer una sentadilla profunda o empujar la barra hacia delante.",
       "descripcion_en": "With the bar resting on the collarbone, dip a short distance through knees and hips while keeping the torso upright. Drive the legs hard and use that momentum to launch the bar, finishing with the arms. Receive the bar locked out overhead and lower it under control to the collarbone. A common mistake is dipping too deep or pushing the bar out in front.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Push_Press",
         "analogía con ohp del lote"
@@ -818,6 +892,11 @@
           "musculo_id": "deltoides_posterior",
           "rol": "secundario",
           "activacion": 0.25
+        },
+        {
+          "musculo_id": "manguito_rotador",
+          "rol": "secundario",
+          "activacion": 0.35
         }
       ],
       "descripcion": "Agárrate a un soporte con una mano y inclínate hacia fuera, sujetando con la otra el asa de la polea baja. Eleva el brazo hacia el lado hasta la altura del hombro. La inclinación alarga el deltoides lateral en la parte baja del recorrido. Error típico: inclinarte tanto que el movimiento se convierta en una elevación frontal.",
@@ -841,17 +920,17 @@
         {
           "musculo_id": "trapecio_inferior",
           "rol": "principal",
-          "activacion": 0.85
+          "activacion": 0.9
         },
         {
           "musculo_id": "deltoides_posterior",
-          "rol": "principal",
-          "activacion": 0.85
+          "rol": "secundario",
+          "activacion": 0.5
         },
         {
           "musculo_id": "deltoides_lateral",
           "rol": "secundario",
-          "activacion": 0.65
+          "activacion": 0.8
         },
         {
           "musculo_id": "trapecio_medio",
@@ -950,6 +1029,16 @@
           "musculo_id": "trapecio_superior",
           "rol": "secundario",
           "activacion": 0.4
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
         }
       ],
       "descripcion": "Siéntate con la espalda apoyada y agarra la barra algo más ancha que los hombros. Baja la barra hasta la clavícula o la barbilla con los codos ligeramente adelantados. Empuja hasta extender los codos sin arquear la zona lumbar. Error típico: despegar los glúteos del asiento o lanzar la cabeza hacia delante al subir.",
@@ -995,6 +1084,16 @@
           "musculo_id": "trapecio_superior",
           "rol": "secundario",
           "activacion": 0.35
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
         }
       ],
       "descripcion": "Sentado entre las poleas bajas, sujeta un agarre en cada mano a la altura de los hombros. Empuja hacia arriba y ligeramente hacia dentro hasta extender los brazos. Baja de forma controlada manteniendo la tensión del cable. Error típico: dejar que los cables tiren de los hombros hacia delante al bajar.",
@@ -1049,6 +1148,16 @@
           "musculo_id": "oblicuos",
           "rol": "estabilizador",
           "activacion": 0.2
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
         }
       ],
       "descripcion": "De pie con los pies al ancho de caderas, sostén las mancuernas a la altura de los hombros. Aprieta glúteos y abdomen y empuja hacia arriba hasta extender los codos. Baja con control sin inclinar el torso hacia atrás. Error típico: usar las piernas y la espalda para ayudarte a subir.",
@@ -1103,6 +1212,16 @@
           "musculo_id": "recto_abdominal",
           "rol": "estabilizador",
           "activacion": 0.2
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
         }
       ],
       "descripcion": "Sostén una mancuerna a la altura del hombro con el antebrazo vertical y la otra mano libre. Empuja hasta extender el codo sin inclinar el tronco hacia el lado contrario. Baja controlando el peso hasta el hombro. Error típico: flexionar lateralmente la columna para ganar recorrido.",
@@ -1187,6 +1306,11 @@
           "musculo_id": "deltoides_posterior",
           "rol": "secundario",
           "activacion": 0.25
+        },
+        {
+          "musculo_id": "manguito_rotador",
+          "rol": "secundario",
+          "activacion": 0.35
         }
       ],
       "descripcion": "Sujeta una mancuerna con una mano y, si quieres, apóyate con la otra en un soporte. Eleva el brazo hacia el lado hasta la altura del hombro con el codo ligeramente flexionado. Baja con control sin balancear el cuerpo. Error típico: subir con el trapecio y el impulso del tronco en lugar de con el deltoides.",
@@ -1226,6 +1350,11 @@
           "musculo_id": "deltoides_posterior",
           "rol": "secundario",
           "activacion": 0.25
+        },
+        {
+          "musculo_id": "manguito_rotador",
+          "rol": "secundario",
+          "activacion": 0.35
         }
       ],
       "descripcion": "Siéntate en un banco con el torso recto y una mancuerna en cada mano. Eleva los brazos hacia los lados hasta la altura de los hombros con los codos ligeramente flexionados. Al estar sentado no puedes ayudarte con las piernas. Error típico: inclinarte hacia atrás para lanzar las mancuernas.",
@@ -1414,8 +1543,8 @@
           "activacion": 0.3
         }
       ],
-      "descripcion": "Agarra la carga con las manos algo más cerca que el ancho de los hombros. Sube tirando de los codos hacia arriba y hacia los lados hasta la altura del pecho, manteniendo el peso cerca del cuerpo. Baja con control. Error típico: subir los codos por encima de los hombros con agarre muy estrecho, lo que carga el hombro.",
-      "descripcion_en": "Grip the load slightly narrower than shoulder width. Pull by driving the elbows up and out to chest height, keeping the weight close to the body. Lower under control. A common mistake is raising the elbows above the shoulders with a very narrow grip, which stresses the shoulder.",
+      "descripcion": "En polea baja con barra o cuerda, mantén la tensión constante durante todo el recorrido. Sube el agarre pegado al cuerpo tirando de los codos hacia arriba y hacia los lados hasta el pecho. Baja despacio sin soltar la tensión de la polea. Error típico: echarte hacia atrás para ayudarte con el cable.",
+      "descripcion_en": "On a low pulley with a bar or rope, keep constant tension through the whole range. Pull the handle up close to the body, driving the elbows up and out to chest height. Lower slowly without losing cable tension. A common mistake is leaning back to cheat with the cable.",
       "confianza": "baja",
       "fuentes": [
         "analogía con upright_row"
@@ -1458,8 +1587,8 @@
           "activacion": 0.3
         }
       ],
-      "descripcion": "Agarra la carga con las manos algo más cerca que el ancho de los hombros. Sube tirando de los codos hacia arriba y hacia los lados hasta la altura del pecho, manteniendo el peso cerca del cuerpo. Baja con control. Error típico: subir los codos por encima de los hombros con agarre muy estrecho, lo que carga el hombro.",
-      "descripcion_en": "Grip the load slightly narrower than shoulder width. Pull by driving the elbows up and out to chest height, keeping the weight close to the body. Lower under control. A common mistake is raising the elbows above the shoulders with a very narrow grip, which stresses the shoulder.",
+      "descripcion": "Con una mancuerna en cada mano, déjalas al frente de los muslos con las palmas hacia ti. Sube las mancuernas cerca del cuerpo llevando los codos arriba y a los lados hasta el pecho; las muñecas pueden moverse con libertad. Baja con control. Error típico: encoger los hombros y subir los codos por encima de las manos.",
+      "descripcion_en": "Holding a dumbbell in each hand, start with them in front of the thighs and palms facing you. Raise the dumbbells close to the body with the elbows leading up and out to chest height; the wrists are free to move. Lower under control. A common mistake is shrugging and lifting the elbows well above the hands.",
       "confianza": "baja",
       "fuentes": [
         "analogía con upright_row"

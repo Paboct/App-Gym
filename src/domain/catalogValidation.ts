@@ -2,6 +2,7 @@ import { EQUIPMENT, GROUPS } from './muscles';
 import type { CatalogFile } from './catalogSchema';
 
 const ROLES = ['principal', 'secundario', 'estabilizador'];
+const MECHANICS = ['Compuesto', 'Aislamiento', 'Isométrico'];
 const CONFIDENCE = ['alta', 'media', 'baja'];
 
 /** Valida un catálogo con activación. Devuelve una frase por error, que empieza por el id. */
@@ -22,6 +23,11 @@ export function validateCatalog(
     if (!(GROUPS as readonly string[]).includes(e.grupo)) err(`grupo no permitido (${e.grupo})`);
     if (!(EQUIPMENT as readonly string[]).includes(e.equipamiento))
       err(`equipamiento no permitido (${e.equipamiento})`);
+    if (!e.nombre?.trim()) err('nombre vacío');
+    if (!e.patron_movimiento?.trim()) err('patron_movimiento vacío');
+    if (!e.patron_movimiento_en?.trim()) err('patron_movimiento_en vacío');
+    if (!MECHANICS.includes(e.mecanica)) err('mecánica no válida');
+    if (typeof e.unilateral !== 'boolean') err('unilateral no es booleano');
     if (!e.nombre_en?.trim()) err('nombre_en vacío');
     if (!e.descripcion?.trim() || !e.descripcion_en?.trim() || e.descripcion === e.descripcion_en)
       err('descripción vacía o sin traducir');
@@ -31,6 +37,8 @@ export function validateCatalog(
     const ids = new Set<string>();
     let hasPrincipal = false;
     let max = 0;
+    let minPrincipal = Infinity;
+    let maxOther = 0;
     for (const m of e.musculos ?? []) {
       if (!muscles.has(m.musculo_id)) err(`músculo desconocido (${m.musculo_id})`);
       if (ids.has(m.musculo_id)) err(`músculo repetido (${m.musculo_id})`);
@@ -40,11 +48,14 @@ export function validateCatalog(
         err(`activación fuera de rango (${m.musculo_id}: ${m.activacion})`);
       if (m.rol === 'principal') {
         hasPrincipal = true;
+        if (m.activacion < minPrincipal) minPrincipal = m.activacion;
         if (m.activacion < 0.8) err(`principal por debajo de 0,8 (${m.musculo_id}: ${m.activacion})`);
       }
+      if (m.rol !== 'principal' && m.activacion > maxOther) maxOther = m.activacion;
       if (m.activacion > max) max = m.activacion;
     }
     if (!hasPrincipal) err('sin músculo principal');
+    if (hasPrincipal && maxOther > minPrincipal) err('músculo no principal por encima del principal');
     if (max < 0.85) err('ninguna activación ≥ 0,85');
   }
 

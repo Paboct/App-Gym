@@ -55,7 +55,7 @@
       ],
       "descripcion": "Arrodíllate frente a la polea alta y sujeta la cuerda junto a la cabeza. Con la cadera fija, enrolla la columna llevando los codos hacia los muslos y vuelve estirando el abdomen. Error típico: bajar solo inclinando la cadera y tirando con los brazos, en lugar de flexionar la columna.",
       "descripcion_en": "Kneel facing the high cable and hold the rope beside your head. With the hips fixed, round your spine bringing the elbows toward the thighs, then return by lengthening the abs. A typical mistake is hinging at the hips and pulling with the arms instead of flexing the spine.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Cable Crunch",
         "analogía con core_002 de Gemini"
@@ -85,7 +85,7 @@
       ],
       "descripcion": "Ajusta el asiento y las almohadillas para que el eje de giro quede a la altura del abdomen. Agarra las asas y flexiona el tronco hacia delante acercando costillas y pelvis, y regresa de forma controlada sin dejar caer la pila. Error típico: empujar con las piernas o los brazos en vez de contraer el abdomen.",
       "descripcion_en": "Adjust the seat and pads so the pivot lines up with your abdomen. Grip the handles and flex the trunk forward bringing ribs and pelvis together, then return under control without dropping the stack. A typical mistake is pushing with the legs or arms instead of contracting the abs.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Ab Crunch Machine",
         "analogía con crunch en polea"
@@ -125,7 +125,7 @@
       ],
       "descripcion": "Cuélgate de la barra con agarre firme y el cuerpo quieto. Eleva las piernas y enrolla la pelvis hacia arriba al final del recorrido para implicar el abdomen, y baja despacio. Error típico: balancearte con impulso y mover solo las piernas sin retroversión pélvica.",
       "descripcion_en": "Hang from the bar with a firm grip and a still body. Raise the legs and curl the pelvis upward at the top to involve the abs, then lower slowly. A typical mistake is swinging with momentum and moving only the legs without a posterior pelvic tilt.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Hanging Leg Raise",
         "analogía con core_003 de Gemini"
@@ -165,7 +165,7 @@
       ],
       "descripcion": "Túmbate boca arriba con la zona lumbar pegada al suelo y las piernas juntas. Eleva las piernas hasta la vertical y baja sin llegar a tocar el suelo, manteniendo la pelvis ligeramente enrollada. Error típico: dejar que la espalda baja se arquee al descender, lo que sobrecarga la lumbar.",
       "descripcion_en": "Lie on your back with the lower back pressed into the floor and legs together. Raise the legs to vertical and lower them without touching the floor, keeping the pelvis slightly tucked. A typical mistake is letting the lower back arch as the legs descend, which overloads the lumbar spine.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Flat Bench Lying Leg Raise",
         "analogía con elevación de piernas colgado"
@@ -215,7 +215,7 @@
       ],
       "descripcion": "Apoya antebrazos y puntas de los pies formando una línea recta de cabeza a talones. Contrae abdomen y glúteos para mantener la pelvis neutra y respira de forma controlada. Error típico: dejar caer la cadera o elevarla demasiado, perdiendo la tensión abdominal.",
       "descripcion_en": "Rest on your forearms and toes in a straight line from head to heels. Brace the abs and glutes to keep the pelvis neutral and breathe steadily. A typical mistake is letting the hips sag or pike up, losing abdominal tension.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Plank",
         "analogía con core_001 de Gemini"
@@ -345,7 +345,7 @@
       ],
       "descripcion": "Siéntate con el tronco inclinado hacia atrás y los pies apoyados o elevados. Gira el torso de lado a lado llevando las manos junto a cada cadera, manteniendo la columna alargada. Error típico: mover solo los brazos sin rotar las costillas.",
       "descripcion_en": "Sit leaning back with your feet on the floor or raised. Rotate the torso from side to side bringing the hands beside each hip while keeping the spine long. A typical mistake is swinging only the arms without rotating the ribcage.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Russian Twist",
         "analogía con giro ruso en polea"
@@ -390,7 +390,7 @@
       ],
       "descripcion": "Colócate de lado a la polea y agarra el asa con ambas manos. Tira en diagonal rotando el torso y pivotando sobre el pie, con los brazos casi extendidos, y regresa con control. Error típico: tirar solo con los brazos sin girar el tronco.",
       "descripcion_en": "Stand sideways to the cable and grip the handle with both hands. Pull diagonally rotating the torso and pivoting on the foot with the arms nearly straight, then return under control. A typical mistake is pulling with the arms alone without turning the trunk.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Standing Cable Wood Chop",
         "analogía con press Pallof"
@@ -465,7 +465,7 @@
       ],
       "descripcion": "Fija los pies en un banco declinado con las manos cruzadas sobre el pecho. Enrolla el tronco hasta separar los omóplatos del banco y baja con control. Error típico: incorporarte del todo y tirar con los flexores de cadera.",
       "descripcion_en": "Secure your feet on a decline bench with hands crossed over the chest. Curl the torso until the shoulder blades leave the bench, then lower under control. A typical mistake is sitting all the way up and pulling with the hip flexors.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Decline Crunch"
       ]
@@ -509,7 +509,7 @@
       ],
       "descripcion": "Colócate de lado a la polea a la altura del esternón con el asa pegada al pecho. Empuja las manos al frente hasta extender los brazos resistiendo que el cable gire el torso, y vuelve despacio. Error típico: rotar el tronco hacia la polea al estirar los brazos.",
       "descripcion_en": "Stand sideways to the cable at sternum height with the handle at your chest. Press the hands forward until the arms are straight while resisting the cable rotating your torso, then return slowly. A typical mistake is rotating the trunk toward the cable as the arms extend.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Pallof Press",
         "analogía con core_004 de Gemini"
@@ -584,7 +584,7 @@
       ],
       "descripcion": "Túmbate boca arriba con caderas y rodillas flexionadas a 90 grados. Eleva la pelvis del suelo llevando las rodillas hacia el pecho y baja despacio. Error típico: balancear las piernas con impulso sin elevar la pelvis.",
       "descripcion_en": "Lie on your back with hips and knees bent at 90 degrees. Lift the pelvis off the floor bringing the knees toward the chest, then lower slowly. A typical mistake is swinging the legs with momentum without lifting the pelvis.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Reverse Crunch"
       ]
@@ -623,7 +623,7 @@
       ],
       "descripcion": "Túmbate con brazos extendidos hacia el techo y caderas y rodillas a 90 grados, lumbar pegada al suelo. Baja a la vez un brazo y la pierna contraria sin perder el contacto lumbar y alterna. Error típico: arquear la zona lumbar al extender las extremidades.",
       "descripcion_en": "Lie with arms extended toward the ceiling and hips and knees at 90 degrees, lower back on the floor. Lower one arm and the opposite leg together without losing lumbar contact, then alternate. A typical mistake is arching the lower back as the limbs extend.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Dead Bug",
         "analogía con plancha"
@@ -663,7 +663,7 @@
       ],
       "descripcion": "Cuélgate de la barra y eleva las piernas rectas hasta tocarla o acercarte lo máximo posible, doblando la cadera en pica. Baja controlando sin balanceo. Error típico: perder la tensión abdominal y dejar caer las piernas de golpe.",
       "descripcion_en": "Hang from the bar and raise straight legs toward it, folding at the hips into a pike as far as possible. Lower under control without swinging. A typical mistake is losing abdominal tension and dropping the legs suddenly.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Hanging Pike",
         "analogía con elevación de piernas colgado"
@@ -778,7 +778,7 @@
       ],
       "descripcion": "Siéntate de lado a la polea con el asa a la altura del pecho y los pies firmes. Gira el torso alejándote de la polea manteniendo los brazos casi rectos y vuelve controlando el retorno. Error típico: mover solo los brazos o dejar que la polea tire de ti.",
       "descripcion_en": "Sit sideways to the cable with the handle at chest height and feet planted. Rotate the torso away from the cable keeping the arms nearly straight, then control the return. A typical mistake is moving only the arms or letting the cable pull you around.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Cable Russian Twists",
         "analogía con giro ruso"
@@ -813,7 +813,7 @@
       ],
       "descripcion": "De pie frente a la polea alta, sujeta la cuerda junto a la cabeza e inclina ligeramente el tronco. Enrolla la columna llevando los codos hacia las rodillas y vuelve estirando el abdomen. Error típico: tirar con los brazos o doblar solo la cadera.",
       "descripcion_en": "Stand facing the high cable, hold the rope beside your head and lean the trunk slightly forward. Round the spine bringing the elbows toward the knees, then return by lengthening the abs. A typical mistake is pulling with the arms or bending only at the hips.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Rope Crunch",
         "analogía con crunch en polea"

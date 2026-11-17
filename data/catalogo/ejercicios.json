@@ -120,7 +120,7 @@
         {
           "musculo_id": "pectoral_abdominal",
           "rol": "principal",
-          "activacion": 0.95
+          "activacion": 1
         },
         {
           "musculo_id": "pectoral_esternal",
@@ -415,7 +415,7 @@
       ],
       "descripcion": "Regula el asiento para que los agarres queden a la altura de la parte media del pecho y apoya la espalda. Empuja hasta casi extender los codos y vuelve despacio sin que las placas descansen. Error típico: sentarse demasiado alto, lo que sobrecarga el hombro.",
       "descripcion_en": "Adjust the seat so the handles sit at mid-chest height and keep your back against the pad. Press until the elbows are almost extended and return slowly without letting the plates rest. Common mistake: sitting too high, which overloads the shoulder.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Machine_Bench_Press",
         "analogía con Gemini pecho_003 (press de pecho en máquina convergente)"
@@ -465,7 +465,7 @@
       ],
       "descripcion": "Ajusta el asiento para que los agarres queden a la altura del pecho alto y mantén la espalda apoyada. Empuja hacia arriba y adelante y vuelve controlando el recorrido. Error típico: despegar la espalda del respaldo para ayudarse con el tronco.",
       "descripcion_en": "Adjust the seat so the handles sit at upper-chest height and keep your back supported. Press up and forward, then return under control. Common mistake: lifting the back off the pad to help with momentum.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Leverage_Incline_Chest_Press",
         "analogía con Gemini pecho_003 (press de pecho en máquina convergente)"
@@ -825,7 +825,7 @@
       ],
       "descripcion": "Sujétate en las paralelas, inclina el torso hacia delante y abre un poco los codos. Baja hasta que los hombros queden algo por debajo de los codos y empuja manteniendo la inclinación. Error típico: bajar demasiado y cargar la articulación del hombro.",
       "descripcion_en": "Hold the parallel bars, lean the torso forward and flare the elbows slightly. Lower until the shoulders sit a little below the elbows and press up keeping the lean. Common mistake: going too deep and loading the shoulder joint.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Dips_-_Chest_Version",
         "analogía con Gemini pecho_004 (fondos con énfasis en pecho)"
@@ -876,11 +876,16 @@
           "musculo_id": "flexores_antebrazo",
           "rol": "estabilizador",
           "activacion": 0.3
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.35
         }
       ],
       "descripcion": "Cuélgate de la barra con agarre prono algo más ancho que los hombros y baja las escápulas antes de tirar. Lleva el pecho hacia la barra llevando los codos hacia las costillas, hasta que la barbilla pase la barra. Baja controlando hasta la extensión casi completa. Error típico: balancearse y tirar con impulso o quedarse a medio recorrido.",
       "descripcion_en": "Hang from the bar with a pronated grip slightly wider than the shoulders and depress the shoulder blades before pulling. Drive the chest toward the bar by bringing the elbows down to the ribs until the chin clears the bar. Lower under control to near full extension. Common mistake: swinging and kipping or stopping short of full range.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Pullups",
         "analogía: Gemini espalda_001",
@@ -927,11 +932,16 @@
           "musculo_id": "romboides",
           "rol": "secundario",
           "activacion": 0.45
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.35
         }
       ],
       "descripcion": "Agarra la barra en supinación a la anchura de los hombros y empieza con los brazos casi extendidos. Tira llevando los codos hacia abajo y atrás hasta que la barbilla supere la barra, con el pecho alto. Desciende sin dejarte caer. Error típico: encoger los hombros hacia las orejas y dejar que los bíceps hagan todo el trabajo.",
       "descripcion_en": "Grip the bar underhand at shoulder width and start with the arms nearly straight. Pull by driving the elbows down and back until the chin clears the bar, keeping the chest tall. Lower without dropping. Common mistake: shrugging toward the ears and letting the biceps do all the work.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Chin-Up",
         "analogía: Gemini espalda_001 (ajustando bíceps al agarre supino)",
@@ -978,11 +988,16 @@
           "musculo_id": "romboides",
           "rol": "secundario",
           "activacion": 0.5
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.35
         }
       ],
       "descripcion": "Usa asas paralelas con las palmas enfrentadas y los brazos extendidos. Inicia el gesto bajando las escápulas y tira de los codos hacia los costados hasta subir el pecho a las asas. Baja despacio hasta el estiramiento completo. Error típico: arquear en exceso la zona lumbar para ganar altura.",
       "descripcion_en": "Use parallel handles with palms facing each other and arms extended. Start by depressing the shoulder blades, then pull the elbows to your sides until the chest reaches the handles. Lower slowly to a full stretch. Common mistake: over-arching the lower back to gain height.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Pullups",
         "analogía: Gemini espalda_001 y espalda_003",
@@ -1029,11 +1044,16 @@
           "musculo_id": "braquial_anterior",
           "rol": "secundario",
           "activacion": 0.45
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.35
         }
       ],
       "descripcion": "Siéntate con los muslos fijos bajo el rodillo y agarra la barra algo más ancha que los hombros. Inclina ligeramente el torso y tira de la barra hacia la parte alta del pecho llevando los codos abajo y atrás. Sube controlando hasta estirar los dorsales. Error típico: tirar con el torso hacia atrás y llevar la barra detrás de la nuca.",
       "descripcion_en": "Sit with the thighs locked under the pad and grip the bar slightly wider than the shoulders. Lean back slightly and pull the bar to the upper chest by driving the elbows down and back. Return under control until the lats are stretched. Common mistake: swinging the torso back or pulling the bar behind the neck.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Wide-Grip_Lat_Pulldown",
         "analogía: Gemini espalda_002",
@@ -1080,11 +1100,16 @@
           "musculo_id": "romboides",
           "rol": "secundario",
           "activacion": 0.4
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.35
         }
       ],
       "descripcion": "Agarra el asa estrecha con las palmas enfrentadas o prono cerrado y siéntate con el pecho alto. Tira del asa hacia la parte alta del pecho acercando los codos a los costados. Vuelve arriba controlando el estiramiento. Error típico: encogerse de hombros y perder la tensión del dorsal en la fase de subida.",
       "descripcion_en": "Take the narrow handle with a neutral or close pronated grip and sit tall. Pull the handle to the upper chest by bringing the elbows close to your sides. Return upward while controlling the stretch. Common mistake: shrugging and losing lat tension on the way up.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Close-Grip_Front_Lat_Pulldown",
         "analogía: Gemini espalda_003",
@@ -1135,7 +1160,7 @@
       ],
       "descripcion": "Siéntate de lado a la polea alta y agarra el asa con un brazo, con el hombro libre de tensión. Tira del codo hacia la cadera sin rotar el torso, notando cómo se acorta el dorsal. Estira de nuevo hasta arriba de forma controlada. Error típico: inclinarse hacia el lado contrario para compensar la carga.",
       "descripcion_en": "Sit side-on to the high pulley and grasp the handle with one arm, shoulder relaxed. Pull the elbow toward the hip without rotating the torso, feeling the lat shorten. Stretch back up under control. Common mistake: leaning away from the load to compensate.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: One_Arm_Lat_Pulldown",
         "analogía: Gemini espalda_002 (analogía unilateral)",
@@ -1151,7 +1176,7 @@
       "unilateral": false,
       "patron_movimiento": "Extensión de hombro",
       "patron_movimiento_en": "Shoulder extension",
-      "mecanica": "Compuesto",
+      "mecanica": "Aislamiento",
       "musculos": [
         {
           "musculo_id": "dorsal_ancho",
@@ -1160,8 +1185,8 @@
         },
         {
           "musculo_id": "redondo_mayor",
-          "rol": "principal",
-          "activacion": 0.8
+          "rol": "secundario",
+          "activacion": 0.7
         },
         {
           "musculo_id": "triceps_larga",
@@ -1181,7 +1206,7 @@
       ],
       "descripcion": "De pie frente a la polea alta, inclina ligeramente el tronco con los brazos casi rectos y agarra la barra o cuerda. Lleva las manos hacia los muslos describiendo un arco, apretando los dorsales. Vuelve arriba hasta notar el estiramiento sin elevar los hombros. Error típico: doblar los codos y convertirlo en una extensión de tríceps.",
       "descripcion_en": "Stand facing the high pulley, hinge slightly with arms nearly straight and hold the bar or rope. Sweep the hands toward the thighs in an arc, squeezing the lats. Return up until you feel the stretch without lifting the shoulders. Common mistake: bending the elbows and turning it into a triceps pushdown.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Straight-Arm_Pulldown",
         "analogía: Gemini espalda_007",
@@ -1233,11 +1258,16 @@
           "musculo_id": "flexores_antebrazo",
           "rol": "estabilizador",
           "activacion": 0.3
+        },
+        {
+          "musculo_id": "redondo_mayor",
+          "rol": "secundario",
+          "activacion": 0.5
         }
       ],
       "descripcion": "Con la barra en las manos, inclina el torso unos 45 grados con la espalda neutra y las rodillas flexionadas. Tira de la barra hacia el abdomen llevando los codos atrás y juntando las escápulas. Baja controlando sin redondear la espalda. Error típico: impulsarse con la cadera y subir el torso en cada repetición.",
       "descripcion_en": "Holding the bar, hinge the torso to about 45 degrees with a neutral spine and bent knees. Pull the bar to the abdomen driving the elbows back and squeezing the shoulder blades together. Lower under control without rounding the back. Common mistake: heaving with the hips and standing up on each rep.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Bent_Over_Barbell_Row",
         "analogía: Gemini espalda_004",
@@ -1288,7 +1318,7 @@
       ],
       "descripcion": "Colócate sobre la barra con las rodillas flexionadas y el torso inclinado con la espalda recta. Tira de la barra hacia el pecho bajo con los codos pegados al cuerpo y aprieta las escápulas. Baja sin soltar la tensión. Error típico: redondear la zona lumbar y acortar el recorrido.",
       "descripcion_en": "Straddle the bar with bent knees and a hinged torso, back flat. Pull the handle toward the lower chest with the elbows close to the body and squeeze the shoulder blades. Lower while keeping tension. Common mistake: rounding the lower back and shortening the range.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: T-Bar_Row_with_Handle",
         "analogía: Gemini espalda_004",
@@ -1335,11 +1365,16 @@
           "musculo_id": "flexores_antebrazo",
           "rol": "estabilizador",
           "activacion": 0.25
+        },
+        {
+          "musculo_id": "redondo_mayor",
+          "rol": "secundario",
+          "activacion": 0.5
         }
       ],
       "descripcion": "Apoya una mano y la rodilla del mismo lado en un banco y deja el otro brazo colgando con la mancuerna. Tira del codo hacia la cadera, sin rotar el torso, hasta que la mancuerna llegue al costado. Baja estirando por completo el dorsal. Error típico: girar el tronco y tirar con el hombro en vez de con la espalda.",
       "descripcion_en": "Place one hand and the same-side knee on a bench with the other arm hanging holding the dumbbell. Pull the elbow toward the hip, without rotating the torso, until the dumbbell reaches your side. Lower to a full lat stretch. Common mistake: twisting the trunk and pulling with the shoulder instead of the back.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: One-Arm_Dumbbell_Row",
         "analogía: Gemini espalda_006",
@@ -1390,7 +1425,7 @@
       ],
       "descripcion": "Siéntate con los pies apoyados y la espalda recta, agarrando el asa con los brazos extendidos. Tira hacia el abdomen llevando los codos atrás y juntando las escápulas. Vuelve estirando los brazos sin redondear la espalda. Error típico: balancear el torso hacia atrás para mover más peso.",
       "descripcion_en": "Sit with feet braced and a straight back, holding the handle with arms extended. Pull to the abdomen driving the elbows back and squeezing the shoulder blades. Return by extending the arms without rounding the back. Common mistake: rocking the torso back to move more weight.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Seated_Cable_Rows",
         "analogía: Gemini espalda_005",
@@ -1436,7 +1471,7 @@
       ],
       "descripcion": "Sentado en la polea baja con una barra ancha, mantén el pecho alto y los brazos extendidos. Tira de la barra hacia la parte alta del abdomen con los codos abiertos, apretando las escápulas. Vuelve controlando. Error típico: encoger los hombros y perder la retracción escapular.",
       "descripcion_en": "Seated at the low cable with a wide bar, keep the chest tall and arms extended. Pull the bar toward the upper abdomen with the elbows flared, squeezing the shoulder blades. Return under control. Common mistake: shrugging and losing scapular retraction.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Seated_Cable_Rows",
         "analogía: Gemini espalda_005 (más deltoides posterior por el agarre ancho)",
@@ -1482,7 +1517,7 @@
       ],
       "descripcion": "Ajusta el asiento para que las asas queden a la altura del pecho y apoya el torso en el respaldo. Tira de las asas hacia atrás juntando las escápulas y llevando los codos al costado. Vuelve despacio hasta estirar. Error típico: despegar el pecho del apoyo y tirar con los hombros.",
       "descripcion_en": "Adjust the seat so the handles are at chest level and rest the torso on the pad. Pull the handles back, squeezing the shoulder blades and bringing the elbows to your sides. Return slowly to a stretch. Common mistake: lifting the chest off the pad and pulling with the shoulders.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Leverage_Iso_Row",
         "analogía: Gemini espalda_005",
@@ -1528,7 +1563,7 @@
       ],
       "descripcion": "Apoya el pecho en el soporte inclinado y agarra las asas con los brazos extendidos. Tira de los codos hacia atrás y arriba juntando las escápulas. Vuelve controlando el estiramiento. Error típico: levantar el pecho del soporte y usar impulso.",
       "descripcion_en": "Rest the chest on the angled pad and grip the handles with arms extended. Pull the elbows back and up, squeezing the shoulder blades. Return while controlling the stretch. Common mistake: lifting the chest off the pad and using momentum.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Lying_T-Bar_Row",
         "analogía: Gemini espalda_004 y espalda_005",
@@ -1570,11 +1605,16 @@
           "musculo_id": "biceps_braquial",
           "rol": "secundario",
           "activacion": 0.45
+        },
+        {
+          "musculo_id": "redondo_mayor",
+          "rol": "secundario",
+          "activacion": 0.5
         }
       ],
       "descripcion": "Sentado frente a la polea baja, agarra el asa con un brazo con el torso estable. Tira del codo hacia atrás pegado al costado hasta que la mano llegue al abdomen. Estira de nuevo el brazo sin rotar el tronco. Error típico: girar el hombro hacia delante al estirar.",
       "descripcion_en": "Seated facing the low cable, hold the handle with one arm and a stable torso. Pull the elbow back along your side until the hand reaches the abdomen. Extend the arm again without rotating the trunk. Common mistake: letting the shoulder roll forward on the return.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Seated_One-arm_Cable_Pulley_Rows",
         "analogía: Gemini espalda_006",
@@ -1590,7 +1630,7 @@
       "unilateral": false,
       "patron_movimiento": "Extensión de hombro",
       "patron_movimiento_en": "Shoulder extension",
-      "mecanica": "Compuesto",
+      "mecanica": "Aislamiento",
       "musculos": [
         {
           "musculo_id": "dorsal_ancho",
@@ -1625,7 +1665,7 @@
       ],
       "descripcion": "Tumbado en un banco, sujeta una mancuerna con ambas manos sobre el pecho. Baja los brazos por detrás de la cabeza con los codos ligeramente flexionados hasta notar el estiramiento. Vuelve a la posición inicial tirando desde los dorsales. Error típico: arquear la zona lumbar y bajar más allá de lo que permite el hombro.",
       "descripcion_en": "Lying on a bench, hold a dumbbell with both hands over the chest. Lower the arms behind the head with slightly bent elbows until you feel a stretch. Return to the start pulling from the lats. Common mistake: arching the lower back and lowering beyond shoulder mobility.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Bent-Arm_Dumbbell_Pullover",
         "analogía: Gemini espalda_007",
@@ -1729,11 +1769,16 @@
           "musculo_id": "flexores_antebrazo",
           "rol": "estabilizador",
           "activacion": 0.4
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.4
         }
       ],
       "descripcion": "Colócate con la barra sobre el medio del pie y agarra con los brazos rectos. Empuja el suelo con las piernas manteniendo la espalda neutra y la barra pegada al cuerpo, y extiende la cadera para quedar erguido. Baja en sentido inverso con control. Error típico: redondear la espalda o tirar de la barra con los brazos antes de empujar con las piernas.",
       "descripcion_en": "Stand with the bar over mid-foot and grip it with straight arms. Push the floor away with the legs keeping a neutral spine and the bar close, then extend the hips to lock out. Lower in reverse under control. Common mistake: rounding the back or yanking with the arms before driving with the legs.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Barbell_Deadlift",
         "analogía: Gemini pierna_006",
@@ -1789,7 +1834,7 @@
       ],
       "descripcion": "Coloca la barra en el rack a la altura de la rodilla o algo más alta y agarra con la espalda neutra. Empuja con las piernas y extiende la cadera, llevando los hombros atrás al final. Baja la barra con control hasta los soportes. Error típico: hiperextender la zona lumbar en el bloqueo.",
       "descripcion_en": "Set the bar in the rack at knee height or slightly above and grip it with a neutral spine. Drive with the legs and extend the hips, pulling the shoulders back at the top. Lower the bar under control to the pins. Common mistake: hyperextending the lower back at lockout.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Rack_Pulls",
         "analogía: Gemini pierna_006 (rango corto)",
@@ -1825,7 +1870,7 @@
       ],
       "descripcion": "Ajusta el banco para que el apoyo quede bajo la cadera y cruza los brazos sobre el pecho. Baja el torso con la espalda recta y sube contrayendo glúteos y lumbares hasta alinear el cuerpo. Evita pasar de la línea recta. Error típico: hiperextender la columna al subir.",
       "descripcion_en": "Set the bench so the pad sits below the hips and cross the arms over the chest. Lower the torso with a straight back and rise by squeezing the glutes and lower back until the body is aligned. Do not go past a straight line. Common mistake: hyperextending the spine at the top.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Hyperextensions_Back_Extensions",
         "analogía: Gemini pierna_007",
@@ -1866,7 +1911,7 @@
       ],
       "descripcion": "De pie con la barra por delante y los brazos extendidos, mantén el pecho alto. Eleva los hombros hacia las orejas en vertical y mantén un instante arriba. Baja despacio hasta el estiramiento. Error típico: rotar los hombros en círculo o flexionar los codos para ayudarte.",
       "descripcion_en": "Stand holding the bar in front with arms extended and chest tall. Raise the shoulders straight up toward the ears and pause at the top. Lower slowly to a stretch. Common mistake: rolling the shoulders or bending the elbows to help.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Barbell_Shrug",
         "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
@@ -1906,7 +1951,7 @@
       ],
       "descripcion": "Sujeta una mancuerna en cada mano a los lados del cuerpo con los brazos extendidos. Eleva los hombros en línea recta hacia las orejas y aprieta arriba. Baja controlando sin dejar caer los hombros de golpe. Error típico: usar demasiado peso y acortar el recorrido.",
       "descripcion_en": "Hold a dumbbell in each hand at your sides with arms extended. Raise the shoulders straight toward the ears and squeeze at the top. Lower under control without dropping suddenly. Common mistake: using too much weight and shortening the range.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Dumbbell_Shrug",
         "EMG (recordado, sin verificar): patrón de activación habitual de tracción, sin cita concreta"
@@ -1957,14 +2002,23 @@
           "musculo_id": "recto_abdominal",
           "rol": "estabilizador",
           "activacion": 0.2
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
         }
       ],
       "descripcion": "De pie, agarra la barra algo más ancha que los hombros y apóyala sobre la clavícula con los codos ligeramente adelantados. Aprieta glúteos y abdomen y empuja la barra en línea recta, echando la cabeza un poco atrás para que pase y adelantándola al final. Bloquea arriba con la barra sobre la mitad del pie. Error típico: arquear en exceso la zona lumbar para ayudarte.",
       "descripcion_en": "Standing, grip the bar slightly wider than shoulder width and rest it on your collarbone with the elbows just ahead of it. Brace glutes and abs and drive the bar straight up, moving the head back to let it pass and forward again at the top. Lock out with the bar over mid-foot. A common mistake is over-arching the lower back to cheat the rep.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Standing_Military_Press",
-        "EMG (recordado, sin verificar): Saeterbakken 2011; Paoli 2017"
+        "free-exercise-db: Standing_Military_Press"
       ]
     },
     {
@@ -2007,6 +2061,16 @@
           "musculo_id": "pectoral_clavicular",
           "rol": "secundario",
           "activacion": 0.35
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
         }
       ],
       "descripcion": "Sentado con respaldo, sostén una mancuerna en cada mano a la altura de las orejas con los antebrazos verticales. Empuja hacia arriba acercando ligeramente las mancuernas sin chocarlas. Baja de forma controlada hasta que los codos queden por debajo de los hombros. Error típico: dejar que las muñecas se doblen hacia atrás y los codos se abran demasiado.",
@@ -2050,6 +2114,16 @@
         },
         {
           "musculo_id": "trapecio_superior",
+          "rol": "secundario",
+          "activacion": 0.3
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "triceps_larga",
           "rol": "secundario",
           "activacion": 0.3
         }
@@ -2101,6 +2175,16 @@
           "musculo_id": "trapecio_superior",
           "rol": "secundario",
           "activacion": 0.35
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
         }
       ],
       "descripcion": "Coloca un banco con respaldo bajo la barra guiada y agárrala algo más ancha que los hombros. Desbloquea y baja la barra hasta la altura de la barbilla o la clavícula con los antebrazos verticales. Empuja hasta extender los codos sin despegar la espalda. Error típico: colocar el banco demasiado adelantado y empujar la barra hacia delante del cuerpo.",
@@ -2150,6 +2234,16 @@
           "musculo_id": "trapecio_superior",
           "rol": "secundario",
           "activacion": 0.3
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
         }
       ],
       "descripcion": "Empieza sentado con las mancuernas frente al pecho y las palmas hacia ti. Al subir, gira las muñecas hasta que las palmas miren al frente y termina con los brazos extendidos arriba. Invierte el giro al bajar de forma controlada. Error típico: hacer el giro con impulso del torso en lugar de con los hombros.",
@@ -2189,6 +2283,11 @@
           "musculo_id": "deltoides_posterior",
           "rol": "secundario",
           "activacion": 0.3
+        },
+        {
+          "musculo_id": "manguito_rotador",
+          "rol": "secundario",
+          "activacion": 0.35
         }
       ],
       "descripcion": "De pie con una mancuerna en cada mano y los codos ligeramente flexionados, eleva los brazos hacia los lados hasta la altura de los hombros. Lidera con los codos, no con las manos, y mantén el torso quieto. Baja despacio en unos tres segundos. Error típico: balancear el cuerpo y encoger los trapecios para subir más peso.",
@@ -2229,6 +2328,11 @@
           "musculo_id": "deltoides_posterior",
           "rol": "secundario",
           "activacion": 0.25
+        },
+        {
+          "musculo_id": "manguito_rotador",
+          "rol": "secundario",
+          "activacion": 0.35
         }
       ],
       "descripcion": "Colócate de lado a la polea baja y agarra el asa con la mano más alejada, pasándola por delante del cuerpo. Eleva el brazo hacia el lado hasta la altura del hombro con el codo ligeramente flexionado. Baja controlando la tensión del cable. Error típico: girar el torso o tirar con el trapecio.",
@@ -2263,6 +2367,11 @@
           "musculo_id": "trapecio_superior",
           "rol": "secundario",
           "activacion": 0.3
+        },
+        {
+          "musculo_id": "manguito_rotador",
+          "rol": "secundario",
+          "activacion": 0.35
         }
       ],
       "descripcion": "Ajusta el asiento para que el eje de la máquina coincida con tus hombros y apoya los antebrazos en los cojines. Eleva los brazos hacia los lados hasta la altura del hombro empujando con los codos. Baja despacio sin dejar caer la carga. Error típico: encoger los hombros y apoyarse hacia atrás.",
@@ -2311,7 +2420,7 @@
       ],
       "descripcion": "De pie con las mancuernas delante de los muslos, eleva un brazo o ambos hacia delante hasta la altura de los ojos con los codos ligeramente flexionados. Mantén el torso firme y sin balanceo. Baja despacio sin dejar caer las mancuernas. Error típico: impulsarte con la espalda y subir por encima de la horizontal.",
       "descripcion_en": "Standing with the dumbbells in front of your thighs, raise one or both arms forward to about eye level with slightly bent elbows. Keep the torso firm and still. Lower slowly without dropping the dumbbells. A common mistake is swinging with the back and lifting well above horizontal.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Front_Dumbbell_Raise",
         "EMG (recordado, sin verificar): analogía con press militar"
@@ -2534,7 +2643,7 @@
       ],
       "descripcion": "Ajusta la polea a la altura de la cara y agarra la cuerda con las palmas enfrentadas. Tira hacia la frente separando las manos y rotando los hombros hacia fuera al final. Aprieta atrás un instante y vuelve controlando. Error típico: usar demasiado peso e inclinarte hacia atrás.",
       "descripcion_en": "Set the pulley at face height and hold the rope with palms facing each other. Pull toward the forehead, splitting the hands apart and externally rotating the shoulders at the end. Squeeze briefly and return under control. A common mistake is using too much weight and leaning back.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Face_Pull",
         "EMG (recordado, sin verificar): analogía con pájaros"
@@ -2577,9 +2686,9 @@
           "activacion": 0.3
         }
       ],
-      "descripcion": "Agarra la carga con las manos algo más cerca que el ancho de los hombros. Sube tirando de los codos hacia arriba y hacia los lados hasta la altura del pecho, manteniendo el peso cerca del cuerpo. Baja con control. Error típico: subir los codos por encima de los hombros con agarre muy estrecho, lo que carga el hombro.",
-      "descripcion_en": "Grip the load slightly narrower than shoulder width. Pull by driving the elbows up and out to chest height, keeping the weight close to the body. Lower under control. A common mistake is raising the elbows above the shoulders with a very narrow grip, which stresses the shoulder.",
-      "confianza": "media",
+      "descripcion": "Con una barra recta, agarra con las manos algo más cerca que el ancho de los hombros. Sube la barra pegada al torso tirando de los codos hacia arriba y hacia los lados hasta la altura del pecho. Baja con control. Error típico: subir los codos por encima de los hombros con agarre muy estrecho, lo que carga el hombro.",
+      "descripcion_en": "With a straight bar, grip slightly narrower than shoulder width. Pull the bar up along the torso, driving the elbows up and out to chest height. Lower under control. A common mistake is raising the elbows above the shoulders with a very narrow grip, which stresses the shoulder.",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Upright_Barbell_Row",
         "EMG (recordado, sin verificar): analogía con remo al mentón"
@@ -2979,7 +3088,7 @@
       ],
       "descripcion": "Colócate de espaldas a la polea baja con el brazo estirado hacia atrás y un pie adelantado. Flexiona el codo llevando la mano hacia el hombro sin mover el brazo. Siente el estiramiento del bíceps en la parte baja y repite con control. Error típico: adelantar el codo y convertirlo en un curl normal.",
       "descripcion_en": "Face away from a low pulley with the working arm extended behind you and one foot forward. Bend the elbow bringing the hand toward the shoulder without moving the upper arm. Feel the biceps stretch at the bottom and repeat with control. Common mistake: letting the elbow drift forward, turning it into a regular curl.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Standing_One-Arm_Cable_Curl",
         "analogía: curl en polea con estiramiento tipo curl inclinado"
@@ -3139,10 +3248,9 @@
       ],
       "descripcion": "Con los codos pegados a las costillas, empuja la barra hacia abajo hasta extender el codo por completo. Mantén el torso firme y los hombros hacia atrás. Sube de forma controlada hasta que los antebrazos pasen un poco de la horizontal. Error típico: despegar los codos y balancear el torso para mover más peso.",
       "descripcion_en": "With your elbows tucked against your ribs, press the bar down until your elbows are fully extended. Keep your torso steady and shoulders back. Return under control until your forearms pass slightly above horizontal. Common mistake: letting the elbows drift forward and swinging the torso to move more weight.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Triceps_Pushdown",
-        "EMG (recordado, sin verificar): Contreras y cols. (cabeza lateral y medial dominantes en extensiones con el brazo a lo largo del cuerpo)"
+        "free-exercise-db: Triceps_Pushdown"
       ]
     },
     {
@@ -3179,7 +3287,7 @@
       ],
       "descripcion": "Agarra la cuerda con las palmas enfrentadas y los codos fijos junto al cuerpo. Extiende los codos y separa las puntas de la cuerda al final para exprimir el tríceps. Vuelve arriba despacio sin mover los brazos. Error típico: dejar que los codos se adelanten y convertir el gesto en un press.",
       "descripcion_en": "Grip the rope with palms facing each other and elbows fixed beside your body. Extend your elbows and spread the rope ends apart at the bottom to squeeze the triceps. Return slowly without moving your upper arms. Common mistake: letting the elbows drift forward so the movement turns into a press.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Triceps_Pushdown_-_Rope_Attachment",
         "EMG (recordado, sin verificar): Contreras y cols. (cabeza lateral y medial dominantes en la extensión en polea)"
@@ -3259,7 +3367,7 @@
       ],
       "descripcion": "Con una sola mano en el agarre de la polea alta, mantén el codo pegado al costado. Extiende el codo hasta bloquearlo abajo sin girar el tronco. Regresa controlando el recorrido. Error típico: rotar el torso y empujar con el hombro para ayudarte.",
       "descripcion_en": "Holding a single handle on the high pulley, keep the elbow tucked at your side. Extend the elbow until it is locked out without twisting the trunk. Return while controlling the full range. Common mistake: rotating the torso and pushing with the shoulder to help the lift.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Cable_One_Arm_Tricep_Extension",
         "EMG (recordado, sin verificar): Contreras y cols. (patrón análogo a la extensión bilateral en polea)"
@@ -3439,7 +3547,7 @@
       ],
       "descripcion": "Sujétate en las paralelas con el torso vertical y los codos pegados al cuerpo. Baja hasta que los hombros queden un poco por debajo de los codos. Empuja hasta extender los codos del todo. Error típico: inclinar el torso hacia delante, que desplaza el trabajo al pecho.",
       "descripcion_en": "Support yourself on the parallel bars with an upright torso and elbows close to the body. Lower until the shoulders sit slightly below the elbows. Press up until the elbows are fully extended. Common mistake: leaning the torso forward, which shifts the work to the chest.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Dips_-_Triceps_Version",
         "EMG (recordado, sin verificar): analogía con fondos en paralelas del catálogo de Gemini (pecho) con torso vertical"
@@ -3572,7 +3680,7 @@
       ],
       "descripcion": "Inclina el torso con la espalda recta y lleva el codo hasta la altura del tronco. Extiende el antebrazo hacia atrás hasta bloquear el codo. Vuelve despacio manteniendo el brazo fijo. Error típico: balancear el brazo y usar impulso en lugar de extender el codo.",
       "descripcion_en": "Hinge forward with a flat back and bring the elbow up to torso height. Extend the forearm back until the elbow is locked. Return slowly keeping the upper arm fixed. Common mistake: swinging the arm and using momentum instead of extending the elbow.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Tricep_Dumbbell_Kickback",
         "EMG (recordado, sin verificar): Contreras y cols. (el kickback activa fuerte el tríceps con baja carga)"
@@ -3607,7 +3715,7 @@
       ],
       "descripcion": "Siéntate con los codos apoyados en el cojín y la espalda pegada al respaldo. Empuja las asas o el brazo de la máquina hasta extender los codos. Regresa controlando el recorrido sin soltar el peso. Error típico: levantar los codos del apoyo y ayudarte con los hombros.",
       "descripcion_en": "Sit with your elbows on the pad and your back against the backrest. Push the handles or lever until your elbows are fully extended. Return under control without dropping the weight. Common mistake: lifting the elbows off the pad and helping with the shoulders.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Machine_Triceps_Extension"
       ]
@@ -3766,7 +3874,7 @@
       ],
       "descripcion": "Coge una mancuerna pesada en cada mano y camina erguido con los hombros atrás y abajo. Da pasos cortos y firmes sin inclinar el tronco. El agarre y el core soportan la carga. Error típico: encorvarse o encoger los hombros hacia las orejas.",
       "descripcion_en": "Pick up a heavy dumbbell in each hand and walk upright with the shoulders back and down. Take short, firm steps without leaning the trunk. The grip and core hold the load. Common mistake: slouching or shrugging the shoulders toward the ears.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Farmers_Walk",
         "analogía: acarreos de carga; sin verificar con literatura"
@@ -3826,7 +3934,7 @@
       ],
       "descripcion": "Arrodíllate frente a la polea alta y sujeta la cuerda junto a la cabeza. Con la cadera fija, enrolla la columna llevando los codos hacia los muslos y vuelve estirando el abdomen. Error típico: bajar solo inclinando la cadera y tirando con los brazos, en lugar de flexionar la columna.",
       "descripcion_en": "Kneel facing the high cable and hold the rope beside your head. With the hips fixed, round your spine bringing the elbows toward the thighs, then return by lengthening the abs. A typical mistake is hinging at the hips and pulling with the arms instead of flexing the spine.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Cable Crunch",
         "analogía con core_002 de Gemini"
@@ -3856,7 +3964,7 @@
       ],
       "descripcion": "Ajusta el asiento y las almohadillas para que el eje de giro quede a la altura del abdomen. Agarra las asas y flexiona el tronco hacia delante acercando costillas y pelvis, y regresa de forma controlada sin dejar caer la pila. Error típico: empujar con las piernas o los brazos en vez de contraer el abdomen.",
       "descripcion_en": "Adjust the seat and pads so the pivot lines up with your abdomen. Grip the handles and flex the trunk forward bringing ribs and pelvis together, then return under control without dropping the stack. A typical mistake is pushing with the legs or arms instead of contracting the abs.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Ab Crunch Machine",
         "analogía con crunch en polea"
@@ -3896,7 +4004,7 @@
       ],
       "descripcion": "Cuélgate de la barra con agarre firme y el cuerpo quieto. Eleva las piernas y enrolla la pelvis hacia arriba al final del recorrido para implicar el abdomen, y baja despacio. Error típico: balancearte con impulso y mover solo las piernas sin retroversión pélvica.",
       "descripcion_en": "Hang from the bar with a firm grip and a still body. Raise the legs and curl the pelvis upward at the top to involve the abs, then lower slowly. A typical mistake is swinging with momentum and moving only the legs without a posterior pelvic tilt.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Hanging Leg Raise",
         "analogía con core_003 de Gemini"
@@ -3936,7 +4044,7 @@
       ],
       "descripcion": "Túmbate boca arriba con la zona lumbar pegada al suelo y las piernas juntas. Eleva las piernas hasta la vertical y baja sin llegar a tocar el suelo, manteniendo la pelvis ligeramente enrollada. Error típico: dejar que la espalda baja se arquee al descender, lo que sobrecarga la lumbar.",
       "descripcion_en": "Lie on your back with the lower back pressed into the floor and legs together. Raise the legs to vertical and lower them without touching the floor, keeping the pelvis slightly tucked. A typical mistake is letting the lower back arch as the legs descend, which overloads the lumbar spine.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Flat Bench Lying Leg Raise",
         "analogía con elevación de piernas colgado"
@@ -3986,7 +4094,7 @@
       ],
       "descripcion": "Apoya antebrazos y puntas de los pies formando una línea recta de cabeza a talones. Contrae abdomen y glúteos para mantener la pelvis neutra y respira de forma controlada. Error típico: dejar caer la cadera o elevarla demasiado, perdiendo la tensión abdominal.",
       "descripcion_en": "Rest on your forearms and toes in a straight line from head to heels. Brace the abs and glutes to keep the pelvis neutral and breathe steadily. A typical mistake is letting the hips sag or pike up, losing abdominal tension.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Plank",
         "analogía con core_001 de Gemini"
@@ -4116,7 +4224,7 @@
       ],
       "descripcion": "Siéntate con el tronco inclinado hacia atrás y los pies apoyados o elevados. Gira el torso de lado a lado llevando las manos junto a cada cadera, manteniendo la columna alargada. Error típico: mover solo los brazos sin rotar las costillas.",
       "descripcion_en": "Sit leaning back with your feet on the floor or raised. Rotate the torso from side to side bringing the hands beside each hip while keeping the spine long. A typical mistake is swinging only the arms without rotating the ribcage.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Russian Twist",
         "analogía con giro ruso en polea"
@@ -4161,7 +4269,7 @@
       ],
       "descripcion": "Colócate de lado a la polea y agarra el asa con ambas manos. Tira en diagonal rotando el torso y pivotando sobre el pie, con los brazos casi extendidos, y regresa con control. Error típico: tirar solo con los brazos sin girar el tronco.",
       "descripcion_en": "Stand sideways to the cable and grip the handle with both hands. Pull diagonally rotating the torso and pivoting on the foot with the arms nearly straight, then return under control. A typical mistake is pulling with the arms alone without turning the trunk.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Standing Cable Wood Chop",
         "analogía con press Pallof"
@@ -4185,8 +4293,8 @@
         },
         {
           "musculo_id": "gluteo_mayor",
-          "rol": "principal",
-          "activacion": 0.85
+          "rol": "secundario",
+          "activacion": 0.8
         },
         {
           "musculo_id": "aductores",
@@ -4200,8 +4308,8 @@
         },
         {
           "musculo_id": "erectores_espinales",
-          "rol": "estabilizador",
-          "activacion": 0.55
+          "rol": "secundario",
+          "activacion": 0.45
         },
         {
           "musculo_id": "isquiotibiales",
@@ -4236,7 +4344,7 @@
         {
           "musculo_id": "gluteo_mayor",
           "rol": "secundario",
-          "activacion": 0.6
+          "activacion": 0.75
         },
         {
           "musculo_id": "recto_femoral",
@@ -4252,14 +4360,18 @@
           "musculo_id": "recto_abdominal",
           "rol": "estabilizador",
           "activacion": 0.3
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.5
         }
       ],
       "descripcion": "Apoya la barra sobre los deltoides frontales con los codos altos y baja con el torso muy vertical. Mantén el tronco rígido y sube empujando con todo el pie. Error típico: dejar caer los codos, lo que hace que la barra ruede hacia delante y el torso se doble.",
       "descripcion_en": "Rest the bar on your front delts with elbows high and descend keeping the torso very upright. Keep the trunk rigid and drive up through the whole foot. Common mistake: dropping the elbows, which lets the bar roll forward and the torso fold.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
-        "free-exercise-db: Front_Barbell_Squat",
-        "EMG (recordado, sin verificar): Gullett 2009 (sentadilla frontal vs. trasera)"
+        "free-exercise-db: Front_Barbell_Squat"
       ]
     },
     {
@@ -4281,12 +4393,12 @@
         {
           "musculo_id": "gluteo_mayor",
           "rol": "secundario",
-          "activacion": 0.65
+          "activacion": 0.7
         },
         {
           "musculo_id": "aductores",
           "rol": "secundario",
-          "activacion": 0.4
+          "activacion": 0.5
         },
         {
           "musculo_id": "recto_femoral",
@@ -4296,7 +4408,7 @@
       ],
       "descripcion": "Colócate bajo la barra guiada con los pies algo adelantados respecto a ella y baja controlando hasta la paralela. Empuja con el pie entero para subir sin bloquear de golpe las rodillas. Error típico: poner los pies demasiado retrasados, lo que carga en exceso las rodillas y la espalda baja.",
       "descripcion_en": "Stand under the guided bar with your feet slightly forward of it and lower under control to parallel. Push through the whole foot to rise without snapping the knees straight. Common mistake: placing the feet too far back, which overloads the knees and lower back.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Smith_Machine_Squat",
         "analogía con sentadilla con barra (squat)"
@@ -4336,7 +4448,7 @@
       ],
       "descripcion": "Apoya la espalda y los hombros en el respaldo con los pies a la anchura de los hombros. Baja de forma controlada hasta que las rodillas superen los 90 grados y empuja sin despegar la zona lumbar. Error típico: acortar el recorrido o despegar los glúteos del respaldo en el fondo.",
       "descripcion_en": "Set your back and shoulders against the pad with feet shoulder-width apart. Lower under control until the knees pass 90 degrees and press back up without lifting the lower back. Common mistake: cutting the range short or peeling the hips off the pad at the bottom.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Barbell_Hack_Squat",
         "analogía con Gemini (hack_squat)"
@@ -4361,7 +4473,7 @@
         {
           "musculo_id": "gluteo_mayor",
           "rol": "secundario",
-          "activacion": 0.75
+          "activacion": 0.65
         },
         {
           "musculo_id": "aductores",
@@ -4381,7 +4493,7 @@
       ],
       "descripcion": "Siéntate con la espalda y la pelvis apoyadas y los pies a media altura de la plataforma. Baja hasta unos 90 grados de rodilla y empuja sin bloquear la articulación arriba. Error típico: dejar que la pelvis se despegue del asiento en el fondo, lo que curva la zona lumbar.",
       "descripcion_en": "Sit with your back and pelvis flat against the pad and feet mid-height on the platform. Lower to about 90 degrees of knee flexion and press up without locking out the knees. Common mistake: letting the pelvis lift off the seat at the bottom, which rounds the lower back.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Leg_Press",
         "analogía con Gemini (leg_press)"
@@ -4426,7 +4538,7 @@
       ],
       "descripcion": "Sujeta la mancuerna contra el pecho con los codos hacia abajo y baja entre las rodillas con el torso erguido. Sube empujando el suelo manteniendo el peso pegado al cuerpo. Error típico: inclinar el torso hacia delante y dejar que los talones se levanten.",
       "descripcion_en": "Hold the dumbbell against your chest with elbows pointing down and sit between your knees with an upright torso. Stand by pushing the floor while keeping the weight close. Common mistake: leaning the torso forward and letting the heels rise.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Goblet_Squat",
         "analogía con sentadilla frontal"
@@ -4576,7 +4688,7 @@
       ],
       "descripcion": "Avanza con un paso largo, baja controlando hasta que la rodilla trasera roce casi el suelo y empuja para llevar la otra pierna adelante. Mantén el torso erguido y el paso continuo. Error típico: pasos demasiado cortos o dejarse caer sin controlar el descenso.",
       "descripcion_en": "Step forward with a long stride, lower under control until the back knee nearly touches the floor, then drive through to bring the other leg forward. Keep the torso upright and the rhythm steady. Common mistake: taking steps that are too short or dropping without controlling the descent.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Dumbbell_Lunges",
         "free-exercise-db: Bodyweight_Walking_Lunge",
@@ -4637,7 +4749,7 @@
       ],
       "descripcion": "Trabaja una pierna cada vez con la rodilla alineada con el eje de la máquina. Extiende hasta casi bloquear, haz una pausa breve y baja lentamente. Error típico: balancear el torso o la cadera para ayudarte a subir la carga.",
       "descripcion_en": "Work one leg at a time with the knee aligned to the machine pivot. Extend until nearly locked out, pause briefly and lower slowly. Common mistake: swinging the torso or hips to help lift the load.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Leg_Extensions",
         "analogía con extensión bilateral"
@@ -4682,7 +4794,7 @@
       ],
       "descripcion": "Sitúa el pie entero sobre un cajón a la altura de la rodilla y sube empujando solo con esa pierna. Controla la bajada sin dejarte caer sobre el pie de abajo. Error típico: impulsarse con la pierna trasera, que resta trabajo al cuádriceps de la pierna que sube.",
       "descripcion_en": "Place your whole foot on a knee-height box and rise by pushing only with that leg. Control the way down without dropping onto the lower foot. Common mistake: pushing off the trailing leg, which takes work away from the working quad.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Dumbbell_Step_Ups",
         "analogía con zancadas"
@@ -4804,7 +4916,7 @@
       ],
       "descripcion": "Sujeta una mancuerna en cada mano frente a los muslos con las rodillas semiflexionadas. Empuja la cadera hacia atrás deslizando las mancuernas cerca de las piernas hasta sentir tensión en la parte posterior del muslo. Vuelve arriba extendiendo la cadera. Error típico: separar las mancuernas del cuerpo y perder la neutralidad de la espalda.",
       "descripcion_en": "Hold a dumbbell in each hand in front of your thighs with soft knees. Push the hips back, sliding the dumbbells close to your legs until you feel tension in the back of the thigh. Return by extending the hips. Common mistake: letting the dumbbells drift away from the body and losing a neutral spine.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "Analogía con peso muerto rumano con barra",
         "free-exercise-db: Stiff-Legged_Dumbbell_Deadlift"
@@ -4840,11 +4952,16 @@
           "musculo_id": "flexores_antebrazo",
           "rol": "estabilizador",
           "activacion": 0.2
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.4
         }
       ],
       "descripcion": "Con la barra en las manos y las rodillas casi extendidas, inclina el tronco desde la cadera manteniendo la espalda recta. Baja hasta notar un estiramiento fuerte en los isquiotibiales y sube empujando la cadera hacia delante. Error típico: redondear la zona lumbar al bajar más allá de la movilidad propia.",
       "descripcion_en": "With the bar in your hands and knees nearly straight, hinge forward from the hips keeping a flat back. Lower until you feel a strong hamstring stretch and rise by driving the hips forward. Common mistake: rounding the lower back by lowering beyond your available mobility.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Stiff-Legged_Barbell_Deadlift",
         "Analogía con peso muerto rumano"
@@ -5013,7 +5130,7 @@
       ],
       "descripcion": "Coloca la barra sobre los trapecios, rodillas ligeramente flexionadas y el core firme. Inclina el tronco llevando la cadera atrás con la espalda neutra hasta que quede casi paralelo al suelo. Vuelve arriba extendiendo la cadera. Error típico: redondear la espalda o usar demasiada carga y compensar con las rodillas.",
       "descripcion_en": "Place the bar on your traps with soft knees and a braced core. Hinge forward pushing the hips back with a neutral spine until the torso is nearly parallel to the floor. Return by extending the hips. Common mistake: rounding the back or using too much load and compensating with the knees.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Good_Morning",
         "Analogía con peso muerto rumano"
@@ -5098,7 +5215,7 @@
       ],
       "descripcion": "Ajusta el respaldo y el cinturón para que la almohadilla quede sobre la pelvis. Empuja con los talones hasta extender la cadera por completo y aprieta el glúteo un instante. Desciende de forma controlada hasta sentir estiramiento. Error típico: empujar con la espalda baja y levantar los talones en vez de dirigir el movimiento desde la cadera.",
       "descripcion_en": "Adjust the backrest and belt so the pad sits across your pelvis. Push through your heels until the hips are fully extended and squeeze the glutes briefly. Lower under control until you feel a stretch. Common mistake: pushing with the lower back and lifting the heels instead of driving the movement from the hips.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "Analogía con hip thrust con barra (mismo patrón, resistencia guiada)",
         "free-exercise-db: Barbell_Hip_Thrust"
@@ -5178,7 +5295,7 @@
       ],
       "descripcion": "Engancha la tobillera a la polea baja y apóyate en la máquina con el tronco ligeramente inclinado. Lleva la pierna hacia atrás extendiendo la cadera y aprieta el glúteo sin mover la pelvis. Vuelve lentamente sin dejar caer la pesa. Error típico: arquear la zona lumbar para ganar recorrido en vez de extender solo la cadera.",
       "descripcion_en": "Attach the ankle strap to the low cable and brace against the machine with a slight forward torso lean. Drive the leg back by extending the hip and squeeze the glute without moving the pelvis. Return slowly without letting the stack drop. Common mistake: arching the lower back to gain range instead of extending only at the hip.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: One-Legged_Cable_Kickback",
         "Analogía con hip thrust (extensión de cadera)"
@@ -5285,7 +5402,7 @@
       ],
       "descripcion": "Con la tobillera en la pierna de trabajo, colócate de lado a la polea y agárrate para mantener el equilibrio. Eleva la pierna hacia fuera sin inclinar el tronco y pausa arriba. Vuelve con control cruzando ligeramente la línea media. Error típico: inclinar el cuerpo hacia el lado contrario para subir más la pierna.",
       "descripcion_en": "With the ankle strap on the working leg, stand sideways to the cable and hold on for balance. Raise the leg outward without leaning the torso and pause at the top. Return under control, crossing slightly past the midline. Common mistake: leaning away to lift the leg higher.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "Analogía con abducción en máquina",
         "free-exercise-db: Thigh_Abductor"
@@ -5376,7 +5493,7 @@
       ],
       "descripcion": "De espaldas a la polea baja, toma la cuerda entre las piernas y da un paso adelante con las rodillas semiflexionadas. Lleva la cadera hacia atrás con la espalda recta hasta notar estiramiento en los isquiotibiales. Extiende la cadera con fuerza y aprieta los glúteos arriba. Error típico: flexionar demasiado las rodillas y convertirlo en una sentadilla.",
       "descripcion_en": "Facing away from the low cable, hold the rope between your legs and step forward with soft knees. Push the hips back with a flat back until you feel a hamstring stretch. Drive the hips forward and squeeze the glutes at the top. Common mistake: bending the knees too much so it becomes a squat.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Pull_Through",
         "Analogía con peso muerto rumano"
@@ -5399,14 +5516,14 @@
           "activacion": 1
         },
         {
-          "musculo_id": "gluteo_mayor",
+          "musculo_id": "isquiotibiales",
           "rol": "secundario",
-          "activacion": 0.25
+          "activacion": 0.3
         }
       ],
       "descripcion": "Siéntate en la máquina con las almohadillas en la cara interna de los muslos y la espalda apoyada. Junta las piernas de forma controlada y vuelve despacio hasta un estiramiento cómodo. Error típico: abrir con impulso o con un rango excesivo que fuerza la ingle.",
       "descripcion_en": "Sit in the machine with the pads on the inner thighs and your back supported. Bring the legs together under control and return slowly to a comfortable stretch. A typical mistake is opening with momentum or into an excessive range that strains the groin.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Adductor",
         "analogía con ejercicio de aducción de Gemini"
@@ -5429,14 +5546,14 @@
           "activacion": 1
         },
         {
-          "musculo_id": "gluteo_mayor",
-          "rol": "secundario",
-          "activacion": 0.25
-        },
-        {
           "musculo_id": "oblicuos",
           "rol": "estabilizador",
           "activacion": 0.2
+        },
+        {
+          "musculo_id": "isquiotibiales",
+          "rol": "secundario",
+          "activacion": 0.3
         }
       ],
       "descripcion": "Engancha la tobillera en el tobillo más cercano a la polea baja y sujétate a un soporte. Lleva la pierna a través del cuerpo cruzando por delante de la otra y vuelve controlando. Error típico: inclinar el tronco o rotar la cadera en vez de aducir.",
@@ -5864,7 +5981,7 @@
       ],
       "descripcion": "Con el torso paralelo al suelo y la espalda recta, parte con la barra apoyada en el suelo en cada repetición. Tira de forma explosiva hacia la parte baja del pecho y devuélvela al suelo con control. Reinicia sin rebotar. Error típico: subir el torso para ayudarse con impulso.",
       "descripcion_en": "With the torso parallel to the floor and a flat back, start each rep with the bar resting on the floor. Pull explosively to the lower chest and return it to the floor under control. Reset without bouncing. Common mistake: raising the torso to gain momentum.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Bent_Over_Barbell_Row",
         "analogía: Gemini espalda_004 (inicio desde el suelo)",
@@ -5920,7 +6037,7 @@
       ],
       "descripcion": "Túmbate bajo una barra baja y agarra con las manos algo más anchas que los hombros, con el cuerpo recto. Tira del pecho hacia la barra juntando las escápulas sin dejar caer la cadera. Baja controlando hasta extender los brazos. Error típico: dejar caer la cadera y encoger los hombros.",
       "descripcion_en": "Lie under a low bar and grip slightly wider than the shoulders with the body straight. Pull the chest to the bar squeezing the shoulder blades without letting the hips sag. Lower under control to full arm extension. Common mistake: letting the hips drop and shrugging.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Inverted_Row",
         "analogía: Gemini espalda_004",
@@ -5976,7 +6093,7 @@
       ],
       "descripcion": "Entra en la barra hexagonal con los pies a la anchura de la cadera y agarra las asas con la espalda neutra. Empuja el suelo con las piernas y extiende la cadera hasta ponerte erguido. Baja controlando con las rodillas y la cadera a la vez. Error típico: empezar con la cadera demasiado alta y convertirlo en un peso muerto de espalda.",
       "descripcion_en": "Step into the trap bar with feet hip-width and grip the handles with a neutral spine. Push the floor away and extend the hips to stand tall. Lower under control bending knees and hips together. Common mistake: starting with the hips too high and turning it into a back-dominant lift.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Trap_Bar_Deadlift",
         "analogía: Gemini pierna_006 (más cuádriceps por la posición)",
@@ -6060,11 +6177,16 @@
           "musculo_id": "oblicuos",
           "rol": "estabilizador",
           "activacion": 0.3
+        },
+        {
+          "musculo_id": "redondo_mayor",
+          "rol": "secundario",
+          "activacion": 0.5
         }
       ],
       "descripcion": "Sitúate de lado a una barra anclada con un pie delante y agarra el extremo con el torso inclinado. Tira del codo hacia la cadera con el agarre prono y aprieta el dorsal arriba. Baja con control hasta estirar. Error típico: girar el torso para subir el peso.",
       "descripcion_en": "Stand side-on to an anchored barbell with one foot forward and grip the end with the torso hinged. Pull the elbow toward the hip with a pronated grip and squeeze the lat at the top. Lower under control to a stretch. Common mistake: twisting the torso to lift the weight.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: One-Arm_Long_Bar_Row",
         "analogía: Gemini espalda_006 (unilateral)",
@@ -6121,11 +6243,21 @@
           "musculo_id": "recto_abdominal",
           "rol": "estabilizador",
           "activacion": 0.2
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
         }
       ],
       "descripcion": "Con la barra apoyada en la clavícula, flexiona rodillas y caderas un poco manteniendo el torso erguido. Extiende las piernas con fuerza y usa ese impulso para lanzar la barra arriba, terminando con los brazos. Recibe la barra bloqueada sobre la cabeza y bájala con control a la clavícula. Error típico: hacer una sentadilla profunda o empujar la barra hacia delante.",
       "descripcion_en": "With the bar resting on the collarbone, dip a short distance through knees and hips while keeping the torso upright. Drive the legs hard and use that momentum to launch the bar, finishing with the arms. Receive the bar locked out overhead and lower it under control to the collarbone. A common mistake is dipping too deep or pushing the bar out in front.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Push_Press",
         "analogía con ohp del lote"
@@ -6161,6 +6293,11 @@
           "musculo_id": "deltoides_posterior",
           "rol": "secundario",
           "activacion": 0.25
+        },
+        {
+          "musculo_id": "manguito_rotador",
+          "rol": "secundario",
+          "activacion": 0.35
         }
       ],
       "descripcion": "Agárrate a un soporte con una mano y inclínate hacia fuera, sujetando con la otra el asa de la polea baja. Eleva el brazo hacia el lado hasta la altura del hombro. La inclinación alarga el deltoides lateral en la parte baja del recorrido. Error típico: inclinarte tanto que el movimiento se convierta en una elevación frontal.",
@@ -6184,17 +6321,17 @@
         {
           "musculo_id": "trapecio_inferior",
           "rol": "principal",
-          "activacion": 0.85
+          "activacion": 0.9
         },
         {
           "musculo_id": "deltoides_posterior",
-          "rol": "principal",
-          "activacion": 0.85
+          "rol": "secundario",
+          "activacion": 0.5
         },
         {
           "musculo_id": "deltoides_lateral",
           "rol": "secundario",
-          "activacion": 0.65
+          "activacion": 0.8
         },
         {
           "musculo_id": "trapecio_medio",
@@ -6253,7 +6390,7 @@
       ],
       "descripcion": "Sube las mancuernas con las palmas hacia arriba como un curl normal. Arriba, gira las muñecas para que las palmas miren al suelo. Baja lentamente en pronación, lo que carga el braquial y los antebrazos. Error típico: bajar rápido o torcer las muñecas con peso excesivo.",
       "descripcion_en": "Curl the dumbbells with palms up as in a regular curl. At the top, rotate the wrists so the palms face the floor. Lower slowly in pronation, which loads the brachialis and forearms. Common mistake: lowering too fast or twisting the wrists with excessive weight.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Zottman_Curl",
         "analogía: curl supino más curl inverso"
@@ -6408,7 +6545,7 @@
       ],
       "descripcion": "Fija los pies en un banco declinado con las manos cruzadas sobre el pecho. Enrolla el tronco hasta separar los omóplatos del banco y baja con control. Error típico: incorporarte del todo y tirar con los flexores de cadera.",
       "descripcion_en": "Secure your feet on a decline bench with hands crossed over the chest. Curl the torso until the shoulder blades leave the bench, then lower under control. A typical mistake is sitting all the way up and pulling with the hip flexors.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Decline Crunch"
       ]
@@ -6452,7 +6589,7 @@
       ],
       "descripcion": "Colócate de lado a la polea a la altura del esternón con el asa pegada al pecho. Empuja las manos al frente hasta extender los brazos resistiendo que el cable gire el torso, y vuelve despacio. Error típico: rotar el tronco hacia la polea al estirar los brazos.",
       "descripcion_en": "Stand sideways to the cable at sternum height with the handle at your chest. Press the hands forward until the arms are straight while resisting the cable rotating your torso, then return slowly. A typical mistake is rotating the trunk toward the cable as the arms extend.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Pallof Press",
         "analogía con core_004 de Gemini"
@@ -6493,6 +6630,11 @@
           "musculo_id": "gluteo_medio",
           "rol": "estabilizador",
           "activacion": 0.35
+        },
+        {
+          "musculo_id": "recto_femoral",
+          "rol": "secundario",
+          "activacion": 0.4
         }
       ],
       "descripcion": "Da un paso atrás y baja con el torso erguido hasta que ambas rodillas formen unos 90 grados. Empuja con el pie delantero para volver. Error típico: inclinarse hacia delante o apoyar demasiado peso en la pierna trasera.",
@@ -6629,7 +6771,7 @@
       ],
       "descripcion": "Sostén una mancuerna y apóyate en una pierna con la rodilla ligeramente flexionada. Inclina el tronco llevando la otra pierna hacia atrás como una palanca hasta quedar casi horizontal. Vuelve arriba empujando con el pie de apoyo. Error típico: rotar la cadera hacia fuera y perder el equilibrio.",
       "descripcion_en": "Hold a dumbbell and stand on one leg with a slightly bent knee. Hinge the torso while the other leg extends behind like a lever until nearly horizontal. Return by driving through the standing foot. Common mistake: rotating the hips open and losing balance.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "Analogía con peso muerto rumano; mayor demanda de glúteo medio por estabilidad",
         "free-exercise-db: Romanian_Deadlift"
@@ -6674,7 +6816,7 @@
       ],
       "descripcion": "Apoya la espalda alta en un banco con un pie en el suelo y la otra pierna extendida o flexionada en el aire. Empuja con el talón de apoyo hasta alinear tronco y muslo y aprieta el glúteo. Baja controlando sin que la pelvis rote. Error típico: dejar caer la cadera hacia el lado libre en lugar de mantenerla nivelada.",
       "descripcion_en": "Rest your upper back on a bench with one foot on the floor and the other leg extended or bent in the air. Drive through the supporting heel until torso and thigh align and squeeze the glute. Lower under control without letting the pelvis rotate. Common mistake: letting the hip drop toward the free side instead of keeping it level.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "Analogía con hip thrust con barra; mayor demanda de glúteo medio por estabilidad unilateral",
         "free-exercise-db: Single_Leg_Glute_Bridge"
@@ -6786,7 +6928,7 @@
       ],
       "descripcion": "Coge dos discos lisos juntos con los dedos y el pulgar, con las caras lisas hacia fuera. Mantén el agarre sin soltar durante el tiempo marcado, con el brazo relajado a un lado. Aprieta como si quisieras juntar los discos. Error típico: usar discos demasiado pesados y soltar antes de tiempo.",
       "descripcion_en": "Pinch two smooth plates together with your fingers and thumb, smooth sides facing out. Hold the grip without dropping for the target time with the arm relaxed at your side. Squeeze as if trying to press the plates together. Common mistake: using plates too heavy and letting go early.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Plate_Pinch",
         "analogía: ejercicios de agarre isométrico"
@@ -6921,7 +7063,7 @@
       ],
       "descripcion": "Coloca un banco inclinado entre las poleas y agarra las asas a los lados del pecho alto. Empuja hacia arriba y adelante hasta extender los codos, manteniendo la tensión del cable. Error típico: dejar que los cables tiren de los hombros hacia atrás al volver.",
       "descripcion_en": "Place an incline bench between the pulleys and hold the handles at the sides of the upper chest. Press up and forward until the elbows extend, keeping tension on the cables. Common mistake: letting the cables pull the shoulders back on the way down.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Incline_Cable_Chest_Press",
         "analogía con press inclinado con mancuernas"
@@ -6981,7 +7123,7 @@
       ],
       "descripcion": "De pie con una postura escalonada, agarra las asas a los lados del pecho con las poleas a esa altura. Empuja hacia delante hasta extender los codos sin rotar el tronco y vuelve con control. Error típico: inclinarse hacia delante o girar el torso para mover la carga.",
       "descripcion_en": "Standing in a split stance, hold the handles at chest level with the pulleys at that height. Press forward until the elbows extend without rotating the torso, then return under control. Common mistake: leaning forward or twisting the torso to move the load.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Standing_Cable_Chest_Press",
         "analogía con press de pecho en máquina"
@@ -7036,7 +7178,7 @@
       ],
       "descripcion": "Túmbate en el suelo con las rodillas flexionadas y las mancuernas a los lados del pecho. Baja hasta que la parte posterior de los brazos toque el suelo, haz una breve pausa y empuja hasta extender los codos. Error típico: dejar caer los codos de golpe sobre el suelo.",
       "descripcion_en": "Lie on the floor with knees bent and the dumbbells at the sides of your chest. Lower until the backs of your upper arms touch the floor, pause briefly and press until the elbows extend. Common mistake: dropping the elbows onto the floor abruptly.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Floor_Press",
         "analogía con press de banca con mancuernas (recorrido parcial: más tríceps)"
@@ -7196,7 +7338,7 @@
       ],
       "descripcion": "Coloca las manos juntas bajo el pecho formando un rombo con pulgares e índices. Baja el cuerpo en bloque con los codos cerca de las costillas. Empuja hasta extender los codos. Error típico: dejar caer la cadera o abrir los codos.",
       "descripcion_en": "Place your hands together under the chest forming a diamond with thumbs and index fingers. Lower the body as one unit with the elbows close to the ribs. Push up until the elbows are extended. Common mistake: letting the hips sag or the elbows flare.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Close-Grip_Push-Up_off_of_a_Dumbbell",
         "EMG (recordado, sin verificar): analogía con press de banca de agarre cerrado"
@@ -7411,7 +7553,7 @@
       ],
       "descripcion": "Ajusta el asiento para que los agarres queden a la altura de la parte baja del pecho. Empuja hacia delante y ligeramente hacia abajo hasta extender los codos y vuelve despacio. Error típico: apoyar las placas entre repeticiones y perder tensión.",
       "descripcion_en": "Adjust the seat so the handles are at lower-chest height. Press forward and slightly downward until the elbows extend and return slowly. Common mistake: resting the plates between reps and losing tension.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Leverage_Decline_Chest_Press",
         "analogía con press de pecho en máquina"
@@ -7466,7 +7608,7 @@
       ],
       "descripcion": "Con agarre supino a la anchura de los hombros, inclina el torso con la espalda recta y las rodillas flexionadas. Tira de la barra hacia la parte baja del abdomen manteniendo los codos pegados. Baja controlando. Error típico: abrir los codos y perder el trabajo del dorsal.",
       "descripcion_en": "With an underhand grip at shoulder width, hinge the torso with a straight back and bent knees. Pull the bar toward the lower abdomen keeping the elbows tucked. Lower under control. Common mistake: flaring the elbows and losing lat engagement.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Reverse_Grip_Bent-Over_Rows",
         "analogía: Gemini espalda_004 (más bíceps por el agarre supino)",
@@ -7517,7 +7659,7 @@
       ],
       "descripcion": "Siéntate con el asa en V y los muslos fijos, con el pecho alto. Tira del asa hacia el esternón llevando los codos hacia abajo y atrás. Vuelve arriba controlando el estiramiento. Error típico: inclinarte hacia atrás y tirar con impulso.",
       "descripcion_en": "Sit with the V-handle and thighs secured, chest tall. Pull the handle toward the sternum driving the elbows down and back. Return up while controlling the stretch. Common mistake: leaning back and pulling with momentum.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: V-Bar_Pulldown",
         "analogía: Gemini espalda_003",
@@ -7568,7 +7710,7 @@
       ],
       "descripcion": "Agarra la barra en supinación a la anchura de los hombros y siéntate con el pecho alto. Tira de la barra hacia la parte alta del pecho llevando los codos hacia abajo. Sube controlando el estiramiento. Error típico: tirar con los brazos y no con los codos.",
       "descripcion_en": "Take the bar underhand at shoulder width and sit with the chest tall. Pull the bar to the upper chest driving the elbows down. Return while controlling the stretch. Common mistake: pulling with the arms instead of the elbows.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Underhand_Cable_Pulldowns",
         "analogía: Gemini espalda_002 (ajuste por agarre supino)",
@@ -7619,7 +7761,7 @@
       ],
       "descripcion": "De rodillas frente a la polea, agarra el asa con un brazo y mantén el torso estable. Tira del codo hacia atrás y hacia la cadera juntando la escápula. Vuelve estirando el brazo sin rotar. Error típico: girar el tronco para ayudarte con el peso.",
       "descripcion_en": "Kneeling facing the cable, hold the handle with one arm and keep the torso steady. Pull the elbow back toward the hip while squeezing the shoulder blade. Return extending the arm without rotating. Common mistake: twisting the trunk to help move the weight.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Kneeling_Single-Arm_High_Pulley_Row",
         "analogía: Gemini espalda_006",
@@ -7670,7 +7812,7 @@
       ],
       "descripcion": "Agarra las asas de suspensión y recuéstate hacia atrás con el cuerpo recto y los brazos extendidos. Tira del pecho hacia las manos juntando las escápulas. Baja controlando sin dejar caer la cadera. Error típico: arquear la espalda o dejar caer la pelvis.",
       "descripcion_en": "Hold the suspension handles and lean back with a straight body and arms extended. Pull the chest toward the hands squeezing the shoulder blades. Lower under control without letting the hips drop. Common mistake: arching the back or letting the pelvis sag.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Suspended_Row",
         "analogía: Gemini espalda_004 (análogo con peso corporal)",
@@ -7721,7 +7863,7 @@
       ],
       "descripcion": "Con una mancuerna en cada mano, inclina el torso con la espalda recta y las rodillas flexionadas. Tira de los codos hacia atrás hasta que las mancuernas lleguen a las costillas. Baja con control. Error típico: elevar el torso para ayudarte y redondear la espalda.",
       "descripcion_en": "With a dumbbell in each hand, hinge the torso with a flat back and bent knees. Pull the elbows back until the dumbbells reach the ribs. Lower under control. Common mistake: raising the torso for help and rounding the back.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Bent_Over_Two-Dumbbell_Row",
         "analogía: Gemini espalda_004",
@@ -7856,11 +7998,16 @@
           "musculo_id": "dorsal_ancho",
           "rol": "secundario",
           "activacion": 0.45
+        },
+        {
+          "musculo_id": "aductores",
+          "rol": "secundario",
+          "activacion": 0.4
         }
       ],
       "descripcion": "Súbete a una plataforma baja con la barra sobre el medio del pie y agarra con la espalda neutra. Empuja con las piernas y extiende la cadera con la barra pegada al cuerpo. Baja con control hasta el déficit. Error típico: perder la tensión lumbar en el punto más bajo.",
       "descripcion_en": "Stand on a low platform with the bar over mid-foot and grip it with a neutral spine. Drive with the legs and extend the hips with the bar close to the body. Lower under control to the deficit. Common mistake: losing lumbar tension at the lowest point.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Deficit_Deadlift",
         "analogía: Gemini pierna_006 (más cuádriceps por el rango extra)",
@@ -7906,7 +8053,7 @@
       ],
       "descripcion": "Siéntate en la máquina con el pecho contra el apoyo y agarra las asas altas. Tira hacia abajo y atrás llevando los codos hacia las costillas. Vuelve controlando el estiramiento. Error típico: inclinarse hacia delante al soltar la carga.",
       "descripcion_en": "Sit in the machine with the chest against the pad and grip the high handles. Pull down and back driving the elbows toward the ribs. Return while controlling the stretch. Common mistake: leaning forward on the release.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Leverage_High_Row",
         "analogía: Gemini espalda_003 y espalda_005",
@@ -7997,11 +8144,16 @@
           "musculo_id": "flexores_antebrazo",
           "rol": "estabilizador",
           "activacion": 0.3
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "secundario",
+          "activacion": 0.35
         }
       ],
       "descripcion": "Añade lastre con cinturón y cuélgate con agarre prono algo más ancho que los hombros. Baja las escápulas y tira de los codos hacia las costillas hasta pasar la barbilla. Baja con control hasta la extensión. Error típico: balancearse con el lastre y acortar el rango.",
       "descripcion_en": "Add load with a belt and hang with a pronated grip slightly wider than the shoulders. Depress the shoulder blades and pull the elbows to the ribs until the chin passes the bar. Lower under control to full extension. Common mistake: swinging with the load and shortening the range.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Weighted_Pull_Ups",
         "analogía: Gemini espalda_001",
@@ -8048,6 +8200,16 @@
           "musculo_id": "trapecio_superior",
           "rol": "secundario",
           "activacion": 0.4
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
         }
       ],
       "descripcion": "Siéntate con la espalda apoyada y agarra la barra algo más ancha que los hombros. Baja la barra hasta la clavícula o la barbilla con los codos ligeramente adelantados. Empuja hasta extender los codos sin arquear la zona lumbar. Error típico: despegar los glúteos del asiento o lanzar la cabeza hacia delante al subir.",
@@ -8093,6 +8255,16 @@
           "musculo_id": "trapecio_superior",
           "rol": "secundario",
           "activacion": 0.35
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
         }
       ],
       "descripcion": "Sentado entre las poleas bajas, sujeta un agarre en cada mano a la altura de los hombros. Empuja hacia arriba y ligeramente hacia dentro hasta extender los brazos. Baja de forma controlada manteniendo la tensión del cable. Error típico: dejar que los cables tiren de los hombros hacia delante al bajar.",
@@ -8147,6 +8319,16 @@
           "musculo_id": "oblicuos",
           "rol": "estabilizador",
           "activacion": 0.2
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
         }
       ],
       "descripcion": "De pie con los pies al ancho de caderas, sostén las mancuernas a la altura de los hombros. Aprieta glúteos y abdomen y empuja hacia arriba hasta extender los codos. Baja con control sin inclinar el torso hacia atrás. Error típico: usar las piernas y la espalda para ayudarte a subir.",
@@ -8201,6 +8383,16 @@
           "musculo_id": "recto_abdominal",
           "rol": "estabilizador",
           "activacion": 0.2
+        },
+        {
+          "musculo_id": "serrato_anterior",
+          "rol": "secundario",
+          "activacion": 0.35
+        },
+        {
+          "musculo_id": "triceps_larga",
+          "rol": "secundario",
+          "activacion": 0.3
         }
       ],
       "descripcion": "Sostén una mancuerna a la altura del hombro con el antebrazo vertical y la otra mano libre. Empuja hasta extender el codo sin inclinar el tronco hacia el lado contrario. Baja controlando el peso hasta el hombro. Error típico: flexionar lateralmente la columna para ganar recorrido.",
@@ -8285,6 +8477,11 @@
           "musculo_id": "deltoides_posterior",
           "rol": "secundario",
           "activacion": 0.25
+        },
+        {
+          "musculo_id": "manguito_rotador",
+          "rol": "secundario",
+          "activacion": 0.35
         }
       ],
       "descripcion": "Sujeta una mancuerna con una mano y, si quieres, apóyate con la otra en un soporte. Eleva el brazo hacia el lado hasta la altura del hombro con el codo ligeramente flexionado. Baja con control sin balancear el cuerpo. Error típico: subir con el trapecio y el impulso del tronco en lugar de con el deltoides.",
@@ -8324,6 +8521,11 @@
           "musculo_id": "deltoides_posterior",
           "rol": "secundario",
           "activacion": 0.25
+        },
+        {
+          "musculo_id": "manguito_rotador",
+          "rol": "secundario",
+          "activacion": 0.35
         }
       ],
       "descripcion": "Siéntate en un banco con el torso recto y una mancuerna en cada mano. Eleva los brazos hacia los lados hasta la altura de los hombros con los codos ligeramente flexionados. Al estar sentado no puedes ayudarte con las piernas. Error típico: inclinarte hacia atrás para lanzar las mancuernas.",
@@ -8512,8 +8714,8 @@
           "activacion": 0.3
         }
       ],
-      "descripcion": "Agarra la carga con las manos algo más cerca que el ancho de los hombros. Sube tirando de los codos hacia arriba y hacia los lados hasta la altura del pecho, manteniendo el peso cerca del cuerpo. Baja con control. Error típico: subir los codos por encima de los hombros con agarre muy estrecho, lo que carga el hombro.",
-      "descripcion_en": "Grip the load slightly narrower than shoulder width. Pull by driving the elbows up and out to chest height, keeping the weight close to the body. Lower under control. A common mistake is raising the elbows above the shoulders with a very narrow grip, which stresses the shoulder.",
+      "descripcion": "En polea baja con barra o cuerda, mantén la tensión constante durante todo el recorrido. Sube el agarre pegado al cuerpo tirando de los codos hacia arriba y hacia los lados hasta el pecho. Baja despacio sin soltar la tensión de la polea. Error típico: echarte hacia atrás para ayudarte con el cable.",
+      "descripcion_en": "On a low pulley with a bar or rope, keep constant tension through the whole range. Pull the handle up close to the body, driving the elbows up and out to chest height. Lower slowly without losing cable tension. A common mistake is leaning back to cheat with the cable.",
       "confianza": "baja",
       "fuentes": [
         "analogía con upright_row"
@@ -8556,8 +8758,8 @@
           "activacion": 0.3
         }
       ],
-      "descripcion": "Agarra la carga con las manos algo más cerca que el ancho de los hombros. Sube tirando de los codos hacia arriba y hacia los lados hasta la altura del pecho, manteniendo el peso cerca del cuerpo. Baja con control. Error típico: subir los codos por encima de los hombros con agarre muy estrecho, lo que carga el hombro.",
-      "descripcion_en": "Grip the load slightly narrower than shoulder width. Pull by driving the elbows up and out to chest height, keeping the weight close to the body. Lower under control. A common mistake is raising the elbows above the shoulders with a very narrow grip, which stresses the shoulder.",
+      "descripcion": "Con una mancuerna en cada mano, déjalas al frente de los muslos con las palmas hacia ti. Sube las mancuernas cerca del cuerpo llevando los codos arriba y a los lados hasta el pecho; las muñecas pueden moverse con libertad. Baja con control. Error típico: encoger los hombros y subir los codos por encima de las manos.",
+      "descripcion_en": "Holding a dumbbell in each hand, start with them in front of the thighs and palms facing you. Raise the dumbbells close to the body with the elbows leading up and out to chest height; the wrists are free to move. Lower under control. A common mistake is shrugging and lifting the elbows well above the hands.",
       "confianza": "baja",
       "fuentes": [
         "analogía con upright_row"
@@ -8950,14 +9152,14 @@
           "activacion": 0.35
         },
         {
-          "musculo_id": "deltoides_anterior",
-          "rol": "estabilizador",
-          "activacion": 0.15
-        },
-        {
           "musculo_id": "flexores_antebrazo",
           "rol": "estabilizador",
           "activacion": 0.2
+        },
+        {
+          "musculo_id": "deltoides_posterior",
+          "rol": "estabilizador",
+          "activacion": 0.15
         }
       ],
       "descripcion": "Sujeta la barra y sube llevando los codos hacia atrás, deslizando la barra pegada al torso. Así el hombro no interviene y el bíceps trabaja más aislado. Baja deslizando la barra por el cuerpo. Error típico: separar la barra del torso y volver a un curl normal.",
@@ -9292,7 +9494,7 @@
       ],
       "descripcion": "Túmbate con agarre algo más estrecho que los hombros y baja la barra hacia la frente o el cuello con los codos adelantados. Flexiona los codos y empuja hasta extenderlos. Combina un press cerrado con una extensión. Error típico: abrir los codos y convertirlo en un press de banca normal.",
       "descripcion_en": "Lie down with a grip slightly narrower than the shoulders and lower the bar toward the forehead or neck with the elbows forward. Bend the elbows then press until they are extended. It blends a close-grip press with a triceps extension. Common mistake: flaring the elbows and turning it into a regular bench press.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: JM_Press",
         "EMG (recordado, sin verificar): analogía con press de banca de agarre cerrado"
@@ -9441,7 +9643,7 @@
       ],
       "descripcion": "Sujeta el rodillo con los brazos extendidos al frente a la altura de los hombros. Gira las muñecas alternando para enrollar la cuerda y subir el peso. Cuando llegues arriba, desenrolla con control. Error típico: bajar los brazos o soltar la cuerda de golpe.",
       "descripcion_en": "Hold the roller with your arms extended in front at shoulder height. Alternate wrist rotations to wind the rope and raise the weight. When it reaches the top, unwind under control. Common mistake: letting the arms drop or releasing the rope suddenly.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Wrist_Roller",
         "analogía: ejercicios de muñeca"
@@ -9516,7 +9718,7 @@
       ],
       "descripcion": "Túmbate boca arriba con caderas y rodillas flexionadas a 90 grados. Eleva la pelvis del suelo llevando las rodillas hacia el pecho y baja despacio. Error típico: balancear las piernas con impulso sin elevar la pelvis.",
       "descripcion_en": "Lie on your back with hips and knees bent at 90 degrees. Lift the pelvis off the floor bringing the knees toward the chest, then lower slowly. A typical mistake is swinging the legs with momentum without lifting the pelvis.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Reverse Crunch"
       ]
@@ -9555,7 +9757,7 @@
       ],
       "descripcion": "Túmbate con brazos extendidos hacia el techo y caderas y rodillas a 90 grados, lumbar pegada al suelo. Baja a la vez un brazo y la pierna contraria sin perder el contacto lumbar y alterna. Error típico: arquear la zona lumbar al extender las extremidades.",
       "descripcion_en": "Lie with arms extended toward the ceiling and hips and knees at 90 degrees, lower back on the floor. Lower one arm and the opposite leg together without losing lumbar contact, then alternate. A typical mistake is arching the lower back as the limbs extend.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Dead Bug",
         "analogía con plancha"
@@ -9595,7 +9797,7 @@
       ],
       "descripcion": "Cuélgate de la barra y eleva las piernas rectas hasta tocarla o acercarte lo máximo posible, doblando la cadera en pica. Baja controlando sin balanceo. Error típico: perder la tensión abdominal y dejar caer las piernas de golpe.",
       "descripcion_en": "Hang from the bar and raise straight legs toward it, folding at the hips into a pike as far as possible. Lower under control without swinging. A typical mistake is losing abdominal tension and dropping the legs suddenly.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Hanging Pike",
         "analogía con elevación de piernas colgado"
@@ -9710,7 +9912,7 @@
       ],
       "descripcion": "Siéntate de lado a la polea con el asa a la altura del pecho y los pies firmes. Gira el torso alejándote de la polea manteniendo los brazos casi rectos y vuelve controlando el retorno. Error típico: mover solo los brazos o dejar que la polea tire de ti.",
       "descripcion_en": "Sit sideways to the cable with the handle at chest height and feet planted. Rotate the torso away from the cable keeping the arms nearly straight, then control the return. A typical mistake is moving only the arms or letting the cable pull you around.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Cable Russian Twists",
         "analogía con giro ruso"
@@ -9745,7 +9947,7 @@
       ],
       "descripcion": "De pie frente a la polea alta, sujeta la cuerda junto a la cabeza e inclina ligeramente el tronco. Enrolla la columna llevando los codos hacia las rodillas y vuelve estirando el abdomen. Error típico: tirar con los brazos o doblar solo la cadera.",
       "descripcion_en": "Stand facing the high cable, hold the rope beside your head and lean the trunk slightly forward. Round the spine bringing the elbows toward the knees, then return by lengthening the abs. A typical mistake is pulling with the arms or bending only at the hips.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Rope Crunch",
         "analogía con crunch en polea"
@@ -9839,7 +10041,7 @@
       ],
       "descripcion": "Siéntate hacia atrás sobre el cajón con las espinillas verticales y haz una pausa sin relajar la tensión. Impulsa las caderas y los pies para levantarte con el torso firme. Error típico: dejarse caer sobre el cajón y perder la tensión del torso.",
       "descripcion_en": "Sit back onto the box with shins near vertical and pause without relaxing tension. Drive the hips and feet to stand with a firm torso. Common mistake: dropping onto the box and losing trunk tension.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Box_Squat",
         "analogía con sentadilla con barra"
@@ -9889,7 +10091,7 @@
       ],
       "descripcion": "Sujeta una mancuerna en cada mano a los lados y baja con el torso erguido hasta la paralela. Sube empujando el suelo con los pies. Error típico: dejar que las mancuernas arrastren los hombros hacia delante o redondear la espalda.",
       "descripcion_en": "Hold a dumbbell in each hand at your sides and lower with an upright torso to parallel. Stand by pushing the floor with your feet. Common mistake: letting the dumbbells pull the shoulders forward or rounding the back.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Dumbbell_Squat",
         "analogía con sentadilla con barra"
@@ -9929,7 +10131,7 @@
       ],
       "descripcion": "Separa los pies más que los hombros con las puntas abiertas y sujeta una mancuerna colgando entre las piernas. Baja con el torso erguido y las rodillas siguiendo los pies, y sube apretando los muslos. Error típico: dejar que las rodillas se cierren hacia dentro.",
       "descripcion_en": "Set your feet wider than shoulder width with toes turned out and hold a dumbbell hanging between your legs. Lower with an upright torso and knees tracking the feet, then rise squeezing the inner thighs. Common mistake: letting the knees cave inward.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Plie_Dumbbell_Squat",
         "analogía con sentadilla goblet"
@@ -9969,7 +10171,7 @@
       ],
       "descripcion": "Coloca los pies juntos en la parte media o baja de la plataforma y baja hasta unos 90 grados de rodilla. Empuja sin bloquear las rodillas arriba. Error típico: despegar la pelvis del asiento o forzar el recorrido más allá de lo que permite la zona lumbar.",
       "descripcion_en": "Place your feet together on the mid or lower platform and lower to about 90 degrees of knee flexion. Press without locking the knees. Common mistake: lifting the pelvis off the seat or forcing range beyond what the lower back allows.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "analogía con prensa de piernas (leg_press)"
       ]
@@ -10117,7 +10319,7 @@
       ],
       "descripcion": "Con los pies en posición de paso fija, baja en vertical hasta que el muslo delantero quede paralelo. Sube empujando con el pie delantero sin mover los pies del sitio. Error típico: inclinar el torso hacia delante o acortar el recorrido.",
       "descripcion_en": "From a fixed staggered stance, lower straight down until the front thigh is parallel. Rise by pushing through the front foot without moving the feet. Common mistake: leaning the torso forward or shortening the range.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Single_Leg_Squat",
         "analogía con zancada y sentadilla búlgara"
@@ -10335,7 +10537,7 @@
       ],
       "descripcion": "Apoya el torso en la almohadilla de la máquina con las piernas colgando y sujétate de las asas. Eleva las piernas hacia atrás hasta alinearlas con el cuerpo apretando los glúteos. Baja con control sin balancear. Error típico: lanzar las piernas con impulso y pasarse de la línea del cuerpo, cargando la zona lumbar.",
       "descripcion_en": "Rest your torso on the machine pad with the legs hanging and hold the handles. Raise the legs backward until aligned with the body, squeezing the glutes. Lower under control without swinging. Common mistake: swinging the legs with momentum and going past the body line, overloading the lower back.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Reverse_Hyperextension"
       ]
@@ -10369,7 +10571,7 @@
       ],
       "descripcion": "De pie frente a la máquina, coloca la almohadilla sobre el talón de la pierna de trabajo y apóyate con las manos. Flexiona la rodilla llevando el talón hacia el glúteo sin mover el muslo. Baja despacio. Error típico: balancear el cuerpo o adelantar la rodilla para ayudarse.",
       "descripcion_en": "Stand facing the machine, place the pad above the heel of the working leg and brace with your hands. Curl the heel toward the glute without moving the thigh. Lower slowly. Common mistake: swinging the body or pushing the knee forward to cheat.",
-      "confianza": "media",
+      "confianza": "baja",
       "fuentes": [
         "free-exercise-db: Standing_Leg_Curl"
       ]
