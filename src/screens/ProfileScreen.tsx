@@ -179,11 +179,12 @@ function AccountCard() {
                 : t('neverSynced')}
         </p>
         {sync.lastError && <p className="tiny" style={{ color: 'var(--red-strong)' }}>{sync.lastError}</p>}
-        <div className="grid-2">
-          <button className="btn" disabled={sync.running} onClick={() => syncNow()}>
+        {/* Uno debajo del otro: en dos columnas no caben en un móvil y la página se desplaza de lado. */}
+        <div className="col">
+          <button className="btn block" disabled={sync.running} onClick={() => syncNow()}>
             <RefreshCw size={16} /> {t('syncNow')}
           </button>
-          <button className="btn ghost" onClick={() => signOut()}>
+          <button className="btn ghost block" onClick={() => signOut()}>
             <LogOut size={16} /> {t('signOut')}
           </button>
         </div>
