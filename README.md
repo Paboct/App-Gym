@@ -12,7 +12,7 @@ Funciona en Android (APK) y en cualquier navegador de escritorio con el mismo c�
 - **Rutina**: mesociclos con número de microciclos configurable, días en secuencia
   (Día 1, Día 2…), semana de descarga y variaciones de series y RIR por semana.
 - **Ejercicios**: catálogo propio bilingüe (es/en) de 240 ejercicios con fotos,
-  músculos principales y secundarios, favoritos y ejercicios creados por ti. Mapa
+  con coeficiente de activación por músculo (35 músculos), favoritos y ejercicios creados por ti. Mapa
   corporal anatómico de frente y espalda que resalta lo que trabaja cada día o ejercicio.
 - **Entreno en vivo**: selector de serie, peso, repeticiones, RIR (8–10), dropsets
   de hasta 3 bajadas, series de aproximación, referencia de la semana anterior con
@@ -77,7 +77,6 @@ de la firma esté registrada en el cliente Android de Google Cloud (ver
 
 ## Créditos y licencias
 
-- **Mapa corporal anatómico:** trazados de [react-native-body-highlighter](https://github.com/HichamELBSI/react-native-body-highlighter), © 2022 Hicham ELABBASSI, licencia MIT.
 - **Fotos de ejercicios:** [free-exercise-db](https://github.com/yuhonas/free-exercise-db), dominio público (Unlicense). Se redimensionan y se tiñen con `npm run images:build -- --src <clon>`; la tabla ejercicio → foto está en `scripts/exercise-image-map.json`.
 - **Inicio de sesión con Google:** [`@capgo/capacitor-social-login`](https://github.com/Cap-go/capacitor-social-login) (MIT).
 - **Exportación a Excel:** [ExcelJS](https://github.com/exceljs/exceljs) (MIT) para generar el `.xlsx` y [JSZip](https://github.com/Stuk/jszip) (MIT o GPL-3.0, se usa bajo MIT) para añadir las gráficas.

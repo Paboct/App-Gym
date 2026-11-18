@@ -6,7 +6,7 @@ import { db } from '../data/db';
 import { formatDuration, formatE1rm, formatWeight, totalVolume } from '../domain/calc';
 import { phraseFor } from '../domain/phrases';
 import type { Exercise, SetLog, Workout } from '../domain/types';
-import { muscleLevels } from '../lib/muscles';
+import { muscleActivations } from '../lib/muscles';
 import { exerciseName, useSettings, useT } from '../lib/settings';
 
 function formatDate(iso: string, lang: 'es' | 'en'): string {
@@ -177,7 +177,7 @@ export function SummaryScreen() {
       </div>
 
       <div className="card">
-        <MuscleSummary levels={muscleLevels(wes.map((we) => exercises.get(we.exerciseId)))} size="sm" />
+        <MuscleSummary activations={muscleActivations(wes.map((we) => exercises.get(we.exerciseId)))} size="sm" />
       </div>
 
       <h3>{t('setsDetail')}</h3>

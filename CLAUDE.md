@@ -7,6 +7,10 @@ Capacitor. Datos locales en IndexedDB (Dexie), nube en Supabase. Idioma de traba
   funciones: `docs/superpowers/{specs,plans}/`.
 - **v1 cerrada** (17-nov-2026) y en `main`. La v2 de KPIs ya está casi toda hecha; solo
   falta comparar dos mesociclos y afinar los umbrales de rango.
+- Catálogo y su pipeline de datos: `data/catalogo/` (fuente `ejercicios.json`, 35 músculos con
+  activación). Mapas corporales: `src/assets/body/*.svg`, generados a `src/data/bodyArt.ts` con
+  `scripts/catalogo/generar-bodyart.mjs`; `src/data/catalog.json` sale de `generar-catalog-json.mjs`.
+- Migración `0004_exercise_muscles.sql` pendiente de aplicar a mano en Supabase antes de sincronizar.
 - Comandos: `npm test`, `npm run typecheck`, `npm run android:sync` (compila y copia a
   `android/`), `npm run android:assets` (iconos desde `public/logo.svg`).
 - Probar en el móvil: Android Studio → Run con el OPPO A94 conectado por USB. Si

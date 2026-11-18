@@ -72,11 +72,29 @@ reloj del backlog necesitarán un módulo nativo aparte.
 
 - Rutina: crear y editar mesociclos, días, ejercicios, variaciones por semana,
   descarga, sustituciones.
-- Catálogo propio de 240 ejercicios (222 con foto) en español e inglés con músculos principales y
-  secundarios (22 músculos, 12 grupos), favoritos y ejercicios propios. Cada
-  ejercicio con foto la lleva de free-exercise-db (dominio público; ver README).
-- Mapa corporal anatómico de frente y espalda, figura masculina o femenina, con
-  músculos principales y secundarios en dos colores.
+- Catálogo propio de 240 ejercicios (222 con foto) en español e inglés, favoritos y
+  ejercicios propios. Cada ejercicio con foto la lleva de free-exercise-db (dominio
+  público; ver README).
+- **Catálogo con activación** (rama `catalogo-app`): 35 músculos en 12 grupos; cada
+  ejercicio lleva descripción, patrón de movimiento, mecánica y, por músculo, un rol
+  (principal, secundario o estabilizador) y un coeficiente de activación de 0 a 1.
+  Confianza de los coeficientes: 13 alta, 104 media y 123 baja (son estimaciones
+  razonadas, no medidas). Los ejercicios propios se crean con principal = 1,0 y
+  secundario = 0,5.
+- Los **estabilizadores** se muestran en la ficha y en el mapa, pero **no cuentan**
+  para series ni volumen. El volumen y las series de un **grupo** usan la activación
+  máxima de sus músculos en el ejercicio; las series efectivas por músculo son
+  series × activación. Decisión del peso muerto: trabaja glúteo e isquiotibiales
+  (principales), no la espalda baja.
+- Ficha del ejercicio (ⓘ) con descripción, patrón, mapa coloreado por tramos
+  (alta ≥ 0,8, media ≥ 0,4, baja) y lista de músculos con su porcentaje.
+- Mapa corporal de 35 zonas, de frente y espalda, figura masculina o femenina
+  (SVG propios en `src/assets/body/`, generados a `src/data/bodyArt.ts` con
+  `scripts/catalogo/generar-bodyart.mjs`), coloreado por activación.
+- Los datos del catálogo y su proceso de generación y revisión están en
+  `data/catalogo/` (`ejercicios.json` es la fuente; `src/data/catalog.json` es la
+  copia sin `fuentes` que genera `scripts/catalogo/generar-catalog-json.mjs`). La
+  validación es `tests/catalogData.test.ts`.
 - Entreno en vivo completo y resumen con duración, volumen, récords, gráfica de
   volumen por ejercicio frente a la semana anterior y frase de motivación.
 - Temporizador de descanso con vibración y aviso de fin con notificación local
@@ -91,7 +109,7 @@ reloj del backlog necesitarán un módulo nativo aparte.
   `signInWithIdToken`). Probado en el móvil.
 - Iconos y pantallas de arranque de Android con el logo centrado ópticamente
   (`npm run android:assets`).
-- 118 tests (Vitest).
+- Más de 190 tests (Vitest).
 
 ### Pendiente de la v1
 
@@ -100,6 +118,7 @@ reloj del backlog necesitarán un módulo nativo aparte.
 | Logo en alta resolución (ahora es un redibujo vectorial del boceto) | Archivo original del logo |
 | Título de la ficha de Play Store (ya existen «Legacy Athletics» y «Legacy Gym») | Decidir al publicar (el usuario lo pospone) |
 | Comprobar que el APK de GitHub Actions compila con el plugin de Google | Mirar la pestaña Actions tras el push a `main` |
+| **Aplicar `supabase/migrations/0004_exercise_muscles.sql` a mano** en el editor SQL del proyecto Legacy, ANTES de probar la sincronización en el móvil con una sesión | Hacerlo desde el panel de Supabase |
 | Firma de publicación para Play Store (hoy se usa `android/debug.keystore`) | Al publicar; hará falta añadir su SHA-1 al cliente Android de Google Cloud |
 
 ### v2 · KPIs
@@ -134,7 +153,11 @@ progreso, calculadora de discos, recordatorios, importar datos antiguos.
 - **Supabase:** organización «Paboct», proyecto **Legacy** (`oggbdljjuydctazkujnz`,
   región `eu-north-1`). Migraciones `0001_init.sql`, `0002_sync.sql` y
   `0003_fix_active_index.sql` aplicadas a mano desde el editor SQL (la tabla
-  `supabase_migrations` está vacía). La URL y la clave `sb_publishable_…` están en
+  `supabase_migrations` está vacía). **`0004_exercise_muscles.sql` (columna
+  `muscles jsonb` en `custom_exercises`) está escrita pero sin aplicar**: hay que
+  ejecutarla a mano en el editor SQL de «Legacy». Mientras no se aplique, subir
+  `custom_exercises` falla y, como el empuje es un solo lote, bloquea también el resto
+  de tablas. La URL y la clave `sb_publishable_…` están en
   `src/data/supabase.ts`; son públicas y la protección es la seguridad por filas.
 - **Google Cloud:** proyecto `app-gimnasio-515008`, pantalla de consentimiento
   «Externo» en modo prueba (solo entran los usuarios de prueba añadidos en *Audiencia*).

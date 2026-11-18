@@ -1,3 +1,4 @@
+import { countedMuscles, groupActivation } from './exerciseMuscles';
 import { MUSCLE_GROUP, type GroupId, type MuscleId } from './muscles';
 import { setE1rm, setVolume } from './calc';
 import type { Exercise, Mesocycle, PrRecord, SetLog, Workout } from './types';
@@ -21,11 +22,18 @@ const VOLUME_TARGET_SETS = 16;
 /** Mejora de 1RM estimado (×) que da la puntuación máxima de progreso. */
 const PROGRESS_FULL_GAIN = 0.1;
 
-/** Cuánto trabaja un ejercicio a un grupo: 1 si es principal, 0,5 si es secundario. */
+/**
+ * Cuánto trabaja un ejercicio a un grupo: la activación máxima de sus músculos
+ * del grupo, sin estabilizadores (0 si no lo trabaja). Provisional: el Task 5
+ * fija el cálculo definitivo de los KPIs con series efectivas.
+ */
 export function groupWeight(exercise: Exercise, group: GroupId): number {
-  if (exercise.primary.some((m) => MUSCLE_GROUP[m] === group)) return 1;
-  if (exercise.secondary.some((m) => MUSCLE_GROUP[m] === group)) return 0.5;
-  return 0;
+  return groupActivation(exercise, group);
+}
+
+/** El ejercicio tiene algún músculo principal del grupo (para la fuerza relativa). */
+function isPrincipalOf(exercise: Exercise, group: GroupId): boolean {
+  return countedMuscles(exercise).some((m) => m.role === 'principal' && MUSCLE_GROUP[m.id] === group);
 }
 
 export interface Tier {
@@ -214,7 +222,7 @@ function strengthScore(ctx: ScoreContext, group: GroupId): number | null {
   for (const d of ctx.data) {
     for (const s of d.sets) {
       const ex = ctx.exercises.get(s.exerciseId);
-      if (!ex || groupWeight(ex, group) < 1) continue; // solo ejercicios principales del grupo
+      if (!ex || !isPrincipalOf(ex, group)) continue; // solo ejercicios principales del grupo
       best = Math.max(best, setE1rm(s));
     }
   }
@@ -340,5 +348,23 @@ export function weeklySetsByGroup(ctx: ScoreContext): Map<GroupId, number> {
     }
   }
   for (const [g, v] of out) out.set(g, v / weeks);
+  return out;
+}
+
+/**
+ * Series efectivas semanales por músculo: Σ (series × activación), sin
+ * estabilizadores. Misma semana y mismas series que `weeklySetsByGroup`.
+ */
+export function effectiveSetsByMuscle(ctx: ScoreContext): Map<MuscleId, number> {
+  const out = new Map<MuscleId, number>();
+  const weeks = Math.max(1, ctx.weeks);
+  for (const d of ctx.data) {
+    for (const s of d.sets) {
+      const ex = ctx.exercises.get(s.exerciseId);
+      if (!ex) continue;
+      for (const m of countedMuscles(ex)) out.set(m.id, (out.get(m.id) ?? 0) + m.activation);
+    }
+  }
+  for (const [id, v] of out) out.set(id, v / weeks);
   return out;
 }

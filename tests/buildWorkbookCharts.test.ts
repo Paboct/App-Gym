@@ -13,7 +13,7 @@ import { buildWorkbook } from '../src/lib/xlsx/buildWorkbook';
 
 const bench: Exercise = {
   id: 'bench', nameEs: 'Press de banca', nameEn: 'Bench press', group: 'chest', equipment: 'barbell',
-  primary: ['chest_mid'], secondary: [], unilateral: false, custom: false, updatedAt: 0,
+  muscles: [{ id: 'pectoral_esternal', role: 'principal', activation: 1 }], unilateral: false, custom: false, updatedAt: 0,
 };
 const aSet: SetLog = {
   id: 's1', workoutId: 'w1', workoutExerciseId: 'we1', exerciseId: 'bench', index: 1,

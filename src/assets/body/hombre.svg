@@ -1,0 +1,332 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 860" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #121212; }
+      .silhouette {
+        fill: #121212;
+        stroke: #ffffff;
+        stroke-width: 4;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .joint-white {
+        fill: #ffffff;
+        stroke: #ffffff;
+        stroke-width: 2;
+        stroke-linejoin: round;
+      }
+      .tendon-line {
+        fill: none;
+        stroke: #ffffff;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .muscle {
+        fill: var(--m-fill, #2a2a2a);
+        stroke: #ffffff;
+        stroke-width: 3;
+        stroke-linejoin: round;
+        stroke-linecap: round;
+        cursor: pointer;
+      }
+    </style>
+  </defs>
+
+  <rect class="bg" width="880" height="860" />
+
+  <!-- ========================================================= -->
+  <!-- VISTA FRONTAL (Centro X = 235)                            -->
+  <!-- ========================================================= -->
+  <g id="vista-frontal">
+    <!-- Cabeza, cuello, manos y pies -->
+    <g class="silhouette">
+      <path d="M235,58 C208,58 197,76 199,102 C195,105 196,116 201,119 C205,135 213,143 217,150 L217,172 L235,204 L253,172 L253,150 C257,143 265,135 269,119 C274,116 275,105 271,102 C273,76 262,58 235,58 Z" />
+      <path d="M84,380 L55,404 L41,426 L47,430 L64,412 L48,440 L55,444 L72,418 L60,447 L67,450 L82,423 L74,447 L81,448 L92,421 L98,408 L98,386 Z" />
+      <path d="M386,380 L415,404 L429,426 L423,430 L406,412 L422,440 L415,444 L398,418 L410,447 L403,450 L388,423 L396,447 L389,448 L378,421 L372,408 L372,386 Z" />
+      <path d="M144,742 L126,790 C121,802 136,814 160,814 C176,814 184,806 182,792 L178,742 Z" />
+      <path d="M326,742 L344,790 C349,802 334,814 310,814 C294,814 286,806 288,792 L292,742 Z" />
+    </g>
+
+    <!-- TRAPECIO SUPERIOR -->
+    <g class="muscle" data-musculo="trapecio_superior">
+      <path d="M216,164 L174,186 L216,186 Z" />
+      <path d="M254,164 L296,186 L254,186 Z" />
+    </g>
+
+    <!-- DELTOIDES ANTERIOR -->
+    <g class="muscle" data-musculo="deltoides_anterior">
+      <path d="M170,188 C154,190 144,204 142,244 C152,240 160,228 162,212 C164,200 166,192 170,188 Z" />
+      <path d="M300,188 C316,190 326,204 328,244 C318,240 310,228 308,212 C306,200 304,192 300,188 Z" />
+    </g>
+
+    <!-- DELTOIDES LATERAL -->
+    <g class="muscle" data-musculo="deltoides_lateral">
+      <path d="M152,193 C134,198 124,218 128,246 L142,244 C143,212 146,200 152,193 Z" />
+      <path d="M318,193 C336,198 346,218 342,246 L328,244 C327,212 324,200 318,193 Z" />
+    </g>
+
+    <!-- PECTORAL CLAVICULAR (Superior) -->
+    <g class="muscle" data-musculo="pectoral_clavicular">
+      <path d="M174,187 L215,187 L233,212 L233,222 L163,214 C164,200 168,191 174,187 Z" />
+      <path d="M296,187 L255,187 L237,212 L237,222 L307,214 C306,200 302,191 296,187 Z" />
+    </g>
+
+    <!-- PECTORAL ESTERNAL (Medio) -->
+    <g class="muscle" data-musculo="pectoral_esternal">
+      <path d="M163,214 L233,222 L233,246 C214,248 196,256 178,262 C164,250 160,232 163,214 Z" />
+      <path d="M307,214 L237,222 L237,246 C256,248 274,256 292,262 C306,250 310,232 307,214 Z" />
+    </g>
+
+    <!-- PECTORAL ABDOMINAL (Inferior) -->
+    <g class="muscle" data-musculo="pectoral_abdominal">
+      <path d="M178,262 C196,256 214,248 233,246 L233,254 C216,256 202,268 188,274 C184,271 181,267 178,262 Z" />
+      <path d="M292,262 C274,256 256,248 237,246 L237,254 C254,256 268,268 282,274 C286,271 289,267 292,262 Z" />
+    </g>
+
+    <!-- BÍCEPS BRAQUIAL -->
+    <g class="muscle" data-musculo="biceps_braquial">
+      <path d="M135,247 C129,268 129,294 135,310 C148,303 157,286 160,260 L160,242 C150,245 142,246 135,247 Z" />
+      <path d="M335,247 C341,268 341,294 335,310 C322,303 313,286 310,260 L310,242 C320,245 328,246 335,247 Z" />
+    </g>
+
+    <!-- BRAQUIAL ANTERIOR (Borde lateral externo del brazo) -->
+    <g class="muscle" data-musculo="braquial_anterior">
+      <path d="M128,248 C118,268 118,294 128,312 L135,310 C129,294 129,268 135,247 Z" />
+      <path d="M342,248 C352,268 352,294 342,312 L335,310 C341,294 341,268 335,247 Z" />
+    </g>
+
+    <!-- BRAQUIORRADIAL -->
+    <g class="muscle" data-musculo="braquiorradial">
+      <path d="M125,312 C104,332 90,358 82,380 L90,384 C104,362 118,342 132,320 Z" />
+      <path d="M345,312 C366,332 380,358 388,380 L380,384 C366,362 352,342 338,320 Z" />
+    </g>
+
+    <!-- FLEXORES ANTEBRAZO -->
+    <g class="muscle" data-musculo="flexores_antebrazo">
+      <path d="M133,321 C120,344 106,364 91,384 L99,388 C118,370 136,350 144,322 C138,318 135,318 133,321 Z" />
+      <path d="M337,321 C350,344 364,364 379,384 L371,388 C352,370 334,350 326,322 C332,318 335,318 337,321 Z" />
+    </g>
+
+    <!-- SERRATO ANTERIOR -->
+    <g class="muscle" data-musculo="serrato_anterior">
+      <path d="M162,246 C168,260 178,270 188,276 L196,306 L180,298 C170,280 164,264 162,246 Z" />
+      <path d="M308,246 C302,260 292,270 282,276 L274,306 L290,298 C300,280 306,264 308,246 Z" />
+    </g>
+
+    <!-- RECTO ABDOMINAL -->
+    <g class="muscle" data-musculo="recto_abdominal">
+      <path d="M204,274 L233,260 L233,294 L204,298 Z" />
+      <path d="M266,274 L237,260 L237,294 L266,298 Z" />
+      <path d="M204,302 L233,298 L233,326 L205,330 Z" />
+      <path d="M266,302 L237,298 L237,326 L265,330 Z" />
+      <path d="M206,334 L233,330 L233,356 L208,362 Z" />
+      <path d="M264,334 L237,330 L237,356 L262,362 Z" />
+    </g>
+
+    <!-- OBLICUOS -->
+    <g class="muscle" data-musculo="oblicuos">
+      <path d="M182,302 L201,306 L204,366 L180,372 C188,348 188,324 182,302 Z" />
+      <path d="M288,302 L269,306 L266,366 L290,372 C282,348 282,324 288,302 Z" />
+    </g>
+
+    <!-- TRANSVERSO DEL ABDOMEN (Porción inferior pélvica) -->
+    <g class="muscle" data-musculo="transverso_abdomen">
+      <path d="M180,372 L204,366 L233,360 L233,438 L214,416 Z" />
+      <path d="M290,372 L266,366 L237,360 L237,438 L256,416 Z" />
+    </g>
+
+    <!-- GLÚTEO MEDIO (Lateral cadera frente) -->
+    <g class="muscle" data-musculo="gluteo_medio">
+      <path d="M174,368 L180,374 C174,386 168,396 163,404 C165,388 169,376 174,368 Z" />
+      <path d="M296,368 L290,374 C296,386 302,396 307,404 C305,388 301,376 296,368 Z" />
+    </g>
+
+    <!-- ADUCTORES -->
+    <g class="muscle" data-musculo="aductores">
+      <path d="M178,386 L216,430 C210,472 204,508 198,532 C190,486 184,436 178,386 Z" />
+      <path d="M292,386 L254,430 C260,472 266,508 272,532 C280,486 286,436 292,386 Z" />
+    </g>
+
+    <!-- RECTO FEMORAL -->
+    <g class="muscle" data-musculo="recto_femoral">
+      <path d="M170,394 C182,440 186,494 176,550 C162,516 158,454 170,394 Z" />
+      <path d="M300,394 C288,440 284,494 294,550 C308,516 312,454 300,394 Z" />
+    </g>
+
+    <!-- CUÁDRICEPS VASTOS -->
+    <g class="muscle" data-musculo="cuadriceps_vastos">
+      <path d="M166,390 C138,442 136,510 154,570 L172,554 C156,502 156,444 166,390 Z" />
+      <path d="M304,390 C332,442 334,510 316,570 L298,554 C314,502 314,444 304,390 Z" />
+      <path d="M184,500 L194,538 C190,562 182,580 172,588 L177,554 Z" />
+      <path d="M286,500 L276,538 C280,562 288,580 298,588 L293,554 Z" />
+    </g>
+
+    <!-- RODILLAS Y ESPINILLAS (Articulación blanca) -->
+    <path class="joint-white" d="M154,574 L172,594 L194,564 L184,630 L178,740 L162,740 L162,634 L148,614 Z" />
+    <path class="joint-white" d="M316,574 L298,594 L276,564 L286,630 L292,740 L308,740 L308,634 L322,614 Z" />
+
+    <!-- TIBIAL ANTERIOR -->
+    <g class="muscle" data-musculo="tibial_anterior">
+      <path d="M146,620 C138,662 142,706 148,740 L160,740 L160,636 Z" />
+      <path d="M324,620 C332,662 328,706 322,740 L310,740 L310,636 Z" />
+    </g>
+
+    <!-- GASTROCNEMIO (Vista interna frente) -->
+    <g class="muscle" data-musculo="gastrocnemio">
+      <path d="M184,620 L194,614 C198,650 192,686 180,712 Z" />
+      <path d="M286,620 L276,614 C272,650 278,686 290,712 Z" />
+    </g>
+  </g>
+
+
+  <!-- ========================================================= -->
+  <!-- VISTA TRASERA (Centro X = 645)                            -->
+  <!-- ========================================================= -->
+  <g id="vista-trasera">
+    <!-- Cabeza, manos y pies -->
+    <g class="silhouette">
+      <path d="M645,58 C618,58 607,76 609,102 C604,105 605,116 610,119 C614,134 620,142 624,148 L666,148 C670,142 676,134 680,119 C685,116 686,105 681,102 C683,76 672,58 645,58 Z" />
+      <path d="M474,386 L456,416 C453,422 456,426 461,424 L471,406 L464,442 C463,448 469,450 472,444 L481,416 L478,448 C478,453 484,454 486,448 L491,416 L494,436 C495,441 501,440 501,434 L496,406 L490,388 Z" />
+      <path class="tendon-line" d="M478,392 L473,408 M483,393 L481,412 M488,394 L490,412" />
+      <path d="M816,386 L834,416 C837,422 834,426 829,424 L819,406 L826,442 C827,448 821,450 818,444 L809,416 L812,448 C812,453 806,454 804,448 L799,416 L796,436 C795,441 789,440 789,434 L794,406 L800,388 Z" />
+      <path class="tendon-line" d="M812,392 L817,408 M807,393 L809,412 M802,394 L800,412" />
+      <path d="M558,742 L536,774 C532,784 548,796 568,796 C580,796 586,786 584,770 L580,742 Z" />
+      <path d="M732,742 L754,774 C758,784 742,796 722,796 C710,796 704,786 706,770 L710,742 Z" />
+    </g>
+
+    <!-- TRAPECIO SUPERIOR -->
+    <g class="muscle" data-musculo="trapecio_superior">
+      <path d="M624,148 L641,148 L641,168 L636,180 L643,194 L582,192 L618,164 Z" />
+      <path d="M666,148 L649,148 L649,168 L654,180 L647,194 L708,192 L672,164 Z" />
+    </g>
+    <polygon class="joint-white" points="641,148 649,148 649,168 654,180 645,194 636,180 641,168" />
+
+    <!-- TRAPECIO MEDIO -->
+    <g class="muscle" data-musculo="trapecio_medio">
+      <path d="M582,192 L643,194 L643,234 L616,226 L604,238 Z" />
+      <path d="M708,192 L647,194 L647,234 L674,226 L686,238 Z" />
+    </g>
+
+    <!-- TRAPECIO INFERIOR -->
+    <g class="muscle" data-musculo="trapecio_inferior">
+      <path d="M616,226 L643,234 L643,276 Z" />
+      <path d="M674,226 L647,234 L647,276 Z" />
+    </g>
+
+    <!-- ROMBOIDES -->
+    <g class="muscle" data-musculo="romboides">
+      <path d="M604,238 L616,226 L643,276 L622,256 Z" />
+      <path d="M686,238 L674,226 L647,276 L668,256 Z" />
+    </g>
+
+    <!-- DELTOIDES POSTERIOR -->
+    <g class="muscle" data-musculo="deltoides_posterior">
+      <path d="M580,192 C562,194 554,210 554,242 C566,238 574,228 578,214 Z" />
+      <path d="M710,192 C728,194 736,210 736,242 C724,238 716,228 712,214 Z" />
+    </g>
+
+    <!-- DELTOIDES LATERAL (Atrás) -->
+    <g class="muscle" data-musculo="deltoides_lateral">
+      <path d="M562,196 C542,202 534,220 538,244 L554,242 C554,214 557,202 562,196 Z" />
+      <path d="M728,196 C748,202 756,220 752,244 L736,242 C736,214 733,202 728,196 Z" />
+    </g>
+
+    <!-- MANGUITO ROTADOR (Infraespinoso) -->
+    <g class="muscle" data-musculo="manguito_rotador">
+      <path d="M578,216 L602,238 L568,242 C571,230 574,222 578,216 Z" />
+      <path d="M712,216 L688,238 L722,242 C719,230 716,222 712,216 Z" />
+    </g>
+
+    <!-- REDONDO MAYOR -->
+    <g class="muscle" data-musculo="redondo_mayor">
+      <path d="M568,242 L602,238 C594,256 578,262 562,256 C564,250 566,246 568,242 Z" />
+      <path d="M722,242 L688,238 C696,256 712,262 728,256 C726,250 724,246 722,242 Z" />
+    </g>
+
+    <!-- DORSAL ANCHO -->
+    <g class="muscle" data-musculo="dorsal_ancho">
+      <path d="M562,258 C580,264 594,256 604,240 L643,280 L643,308 L604,350 C584,322 566,290 562,258 Z" />
+      <path d="M728,258 C710,264 696,256 686,240 L647,280 L647,308 L686,350 C706,322 724,290 728,258 Z" />
+    </g>
+
+    <!-- ERECTORES ESPINALES -->
+    <g class="muscle" data-musculo="erectores_espinales">
+      <path d="M643,312 L643,400 L606,354 Z" />
+      <path d="M647,312 L647,400 L684,354 Z" />
+    </g>
+
+    <!-- OBLICUOS (Flanco posterior cintura) -->
+    <g class="muscle" data-musculo="oblicuos">
+      <path d="M594,336 L606,354 L602,366 C596,358 593,348 594,336 Z" />
+      <path d="M696,336 L684,354 L688,366 C694,358 697,348 696,336 Z" />
+    </g>
+
+    <!-- TRÍCEPS CABEZA LARGA -->
+    <g class="muscle" data-musculo="triceps_larga">
+      <path d="M548,248 C546,268 544,284 542,294 L552,282 C558,272 560,260 558,248 Z" />
+      <path d="M742,248 C744,268 746,284 748,294 L738,282 C732,272 730,260 732,248 Z" />
+    </g>
+
+    <!-- TRÍCEPS CABEZA LATERAL -->
+    <g class="muscle" data-musculo="triceps_lateral">
+      <path d="M538,246 C527,264 521,284 523,302 L542,294 C544,280 546,264 548,248 Z" />
+      <path d="M752,246 C763,264 769,284 767,302 L748,294 C746,280 744,264 742,248 Z" />
+    </g>
+
+    <!-- TRÍCEPS CABEZA MEDIAL -->
+    <g class="muscle" data-musculo="triceps_medial">
+      <path d="M523,302 L542,294 L552,282 L524,310 Z" />
+      <path d="M767,302 L748,294 L738,282 L766,310 Z" />
+    </g>
+
+    <!-- PLACA BLANCA TENDÓN TRÍCEPS / CODO -->
+    <path class="joint-white" d="M524,312 L552,284 L554,308 L516,332 Z" />
+    <path class="joint-white" d="M766,312 L738,284 L736,308 L774,332 Z" />
+
+    <!-- EXTENSORES ANTEBRAZO -->
+    <g class="muscle" data-musculo="extensores_antebrazo">
+      <path d="M514,334 C498,350 484,368 474,382 L490,388 C508,370 532,346 552,312 Z" />
+      <path d="M776,334 C792,350 806,368 816,382 L800,388 C782,370 758,346 738,312 Z" />
+    </g>
+    <line x1="473" y1="383" x2="491" y2="389" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+    <line x1="817" y1="383" x2="799" y2="389" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+
+    <!-- GLÚTEO MEDIO (Lateral cadera atrás) -->
+    <g class="muscle" data-musculo="gluteo_medio">
+      <path d="M602,366 C588,382 580,404 578,426 C582,402 590,382 602,366 Z" />
+      <path d="M688,366 C702,382 710,404 712,426 C708,402 700,382 688,366 Z" />
+    </g>
+
+    <!-- GLÚTEO MAYOR -->
+    <g class="muscle" data-musculo="gluteo_mayor">
+      <path d="M602,366 L643,404 L643,470 C612,478 584,470 578,442 C577,436 577,431 578,426 C582,402 590,382 602,366 Z" />
+      <path d="M688,366 L647,404 L647,470 C678,478 706,470 712,442 C713,436 713,431 712,426 C708,402 700,382 688,366 Z" />
+    </g>
+
+    <!-- ISQUIOTIBIALES -->
+    <g class="muscle" data-musculo="isquiotibiales">
+      <path d="M574,450 C554,478 552,528 564,570 L574,552 C568,518 570,482 574,450 Z" />
+      <path d="M716,450 C736,478 738,528 726,570 L716,552 C722,518 720,482 716,450 Z" />
+      <path d="M578,458 C598,476 622,480 640,474 C632,524 610,566 590,600 C574,562 572,508 578,458 Z" />
+      <path d="M712,458 C692,476 668,480 650,474 C658,524 680,566 700,600 C716,562 718,508 712,458 Z" />
+    </g>
+
+    <!-- CORVA / RODILLA TRASERA (Articulación blanca) -->
+    <path class="joint-white" d="M564,574 L590,604 L608,580 L596,626 L576,624 L558,608 Z" />
+    <path class="joint-white" d="M726,574 L700,604 L682,580 L694,626 L714,624 L732,608 Z" />
+
+    <!-- GASTROCNEMIO -->
+    <g class="muscle" data-musculo="gastrocnemio">
+      <path d="M558,614 C546,642 550,674 564,692 L574,686 L574,626 Z" />
+      <path d="M732,614 C744,642 740,674 726,692 L716,686 L716,626 Z" />
+      <path d="M578,626 L596,628 C602,658 592,684 578,692 Z" />
+      <path d="M712,626 L694,628 C688,658 698,684 712,692 Z" />
+    </g>
+
+    <!-- SÓLEO -->
+    <g class="muscle" data-musculo="soleo">
+      <path d="M564,694 L578,694 L574,740 L558,740 Z" />
+      <path d="M726,694 L712,694 L716,740 L732,740 Z" />
+    </g>
+  </g>
+</svg>

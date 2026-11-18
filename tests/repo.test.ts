@@ -4,6 +4,7 @@ import { LegacyDB, db, ensureCatalog, useDatabase } from '../src/data/db';
 import {
   addPlanned,
   addSet,
+  createCustomExercise,
   bestE1rmBefore,
   createMesocycle,
   currentMicro,
@@ -51,10 +52,37 @@ describe('catálogo', () => {
       expect(e.nameEn, e.id).toBeTruthy();
       expect(GROUPS, e.id).toContain(e.group);
       expect(EQUIPMENT, e.id).toContain(e.equipment);
-      expect(e.primary.length, e.id).toBeGreaterThan(0);
-      for (const m of [...e.primary, ...e.secondary]) expect(MUSCLES, `${e.id}: ${m}`).toContain(m);
-      for (const m of e.secondary) expect(e.primary, `${e.id}: ${m} repetido`).not.toContain(m);
+      expect(e.muscles.filter((m) => m.role === 'principal').length, e.id).toBeGreaterThan(0);
+      for (const m of e.muscles) {
+        expect(MUSCLES, `${e.id}: ${m.id}`).toContain(m.id);
+        expect(m.activation, `${e.id}: ${m.id}`).toBeGreaterThan(0);
+        expect(m.activation, `${e.id}: ${m.id}`).toBeLessThanOrEqual(1);
+      }
+      const ids = e.muscles.map((m) => m.id);
+      expect(new Set(ids).size, `${e.id}: músculo repetido`).toBe(ids.length);
     }
+  });
+  it('tiene los 240 ejercicios', () => {
+    expect(CATALOG).toHaveLength(240);
+  });
+});
+
+describe('ejercicios propios', () => {
+  it('guarda principal 1,0 y secundario 0,5', async () => {
+    const id = await createCustomExercise({
+      nameEs: ' Mi press ', group: 'chest', equipment: 'machine', unilateral: true,
+      muscles: [
+        { id: 'pectoral_esternal', role: 'principal', activation: 1 },
+        { id: 'triceps_lateral', role: 'secundario', activation: 0.5 },
+      ],
+    });
+    const e = await db.exercises.get(id);
+    expect(e).toMatchObject({ nameEs: 'Mi press', nameEn: 'Mi press', custom: true, unilateral: true });
+    expect(e?.muscles).toEqual([
+      { id: 'pectoral_esternal', role: 'principal', activation: 1 },
+      { id: 'triceps_lateral', role: 'secundario', activation: 0.5 },
+    ]);
+    expect(e && 'primary' in e).toBe(false);
   });
 });
 

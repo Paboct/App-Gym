@@ -98,11 +98,57 @@ describe('conversión local ↔ nube (ida y vuelta)', () => {
   it('ejercicio propio conserva músculos y marca de custom', () => {
     const e: Exercise = {
       id: 'c', nameEs: 'Mi ejercicio', nameEn: 'My exercise', group: 'chest', equipment: 'machine',
-      primary: ['chest_mid'], secondary: ['delt_front', 'triceps'], unilateral: true, custom: true, updatedAt: 1731000000000,
+      muscles: [
+        { id: 'pectoral_esternal', role: 'principal', activation: 1 },
+        { id: 'deltoides_anterior', role: 'secundario', activation: 0.5 },
+      ],
+      unilateral: true, custom: true, updatedAt: 1731000000000,
     };
-    const back = customExercisesSync.toLocal(customExercisesSync.toRemote(e));
-    expect(back).toEqual(e);
-    expect(customExercisesSync.toRemote(e).muscle_group).toBe('chest');
-    expect(customExercisesSync.toRemote(e).primary_muscles).toEqual(['chest_mid']);
+    const remote = customExercisesSync.toRemote(e);
+    expect(customExercisesSync.toLocal(remote)).toEqual(e);
+    expect(remote.muscle_group).toBe('chest');
+    expect(remote.muscles).toEqual([
+      { id: 'pectoral_esternal', role: 'principal', activation: 1 },
+      { id: 'deltoides_anterior', role: 'secundario', activation: 0.5 },
+    ]);
+    expect(remote.primary_muscles).toEqual([]);
+    expect(remote.secondary_muscles).toEqual([]);
+  });
+
+  it('una fila antigua sin muscles se convierte con el mapa 22 → 35', () => {
+    const row = {
+      id: 'old', name_es: 'Viejo', name_en: 'Old', muscle_group: 'chest', equipment: 'machine',
+      primary_muscles: ['chest_mid'], secondary_muscles: ['delt_front', 'triceps'], unilateral: false,
+      updated_at: '2026-11-01T00:00:00.000Z', deleted_at: null,
+    };
+    const e = customExercisesSync.toLocal(row);
+    expect(e.muscles).toEqual([
+      { id: 'pectoral_esternal', role: 'principal', activation: 1 },
+      { id: 'deltoides_anterior', role: 'secundario', activation: 0.5 },
+      { id: 'triceps_larga', role: 'secundario', activation: 0.5 },
+      { id: 'triceps_lateral', role: 'secundario', activation: 0.5 },
+      { id: 'triceps_medial', role: 'secundario', activation: 0.5 },
+    ]);
+    expect('primary' in e).toBe(false);
+  });
+
+  it('una fila con muscles vacío también usa las columnas antiguas', () => {
+    const row = {
+      id: 'old2', name_es: 'Viejo', name_en: 'Old', muscle_group: 'back', equipment: 'cable',
+      muscles: [], primary_muscles: ['lats'], secondary_muscles: [], unilateral: false,
+      updated_at: '2026-11-01T00:00:00.000Z', deleted_at: null,
+    };
+    expect(customExercisesSync.toLocal(row).muscles).toEqual([{ id: 'dorsal_ancho', role: 'principal', activation: 1 }]);
+  });
+
+  it('red de seguridad: sin principal válido se añade el primer músculo del grupo', () => {
+    const base = { id: 'x', name_es: 'X', name_en: 'X', muscle_group: 'back', equipment: 'cable', unilateral: false, updated_at: '2026-11-01T00:00:00.000Z', deleted_at: null };
+    const unknown = customExercisesSync.toLocal({ ...base, primary_muscles: ['nope'], secondary_muscles: [] });
+    expect(unknown.muscles).toEqual([{ id: 'dorsal_ancho', role: 'principal', activation: 1 }]);
+    const onlySecondary = customExercisesSync.toLocal({ ...base, primary_muscles: [], secondary_muscles: ['biceps'] });
+    expect(onlySecondary.muscles).toEqual([
+      { id: 'biceps_braquial', role: 'secundario', activation: 0.5 },
+      { id: 'dorsal_ancho', role: 'principal', activation: 1 },
+    ]);
   });
 });

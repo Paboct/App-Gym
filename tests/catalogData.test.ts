@@ -1,10 +1,17 @@
 import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
-import { CATALOG } from '../src/data/catalog';
 import type { CatalogFile } from '../src/domain/catalogSchema';
 import { validateCatalog } from '../src/domain/catalogValidation';
 
 const read = (rel: string) => readFileSync(new URL(`../data/catalogo/${rel}`, import.meta.url), 'utf8');
+
+const CATALOG = read('catalogo-legacy.txt')
+  .split(/\r?\n/)
+  .filter((l) => l.includes('|'))
+  .map((l) => {
+    const [id, , , group, , , , flag] = l.split('|');
+    return { id, group, unilateral: flag === 'u' };
+  });
 
 describe('catálogo unificado (data/catalogo/ejercicios.json)', () => {
   const file = JSON.parse(read('ejercicios.json')) as CatalogFile;

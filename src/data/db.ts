@@ -12,6 +12,8 @@ import type {
   Workout,
   WorkoutExercise,
 } from '../domain/types';
+import { convertLegacyMuscles, ensurePrincipal } from '../domain/legacyMuscles';
+import type { GroupId } from '../domain/muscles';
 import { CATALOG } from './catalog';
 
 export interface SettingRow {
@@ -53,6 +55,25 @@ export class LegacyDB extends Dexie {
       settings: 'key',
       deletions: 'id, table',
     });
+    // v2: los músculos pasan de listas principal/secundario (22 ids) a
+    // `muscles` con activación (35 ids). Los índices no cambian.
+    this.version(2)
+      .stores({})
+      .upgrade((tx) =>
+        tx
+          .table('exercises')
+          .toCollection()
+          .modify((e: Record<string, unknown>) => {
+            if (!('primary' in e) && !('secondary' in e)) return;
+            const primary = Array.isArray(e.primary) ? (e.primary as string[]) : [];
+            const secondary = Array.isArray(e.secondary) ? (e.secondary as string[]) : [];
+            if (!Array.isArray(e.muscles) || e.muscles.length === 0) {
+              e.muscles = ensurePrincipal(convertLegacyMuscles(primary, secondary), e.group as GroupId);
+            }
+            delete e.primary;
+            delete e.secondary;
+          }),
+      );
   }
 }
 

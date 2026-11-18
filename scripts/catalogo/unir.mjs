@@ -1,10 +1,10 @@
 // Une los lotes de data/catalogo/lotes/*.json en data/catalogo/ejercicios.json,
-// en el orden de src/data/catalog.ts. Falla si falta o sobra algún id.
+// en el orden de data/catalogo/catalogo-legacy.txt. Falla si falta o sobra algún id.
 import { readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { readCatalogRows } from './lib-catalog.mjs';
 
 const rel = (p) => new URL(p, import.meta.url);
-const raw = readFileSync(rel('../../src/data/catalog.ts'), 'utf-8').split('`')[1];
+const raw = readFileSync(rel('../../data/catalogo/catalogo-legacy.txt'), 'utf-8');
 const order = raw.trim().split('\n').filter((l) => l.includes('|')).map((l) => l.split('|')[0]);
 
 const dir = rel('../../data/catalogo/lotes/');

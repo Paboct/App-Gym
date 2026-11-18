@@ -1,5 +1,9 @@
 # Instrucciones para generar un lote del catálogo (un grupo muscular)
 
+> **Documento histórico.** Se usó para generar `data/catalogo/lotes/`. La plantilla `RAW` y `src/data/catalog.ts`
+> que se citan abajo ya no existen: el catálogo vive en `data/catalogo/ejercicios.json` (y su lista original en
+> `data/catalogo/catalogo-legacy.txt`).
+
 Eres un especialista en biomecánica y entrenamiento de fuerza. Conviertes los ejercicios de UN grupo
 muscular de la app Legacy (React/TypeScript) al formato nuevo con **coeficientes de activación**.
 Trabajas solo con tu grupo, no tocas nada fuera de tu archivo de salida y **no haces commits**

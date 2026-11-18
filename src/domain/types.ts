@@ -6,19 +6,38 @@ import type { EquipmentId, GroupId, MuscleId } from './muscles';
  * Los pesos se guardan siempre en kg; la conversión a libras es solo de pantalla.
  */
 
+/**
+ * Papel de un músculo en un ejercicio. Los estabilizadores se muestran (ficha y
+ * mapa) pero no cuentan en las series efectivas ni en el volumen por grupo.
+ */
+export type MuscleRole = 'principal' | 'secundario' | 'estabilizador';
+
+/** Músculo trabajado por un ejercicio con su coeficiente de activación, en (0, 1]. */
+export interface MuscleActivation {
+  id: MuscleId;
+  role: MuscleRole;
+  activation: number;
+}
+
 export interface Exercise {
   id: string;
   nameEs: string;
   nameEn: string;
   group: GroupId;
   equipment: EquipmentId;
-  primary: MuscleId[];
-  secondary: MuscleId[];
+  muscles: MuscleActivation[];
   /** Se ejecuta lado a lado: en pantalla se etiqueta "por lado". */
   unilateral: boolean;
   /** Ejercicio creado por el usuario (no viene del catálogo). */
   custom: boolean;
   updatedAt: number;
+  descriptionEs?: string;
+  descriptionEn?: string;
+  patternEs?: string;
+  patternEn?: string;
+  mechanics?: 'Compuesto' | 'Aislamiento' | 'Isométrico';
+  /** Fiabilidad de los coeficientes (son estimaciones). */
+  confidence?: 'alta' | 'media' | 'baja';
 }
 
 export type MesocycleStatus = 'active' | 'archived';

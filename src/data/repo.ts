@@ -1,10 +1,11 @@
 import { bestSet, effectivePlan, isNewPr, setE1rm, todayIso } from '../domain/calc';
-import type { EquipmentId, GroupId, MuscleId } from '../domain/muscles';
+import type { EquipmentId, GroupId } from '../domain/muscles';
 import {
   DEFAULT_SETTINGS,
   type BodyWeight,
   type Exercise,
   type Mesocycle,
+  type MuscleActivation,
   type PlannedExercise,
   type PrRecord,
   type Rir,
@@ -45,21 +46,23 @@ export interface CustomExerciseInput {
   nameEn?: string;
   group: GroupId;
   equipment: EquipmentId;
-  primary: MuscleId[];
-  secondary: MuscleId[];
+  /** Principal 1,0 / secundario 0,5: los calcula el formulario. */
+  muscles: MuscleActivation[];
   unilateral: boolean;
 }
 
 export async function createCustomExercise(input: CustomExerciseInput): Promise<string> {
   const id = uid();
+  // Un músculo solo puede aparecer una vez (se queda el primero).
+  const seen = new Set<string>();
+  const muscles = input.muscles.filter((m) => !seen.has(m.id) && seen.add(m.id));
   const exercise: Exercise = {
     id,
     nameEs: input.nameEs.trim(),
     nameEn: (input.nameEn ?? input.nameEs).trim(),
     group: input.group,
     equipment: input.equipment,
-    primary: input.primary,
-    secondary: input.secondary.filter((m) => !input.primary.includes(m)),
+    muscles,
     unilateral: input.unilateral,
     custom: true,
     updatedAt: now(),

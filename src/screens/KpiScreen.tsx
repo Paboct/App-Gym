@@ -8,6 +8,7 @@ import { formatDuration, formatWeight } from '../domain/calc';
 import {
   TIERS,
   avgDurationSec,
+  effectiveSetsByMuscle,
   groupByWorkout,
   groupScore,
   muscleColorsFromScores,
@@ -20,7 +21,7 @@ import {
   type GroupScore,
   type ScoreContext,
 } from '../domain/kpi';
-import { GROUPS, GROUP_NAMES, type GroupId } from '../domain/muscles';
+import { GROUPS, GROUP_NAMES, MUSCLE_SHORT_NAMES, type GroupId } from '../domain/muscles';
 import type { Exercise } from '../domain/types';
 import { exerciseName, useSettings, useT } from '../lib/settings';
 
@@ -62,6 +63,7 @@ export function KpiScreen() {
     const scores = new Map<GroupId, GroupScore>(GROUPS.map((g) => [g, groupScore(ctx, g)]));
     const colors = muscleColorsFromScores(scores);
     const weeklySets = weeklySetsByGroup(ctx);
+    const muscleSets = [...effectiveSetsByMuscle(ctx)].filter(([, v]) => v > 0).sort((a, b) => b[1] - a[1]);
 
     // Ejercicios con datos en el ámbito, para el desplegable de la gráfica.
     const withData = [...new Set(scoped.flatMap((d) => d.sets.map((s) => s.exerciseId)))]
@@ -78,6 +80,7 @@ export function KpiScreen() {
       scores,
       colors,
       weeklySets,
+      muscleSets,
       withData,
       records,
       streak: weekStreak(data.workouts),
@@ -88,7 +91,7 @@ export function KpiScreen() {
 
   if (!data || !computed) return <div className="screen" />;
 
-  const { meso, exMap, byWorkout, scores, colors, weeklySets, withData, records, streak, avgDur, doneCount } = computed;
+  const { meso, exMap, byWorkout, scores, colors, weeklySets, muscleSets, withData, records, streak, avgDur, doneCount } = computed;
   const mesoName = (id: string) => data.mesos.find((m) => m.id === id)?.name ?? '—';
 
   // Ejercicio elegido para la gráfica: el guardado si tiene datos, o el primero.
@@ -285,6 +288,22 @@ export function KpiScreen() {
           })}
         </div>
         <p className="tiny faint">{t('weeklySetsNote')}</p>
+        {muscleSets.length > 0 && (
+          <>
+            <h3>{t('effectiveSetsByMuscle')}</h3>
+            <div className="bars">
+              {muscleSets.map(([id, v]) => (
+                <div className="bar-row" key={id}>
+                  <span className="truncate">{MUSCLE_SHORT_NAMES[id][lang]}</span>
+                  <span className="num">{v.toFixed(1)}</span>
+                  <div className="bar-track">
+                    <i style={{ width: `${(v / muscleSets[0][1]) * 100}%` }} />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </>
+        )}
       </div>
 
       {/* Constancia */}

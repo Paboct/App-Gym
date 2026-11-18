@@ -15,9 +15,12 @@
   --ok: #5fb37c;
   --on-accent: #fff8f2;
   --body-base: #2a2320;
+  --body-line: #f4ede4;
   --muscle-idle: #3b322d;
-  --muscle-primary: #e2483a;
-  --muscle-secondary: #d9ad4e;
+  /* Tramos de activación del mapa y la ficha: alta >= 0,8, media >= 0,4, baja < 0,4. */
+  --act-high: #e2372b;
+  --act-mid: #ee8a2c;
+  --act-low: #ecd77a;
   --shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
   --radius: 16px;
   --radius-sm: 10px;
@@ -42,9 +45,11 @@
   --ok: #2f8a52;
   --on-accent: #fff8f2;
   --body-base: #e6dccf;
+  --body-line: #4a3a30;
   --muscle-idle: #d3c6b6;
-  --muscle-primary: #cf3a2d;
-  --muscle-secondary: #d7a32f;
+  --act-high: #cc2a1f;
+  --act-mid: #e07818;
+  --act-low: #e3b52c;
   --shadow: 0 10px 30px rgba(60, 40, 20, 0.16);
   color-scheme: light;
 }

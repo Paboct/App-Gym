@@ -11,12 +11,14 @@ import {
   MUSCLES,
   MUSCLE_GROUP,
   MUSCLE_NAMES,
+  MUSCLE_SHORT_NAMES,
   type EquipmentId,
   type GroupId,
   type MuscleId,
 } from '../domain/muscles';
-import type { Exercise } from '../domain/types';
-import { muscleLevels } from '../lib/muscles';
+import type { Exercise, MuscleActivation } from '../domain/types';
+import { muscleRows } from '../domain/exerciseMuscles';
+import { muscleActivations } from '../lib/muscles';
 import { exerciseName, muscleNames, useSettings, useT } from '../lib/settings';
 import { ExerciseImage } from './ExerciseImage';
 import { MuscleSummary } from './MuscleSummary';
@@ -120,7 +122,11 @@ export function ExercisePicker({ title, onPick, onClose }: PickerProps) {
                 {e.custom && <span className="badge gold">{t('custom')}</span>}
               </div>
               <div className="tiny faint truncate">
-                {GROUP_NAMES[e.group][lang]} · {muscleNames(e.primary, lang)}
+                {GROUP_NAMES[e.group][lang]} ·{' '}
+                {muscleNames(
+                  e.muscles.filter((m) => m.role === 'principal').map((m) => m.id),
+                  lang,
+                )}
                 {e.unilateral ? ` · ${t('unilateral')}` : ''}
               </div>
               </div>
@@ -152,20 +158,59 @@ interface DetailProps {
   action?: { label: string; run: () => void };
 }
 
-/** Ficha del ejercicio: zonas que trabaja resaltadas y lista de músculos. */
+const MECH_KEY = { Compuesto: 'mechCompound', Aislamiento: 'mechIsolation', Isométrico: 'mechIsometric' } as const;
+const ROLE_KEY = { principal: 'roleMain', secundario: 'roleSecondary', estabilizador: 'roleStabilizer' } as const;
+const CONF_KEY = { alta: 'confidenceHigh', media: 'confidenceMid', baja: 'confidenceLow' } as const;
+
+/** Ficha del ejercicio: descripción, patrón, mapa con tramos y lista de músculos con su % de activación. */
 export function ExerciseDetail({ exercise, onClose, action }: DetailProps) {
   const t = useT();
   const { lang } = useSettings();
+  const description = lang === 'es' ? exercise.descriptionEs : exercise.descriptionEn;
+  const pattern = lang === 'es' ? exercise.patternEs : exercise.patternEn;
   return (
     <Sheet title={exerciseName(exercise, lang)} onClose={onClose}>
       <div className="row wrap">
         <span className="badge">{GROUP_NAMES[exercise.group][lang]}</span>
         <span className="badge">{EQUIPMENT_NAMES[exercise.equipment][lang]}</span>
+        {pattern && <span className="badge">{pattern}</span>}
+        {exercise.mechanics && MECH_KEY[exercise.mechanics] && (
+          <span className="badge">{t(MECH_KEY[exercise.mechanics])}</span>
+        )}
         {exercise.unilateral && <span className="badge gold">{t('unilateral')}</span>}
         {exercise.custom && <span className="badge gold">{t('custom')}</span>}
       </div>
+      {description && <p className="small">{description}</p>}
       <ExerciseImage exercise={exercise} />
-      <MuscleSummary levels={muscleLevels([exercise])} />
+      <MuscleSummary activations={muscleActivations([exercise])} showList={false} />
+      <ul className="list" style={{ gap: 4, margin: 0, padding: 0, listStyle: 'none' }}>
+        {muscleRows(exercise).map((r) => (
+          <li key={r.id} className="row between small" style={{ gap: 8 }}>
+            <span className="row" style={{ gap: 8, minWidth: 0 }}>
+              <i
+                aria-hidden="true"
+                style={{
+                  width: 10,
+                  height: 10,
+                  borderRadius: 5,
+                  flexShrink: 0,
+                  background: `var(--act-${r.band})`,
+                }}
+              />
+              <span style={{ minWidth: 0, overflowWrap: 'anywhere' }}>{MUSCLE_NAMES[r.id][lang]}</span>
+            </span>
+            <span className="faint" style={{ flexShrink: 0 }}>
+              {r.percent} % · {t(ROLE_KEY[r.role])}
+            </span>
+          </li>
+        ))}
+      </ul>
+      {!exercise.custom && (
+        <p className="tiny faint">
+          {t('estimatedCoefs')}
+          {exercise.confidence ? ` · ${t(CONF_KEY[exercise.confidence])}` : ''}
+        </p>
+      )}
       {action && (
         <button className="btn primary block" onClick={action.run}>
           {action.label}
@@ -188,25 +233,30 @@ function CustomExerciseForm({ initialName, onClose, onCreated }: FormProps) {
   const [group, setGroup] = useState<GroupId>('chest');
   const [equipment, setEquipment] = useState<EquipmentId>('machine');
   const [unilateral, setUnilateral] = useState(false);
-  const [levels, setLevels] = useState<Partial<Record<MuscleId, 'primary' | 'secondary'>>>({});
+  const [roles, setRoles] = useState<Partial<Record<MuscleId, 'principal' | 'secundario'>>>({});
 
   // Un toque: principal · dos: secundario · tres: quitar.
   const cycle = (id: MuscleId) =>
-    setLevels((prev) => {
+    setRoles((prev) => {
       const next = { ...prev };
-      if (!prev[id]) next[id] = 'primary';
-      else if (prev[id] === 'primary') next[id] = 'secondary';
+      if (!prev[id]) next[id] = 'principal';
+      else if (prev[id] === 'principal') next[id] = 'secundario';
       else delete next[id];
       return next;
     });
 
-  const primary = MUSCLES.filter((m) => levels[m] === 'primary');
-  const secondary = MUSCLES.filter((m) => levels[m] === 'secondary');
-  const valid = name.trim().length > 1 && primary.length > 0;
+  // Principal 1,0 y secundario 0,5 (los ejercicios propios no llevan coeficientes finos).
+  const muscles: MuscleActivation[] = MUSCLES.flatMap((id) => {
+    const role = roles[id];
+    return role ? [{ id, role, activation: role === 'principal' ? 1 : 0.5 }] : [];
+  });
+  const activations: Partial<Record<MuscleId, number>> = Object.fromEntries(muscles.map((m) => [m.id, m.activation]));
+  const valid = name.trim().length > 1 && muscles.some((m) => m.role === 'principal');
+  // Los del grupo elegido primero; dentro de cada bloque, orden anatómico (sort estable).
   const ordered = [...MUSCLES].sort((a, b) => Number(MUSCLE_GROUP[b] === group) - Number(MUSCLE_GROUP[a] === group));
 
   const submit = async () => {
-    const id = await createCustomExercise({ nameEs: name, group, equipment, primary, secondary, unilateral });
+    const id = await createCustomExercise({ nameEs: name, group, equipment, muscles, unilateral });
     onCreated(id);
   };
 
@@ -250,15 +300,15 @@ function CustomExerciseForm({ initialName, onClose, onCreated }: FormProps) {
             <button
               key={m}
               type="button"
-              className={`chip${levels[m] === 'primary' ? ' active' : ''}${levels[m] === 'secondary' ? ' gold active' : ''}`}
+              className={`chip${roles[m] === 'principal' ? ' active' : ''}${roles[m] === 'secundario' ? ' gold active' : ''}`}
               onClick={() => cycle(m)}
             >
-              {MUSCLE_NAMES[m][lang]}
+              {MUSCLE_SHORT_NAMES[m][lang]}
             </button>
           ))}
         </div>
       </div>
-      <MuscleSummary levels={levels} size="sm" />
+      <MuscleSummary activations={activations} size="sm" />
       <p className="tiny faint center">{t('customImageHint')}</p>
       <button className="btn primary block" disabled={!valid} onClick={submit}>
         {t('createAndAdd')}

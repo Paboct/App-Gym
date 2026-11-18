@@ -1,7 +1,10 @@
+import { convertLegacyMuscles, ensurePrincipal } from '../domain/legacyMuscles';
+import { MUSCLES, type GroupId } from '../domain/muscles';
 import type {
   BodyWeight,
   Exercise,
   Mesocycle,
+  MuscleActivation,
   PlannedExercise,
   PrRecord,
   RoutineDay,
@@ -271,6 +274,20 @@ export const bodyWeightsSync = table<BodyWeight>({
   }),
 });
 
+const KNOWN_MUSCLES = new Set<string>(MUSCLES);
+const ROLES = new Set(['principal', 'secundario', 'estabilizador']);
+
+/** Lee `muscles` (jsonb) o, en filas antiguas sin él, convierte `primary_muscles`/`secondary_muscles`. */
+function remoteMuscles(r: Remote): MuscleActivation[] {
+  const raw = Array.isArray(r.muscles) ? (r.muscles as Record<string, unknown>[]) : [];
+  const muscles = raw
+    .filter((m) => m && KNOWN_MUSCLES.has(m.id as string) && ROLES.has(m.role as string) && typeof m.activation === 'number')
+    .map((m) => ({ id: m.id, role: m.role, activation: m.activation }) as MuscleActivation);
+  if (muscles.length > 0) return muscles;
+  const list = (v: unknown) => (Array.isArray(v) ? (v as string[]) : []);
+  return ensurePrincipal(convertLegacyMuscles(list(r.primary_muscles), list(r.secondary_muscles)), r.muscle_group as GroupId);
+}
+
 /** Solo los ejercicios creados por el usuario viajan a la nube; el catálogo vive en la app. */
 export const customExercisesSync = table<Exercise>({
   store: 'exercises',
@@ -281,8 +298,10 @@ export const customExercisesSync = table<Exercise>({
     name_en: e.nameEn,
     muscle_group: e.group,
     equipment: e.equipment,
-    primary_muscles: e.primary,
-    secondary_muscles: e.secondary,
+    // Las columnas antiguas se dejan vacías: los 35 músculos viajan en `muscles` (jsonb).
+    muscles: e.muscles.map((m) => ({ id: m.id, role: m.role, activation: m.activation })),
+    primary_muscles: [],
+    secondary_muscles: [],
     unilateral: e.unilateral,
     updated_at: iso(e.updatedAt),
     deleted_at: null,
@@ -293,8 +312,7 @@ export const customExercisesSync = table<Exercise>({
     nameEn: r.name_en as string,
     group: r.muscle_group as Exercise['group'],
     equipment: r.equipment as Exercise['equipment'],
-    primary: (r.primary_muscles as Exercise['primary']) ?? [],
-    secondary: (r.secondary_muscles as Exercise['secondary']) ?? [],
+    muscles: remoteMuscles(r),
     unilateral: (r.unilateral as boolean) ?? false,
     custom: true,
     updatedAt: ms(r.updated_at),

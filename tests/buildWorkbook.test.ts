@@ -6,7 +6,7 @@ import { buildWorkbook } from '../src/lib/xlsx/buildWorkbook';
 import { labels } from '../src/lib/xlsx/labels';
 
 const ex = (id: string, nameEs: string): Exercise => ({
-  id, nameEs, nameEn: nameEs, group: 'chest', equipment: 'barbell', primary: ['chest_mid'], secondary: [],
+  id, nameEs, nameEn: nameEs, group: 'chest', equipment: 'barbell', muscles: [{ id: 'pectoral_esternal', role: 'principal', activation: 1 }],
   unilateral: false, custom: false, updatedAt: 0,
 });
 type SetBase = Pick<SetLog, 'id' | 'workoutId' | 'workoutExerciseId' | 'exerciseId' | 'index'>;
