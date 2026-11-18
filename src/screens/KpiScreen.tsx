@@ -6,7 +6,7 @@ import { BodyMap } from '../components/BodyMap';
 import { LineChart } from '../components/LineChart';
 import { db } from '../data/db';
 import { formatDuration, formatWeight } from '../domain/calc';
-import { pickDefaultPair } from '../domain/compare';
+import { mesosWithData } from '../domain/compare';
 import {
   TIERS,
   avgDurationSec,
@@ -126,7 +126,7 @@ export function KpiScreen() {
     <div className="screen">
       <h1>{t('tabKpis')}</h1>
 
-      {pickDefaultPair(data.mesos, byWorkout) && (
+      {mesosWithData(data.mesos, byWorkout).length > 0 && (
         <Link to="/kpis/compare" className="chip" style={{ alignSelf: 'flex-start', textDecoration: 'none' }}>
           {t('compare')}
         </Link>

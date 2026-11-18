@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { CompareChart, type CompareSeries } from '../components/CompareChart';
 import { db } from '../data/db';
 import { formatE1rm, formatWeight } from '../domain/calc';
-import { compareMesocycles, exercisesWithTwoMicros, microSeries, microSets, pickDefaultPair } from '../domain/compare';
+import { compareMesocycles, exercisesWithTwoMicros, mesosWithData, microSeries, microSets, pickDefaultPair } from '../domain/compare';
 import { groupByWorkout } from '../domain/kpi';
 import { GROUP_NAMES } from '../domain/muscles';
 import type { Mesocycle } from '../domain/types';
@@ -56,8 +56,7 @@ export function CompareScreen() {
     if (!data) return null;
     const byWorkout = groupByWorkout(data.workouts, data.sets);
     const exMap = new Map(data.exercises.map((e) => [e.id, e]));
-    const withData = new Set(byWorkout.map((d) => d.workout.mesocycleId));
-    const valid = data.mesos.filter((m) => withData.has(m.id)).sort((x, y) => y.createdAt - x.createdAt);
+    const valid = mesosWithData(data.mesos, byWorkout);
     return { byWorkout, exMap, valid, pair: pickDefaultPair(data.mesos, byWorkout) };
   }, [data]);
 
@@ -79,12 +78,12 @@ export function CompareScreen() {
     </>
   );
 
-  if (!mesoA || !mesoB) {
+  if (valid.length === 0) {
     return (
       <div className="screen">
         {header}
         <div className="empty">
-          <p>{t('compareChooseTwo')}</p>
+          <p>{t('kpisEmpty')}</p>
         </div>
       </div>
     );
@@ -103,6 +102,15 @@ export function CompareScreen() {
 
   // ───────── Modo Mesociclos ─────────
   if (mode === 'mesos') {
+    if (!mesoA || !mesoB) {
+      return (
+        <div className="screen">
+          {header}
+          {modeSwitch}
+          <p className="notice">{t('compareChooseTwo')}</p>
+        </div>
+      );
+    }
     const same = mesoA.id === mesoB.id;
     const cmp = same ? null : compareMesocycles(mesoA, mesoB, { data: byWorkout, exercises: exMap, prs: data.prs, bodyWeightKg: data.bodyWeightKg });
     const picker = (value: string, onChange: (id: string) => void) => (

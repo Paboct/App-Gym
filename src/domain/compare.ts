@@ -66,10 +66,15 @@ export function compareMesocycles(a: Mesocycle, b: Mesocycle, input: CompareInpu
   return { records: { a: countPrs(a), b: countPrs(b) }, groups, common };
 }
 
+/** Mesociclos con al menos un entreno hecho, del más reciente al más antiguo. */
+export function mesosWithData(mesos: Mesocycle[], data: WorkoutSets[]): Mesocycle[] {
+  const withData = new Set(data.map((d) => d.workout.mesocycleId));
+  return mesos.filter((m) => withData.has(m.id)).sort((x, y) => y.createdAt - x.createdAt);
+}
+
 /** Pareja por defecto: B = mesociclo más reciente con entrenos hechos, A = el anterior. */
 export function pickDefaultPair(mesos: Mesocycle[], data: WorkoutSets[]): { a: Mesocycle; b: Mesocycle } | null {
-  const withData = new Set(data.map((d) => d.workout.mesocycleId));
-  const sorted = mesos.filter((m) => withData.has(m.id)).sort((x, y) => y.createdAt - x.createdAt);
+  const sorted = mesosWithData(mesos, data);
   return sorted.length < 2 ? null : { a: sorted[1], b: sorted[0] };
 }
 

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { CATALOG } from '../src/data/catalog';
-import { compareMesocycles, exercisesWithTwoMicros, microSeries, microSets, pickDefaultPair, type CompareInput } from '../src/domain/compare';
+import { compareMesocycles, exercisesWithTwoMicros, mesosWithData, microSeries, microSets, pickDefaultPair, type CompareInput } from '../src/domain/compare';
 import type { WorkoutSets } from '../src/domain/kpi';
 import type { Exercise, Mesocycle, PrRecord, SetLog, Workout } from '../src/domain/types';
 
@@ -161,5 +161,16 @@ describe('exercisesWithTwoMicros', () => {
     const r = exercisesWithTwoMicros('m1', data);
     expect(r.get('bench_press')).toEqual([1, 3]);
     expect(r.has('squat')).toBe(false);
+  });
+});
+
+describe('mesosWithData', () => {
+  it('con un solo mesociclo con entrenos lo devuelve (basta para comparar microciclos)', () => {
+    const r = mesosWithData([m1, m2], [ws('m1', 1, [{}])]);
+    expect(r.map((m) => m.id)).toEqual(['m1']);
+  });
+  it('ordena del más reciente al más antiguo y omite los que no tienen entrenos', () => {
+    const r = mesosWithData([m1, m2, meso('m3', 3)], [ws('m1', 1, [{}]), ws('m2', 1, [{}])]);
+    expect(r.map((m) => m.id)).toEqual(['m2', 'm1']);
   });
 });
