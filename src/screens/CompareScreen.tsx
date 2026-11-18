@@ -113,14 +113,27 @@ export function CompareScreen() {
     }
     const same = mesoA.id === mesoB.id;
     const cmp = same ? null : compareMesocycles(mesoA, mesoB, { data: byWorkout, exercises: exMap, prs: data.prs, bodyWeightKg: data.bodyWeightKg });
-    const picker = (value: string, onChange: (id: string) => void) => (
-      <select className="input" value={value} onChange={(e) => onChange(e.target.value)}>
-        {valid.map((m) => (
-          <option key={m.id} value={m.id}>
-            {m.name}
-          </option>
-        ))}
-      </select>
+    const picker = (tag: string, color: string, value: string, onChange: (id: string) => void) => (
+      <div className="col" style={{ flex: 1, gap: 2, minWidth: 0 }}>
+        <span className="tiny" style={{ color, fontWeight: 700 }}>
+          {tag}
+        </span>
+        <select className="input" value={value} onChange={(e) => onChange(e.target.value)}>
+          {valid.map((m) => (
+            <option key={m.id} value={m.id}>
+              {m.name}
+            </option>
+          ))}
+        </select>
+      </div>
+    );
+    const columnHeader = (
+      <div className="row between tiny" style={{ fontWeight: 700 }}>
+        <span style={{ flex: 1 }} />
+        <span style={{ width: 44, textAlign: 'right', color: COLOR_A }}>A</span>
+        <span style={{ width: 44, textAlign: 'right', color: COLOR_B }}>B</span>
+        <span style={{ width: 84 }} />
+      </div>
     );
     const fmt1rm = (kg: number) => `${formatE1rm(kg, unit, lang)} ${unit}`;
     const chartSeries = (exId: string): CompareSeries[] =>
@@ -140,8 +153,8 @@ export function CompareScreen() {
         {header}
         {modeSwitch}
         <div className="row" style={{ gap: 8 }}>
-          {picker(mesoA.id, setASel)}
-          {picker(mesoB.id, setBSel)}
+          {picker('A', COLOR_A, mesoA.id, setASel)}
+          {picker('B', COLOR_B, mesoB.id, setBSel)}
         </div>
 
         {!cmp ? (
@@ -152,10 +165,10 @@ export function CompareScreen() {
               <h3>{t('records')}</h3>
               <div className="row between">
                 <span>
-                  {mesoA.name} <b>{cmp.records.a}</b>
+                  <b style={{ color: COLOR_A }}>A</b> <b>{cmp.records.a}</b>
                 </span>
                 <span>
-                  {mesoB.name} <b>{cmp.records.b}</b>
+                  <b style={{ color: COLOR_B }}>B</b> <b>{cmp.records.b}</b>
                 </span>
                 <Delta value={cmp.records.b - cmp.records.a} />
               </div>
@@ -163,6 +176,7 @@ export function CompareScreen() {
 
             <div className="card col" style={{ gap: 6 }}>
               <h3>{t('compareGroupScores')}</h3>
+              {columnHeader}
               {cmp.groups.map((g) => (
                 <div key={g.group} className="row between small">
                   <span style={{ flex: 1 }}>{GROUP_NAMES[g.group][lang]}</span>
@@ -184,6 +198,12 @@ export function CompareScreen() {
               ) : (
                 <>
                   <p className="tiny faint">{t('compareTapExercise')}</p>
+                  <div className="row between tiny" style={{ fontWeight: 700 }}>
+                    <span style={{ flex: 1 }} />
+                    <span style={{ width: 70, textAlign: 'right', color: COLOR_A }}>A</span>
+                    <span style={{ width: 70, textAlign: 'right', color: COLOR_B }}>B</span>
+                    <span style={{ width: 64 }} />
+                  </div>
                   {cmp.common.map((c) => (
                     <div key={c.exerciseId} className="col" style={{ gap: 6 }}>
                       <button
