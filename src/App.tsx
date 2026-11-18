@@ -6,6 +6,7 @@ import { AuthProvider } from './lib/auth';
 import { SettingsProvider, useT } from './lib/settings';
 import { DayScreen } from './screens/DayScreen';
 import { HistoryScreen } from './screens/HistoryScreen';
+import { CompareScreen } from './screens/CompareScreen';
 import { KpiScreen } from './screens/KpiScreen';
 import { MesocycleHistoryScreen } from './screens/MesocycleHistoryScreen';
 import { MesocycleWizard } from './screens/MesocycleWizard';
@@ -32,6 +33,7 @@ function Shell() {
         <Route path="/history" element={<HistoryScreen />} />
         <Route path="/history/:mesocycleId" element={<MesocycleHistoryScreen />} />
         <Route path="/kpis" element={<KpiScreen />} />
+        <Route path="/kpis/compare" element={<CompareScreen />} />
         <Route path="/profile" element={<ProfileScreen />} />
         <Route path="*" element={<RoutineScreen />} />
       </Routes>

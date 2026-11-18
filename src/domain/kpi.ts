@@ -145,7 +145,7 @@ export function volumeGlobal(exerciseId: string, data: WorkoutSets[]): SeriesPoi
 }
 
 /** Mejor 1RM estimado de un ejercicio por microciclo (para el progreso). */
-function bestE1rmByMicro(exerciseId: string, meso: Mesocycle, data: WorkoutSets[]): Map<number, number> {
+export function bestE1rmByMicro(exerciseId: string, meso: Mesocycle, data: WorkoutSets[]): Map<number, number> {
   const byMicro = new Map<number, number>();
   for (const d of data) {
     if (d.workout.mesocycleId !== meso.id) continue;

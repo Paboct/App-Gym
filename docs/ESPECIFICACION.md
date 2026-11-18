@@ -134,10 +134,10 @@ reloj del backlog necesitarán un módulo nativo aparte.
 - Gráfica de volumen por ejercicio por microciclo y global, con desplegable; favoritos fijados.
 - Récords (total, mejor microciclo y mesociclo), series semanales por grupo, rachas
   y duración media de sesión.
+- **Comparar** (`src/screens/CompareScreen.tsx`, `src/domain/compare.ts`, `tests/compare.test.ts`; botón «Comparar» en KPIs): modo Mesociclos (récords, puntuación por grupo y ejercicios en común con diferencia de 1RM y gráfica superpuesta por microciclo, en 1RM o volumen) y modo Microciclos (un ejercicio, dos semanas de un mesociclo, carga y repeticiones por serie). Diseño: `docs/superpowers/specs/2026-11-18-comparar-mesociclos-design.md`.
 
 **Pendiente:**
 
-- Comparar dos mesociclos.
 - Afinar los umbrales de puntuación de cada rango y los pesos 50/30/20 con datos reales
   (la app los marca como provisionales).
 
