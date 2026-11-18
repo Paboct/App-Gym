@@ -1,10 +1,12 @@
 import { useLiveQuery } from 'dexie-react-hooks';
 import { Award, Flame, Timer, TrendingUp } from 'lucide-react';
 import { useMemo, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { BodyMap } from '../components/BodyMap';
 import { LineChart } from '../components/LineChart';
 import { db } from '../data/db';
 import { formatDuration, formatWeight } from '../domain/calc';
+import { pickDefaultPair } from '../domain/compare';
 import {
   TIERS,
   avgDurationSec,
@@ -123,6 +125,12 @@ export function KpiScreen() {
   return (
     <div className="screen">
       <h1>{t('tabKpis')}</h1>
+
+      {pickDefaultPair(data.mesos, byWorkout) && (
+        <Link to="/kpis/compare" className="chip" style={{ alignSelf: 'flex-start', textDecoration: 'none' }}>
+          {t('compare')}
+        </Link>
+      )}
 
       {/* Ámbito: global o un mesociclo */}
       <div className="chips">
