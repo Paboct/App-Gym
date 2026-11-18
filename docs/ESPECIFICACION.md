@@ -68,7 +68,26 @@ reloj del backlog necesitarán un módulo nativo aparte.
 
 ## 3. Estado
 
-### Hecho (v1 cerrada el 17 de noviembre de 2026, en `main`)
+### Versiones (MAYOR.MENOR.PARCHE)
+
+Convención [SemVer 2.0.0](https://semver.org/lang/es/) adaptada a una app (no hay API pública:
+lo que «se rompe» son los datos y el uso). Nunca se usa 0.x.
+
+| Sube | Ejemplo | Cuándo | Lo de la derecha vuelve a 0 |
+| --- | --- | --- | --- |
+| **Parche** | 1.1.0 → 1.1.1 | Corrige errores o ajusta textos y aspecto. Sin funciones nuevas ni cambios en los datos. | — |
+| **Menor** | 1.1.x → 1.2.0 | Función nueva compatible con lo anterior: pantallas, KPIs, comparaciones, catálogo ampliado, migraciones aditivas de datos o de la nube. | el parche |
+| **Mayor** | 1.x.x → 2.0.0 | Rompe la compatibilidad: formato de datos o de la nube que no se migra solo u obliga a actualizar todos los dispositivos, o un rediseño que cambia cómo se usa la app. | menor y parche |
+
+En Android, `versionName` es el texto MAYOR.MENOR.PARCHE y `versionCode` un entero que sube
+en cada versión publicada (Android lo usa para impedir bajar de versión). Al cerrar una versión:
+etiqueta git `vX.Y.Z`, y actualizar `APP_VERSION` en `src/config.ts`, `version` en
+`package.json` y `versionName`/`versionCode` en `android/app/build.gradle`.
+
+Historial: **1.0.0** es la que antes se llamaba «v1» (17-nov-2026); **1.1.0** es la que
+antes se llamaba «v2» (KPIs, catálogo con activación y comparación).
+
+### Hecho (1.0.0, cerrada el 17 de noviembre de 2026, en `main`)
 
 - Rutina: crear y editar mesociclos, días, ejercicios, variaciones por semana,
   descarga, sustituciones.
@@ -111,17 +130,16 @@ reloj del backlog necesitarán un módulo nativo aparte.
   (`npm run android:assets`).
 - Más de 190 tests (Vitest).
 
-### Pendiente de la v1
+### Pendiente de la 1.0.0
 
 | Tarea | Depende de |
 | --- | --- |
 | Logo en alta resolución (ahora es un redibujo vectorial del boceto) | Archivo original del logo |
 | Título de la ficha de Play Store (ya existen «Legacy Athletics» y «Legacy Gym») | Decidir al publicar (el usuario lo pospone) |
 | Comprobar que el APK de GitHub Actions compila con el plugin de Google | Mirar la pestaña Actions tras el push a `main` |
-| **Aplicar `supabase/migrations/0004_exercise_muscles.sql` a mano** en el editor SQL del proyecto Legacy, ANTES de probar la sincronización en el móvil con una sesión | Hacerlo desde el panel de Supabase |
 | Firma de publicación para Play Store (hoy se usa `android/debug.keystore`) | Al publicar; hará falta añadir su SHA-1 al cliente Android de Google Cloud |
 
-### v2 · KPIs
+### 1.1.0 · KPIs, catálogo con activación y comparación
 
 **Ya implementado** (`src/screens/KpiScreen.tsx`, `src/domain/kpi.ts`, `tests/kpi.test.ts`):
 
@@ -136,15 +154,14 @@ reloj del backlog necesitarán un módulo nativo aparte.
   y duración media de sesión.
 - **Comparar** (`src/screens/CompareScreen.tsx`, `src/domain/compare.ts`, `tests/compare.test.ts`; botón «Comparar» en KPIs): modo Mesociclos (récords, puntuación por grupo y ejercicios en común con diferencia de 1RM y gráfica superpuesta por microciclo, en 1RM o volumen) y modo Microciclos (un ejercicio, dos semanas de un mesociclo, carga y repeticiones por serie). Diseño: `docs/superpowers/specs/2026-11-18-comparar-mesociclos-design.md`.
 
-**Pendiente:**
-
-- Afinar los umbrales de puntuación de cada rango y los pesos 50/30/20 con datos reales
-  (la app los marca como provisionales).
+Pantalla de bienvenida: imagen única `public/splash.jpg` (1080 × 2402).
 
 ### Backlog
 
-Widgets de Android, reloj (Xiaomi), Health Connect, medidas corporales, fotos de
-progreso, calculadora de discos, recordatorios, importar datos antiguos.
+Afinar los umbrales de puntuación de cada rango y los pesos 50/30/20 con datos reales
+(la app los marca como provisionales), widgets de Android, reloj (Xiaomi), Health Connect,
+medidas corporales, fotos de progreso, calculadora de discos, recordatorios, importar
+datos antiguos.
 
 ## 4. Puesta en marcha de la nube
 
@@ -154,10 +171,7 @@ progreso, calculadora de discos, recordatorios, importar datos antiguos.
   región `eu-north-1`). Migraciones `0001_init.sql`, `0002_sync.sql` y
   `0003_fix_active_index.sql` aplicadas a mano desde el editor SQL (la tabla
   `supabase_migrations` está vacía). **`0004_exercise_muscles.sql` (columna
-  `muscles jsonb` en `custom_exercises`) está escrita pero sin aplicar**: hay que
-  ejecutarla a mano en el editor SQL de «Legacy». Mientras no se aplique, subir
-  `custom_exercises` falla y, como el empuje es un solo lote, bloquea también el resto
-  de tablas. La URL y la clave `sb_publishable_…` están en
+  `muscles jsonb` en `custom_exercises`) aplicada el 18-nov-2026** y comprobada. La URL y la clave `sb_publishable_…` están en
   `src/data/supabase.ts`; son públicas y la protección es la seguridad por filas.
 - **Google Cloud:** proyecto `app-gimnasio-515008`, pantalla de consentimiento
   «Externo» en modo prueba (solo entran los usuarios de prueba añadidos en *Audiencia*).

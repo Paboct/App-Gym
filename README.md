@@ -7,7 +7,7 @@ Funciona en Android (APK) y en cualquier navegador de escritorio con el mismo c�
 > `public/manifest.webmanifest` y `capacitor.config.ts`. El `appId`
 > (`com.paboct.legacy`) es definitivo una vez publicada la app en Play Store.
 
-## Qué hace (v1)
+## Qué hace (1.1.0)
 
 - **Rutina**: mesociclos con número de microciclos configurable, días en secuencia
   (Día 1, Día 2…), semana de descarga y variaciones de series y RIR por semana.
