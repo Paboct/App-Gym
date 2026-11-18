@@ -63,6 +63,25 @@ Ejercicios con series hechas en **ambos** mesociclos.
 - Pruebas unitarias de la función pura (con y sin ejercicios en común, grupo solo en un lado,
   mesociclos sin récords).
 
+## Segundo modo: comparar dos microciclos de un mesociclo
+
+Añadido a petición del usuario. La pantalla tiene un selector «Mesociclos | Microciclos»; lo descrito
+arriba es el modo Mesociclos. El modo Microciclos tiene **un único bloque**, una gráfica:
+
+- Se elige un **ejercicio** de los que tienen series hechas en el mesociclo y **dos microciclos** (A y B)
+  de ese mesociclo.
+- Gráfica de líneas con **un color por microciclo**. Eje X = número de serie (1, 2, 3…), eje Y = carga.
+  Sobre cada punto, las repeticiones realizadas, por ejemplo «80 kg × 8».
+- Solo series de trabajo hechas (las que ya cuenta `groupByWorkout`).
+- Mesociclo: por defecto el activo; se puede elegir otro del historial (**decisión mía**, cuesta lo mismo).
+  Los microciclos que se ofrecen son los que tienen series de ese ejercicio.
+- Si el ejercicio se hizo en varios días de la misma semana, las series se numeran seguidas por orden
+  cronológico (**decisión mía**; lo normal es un día por semana).
+- Si un microciclo tiene menos series que el otro, su línea es más corta; no se rellena.
+- Sin ejercicios con datos en al menos dos microciclos, la pantalla lo explica.
+- Función pura nueva en `src/domain/` que devuelve, para un ejercicio y un microciclo, la lista
+  ordenada de `{ n, carga, reps }`; la gráfica solo pinta eso. Con pruebas unitarias.
+
 ## Lo que queda al implementador
 
 Estilo visual de las flechas y la gráfica (seguir la pantalla de KPIs), nombres de las claves de
