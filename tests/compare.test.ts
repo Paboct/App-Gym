@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { CATALOG } from '../src/data/catalog';
-import { compareMesocycles, microSeries, pickDefaultPair, type CompareInput } from '../src/domain/compare';
+import { compareMesocycles, exercisesWithTwoMicros, microSeries, microSets, pickDefaultPair, type CompareInput } from '../src/domain/compare';
 import type { WorkoutSets } from '../src/domain/kpi';
 import type { Exercise, Mesocycle, PrRecord, SetLog, Workout } from '../src/domain/types';
 
@@ -110,5 +110,56 @@ describe('microSeries', () => {
   it('volume: delega en el volumen por microciclo', () => {
     const s = microSeries('bench_press', m1, data, 'volume');
     expect(s.map((p) => p.value)).toEqual([100, 0, 110]);
+  });
+});
+
+describe('microSets', () => {
+  it('numera las series seguidas entre días de la misma semana', () => {
+    const data = [
+      ws('m1', 2, [{ index: 0, weight: 100, reps: 8 }, { index: 1, weight: 100, reps: 7 }, { index: 2, weight: 100, reps: 6 }], 'd1'),
+      ws('m1', 2, [{ index: 0, weight: 90, reps: 10 }, { index: 1, weight: 90, reps: 9 }], 'd2'),
+    ];
+    const s = microSets('bench_press', 'm1', 2, data);
+    expect(s.map((p) => p.n)).toEqual([1, 2, 3, 4, 5]);
+    expect(s.map((p) => p.weight)).toEqual([100, 100, 100, 90, 90]);
+  });
+  it('ordena por index dentro del entreno', () => {
+    const data = [ws('m1', 1, [{ index: 2, weight: 80, reps: 6 }, { index: 0, weight: 100, reps: 8 }, { index: 1, weight: 90, reps: 7 }])];
+    expect(microSets('bench_press', 'm1', 1, data).map((p) => p.weight)).toEqual([100, 90, 80]);
+  });
+  it('ignora series sin peso, sin repeticiones y las de aproximación', () => {
+    const data = [
+      ws('m1', 1, [
+        { index: 0, weight: null, reps: 5 },
+        { index: 1, weight: 100, reps: 0 },
+        { index: 2, kind: 'warmup', weight: 40, reps: 10 },
+        { index: 3, weight: 100, reps: 5 },
+      ]),
+    ];
+    const s = microSets('bench_press', 'm1', 1, data);
+    expect(s).toEqual([{ n: 1, weight: 100, reps: 5 }]);
+  });
+  it('microciclos con distinto nº de series no se rellenan', () => {
+    const data = [
+      ws('m1', 1, [{ index: 0 }, { index: 1 }, { index: 2 }, { index: 3 }]),
+      ws('m1', 2, [{ index: 0 }, { index: 1 }]),
+    ];
+    expect(microSets('bench_press', 'm1', 1, data)).toHaveLength(4);
+    expect(microSets('bench_press', 'm1', 2, data)).toHaveLength(2);
+  });
+});
+
+describe('exercisesWithTwoMicros', () => {
+  it('solo ejercicios con ≥ 2 microciclos y solo del mesociclo pedido', () => {
+    const data = [
+      ws('m1', 1, [{}]),
+      ws('m1', 3, [{}]),
+      ws('m1', 1, [{ exerciseId: 'squat' }], 'm1-sq'),
+      ws('m2', 1, [{ exerciseId: 'squat' }]),
+      ws('m2', 2, [{ exerciseId: 'squat' }]),
+    ];
+    const r = exercisesWithTwoMicros('m1', data);
+    expect(r.get('bench_press')).toEqual([1, 3]);
+    expect(r.has('squat')).toBe(false);
   });
 });

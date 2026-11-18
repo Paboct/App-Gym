@@ -1,3 +1,4 @@
+import { countsForMetrics } from './calc';
 import { bestE1rmByMicro, groupScore, volumeByMicro, type ScoreContext, type SeriesPoint, type WorkoutSets } from './kpi';
 import { GROUPS, type GroupId } from './muscles';
 import type { Exercise, Mesocycle, PrRecord } from './types';
@@ -85,4 +86,41 @@ export function microSeries(exerciseId: string, meso: Mesocycle, data: WorkoutSe
     if (p.value > 0) last = i;
   });
   return points.slice(0, Math.max(1, last + 1));
+}
+
+export interface SetPoint {
+  n: number;
+  weight: number;
+  reps: number;
+}
+
+/**
+ * Series válidas de un ejercicio en un microciclo, numeradas seguidas por
+ * orden cronológico (varios días de la misma semana se encadenan). Dentro de
+ * cada entreno van por `index`.
+ */
+export function microSets(exerciseId: string, mesocycleId: string, micro: number, data: WorkoutSets[]): SetPoint[] {
+  const out: SetPoint[] = [];
+  for (const d of data) {
+    if (d.workout.mesocycleId !== mesocycleId || d.workout.micro !== micro) continue;
+    const valid = d.sets.filter((s) => s.exerciseId === exerciseId && countsForMetrics(s)).sort((x, y) => x.index - y.index);
+    for (const s of valid) out.push({ n: out.length + 1, weight: s.weight as number, reps: s.reps as number });
+  }
+  return out;
+}
+
+/** Por ejercicio, los microciclos (ordenados) con series válidas; solo los que tienen al menos 2. */
+export function exercisesWithTwoMicros(mesocycleId: string, data: WorkoutSets[]): Map<string, number[]> {
+  const byEx = new Map<string, Set<number>>();
+  for (const d of data) {
+    if (d.workout.mesocycleId !== mesocycleId) continue;
+    for (const s of d.sets) {
+      if (!countsForMetrics(s)) continue;
+      if (!byEx.has(s.exerciseId)) byEx.set(s.exerciseId, new Set());
+      byEx.get(s.exerciseId)?.add(d.workout.micro);
+    }
+  }
+  const out = new Map<string, number[]>();
+  for (const [id, micros] of byEx) if (micros.size >= 2) out.set(id, [...micros].sort((a, b) => a - b));
+  return out;
 }
