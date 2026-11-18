@@ -6,7 +6,7 @@ Capacitor. Datos locales en IndexedDB (Dexie), nube en Supabase. Idioma de traba
 - Estado y decisiones: `docs/ESPECIFICACION.md` (léelo primero). Planes y diseños de
   funciones: `docs/superpowers/{specs,plans}/`.
 - **v1 cerrada** (17-nov-2026) y en `main`. La v2 de KPIs ya está casi toda hecha; solo
-  falta comparar dos mesociclos y afinar los umbrales de rango.
+  falta afinar los umbrales de rango (la comparación de mesociclos y microciclos ya está).
 - Catálogo y su pipeline de datos: `data/catalogo/` (fuente `ejercicios.json`, 35 músculos con
   activación). Mapas corporales: `src/assets/body/*.svg`, generados a `src/data/bodyArt.ts` con
   `scripts/catalogo/generar-bodyart.mjs`; `src/data/catalog.json` sale de `generar-catalog-json.mjs`.
