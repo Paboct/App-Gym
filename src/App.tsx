@@ -4,6 +4,7 @@ import { HashRouter, NavLink, Route, Routes, useLocation } from 'react-router-do
 import { Splash } from './components/Splash';
 import { AuthProvider } from './lib/auth';
 import { SettingsProvider, useT } from './lib/settings';
+import { useTabSwipe } from './lib/useTabSwipe';
 import { DayScreen } from './screens/DayScreen';
 import { HistoryScreen } from './screens/HistoryScreen';
 import { CompareScreen } from './screens/CompareScreen';
@@ -19,6 +20,7 @@ import { WorkoutScreen } from './screens/WorkoutScreen';
 function Shell() {
   const t = useT();
   const { pathname } = useLocation();
+  useTabSwipe();
   // Durante el entreno se oculta la navegación para dejar toda la pantalla al registro.
   const hideTabs = pathname.startsWith('/workout/') || pathname.startsWith('/meso/new');
   return (
