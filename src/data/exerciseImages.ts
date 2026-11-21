@@ -1,6 +1,9 @@
 // Generado por scripts/build-exercise-images.mjs. No editar a mano.
 /** Ids de ejercicio que tienen foto en public/exercises/<id>.webp */
 export const EXERCISE_IMAGE_IDS: ReadonlySet<string> = new Set([
+  'a1000000-0000-4000-8000-000000000001',
+  'a1000000-0000-4000-8000-000000000002',
+  'a1000000-0000-4000-8000-000000000003',
   'ab_wheel',
   'alt_db_curl',
   'arnold_press',

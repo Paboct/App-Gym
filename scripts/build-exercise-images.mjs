@@ -4,7 +4,7 @@
 //
 // Uso: node scripts/build-exercise-images.mjs --src <clon de free-exercise-db> [--variant warm|slate|ink] (por defecto warm)
 // En el mapa, "Carpeta" usa la foto 0.jpg y "Carpeta:1" usa 1.jpg.
-import { mkdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
+import { mkdirSync, readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import sharp from 'sharp';
@@ -72,6 +72,9 @@ async function main() {
     writeFileSync(path.join(outDir, `${id}.webp`), await processImage(file, variant));
     done.push(id);
   }
+  // Fotos de ejercicios propios (id = UUID): no salen del mapa, se conservan si ya están en la carpeta.
+  const uuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\.webp$/;
+  for (const f of readdirSync(outDir)) if (uuid.test(f)) done.push(f.replace('.webp', ''));
   done.sort();
   const index =
     '// Generado por scripts/build-exercise-images.mjs. No editar a mano.\n' +
