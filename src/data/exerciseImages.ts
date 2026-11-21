@@ -4,6 +4,7 @@ export const EXERCISE_IMAGE_IDS: ReadonlySet<string> = new Set([
   'a1000000-0000-4000-8000-000000000001',
   'a1000000-0000-4000-8000-000000000002',
   'a1000000-0000-4000-8000-000000000003',
+  'a1000000-0000-4000-8000-000000000004',
   'ab_wheel',
   'alt_db_curl',
   'arnold_press',
